@@ -86,6 +86,17 @@ tirzepatide. No FDA-sourced row exists in the dataset, so nothing was applied.
 runbook. The three Novo patient-assistance rows that cite it were not re-checked,
 and their candidate blocks say so.
 
+**One gate was not doing its job, and CI found it.** The allowlist gate in
+`test/integrity.test.js` filtered the deployed tree with
+`relative(ROOT, f).startsWith('public/')`. On Windows `relative()` emits
+backslashes, so that expression is false for every file: the gate collected zero
+files and passed vacuously. CI, on Linux, caught a real non-allowlisted host the
+local gate had never looked at, a `www.accessdata.fda.gov` citation in the
+changelog. The citation was removed rather than the allowlist widened, because the
+www-less form does not resolve. The gate is repaired and now scans 36 files
+locally, the same set CI scans. The lesson is in `CLAUDE_CODE_BRIEF.md`: plant a
+violation in a gate before trusting it on this machine.
+
 **One stale banner was left in place.** `tools/build-pages.mjs` still renders a
 methodology banner saying no verified prices are published. That was true when it
 was written and is not true now. Rewriting it is page copy, which this lane was not

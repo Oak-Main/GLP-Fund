@@ -78,6 +78,13 @@ pasted text saved as a frozen fixture.
 
 ## 5. What the next verification pass should do differently
 
+- **A gate was scanning nothing on Windows, and only CI caught it.** The allowlist
+  gate in `test/integrity.test.js` filtered the deployed tree with
+  `relative(ROOT, f).startsWith('public/')`. On Windows `relative()` emits
+  backslashes, so that expression is false for every file and the gate collected
+  zero files and passed vacuously. It is fixed now, and the fix is worth reading
+  because the same mistake is easy to repeat in any path filter. Before trusting a
+  gate on this machine, plant a violation in it and watch it fail.
 - The gates are green but the browser gates need `CHROMIUM_PATH` set to a local
   Chromium binary. Without it they exit non-zero with "No Chromium found", which
   reads like a failure and is not one. Worth a note in the runbook.
