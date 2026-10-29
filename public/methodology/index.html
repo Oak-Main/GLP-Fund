@@ -120,7 +120,7 @@
   "@type": "Dataset",
   "@id": "https://glp1-fund.com/methodology/#dataset",
   "name": "GLP-1 Price Check GLP-1 price dataset",
-  "description": "Every GLP-1 payment pathway we track, with the source, source type, verification date and confidence level for each figure. 45 rows across 6 medications and 8 payment pathways. 10 rows currently carry a confirmed price; the remainder are published as unverified because no figure in circulation survived a direct read of a primary source.",
+  "description": "Every GLP-1 payment pathway we track, with the source, source type, verification date and confidence level for each figure. 45 rows across 6 medications and 8 payment pathways. 14 rows currently carry a confirmed price; the remainder are published as unverified because no figure in circulation survived a direct read of a primary source.",
   "url": "https://glp1-fund.com/methodology/",
   "isAccessibleForFree": true,
   "creator": {
@@ -151,7 +151,7 @@
     {
       "@type": "PropertyValue",
       "name": "Confirmed against a primary source",
-      "value": 10,
+      "value": 14,
       "unitText": "price figures"
     },
     {
@@ -163,7 +163,7 @@
     {
       "@type": "PropertyValue",
       "name": "Not verified",
-      "value": 32,
+      "value": 28,
       "unitText": "price figures"
     },
     {
@@ -181,13 +181,13 @@
     {
       "@type": "PropertyValue",
       "name": "Rules awaiting a verbatim source quote",
-      "value": 5,
+      "value": 3,
       "unitText": "eligibility rules"
     },
     {
       "@type": "PropertyValue",
       "name": "Figures rendered as a number",
-      "value": 10,
+      "value": 14,
       "unitText": "price figures"
     }
   ],
@@ -261,7 +261,7 @@
       <li class="pipeline__step pipeline__step--good">
         <span class="pipeline__n">4</span>
         <span class="pipeline__body">
-          <strong>Published as a number (10 of 45)</strong>
+          <strong>Published as a number (14 of 45)</strong>
           <span>Only a confirmed figure renders as a price, and it carries its source and its verification date.</span>
         </span>
       </li>
@@ -269,7 +269,7 @@
       <li class="pipeline__step pipeline__step--warn">
         <span class="pipeline__n">5</span>
         <span class="pipeline__body">
-          <strong>Withheld (35 of 45)</strong>
+          <strong>Withheld (31 of 45)</strong>
           <span>Everything else renders as unverified, with what we found and what a confirmation would require.</span>
         </span>
       </li>
@@ -285,13 +285,13 @@
   <h2>The tally</h2>
   <dl class="receipt">
     <div class="receipt__row"><dt>Price figures tracked</dt><dd>45</dd></div>
-    <div class="receipt__row"><dt>Confirmed against a primary source</dt><dd>10</dd></div>
+    <div class="receipt__row"><dt>Confirmed against a primary source</dt><dd>14</dd></div>
     <div class="receipt__row"><dt>Sources conflict</dt><dd>3</dd></div>
-    <div class="receipt__row"><dt>Not verified</dt><dd>32</dd></div>
+    <div class="receipt__row"><dt>Not verified</dt><dd>28</dd></div>
     <div class="receipt__row"><dt>Eligibility rules applied</dt><dd>17</dd></div>
     <div class="receipt__row"><dt>Rules that remove a pathway</dt><dd>5</dd></div>
-    <div class="receipt__row"><dt>Rules awaiting a verbatim source quote</dt><dd>5</dd></div>
-    <div class="receipt__row receipt__total"><dt>Figures rendered as a number</dt><dd>10</dd></div>
+    <div class="receipt__row"><dt>Rules awaiting a verbatim source quote</dt><dd>3</dd></div>
+    <div class="receipt__row receipt__total"><dt>Figures rendered as a number</dt><dd>14</dd></div>
   </dl>
 
   <h2>Our rules of evidence</h2>
@@ -415,8 +415,8 @@
           <td>This pathway is available only to Medicare beneficiaries.</td>
           <td>Medicare GLP-1 Bridge</td>
           <td>require</td>
-          <td><span class="pill pill--unverified">Pending verification</span></td>
-          <td><a href="https://www.medicare.gov/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+          <td><span class="pill pill--confirmed">Quoted verbatim</span></td>
+          <td><a href="https://www.medicare.gov/coverage/weight-loss-drugs" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
         </tr>
         <tr>
           <td>Requires a valid prescription from a licensed healthcare provider.</td>
@@ -478,11 +478,11 @@
           <td>This program is reported to be for beneficiaries who cannot already get a GLP-1 through their Part D plan. A diagnosis of type 2 diabetes, moderate to severe obstructive sleep apnea, or noncirrhotic MASH is reported to confer Part D GLP-1 eligibility and therefore to disqualify you from this program, even if you meet every clinical criterion. Confirm your own position with Medicare.</td>
           <td>Medicare GLP-1 Bridge</td>
           <td>suppress</td>
-          <td><span class="pill pill--unverified">Pending verification</span></td>
-          <td><a href="https://www.medicare.gov/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+          <td><span class="pill pill--confirmed">Quoted verbatim</span></td>
+          <td><a href="https://www.medicare.gov/coverage/weight-loss-drugs" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
         </tr>
         <tr>
-          <td>This program is reported to require a BMI of at least 35, or at least 27 with a weight-related comorbid condition, and to run for a bounded period through the end of 2027. It is reported to cover Foundayo, Wegovy injection and tablets, and the Zepbound KwikPen specifically rather than Zepbound vials. None of these criteria is yet confirmed against CMS.</td>
+          <td>This programme requires a BMI of 35 or higher, or a BMI of 30 or higher with diastolic heart failure, uncontrolled high blood pressure, or chronic kidney disease at stage 3a or higher, or a BMI of 27 or higher with prediabetes, a previous heart attack or stroke, or peripheral artery disease with symptoms. It covers Foundayo tablets, Wegovy injection and tablets, and the Zepbound KwikPen specifically rather than Zepbound vials, and it is available nationwide. Read from medicare.gov on 2026-10-28.</td>
           <td>Medicare GLP-1 Bridge</td>
           <td>note</td>
           <td><span class="pill pill--unverified">Editorial</span></td>
@@ -593,11 +593,11 @@
               <td>Zepbound</td>
               <td>Medicare GLP-1 Bridge</td>
               <td>any</td>
-              <td class="num">Not verified</td>
-              <td><span class="pill pill--unverified">Not verified</span></td>
+              <td class="num">$50</td>
+              <td><span class="pill pill--confirmed">Confirmed</span></td>
               <td><span class="pill pill--primary">Primary, government</span></td>
-              <td class="num">2026-07-30</td>
-              <td><a href="https://www.medicare.gov/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td class="num">2026-10-28</td>
+              <td><a href="https://www.medicare.gov/coverage/weight-loss-drugs" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Zepbound</td>
@@ -753,21 +753,21 @@
               <td>Wegovy</td>
               <td>Medicare GLP-1 Bridge</td>
               <td>any</td>
-              <td class="num">Not verified</td>
-              <td><span class="pill pill--unverified">Not verified</span></td>
+              <td class="num">$50</td>
+              <td><span class="pill pill--confirmed">Confirmed</span></td>
               <td><span class="pill pill--primary">Primary, government</span></td>
-              <td class="num">2026-07-30</td>
-              <td><a href="https://www.medicare.gov/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td class="num">2026-10-28</td>
+              <td><a href="https://www.medicare.gov/coverage/weight-loss-drugs" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Wegovy tablets</td>
               <td>Medicare GLP-1 Bridge</td>
               <td>any</td>
-              <td class="num">Not verified</td>
-              <td><span class="pill pill--unverified">Not verified</span></td>
+              <td class="num">$50</td>
+              <td><span class="pill pill--confirmed">Confirmed</span></td>
               <td><span class="pill pill--primary">Primary, government</span></td>
-              <td class="num">2026-07-30</td>
-              <td><a href="https://www.medicare.gov/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td class="num">2026-10-28</td>
+              <td><a href="https://www.medicare.gov/coverage/weight-loss-drugs" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Foundayo</td>
@@ -833,11 +833,11 @@
               <td>Foundayo</td>
               <td>Medicare GLP-1 Bridge</td>
               <td>any</td>
-              <td class="num">Not verified</td>
-              <td><span class="pill pill--unverified">Not verified</span></td>
+              <td class="num">$50</td>
+              <td><span class="pill pill--confirmed">Confirmed</span></td>
               <td><span class="pill pill--primary">Primary, government</span></td>
-              <td class="num">2026-07-30</td>
-              <td><a href="https://www.medicare.gov/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td class="num">2026-10-28</td>
+              <td><a href="https://www.medicare.gov/coverage/weight-loss-drugs" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Foundayo</td>
@@ -1048,14 +1048,6 @@
         </tr>
         <tr>
           <td>Zepbound</td>
-          <td>Medicare GLP-1 Bridge</td>
-          <td>any</td>
-          <td class="num">$50</td>
-          <td>Reported as 50 per month from 2026-07-01. cms.gov and medicare.gov were both denied by the egress policy on 2026-07-30, so neither the launch nor the amount could be confirmed.</td>
-          <td>A direct read of a CMS page confirming the program launched, its beneficiary cost, and its eligibility criteria.</td>
-        </tr>
-        <tr>
-          <td>Zepbound</td>
           <td>List price, no program</td>
           <td>any</td>
           <td class="num">none</td>
@@ -1127,22 +1119,6 @@
           <td>A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com.</td>
         </tr>
         <tr>
-          <td>Wegovy</td>
-          <td>Medicare GLP-1 Bridge</td>
-          <td>any</td>
-          <td class="num">$50</td>
-          <td>Reported at 50 dollars per month for eligible beneficiaries. cms.gov and medicare.gov both denied by egress policy on 2026-07-30.</td>
-          <td>A direct read of a CMS page confirming cost and covered formulations.</td>
-        </tr>
-        <tr>
-          <td>Wegovy tablets</td>
-          <td>Medicare GLP-1 Bridge</td>
-          <td>any</td>
-          <td class="num">$50</td>
-          <td>Reported at 50 dollars per month for eligible beneficiaries. cms.gov and medicare.gov both denied by egress policy on 2026-07-30.</td>
-          <td>A direct read of a CMS page confirming cost and covered formulations.</td>
-        </tr>
-        <tr>
           <td>Foundayo</td>
           <td>LillyDirect Self Pay</td>
           <td>0.8mg</td>
@@ -1181,14 +1157,6 @@
           <td class="num">none</td>
           <td>Reported as &quot;as little as&quot; 25 dollars. An &quot;as little as&quot; figure is a floor, not a price, and it is conditional on the plan covering this drug rather than merely on having commercial insurance. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served &quot;no healthy upstream&quot;; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required.</td>
           <td>A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com.</td>
-        </tr>
-        <tr>
-          <td>Foundayo</td>
-          <td>Medicare GLP-1 Bridge</td>
-          <td>any</td>
-          <td class="num">$50</td>
-          <td>Reported at 50 dollars per month. cms.gov and medicare.gov both denied at the egress gateway on 2026-07-30.</td>
-          <td>A direct read of a CMS page.</td>
         </tr>
         <tr>
           <td>Foundayo</td>

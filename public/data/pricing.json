@@ -231,9 +231,8 @@
         "value": "medicare"
       },
       "reason": "This pathway is available only to Medicare beneficiaries.",
-      "sourceUrl": "https://www.medicare.gov/",
-      "verification": "pending_primary_verification",
-      "basis": "A Medicare program is definitionally limited to Medicare beneficiaries. CMS pages were unreachable on 2026-07-30; see GATE-BRIDGE in docs/gate-resolutions.md for the full evidentiary position."
+      "sourceUrl": "https://www.medicare.gov/coverage/weight-loss-drugs",
+      "quote": "Medicare will provide access to certain GLP-1 drugs if you’re eligible and have Medicare drug coverage (Part D)"
     },
     {
       "id": "manufacturer-direct-requires-prescription",
@@ -335,16 +334,15 @@
         ]
       },
       "reason": "This program is reported to be for beneficiaries who cannot already get a GLP-1 through their Part D plan. A diagnosis of type 2 diabetes, moderate to severe obstructive sleep apnea, or noncirrhotic MASH is reported to confer Part D GLP-1 eligibility and therefore to disqualify you from this program, even if you meet every clinical criterion. Confirm your own position with Medicare.",
-      "sourceUrl": "https://www.medicare.gov/",
-      "verification": "pending_primary_verification",
-      "basis": "Research located CMS-attributed material stating the program is for beneficiaries not eligible to receive a GLP-1 through their Part D plan, and naming type 2 diabetes, moderate to severe obstructive sleep apnea and noncirrhotic MASH as the qualifying diagnoses that confer Part D eligibility. The mechanism is therefore broader than the 'already covered for sleep apnea' exclusion originally briefed: it is HAVING a Part D-qualifying diagnosis, not being enrolled in coverage for it. cms.gov and medicare.gov were both denied at CONNECT by the egress policy on 2026-07-30, so this could not be read directly. Suppressing on this predicate is the conservative direction: the alternative quotes a fixed monthly price to a beneficiary who cannot obtain it."
+      "sourceUrl": "https://www.medicare.gov/coverage/weight-loss-drugs",
+      "quote": "You aren't eligible if you: Already get GLP-1 drugs covered through your Medicare Part D plan . Have type 2 diabetes, moderate-to-severe sleep apnea, or fatty liver disease (but your Part D plan might cover your GLP-1s)."
     },
     {
       "id": "medicare-bridge-clinical-criteria",
       "pathway": "medicare_bridge",
       "effect": "note",
       "when": true,
-      "reason": "This program is reported to require a BMI of at least 35, or at least 27 with a weight-related comorbid condition, and to run for a bounded period through the end of 2027. It is reported to cover Foundayo, Wegovy injection and tablets, and the Zepbound KwikPen specifically rather than Zepbound vials. None of these criteria is yet confirmed against CMS."
+      "reason": "This programme requires a BMI of 35 or higher, or a BMI of 30 or higher with diastolic heart failure, uncontrolled high blood pressure, or chronic kidney disease at stage 3a or higher, or a BMI of 27 or higher with prediabetes, a previous heart attack or stroke, or peripheral artery disease with symptoms. It covers Foundayo tablets, Wegovy injection and tablets, and the Zepbound KwikPen specifically rather than Zepbound vials, and it is available nationwide. Read from medicare.gov on 2026-10-28."
     },
     {
       "id": "medicaid-balance-model-is-state-variable",
@@ -490,26 +488,23 @@
       ]
     },
     {
-      "value": null,
+      "value": 50,
       "unit": "USD/month",
       "drug": "zepbound",
       "dose_or_tier": "any",
       "pathway": "medicare_bridge",
-      "source_url": "https://www.medicare.gov/",
+      "source_url": "https://www.medicare.gov/coverage/weight-loss-drugs",
       "source_type": "primary_government",
-      "verified_date": "2026-07-30",
-      "confidence": "unverified",
-      "notes": "Reported to run 2026-07-01 through 2027-12-31 and to cover Foundayo (all formulations), Wegovy (injection and tablets) and the Zepbound KwikPen specifically, not Zepbound vials. Could not be confirmed against CMS. Note that two figures circulate for this programme and they are not alternatives: the lower one is what a beneficiary pays at the counter, the higher one is the net price at which manufacturers supply the drug to the government. Only the first is your cost.",
-      "candidate": {
-        "value": 50,
-        "provenance": "Reported as 50 per month from 2026-07-01. cms.gov and medicare.gov were both denied by the egress policy on 2026-07-30, so neither the launch nor the amount could be confirmed.",
-        "basis": "secondary_press",
-        "needs": "A direct read of a CMS page confirming the program launched, its beneficiary cost, and its eligibility criteria."
-      },
+      "verified_date": "2026-10-28",
+      "confidence": "confirmed",
+      "notes": "Direct read of medicare.gov on 2026-10-28. The Medicare GLP-1 Bridge programme started July 1, 2026 and is available nationwide, including all states and U.S. territories. The figure is the monthly copayment a beneficiary pays for a monthly supply.",
       "caveats": [
-        "This programme is reported to cover a specific PEN presentation of this medication and NOT the single-dose vials. If you have been prescribed vials, this pathway is reported not to apply to you. Check which presentation your prescription is for before you count on it.",
-        "Two further things are reported about this programme and neither is confirmed: that what you pay may not count toward your Part D deductible or annual out-of-pocket maximum, and that low-income subsidies may not reduce it. If either is true, a low-income beneficiary could end up worse off across a year than the monthly figure suggests. Ask Medicare."
-      ]
+        "The programme covers the Zepbound KwikPen only. The page states: \"Zepbound® (KwikPen® only. The program doesn’t cover single-dose Zepbound® vials or pens).\" If you have been prescribed single-dose vials or a pen, this pathway does not apply to you. Check which presentation your prescription is for before you count on it.",
+        "The page states that you are not eligible if you already get GLP-1 drugs covered through your Medicare Part D plan, or if you have type 2 diabetes, moderate-to-severe sleep apnea, or fatty liver disease.",
+        "The page states that your prior authorization is valid, including for refills and dose changes, through December 31, 2027, unless you change GLP-1 medicines.",
+        "The page states that TrumpRx and other types of discount cards are not considered creditable coverage: what you pay for drugs this way does not count toward your Medicare deductible or out-of-pocket maximum."
+      ],
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": null,
@@ -771,46 +766,42 @@
       "reverifyBy": "2026-10-31"
     },
     {
-      "value": null,
+      "value": 50,
       "unit": "USD/month",
       "drug": "wegovy_injection",
       "dose_or_tier": "any",
       "pathway": "medicare_bridge",
-      "source_url": "https://www.medicare.gov/",
+      "source_url": "https://www.medicare.gov/coverage/weight-loss-drugs",
       "source_type": "primary_government",
-      "verified_date": "2026-07-30",
-      "confidence": "unverified",
-      "notes": "Reported to run 2026-07-01 through 2027-12-31 and to cover Foundayo (all formulations), Wegovy (injection and tablets) and the Zepbound KwikPen specifically, not Zepbound vials. Could not be confirmed against CMS. Note that two figures circulate for this programme and they are not alternatives: the lower one is what a beneficiary pays at the counter, the higher one is the net price at which manufacturers supply the drug to the government. Only the first is your cost.",
-      "candidate": {
-        "value": 50,
-        "provenance": "Reported at 50 dollars per month for eligible beneficiaries. cms.gov and medicare.gov both denied by egress policy on 2026-07-30.",
-        "basis": "secondary_press",
-        "needs": "A direct read of a CMS page confirming cost and covered formulations."
-      },
+      "verified_date": "2026-10-28",
+      "confidence": "confirmed",
+      "notes": "Direct read of medicare.gov on 2026-10-28. The Medicare GLP-1 Bridge programme started July 1, 2026 and is available nationwide, including all states and U.S. territories. The figure is the monthly copayment a beneficiary pays for a monthly supply.",
       "caveats": [
-        "Two further things are reported about this programme and neither is confirmed: that what you pay may not count toward your Part D deductible or annual out-of-pocket maximum, and that low-income subsidies may not reduce it. If either is true, a low-income beneficiary could end up worse off across a year than the monthly figure suggests. Ask Medicare."
-      ]
+        "The programme covers Wegovy injection. The page lists it as \"Wegovy® (injection or tablet)\".",
+        "The page states that you are not eligible if you already get GLP-1 drugs covered through your Medicare Part D plan, or if you have type 2 diabetes, moderate-to-severe sleep apnea, or fatty liver disease.",
+        "The page states that your prior authorization is valid, including for refills and dose changes, through December 31, 2027, unless you change GLP-1 medicines.",
+        "The page states that TrumpRx and other types of discount cards are not considered creditable coverage: what you pay for drugs this way does not count toward your Medicare deductible or out-of-pocket maximum."
+      ],
+      "reverifyBy": "2026-11-30"
     },
     {
-      "value": null,
+      "value": 50,
       "unit": "USD/month",
       "drug": "wegovy_pill",
       "dose_or_tier": "any",
       "pathway": "medicare_bridge",
-      "source_url": "https://www.medicare.gov/",
+      "source_url": "https://www.medicare.gov/coverage/weight-loss-drugs",
       "source_type": "primary_government",
-      "verified_date": "2026-07-30",
-      "confidence": "unverified",
-      "notes": "Reported to run 2026-07-01 through 2027-12-31 and to cover Foundayo (all formulations), Wegovy (injection and tablets) and the Zepbound KwikPen specifically, not Zepbound vials. Could not be confirmed against CMS. Note that two figures circulate for this programme and they are not alternatives: the lower one is what a beneficiary pays at the counter, the higher one is the net price at which manufacturers supply the drug to the government. Only the first is your cost.",
-      "candidate": {
-        "value": 50,
-        "provenance": "Reported at 50 dollars per month for eligible beneficiaries. cms.gov and medicare.gov both denied by egress policy on 2026-07-30.",
-        "basis": "secondary_press",
-        "needs": "A direct read of a CMS page confirming cost and covered formulations."
-      },
+      "verified_date": "2026-10-28",
+      "confidence": "confirmed",
+      "notes": "Direct read of medicare.gov on 2026-10-28. The Medicare GLP-1 Bridge programme started July 1, 2026 and is available nationwide, including all states and U.S. territories. The figure is the monthly copayment a beneficiary pays for a monthly supply.",
       "caveats": [
-        "Two further things are reported about this programme and neither is confirmed: that what you pay may not count toward your Part D deductible or annual out-of-pocket maximum, and that low-income subsidies may not reduce it. If either is true, a low-income beneficiary could end up worse off across a year than the monthly figure suggests. Ask Medicare."
-      ]
+        "The programme covers Wegovy tablets. The page lists it as \"Wegovy® (injection or tablet)\".",
+        "The page states that you are not eligible if you already get GLP-1 drugs covered through your Medicare Part D plan, or if you have type 2 diabetes, moderate-to-severe sleep apnea, or fatty liver disease.",
+        "The page states that your prior authorization is valid, including for refills and dose changes, through December 31, 2027, unless you change GLP-1 medicines.",
+        "The page states that TrumpRx and other types of discount cards are not considered creditable coverage: what you pay for drugs this way does not count toward your Medicare deductible or out-of-pocket maximum."
+      ],
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": null,
@@ -924,26 +915,23 @@
       "reverifyBy": "2026-11-30"
     },
     {
-      "value": null,
+      "value": 50,
       "unit": "USD/month",
       "drug": "foundayo",
       "dose_or_tier": "any",
       "pathway": "medicare_bridge",
-      "source_url": "https://www.medicare.gov/",
+      "source_url": "https://www.medicare.gov/coverage/weight-loss-drugs",
       "source_type": "primary_government",
-      "verified_date": "2026-07-30",
-      "confidence": "unverified",
-      "notes": "Reported available to eligible Medicare Part D beneficiaries for weight management. Neither the cost nor the eligibility criteria could be confirmed against CMS.",
+      "verified_date": "2026-10-28",
+      "confidence": "confirmed",
+      "notes": "Direct read of medicare.gov on 2026-10-28. The Medicare GLP-1 Bridge programme started July 1, 2026 and is available nationwide, including all states and U.S. territories. The figure is the monthly copayment a beneficiary pays for a monthly supply.",
       "caveats": [
-        "Two things are reported about this programme that would matter a great deal if true, and neither is confirmed: that what you pay here may not count toward your Part D deductible or your annual out-of-pocket maximum, and that low-income subsidies may not reduce it. If either holds, a low-income beneficiary could pay more across a year than the monthly figure suggests. Ask Medicare directly.",
-        "Two further things are reported about this programme and neither is confirmed: that what you pay may not count toward your Part D deductible or annual out-of-pocket maximum, and that low-income subsidies may not reduce it. If either is true, a low-income beneficiary could end up worse off across a year than the monthly figure suggests. Ask Medicare."
+        "The programme covers Foundayo tablets. The page lists it as \"Foundayo® (tablet)\".",
+        "The page states that you are not eligible if you already get GLP-1 drugs covered through your Medicare Part D plan, or if you have type 2 diabetes, moderate-to-severe sleep apnea, or fatty liver disease.",
+        "The page states that your prior authorization is valid, including for refills and dose changes, through December 31, 2027, unless you change GLP-1 medicines.",
+        "The page states that TrumpRx and other types of discount cards are not considered creditable coverage: what you pay for drugs this way does not count toward your Medicare deductible or out-of-pocket maximum."
       ],
-      "candidate": {
-        "value": 50,
-        "provenance": "Reported at 50 dollars per month. cms.gov and medicare.gov both denied at the egress gateway on 2026-07-30.",
-        "basis": "secondary_press",
-        "needs": "A direct read of a CMS page."
-      }
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": null,

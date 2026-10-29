@@ -70,13 +70,17 @@ test('the shipped dataset publishes numbers only from the verified allowlist, by
   // added two rows to the allowlist. Every added row names the exact page read.
   const VERIFIED_2026_10_28 = new Set([
     'zepbound|any|trumprx',
+    'zepbound|any|medicare_bridge',
     'ozempic|any|novocare_self_pay',
     'ozempic|any|trumprx',
     'wegovy_pill|1.5mg|novocare_self_pay',
     'wegovy_pill|higher_doses|novocare_self_pay',
     'wegovy_injection|low_doses|novocare_self_pay',
     'wegovy_injection|standard_doses|novocare_self_pay',
+    'wegovy_injection|any|medicare_bridge',
+    'wegovy_pill|any|medicare_bridge',
     'foundayo|any|trumprx',
+    'foundayo|any|medicare_bridge',
     'wegovy_injection|low_doses|trumprx',
     'wegovy_injection|standard_doses|trumprx',
   ]);
@@ -125,12 +129,22 @@ test('the engine never reads the candidate block', () => {
 test('the verification debt on hard eligibility rules is visible and counted', () => {
   const debt = verificationDebt(SHIPPED.eligibilityRules);
   assert.ok(debt.total > 0);
-  assert.equal(
-    debt.pending,
-    debt.total,
-    'Under the egress blockade every hard rule is pending a verbatim quote. ' +
-      'When that changes, this assertion should be updated deliberately, not by accident.'
+  // 2026-10-28: two hard rules were retired against verbatim quotes read on
+  // medicare.gov (Medicare GLP-1 Bridge). The count is pinned to the exact
+  // pending set so it cannot drift silently in either direction: a rule that
+  // gains a quote must be removed from this list in the same commit that
+  // adds it, and a rule that loses its quote must be added.
+  assert.deepEqual(
+    debt.pendingIds,
+    [
+      'copay-card-federal-program-bar',
+      'copay-card-requires-commercial-coverage',
+      'patient-assistance-income-tier',
+    ],
+    'The three hard rules still awaiting a verbatim quote from their own cited source.'
   );
+  assert.equal(debt.pending, 3);
+  assert.equal(debt.total, 5, 'Five hard rules exist; two of them now carry a verbatim quote.');
   // The fixture, standing in for a verified world, has zero pending rules.
   assert.equal(verificationDebt(ENGINE.eligibilityRules).pending, 0);
 });
