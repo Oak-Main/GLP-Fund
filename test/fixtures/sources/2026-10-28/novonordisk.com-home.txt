@@ -1,0 +1,85 @@
+SHA-256: 7885da01f43b5f9c7cef0b6b13c04f342d1ad52b88cb1f3f39de4ea69af202c1
+URL: https://www.novonordisk.com/
+Final-URL: https://www.novonordisk.com/
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29T20:05:59.023Z
+Attempts: 1
+Read-By: mm/glp-verify-1028 verification pass (docs/ops-runbook.md section 1.1)
+Hash-Covers: every byte after the first line of this file
+Extraction: HTML stripped to text; inline elements removed, block elements become lines.
+
+Novo Nordisk
+Therapy areas
+Science & technology
+Partnering
+Sustainable business
+Careers
+About us
+Our products
+Investors
+News & media
+Healthcare professionals
+Contact us
+')">
+Get started today
+Learn how it works
+Find out why
+Latest news
+{{'2026-10-29T12:05:31Z' | dateFormatFilter}}
+Novo to present new CagriSema and Wegovy® data at ObesityWeek® 2026, including data on treatment experience with Wegovy® pill in the real world
+Read more
+{{'2026-10-28T13:00:00Z' | dateFormatFilter}}
+Novo to present new liver data across Wegovy 2.4 mg and investigational efruxifermin at The Liver Meeting® (AASLD) 2026
+Read more
+{{'2026-10-20T13:00:00Z' | dateFormatFilter}}
+Novo’s CagriSema was associated with 25% weight loss on average for women in a post hoc analysis of REDEFINE 1 presented at The Menopause Society Annual Meeting
+Read more
+News archive
+Investors
+Share price
+{{priceData.date}}
+{{priceData.time}}
+{{priceData.currentPrice}}
+{{priceData.currency}}
+Go to stock watch
+{{priceData.change}} {{priceData.currency}}
+Quick links
+Explore our digital Annual Report 2025
+Conference calls & other events
+Visit Capital Markets day
+Stock information
+Press releases and company announcements
+R&D Pipeline
+Annual Report
+Annual Report 2025
+Download Annual Report
+NOVO HQ
+Novo Nordisk A/S
+Novo Alle 1
+2880 Bagsværd
+Denmark
++45-4444-8888
+CVR-no. 24256790
+Our medicines are for the approved indication for which they are authorised in the local country or region. For more information, please visit our  product page
+Helpful links
+Contact us about a product issue or side effect
+Supplier help
+Product list
+Contact us
+Our Purpose - Code of conduct
+ESG reporting
+Novo Nordisk Foundation
+Follow us
+Social media community guidelines
+LinkedIn
+YouTube
+Facebook
+X (Twitter)
+Instagram
+TikTok
+Find your local office
+Select location
+© 2026 Novo Nordisk A/S
+Data Privacy
+Cookie policy
+Cookie settings

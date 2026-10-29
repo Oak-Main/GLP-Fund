@@ -1,0 +1,80 @@
+SHA-256: 8a312b1bfc66b31b1ea79d5bc180a20c2637f6600dabaceda90af814fec6ef6b
+URL: https://trumprx.gov/p/wegovy-pill
+Final-URL: https://trumprx.gov/p/wegovy-pill
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29T20:05:54.668Z
+Attempts: 1
+Read-By: mm/glp-verify-1028 verification pass (docs/ops-runbook.md section 1.1)
+Hash-Covers: every byte after the first line of this file
+Extraction: HTML stripped to text; inline elements removed, block elements become lines.
+
+Skip to main content
+Trump
+Rx
+Trump
+Rx
+Location pin Set location Browse medications
+Search medications
+Browse
+Search medications
+Location pin Enter your zip code for local prices
+Actual product appearance may vary
+Actual product appearance may vary
+Wegovy® Pill
+78% to 89% off78-89% off
+Semaglutide by Novo Nordisk®
+Configure your drug
+This is an out-of-pocket price.
+If you have insurance, check your co-pay first—it may be even lower.
+Select your strength to see your savings.
+What form?
+Tablet
+What strength? (mg)
+1.5 4 9 25
+How many? (ct)
+30
+Original Price
+$1,349.02
+Savings
+−$1,200.02
+Trump
+Rx
+Price
+​$​012345678901234567890123456789​.01234567890123456789​
+Self-pay pricing varies by dose. Eligibility and restrictions apply. Government beneficiaries excluded. One month is defined as one bottle containing 30 tablets. Novo Nordisk reserves the right to modify or cancel this offer at any time. See full Terms and Conditions.
+See full terms and conditions
+How it Works
+Present the coupon at your pharmacy to claim your TrumpRx savings.
+Accept these terms to get your coupon
+By continuing and using this offer, you agree that this offer is for self-pay patients only and confirm that you are a resident of the United States or a United States Territory (Puerto Rico, Guam, U.S. Virgin Island, Northern Mariana Islands, American Samoa) who is 18 years of age or older and have a valid prescription for the brand covered under this program.
+Further, you (and anyone else acting on your behalf) agree that if you have any state, federal, or government healthcare programs (examples include but are not limited to Medicare, Medicare Part D, a Medicare Advantage Prescription Plan, insurance through US Veterans Affairs (VA), US Department of Defense (DOD), TRICARE, Medicaid), any other state or federal healthcare reimbursement account, or any other third party payer (private or otherwise), you must (1) not ask your insurance to pay you back for the money that you self-paid for your medication using this offer; (2) cannot attempt to count the cost of this medicine toward your insurance deductible or out-of-pocket limit; and (3) If you are asked by your insurance company about this prescription, you must tell your insurance company that you bought this medicine outside of its prescription plan using the Wegovy® self-pay offer and that you are not seeking reimbursement or submitting a claim for this prescription.
+The purchase of the prescription under this program is not conditioned on current or any future purchases of Wegovy® or any other items or services that could become billable to any Government Program.
+Accept terms to continue
+Trump
+Rx
+www.trumprx.gov
+Coupon
+BIN
+424242
+Accept terms to view
+PCN
+424
+Accept terms to view
+Group
+4242
+Accept terms to view
+Member ID
+4242424
+Accept terms to view
+Pharmacies
+Widely supported at retail pharmacies that dispense Wegovy® Pill
+Wegovy® Pill Details
+Last updated unavailable.
+More deals coming soon.
+Email address
+Success! You&#x27;ll be notified
+Sign up
+Submitted
+Designed & Engineered in D.C. by National Design Studio
+Privacy Policy Accessibility Policy
+Wegovy® Pill on TrumpRx - TrumpRx

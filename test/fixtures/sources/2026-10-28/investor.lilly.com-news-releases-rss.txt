@@ -1,0 +1,74 @@
+SHA-256: e65a287bb74bb5dda789d5da1a0957c2ed2955472603601fc37f0c5117d34d8e
+URL: https://investor.lilly.com/rss/news-releases.xml
+Final-URL: https://investor.lilly.com/rss/news-releases.xml
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29T20:05:58.845Z
+Attempts: 1
+Read-By: mm/glp-verify-1028 verification pass (docs/ops-runbook.md section 1.1)
+Hash-Covers: every byte after the first line of this file
+Extraction: HTML stripped to text; inline elements removed, block elements become lines.
+
+Eli Lilly and Company News Releases
+https://investor.lilly.com/
+Eli Lilly and Company News Releases
+en
+Lilly reports third-quarter 2026 financial results, raises full-year guidance and highlights regulatory progress across the portfolio
+https://investor.lilly.com/news-releases/news-release-details/lilly-reports-third-quarter-2026-financial-results-raises-full
+Revenue in Q3 2026 increased 39% to $24.4 billion driven primarily by Mounjaro and Zepbound. Q3 revenue included approximately $900 million of benefits, primarily from $410 million of Jardiance milestones (no further milestones remain) and favorable adjustments to rebate and discount estimates.
+Thu, 29 Oct 2026 06:45:00 -0400
+Eli Lilly and Company News Releases
+55191
+Lilly's retatrutide delivered greater A1C reduction and more than double the weight loss of Ozempic's highest approved dose in head-to-head trial
+https://investor.lilly.com/news-releases/news-release-details/lillys-retatrutide-delivered-greater-a1c-reduction-and-more
+In adults with type 2 diabetes, retatrutide lowered A1C by an average of 2.2% vs. 1.8% with Ozempic 2 mg at 80 weeks Participants taking retatrutide lost an average of 44 lbs to 47 lbs (20% to 21%) vs. 21 lbs (9%) with Ozempic 2 mg at 80 weeks TRANSCEND-T2D-2 marks the sixth Phase 3 trial in which
+Wed, 28 Oct 2026 06:45:00 -0400
+Eli Lilly and Company News Releases
+55186
+Patrik Jonsson to retire after 36 years; Ilya Yuffa named president, Lilly Global Markets
+https://investor.lilly.com/news-releases/news-release-details/patrik-jonsson-retire-after-36-years-ilya-yuffa-named-president
+Yuffa will take on an expanded role as the company scales for its next phase of growth &nbsp; Key highlights: Patrik Jonsson, executive vice president and president, Lilly International, has decided to retire at the end of 2026 after a 36-year career at Lilly. On Jan.
+Tue, 27 Oct 2026 16:03:00 -0400
+Eli Lilly and Company News Releases
+55181
+Lilly declares fourth-quarter 2026 dividend
+https://investor.lilly.com/news-releases/news-release-details/lilly-declares-fourth-quarter-2026-dividend
+INDIANAPOLIS, Oct. 26, 2026 /PRNewswire/ -- The board of directors of Eli Lilly and Company (NYSE: LLY) has declared a dividend for the fourth quarter of 2026 of $1.73 per share on outstanding common stock. The dividend is payable on December 10, 2026, to shareholders of record at the close of
+Mon, 26 Oct 2026 11:19:00 -0400
+Eli Lilly and Company News Releases
+55166
+New data on Lilly's investigational treatment olomorasib at ESMO 2026 show durable first-line activity in KRAS G12C-mutant non-small cell lung cancer
+https://investor.lilly.com/news-releases/news-release-details/new-data-lillys-investigational-treatment-olomorasib-esmo-2026
+Data presented at ESMO highlight the promising efficacy of olomorasib in combination with standard-of-care immunotherapy with or without chemotherapy in first-line advanced KRAS G12C-mutant non-small cell lung cancer (NSCLC) across PD-L1 expression levels First-line treatment options remain an
+Sun, 25 Oct 2026 03:30:00 -0400
+Eli Lilly and Company News Releases
+55161
+Lilly presents first clinical data in platinum-sensitive ovarian cancer for its investigational, next-generation, FRα-targeting ADC at ESMO 2026
+https://investor.lilly.com/news-releases/news-release-details/lilly-presents-first-clinical-data-platinum-sensitive-ovarian
+Sofetabart mipitecan (Sofe-M) in combination with bevacizumab demonstrated a 79% confirmed objective response rate and 100% disease control rate, with similar activity observed across FR α expression levels Clinical activity with Sofe-M was maintained even in patients with prior PARP inhibitor
+Sat, 24 Oct 2026 02:30:00 -0400
+Eli Lilly and Company News Releases
+55156
+Lilly breaks ground in Richmond to expand American manufacturing of next-generation cancer medicines, advancing its build-out of 10 new U.S. sites since 2020
+https://investor.lilly.com/news-releases/news-release-details/lilly-breaks-ground-richmond-expand-american-manufacturing-next
+First Lilly site to produce both active pharmaceutical ingredients and finished medicines in a fully integrated facility Site will create 650 high-wage jobs INDIANAPOLIS, Oct. 22, 2026 /PRNewswire/ -- Eli Lilly and Company (NYSE: LLY) broke ground today on a new $5 billion manufacturing facility
+Thu, 22 Oct 2026 10:30:00 -0400
+Eli Lilly and Company News Releases
+55146
+Lilly's Omvoh (mirikizumab-mrkz) meets primary endpoint of clinical remission and is the first IL-23p19 inhibitor to report one-year Phase 3 results in pediatric ulcerative colitis
+https://investor.lilly.com/news-releases/news-release-details/lillys-omvoh-mirikizumab-mrkz-meets-primary-endpoint-clinical
+Building on Omvoh's approved use and durable efficacy in adults, Lilly plans to submit these data to global regulators to support a potential label expansion for pediatric ulcerative colitis More than 80% of patients responded to&nbsp;Omvoh induction, and half of responders, ages 6 to 17, were in
+Mon, 19 Oct 2026 04:40:00 -0400
+Eli Lilly and Company News Releases
+55116
+Lilly to showcase advances across its oncology pipeline at the 2026 European Society for Medical Oncology (ESMO) Congress
+https://investor.lilly.com/news-releases/news-release-details/lilly-showcase-advances-across-its-oncology-pipeline-2026
+First Phase 1 data for sofetabart mipitecan, Lilly 's investigational FR α -targeting ADC, in platinum-sensitive ovarian cancer to be featured in a rapid oral presentation Updated first-line data for olomorasib, an investigational therapy targeting KRAS G12C-mutant NSCLC, to be featured in a rapid
+Sun, 18 Oct 2026 18:05:00 -0400
+Eli Lilly and Company News Releases
+55111
+Lilly confirms date and conference call for third-quarter 2026 financial results announcement
+https://investor.lilly.com/news-releases/news-release-details/lilly-confirms-date-and-conference-call-third-quarter-2026
+INDIANAPOLIS, Oct. 15, 2026 /PRNewswire/ -- Eli Lilly and Company (NYSE: LLY) will announce its third-quarter 2026 financial results on October 29, 2026. Lilly will also conduct a conference call that day with the investment community and media to further detail the company's financial
+Thu, 15 Oct 2026 10:00:00 -0400
+Eli Lilly and Company News Releases
+55096

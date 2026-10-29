@@ -1,0 +1,1198 @@
+SHA-256: 1a92e3f44f67674e33522c88c3f0a3c3c08a7a7e133771e4f7d8d3f9cd14929f
+URL: https://www.accessdata.fda.gov/scripts/drugshortages/default.cfm
+Final-URL: https://www.accessdata.fda.gov/scripts/drugshortages/default.cfm
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29T20:05:58.203Z
+Attempts: 1
+Read-By: mm/glp-verify-1028 verification pass (docs/ops-runbook.md section 1.1)
+Hash-Covers: every byte after the first line of this file
+Extraction: HTML stripped to text; inline elements removed, block elements become lines.
+
+FDA Drug Shortages
+Skip to main content
+Skip to FDA Search
+Skip to footer links
+An official website of the United States government
+Here's how you know
+The .gov means it's official.
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site.
+The site is secure.
+The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+U.S. Food and Drug Administration
+Search
+Menu
+Search FDA
+Submit search
+Featured
+Contact FDA
+FDA Guidance Documents
+Recalls, Market Withdrawals and Safety Alerts
+Press Announcements
+Warning Letters
+Advisory Committees
+En Espa&ntilde;ol
+Products
+Food
+Drugs
+Medical Devices
+Radiation-Emitting Products
+Vaccines, Blood, and Biologics
+Animal and Veterinary
+Cosmetics
+Tobacco Products
+Topics
+About FDA
+Combination Products
+Regulatory Information
+Safety
+Emergency Preparedness
+International Programs
+News and Events
+Training and Continuing Education
+Inspections and Compliance
+Science and Research
+Information For
+Consumers
+Patients
+Industry
+Health Professionals
+Federal, State and Local Officials
+Home
+Drug Databases
+Drug Shortages
+FDA Drug Shortages
+Share
+Tweet
+Linkedin
+Email
+Print
+Current and Resolved Drug Shortages and Discontinuations Reported to FDA
+Report a Drug Shortage |
+FAQ |
+Background Info |
+Get Email Alerts |
+Download Current Drug Shortages |
+Download Historical Drug Shortages
+|
+Contact Us
+Search by Generic Name or Active Ingredient:
+Current/Resolved Shortages
+Discontinuations
+Therapeutic Categories
+New and Updated
+A drug receives Resolved status when the Drug Shortages Staff (DSS) determines that the market is covered, based on information from all manufacturers. The market is considered covered when supply is available from at least one manufacturer to cover total market demand. However, some manufacturers may not have all presentations available. DSS monitors the supply of products with Resolved status. For the most current supply information, contact the manufacturers.
+Generic Name or Active Ingredient
+Status
+Albuterol Sulfate Solution
+Resolved
+Amino Acid Injection
+Currently in Shortage
+Amphetamine Aspartate Monohydrate, Amphetamine Sulfate, Dextroamphetamine Saccharate, Dextroamphetamine Sulfate Tablet
+Currently in Shortage
+Atropine Sulfate Injection
+Currently in Shortage
+Azacitidine Injection
+Currently in Shortage
+Bacitracin Ophthalmic Ointment
+Currently in Shortage
+Bumetanide Injection
+Resolved
+Bupivacaine Hydrochloride Injection
+Currently in Shortage
+Bupivacaine Hydrochloride, Epinephrine Bitartrate Injection
+Currently in Shortage
+Carboplatin Injection
+Currently in Shortage
+Cefotaxime Sodium Powder, for Solution
+Currently in Shortage
+Clindamycin Phosphate Injection
+Currently in Shortage
+Clonazepam Tablet
+Currently in Shortage
+Conivaptan Hydrochloride Injection
+Currently in Shortage
+Cromolyn Sodium Concentrate
+Currently in Shortage
+Desmopressin Acetate Spray
+Currently in Shortage
+Dexamethasone Sodium Phosphate Injection
+Currently in Shortage
+Dexmedetomidine Hydrochloride Injection
+Currently in Shortage
+Dextrose Monohydrate 10% Injection
+Currently in Shortage
+Dextrose Monohydrate 5% Injection
+Currently in Shortage
+Dextrose Monohydrate 50% Injection
+Currently in Shortage
+Dextrose Monohydrate 70% Injection
+Currently in Shortage
+Dobutamine Hydrochloride Injection
+Currently in Shortage
+Dopamine Hydrochloride Injection
+Currently in Shortage
+Echothiophate Iodide Ophthalmic Solution
+Currently in Shortage
+Epinephrine Bitartrate, Lidocaine Hydrochloride Injection
+Currently in Shortage
+Etomidate Injection
+Currently in Shortage
+Fentanyl Citrate Injection
+Currently in Shortage
+Flurazepam Hydrochloride Capsule
+Currently in Shortage
+Furosemide Injection
+Currently in Shortage
+Furosemide Oral Solution
+Currently in Shortage
+Heparin Sodium Injection
+Currently in Shortage
+Hydromorphone Hydrochloride Injection
+Currently in Shortage
+Hydroxocobalamin Injection
+Currently in Shortage
+Ifosfamide Injection
+Currently in Shortage
+Isocarboxazid Tablet
+Currently in Shortage
+Ketorolac Tromethamine Injection
+Currently in Shortage
+Lidocaine Hydrochloride Injection
+Currently in Shortage
+Liraglutide Injection
+Currently in Shortage
+Lisdexamfetamine Dimesylate Capsule
+Currently in Shortage
+Lisdexamfetamine Dimesylate Tablet, Chewable
+Currently in Shortage
+Lorazepam Injection
+Currently in Shortage
+Meperidine Hydrochloride Injection
+Currently in Shortage
+Methotrexate Sodium Injection
+Currently in Shortage
+Methylphenidate Film, Extended Release
+Currently in Shortage
+Methylphenidate Hydrochloride Tablet, Extended Release
+Currently in Shortage
+Methylprednisolone Acetate Injection
+Currently in Shortage
+Metronidazole Injection
+Currently in Shortage
+Midazolam Hydrochloride Injection
+Currently in Shortage
+Morphine Sulfate Injection
+Currently in Shortage
+Peginterferon alfa-2a Injection
+Resolved
+Penicillin G Benzathine Injection
+Currently in Shortage
+Pentostatin Injection
+Currently in Shortage
+Promethazine Hydrochloride Injection
+Currently in Shortage
+Propranolol Hydrochloride Injection
+Currently in Shortage
+Quinapril Hydrochloride Tablet
+Currently in Shortage
+Quinapril/Hydrochlorothiazide Tablet
+Currently in Shortage
+Remifentanil Hydrochloride Injection
+Currently in Shortage
+Rifampin Capsule
+Currently in Shortage
+Rifampin Injection
+Currently in Shortage
+Rifapentine Tablet, Film Coated
+Resolved
+Riluzole Oral Suspension
+Currently in Shortage
+Rocuronium Bromide Injection
+Currently in Shortage
+Ropivacaine Hydrochloride Injection
+Currently in Shortage
+Sodium Acetate Injection
+Currently in Shortage
+Sodium Bicarbonate Injection
+Currently in Shortage
+Sterile Water Injection
+Currently in Shortage
+Sterile Water Irrigant
+Currently in Shortage
+Streptozocin Powder, For Solution
+Currently in Shortage
+Sufentanil Citrate Injection
+Currently in Shortage
+Technetium TC-99M Pyrophosphate Kit Injection
+Currently in Shortage
+Triamcinolone Acetonide Injection
+Resolved
+Triamcinolone Hexacetonide Injection
+Currently in Shortage
+Valproate Sodium Injection
+Currently in Shortage
+Discontinuations Listed by Generic Name or Active Ingredient
+Companies are required under Section 506C of the Federal Food, Drug, and Cosmetic Act (FD&C Act) (as amended by the Food and Drug Administration Safety and Innovation Act) to notify FDA of a permanent discontinuance of certain drug products, six months in advance, or if that is not possible, as soon as practicable. These drugs include those that are life-supporting, life-sustaining or for use in the prevention or treatment of a debilitating disease or condition, including any such drug used in emergency medical care or during surgery. The discontinuations listed on the site reflect information received from manufacturers and are for informational purposes only.
+Withdrawal notifications can be found here:
+https://www.federalregister.gov
+Generic Name or Active Ingredient
+Acetaminophen; Oxycodone Hydrochloride Tablet
+Activated Charcoal Oral Suspension
+Adalimumab-adaz Injection
+Adalimumab-ryvk Kit
+Allopurinol Tablet
+Alteplase Injection
+Ampicillin Sodium Injection
+Anagrelide Hydrochloride Capsule
+Aprepitant Oral Powder for Suspension
+Arsenic Trioxide Injection
+Aspirin Suppository
+Atazanavir Sulfate; Cobicistat Tablet
+Atropine Sulfate Injection
+Azithromycin Injection
+Azithromycin Tablet
+Belladonna and Opium Suppository
+Bendamustine Hydrochloride Injection, Solution
+Benztropine Mesylate Injection
+Bupivacaine Hydrochloride Injection
+Calcitriol Capsule
+Calcium Chloride Injection
+Calcium Chloride; Dextrose; Magnesium Chloride; Sodium Chloride; Sodium Lactate Intraperitoneal Injection, Solution
+Carbamazepine Capsule, Extended Release
+Carboplatin Injection
+Caspofungin Acetate Injection
+Cefepime Hydrochloride Injection
+Ceftazidime Injection
+Cetrorelix Acetate Injection
+Chlorothiazide Oral Suspension
+Cisatracurium Besylate Injection
+Clindamycin Hydrochloride Capsule
+Clindamycin Palmitate Hydrochloride Injection
+Clindamycin Phosphate Injection
+Crinecerfont Capsule
+Dacomitinib Tablet
+Dapsone Gel
+Daptomycin Injection
+Decitabine Injection
+Deferiprone Tablet
+Dehydrated Alcohol Injection, Solution
+Desflurane Liquid for Inhalation
+Dexmedetomidine Hydrochloride Injection
+Dextrose Monohydrate 50% Injection
+Dextrose Monohydrate, Sodium Chloride, Sodium Lactate, Calcium Chloride, Magnesium Chloride Solution
+Diclofenac Sodium Tablet, Delayed Release
+Diltiazem Hydrochloride Injection
+Disopyramide Phosphate Capsule, Extended Release
+Docetaxel Injection
+Donepezil Hydrochloride; Memantine Hydrochloride Capsule, Extended Release
+Doxercalciferol Injection
+Doxycycline Hyclate Tablet
+Doxycycline Hyclate Tablet, Delayed Release
+Doxylamine Succinate and Pyridoxine Hydrochloride Tablet, Delayed Release
+Emtricitabine Capsule
+Emtricitabine Oral Solution
+Enoxaparin Sodium Injection
+Epinephrine Injection
+Etravirine Tablet
+Everolimus Tablet
+Felodipine Tablet, Extended Release
+Felodipine Tablet, Film Coated, Extended Release
+Fluocinonide Ointment
+Fluticasone Propionate and Salmeterol Xinafoate Aerosol, Metered
+Fluvastatin Sodium Tablet, Extended Release
+Fosaprepitant Dimeglumine Injection
+Frovatriptan Succinate Tablet
+Fulvestrant Injection
+Furosemide Injection
+Gadobutrol Injection
+Gadoterate Meglumine Injection
+Gemfibrozil Tablet
+Glyburide Tablet
+Glycerol Phenylbutyrate Oral Liquid
+Glycopyrrolate Injection
+Guanfacine Hydrochloride Tablet, Extended Release
+Haloperidol Decanoate Injection
+Hydrochlorothiazide Capsule
+Hydrocortisone Acetate Suppository
+Hydromorphone Hydrochloride Suppository
+Hydroxychloroquine Sulfate Tablet
+Icatibant Acetate Injection
+Icosapent Ethyl Capsule
+Idelalisib Tablet
+Imipenem and Cilastatin Injection
+Imipenem Anhydrous, Cilastatin, and Relebactam Anhydrous Injection
+Insulin Glargine-aglr Injection
+Insulin Lispro Injection
+Insulin Lispro Protamine and Insulin Lispro Injection
+Irinotecan Hydrochloride Injection
+Iron Sucrose Injection
+Itraconazole Capsule
+Ivabradine Hydrochloride Tablet
+Ivabradine Solution
+Ivermectin Tablet
+Ketamine Hydrochloride Injection
+Ketorolac Tromethamine Tablet
+Lamivudine Tablet
+Lamotrigine Tablet, Extended Release
+Lasmiditan Succinate Tablet
+Leflunomide Tablet
+Leuprolide Acetate Injection
+Lidocaine Hydrochloride Injection
+Lincomycin Hydrochloride Injection
+Liraglutide Injection
+Lopinavir and Ritonavir Oral Solution
+Lopinavir and Ritonavir Tablet
+Lorlatinib Tablet
+Maraviroc Solution
+Medroxyprogesterone Acetate Tablet
+Melphalan Hydrochloride Injection
+Mesalamine Capsule, Extended Release
+Metformin Hydrochloride Tablet, Extended Release
+Metoprolol Succinate Tablet, Extended Release
+Micafungin Sodium Injection
+Mirikizumab-mrkz Injection
+Molnupiravir Capsule
+Montelukast Sodium Tablet, Chewable
+Morphine Sulfate Suppository
+Morphine Sulfate Tablet
+Nebivolol Hydrochloride Tablet
+Neostigmine Methylsulfate Injection
+Nilutamide Tablet
+Nitrofurantoin Oral Suspension
+Nitroglycerin Ointment
+Oxaliplatin Injection
+Palbociclib Capsule
+Palonosetron Hydrochloride Injection
+Palovarotene Capsule
+Pentamidine Isethionate Injection
+Peritoneal Dialysis Solution
+Phenobarbital Tablet
+Phenoxybenzamine Hydrochloride Capsule
+Pilocarpine Hydrochloride Ophthalmic Solution
+Pindolol Tablet
+Piperacillin and Tazobactam Injection
+Plerixafor Injection
+Podofilox Topical Gel
+Podophyllum Resin Topical Tincture
+Polyethylene glycol 3350, Sodium Ascorbate, Sodium Sulfate Anhydrous, Ascorbic Acid, Sodium Chloride, and Potassium Chloride Oral Solution
+Posaconazole Injection
+Potassium Chloride Tablet, Extended Release
+Potassium Chloride, Sodium Chloride, Calcium Chloride, and Magnesium Chloride Injection, Solution
+Prazosin Hydrochloride Capsule
+Progesterone Vaginal Gel
+Ramelteon Tablet
+Riboflavin 5-phosphate Ophthalmic Solution
+Rifampin Injection
+Ritonavir Oral Powder
+Ritonavir Tablet
+Rivaroxaban For Suspension
+Rivastigmine Film, Extended Release
+Scopolamine Transdermal System
+Semaglutide Tablet
+Sodium Bicarbonate Injection
+Sodium Chloride 0.9% Injection
+Sodium Oxybate Solution
+Somatropin Injection
+Spironolactone Tablet
+Succinylcholine Chloride Injection
+Sulconazole Nitrate Solution
+Tazemetostat Hydrobromide Tablet
+Tiagabine Hydrochloride Tablet
+Tobramycin Sulfate Injection
+Travoprost Ophthalmic Solution
+Ursodiol Capsule
+Valsartan Tablet
+Vancomycin Hydrochloride Injection
+Verapamil Hydrochloride Injection
+Vigabatrin Tablet
+Analgesia/Addiction
+Acetaminophen; Oxycodone Hydrochloride Tablet
+(Discontinuation)
+Aspirin Suppository
+(Discontinuation)
+Belladonna and Opium Suppository
+(Discontinuation)
+Bupivacaine Hydrochloride Injection
+(Currently in Shortage)
+Bupivacaine Hydrochloride, Epinephrine Bitartrate Injection
+(Currently in Shortage)
+Cisatracurium Besylate Injection
+(Discontinuation)
+Fentanyl Citrate Injection
+(Currently in Shortage)
+Hydrocortisone Acetate Suppository
+(Discontinuation)
+Hydromorphone Hydrochloride Injection
+(Currently in Shortage)
+Hydromorphone Hydrochloride Suppository
+(Discontinuation)
+Ketorolac Tromethamine Injection
+(Currently in Shortage)
+Ketorolac Tromethamine Tablet
+(Discontinuation)
+Lidocaine Hydrochloride Injection
+(Discontinuation)
+Meperidine Hydrochloride Injection
+(Currently in Shortage)
+Morphine Sulfate Injection
+(Currently in Shortage)
+Morphine Sulfate Suppository
+(Discontinuation)
+Morphine Sulfate Tablet
+(Discontinuation)
+Neostigmine Methylsulfate Injection
+(Discontinuation)
+Nitroglycerin Ointment
+(Discontinuation)
+Phenobarbital Tablet
+(Discontinuation)
+Promethazine Hydrochloride Injection
+(Currently in Shortage)
+Remifentanil Hydrochloride Injection
+(Currently in Shortage)
+Sufentanil Citrate Injection
+(Currently in Shortage)
+Anesthesia
+Atropine Sulfate Injection
+(Currently in Shortage)
+Atropine Sulfate Injection
+(Discontinuation)
+Bupivacaine Hydrochloride Injection
+(Currently in Shortage)
+Bupivacaine Hydrochloride Injection
+(Discontinuation)
+Bupivacaine Hydrochloride, Epinephrine Bitartrate Injection
+(Currently in Shortage)
+Desflurane Liquid for Inhalation
+(Discontinuation)
+Dexmedetomidine Hydrochloride Injection
+(Currently in Shortage)
+Dexmedetomidine Hydrochloride Injection
+(Discontinuation)
+Epinephrine Bitartrate, Lidocaine Hydrochloride Injection
+(Currently in Shortage)
+Etomidate Injection
+(Currently in Shortage)
+Glycopyrrolate Injection
+(Discontinuation)
+Ketamine Hydrochloride Injection
+(Discontinuation)
+Lidocaine Hydrochloride Injection
+(Currently in Shortage)
+Lidocaine Hydrochloride Injection
+(Discontinuation)
+Midazolam Hydrochloride Injection
+(Currently in Shortage)
+Rocuronium Bromide Injection
+(Currently in Shortage)
+Ropivacaine Hydrochloride Injection
+(Currently in Shortage)
+Succinylcholine Chloride Injection
+(Discontinuation)
+Anti-Infective
+Ampicillin Sodium Injection
+(Discontinuation)
+Azithromycin Injection
+(Discontinuation)
+Azithromycin Tablet
+(Discontinuation)
+Bacitracin Ophthalmic Ointment
+(Currently in Shortage)
+Caspofungin Acetate Injection
+(Discontinuation)
+Cefepime Hydrochloride Injection
+(Discontinuation)
+Cefotaxime Sodium Powder, for Solution
+(Currently in Shortage)
+Ceftazidime Injection
+(Discontinuation)
+Clindamycin Hydrochloride Capsule
+(Discontinuation)
+Clindamycin Palmitate Hydrochloride Injection
+(Discontinuation)
+Clindamycin Phosphate Injection
+(Currently in Shortage)
+Clindamycin Phosphate Injection
+(Discontinuation)
+Daptomycin Injection
+(Discontinuation)
+Doxycycline Hyclate Tablet
+(Discontinuation)
+Doxycycline Hyclate Tablet, Delayed Release
+(Discontinuation)
+Emtricitabine Capsule
+(Discontinuation)
+Emtricitabine Oral Solution
+(Discontinuation)
+Hydroxychloroquine Sulfate Tablet
+(Discontinuation)
+Imipenem and Cilastatin Injection
+(Discontinuation)
+Imipenem Anhydrous, Cilastatin, and Relebactam Anhydrous Injection
+(Discontinuation)
+Itraconazole Capsule
+(Discontinuation)
+Ivermectin Tablet
+(Discontinuation)
+Lincomycin Hydrochloride Injection
+(Discontinuation)
+Metronidazole Injection
+(Currently in Shortage)
+Micafungin Sodium Injection
+(Discontinuation)
+Molnupiravir Capsule
+(Discontinuation)
+Nitrofurantoin Oral Suspension
+(Discontinuation)
+Penicillin G Benzathine Injection
+(Currently in Shortage)
+Pentamidine Isethionate Injection
+(Discontinuation)
+Piperacillin and Tazobactam Injection
+(Discontinuation)
+Posaconazole Injection
+(Discontinuation)
+Rifampin Capsule
+(Currently in Shortage)
+Rifampin Injection
+(Currently in Shortage)
+Rifampin Injection
+(Discontinuation)
+Rifapentine Tablet, Film Coated
+(Resolved)
+Tobramycin Sulfate Injection
+(Discontinuation)
+Vancomycin Hydrochloride Injection
+(Discontinuation)
+Antiviral
+Atazanavir Sulfate; Cobicistat Tablet
+(Discontinuation)
+Etravirine Tablet
+(Discontinuation)
+Lamivudine Tablet
+(Discontinuation)
+Lopinavir and Ritonavir Oral Solution
+(Discontinuation)
+Lopinavir and Ritonavir Tablet
+(Discontinuation)
+Maraviroc Solution
+(Discontinuation)
+Molnupiravir Capsule
+(Discontinuation)
+Peginterferon alfa-2a Injection
+(Resolved)
+Ritonavir Oral Powder
+(Discontinuation)
+Ritonavir Tablet
+(Discontinuation)
+Cardiovascular
+Alteplase Injection
+(Discontinuation)
+Aspirin Suppository
+(Discontinuation)
+Bumetanide Injection
+(Resolved)
+Calcium Chloride Injection
+(Discontinuation)
+Chlorothiazide Oral Suspension
+(Discontinuation)
+Conivaptan Hydrochloride Injection
+(Currently in Shortage)
+Dehydrated Alcohol Injection, Solution
+(Discontinuation)
+Diltiazem Hydrochloride Injection
+(Discontinuation)
+Disopyramide Phosphate Capsule, Extended Release
+(Discontinuation)
+Dobutamine Hydrochloride Injection
+(Currently in Shortage)
+Dopamine Hydrochloride Injection
+(Currently in Shortage)
+Epinephrine Injection
+(Discontinuation)
+Felodipine Tablet, Extended Release
+(Discontinuation)
+Felodipine Tablet, Film Coated, Extended Release
+(Discontinuation)
+Fluvastatin Sodium Tablet, Extended Release
+(Discontinuation)
+Furosemide Injection
+(Currently in Shortage)
+Furosemide Injection
+(Discontinuation)
+Furosemide Oral Solution
+(Currently in Shortage)
+Hydrochlorothiazide Capsule
+(Discontinuation)
+Icosapent Ethyl Capsule
+(Discontinuation)
+Ivabradine Hydrochloride Tablet
+(Discontinuation)
+Ivabradine Solution
+(Discontinuation)
+Lidocaine Hydrochloride Injection
+(Currently in Shortage)
+Metoprolol Succinate Tablet, Extended Release
+(Discontinuation)
+Nebivolol Hydrochloride Tablet
+(Discontinuation)
+Phenoxybenzamine Hydrochloride Capsule
+(Discontinuation)
+Pindolol Tablet
+(Discontinuation)
+Potassium Chloride, Sodium Chloride, Calcium Chloride, and Magnesium Chloride Injection, Solution
+(Discontinuation)
+Prazosin Hydrochloride Capsule
+(Discontinuation)
+Propranolol Hydrochloride Injection
+(Currently in Shortage)
+Quinapril Hydrochloride Tablet
+(Currently in Shortage)
+Quinapril/Hydrochlorothiazide Tablet
+(Currently in Shortage)
+Spironolactone Tablet
+(Discontinuation)
+Valsartan Tablet
+(Discontinuation)
+Verapamil Hydrochloride Injection
+(Discontinuation)
+Dental
+This category is empty.
+Dermatology
+Dapsone Gel
+(Discontinuation)
+Dexamethasone Sodium Phosphate Injection
+(Currently in Shortage)
+Fluocinonide Ointment
+(Discontinuation)
+Podofilox Topical Gel
+(Discontinuation)
+Podophyllum Resin Topical Tincture
+(Discontinuation)
+Sulconazole Nitrate Solution
+(Discontinuation)
+Endocrinology/Metabolism
+Calcitriol Capsule
+(Discontinuation)
+Calcium Chloride Injection
+(Discontinuation)
+Crinecerfont Capsule
+(Discontinuation)
+Dexamethasone Sodium Phosphate Injection
+(Currently in Shortage)
+Dextrose Monohydrate 10% Injection
+(Currently in Shortage)
+Dextrose Monohydrate 5% Injection
+(Currently in Shortage)
+Dextrose Monohydrate 50% Injection
+(Currently in Shortage)
+Dextrose Monohydrate 50% Injection
+(Discontinuation)
+Dextrose Monohydrate 70% Injection
+(Currently in Shortage)
+Doxercalciferol Injection
+(Discontinuation)
+Epinephrine Injection
+(Discontinuation)
+Gemfibrozil Tablet
+(Discontinuation)
+Glyburide Tablet
+(Discontinuation)
+Insulin Glargine-aglr Injection
+(Discontinuation)
+Insulin Lispro Injection
+(Discontinuation)
+Insulin Lispro Protamine and Insulin Lispro Injection
+(Discontinuation)
+Liraglutide Injection
+(Currently in Shortage)
+Liraglutide Injection
+(Discontinuation)
+Metformin Hydrochloride Tablet, Extended Release
+(Discontinuation)
+Potassium Chloride Tablet, Extended Release
+(Discontinuation)
+Semaglutide Tablet
+(Discontinuation)
+Sodium Acetate Injection
+(Currently in Shortage)
+Sodium Bicarbonate Injection
+(Currently in Shortage)
+Sodium Bicarbonate Injection
+(Discontinuation)
+Somatropin Injection
+(Discontinuation)
+Gastroenterology
+Amino Acid Injection
+(Currently in Shortage)
+Aprepitant Oral Powder for Suspension
+(Discontinuation)
+Dexamethasone Sodium Phosphate Injection
+(Currently in Shortage)
+Dextrose Monohydrate 10% Injection
+(Currently in Shortage)
+Dextrose Monohydrate 5% Injection
+(Currently in Shortage)
+Dextrose Monohydrate 50% Injection
+(Currently in Shortage)
+Dextrose Monohydrate 50% Injection
+(Discontinuation)
+Dextrose Monohydrate 70% Injection
+(Currently in Shortage)
+Fosaprepitant Dimeglumine Injection
+(Discontinuation)
+Mesalamine Capsule, Extended Release
+(Discontinuation)
+Mirikizumab-mrkz Injection
+(Discontinuation)
+Palonosetron Hydrochloride Injection
+(Discontinuation)
+Polyethylene glycol 3350, Sodium Ascorbate, Sodium Sulfate Anhydrous, Ascorbic Acid, Sodium Chloride, and Potassium Chloride Oral Solution
+(Discontinuation)
+Potassium Chloride Tablet, Extended Release
+(Discontinuation)
+Promethazine Hydrochloride Injection
+(Currently in Shortage)
+Scopolamine Transdermal System
+(Discontinuation)
+Sodium Acetate Injection
+(Currently in Shortage)
+Sodium Bicarbonate Injection
+(Currently in Shortage)
+Sodium Bicarbonate Injection
+(Discontinuation)
+Sodium Chloride 0.9% Injection
+(Discontinuation)
+Sterile Water Irrigant
+(Currently in Shortage)
+Hematology
+Alteplase Injection
+(Discontinuation)
+Anagrelide Hydrochloride Capsule
+(Discontinuation)
+Deferiprone Tablet
+(Discontinuation)
+Desmopressin Acetate Spray
+(Currently in Shortage)
+Dexamethasone Sodium Phosphate Injection
+(Currently in Shortage)
+Enoxaparin Sodium Injection
+(Discontinuation)
+Heparin Sodium Injection
+(Currently in Shortage)
+Icatibant Acetate Injection
+(Discontinuation)
+Iron Sucrose Injection
+(Discontinuation)
+Plerixafor Injection
+(Discontinuation)
+Rivaroxaban For Suspension
+(Discontinuation)
+Inborn Errors
+Glycerol Phenylbutyrate Oral Liquid
+(Discontinuation)
+Medical Imaging
+Gadobutrol Injection
+(Discontinuation)
+Gadoterate Meglumine Injection
+(Discontinuation)
+Technetium TC-99M Pyrophosphate Kit Injection
+(Currently in Shortage)
+Musculoskeletal
+Diclofenac Sodium Tablet, Delayed Release
+(Discontinuation)
+Palovarotene Capsule
+(Discontinuation)
+Neurology
+Alteplase Injection
+(Discontinuation)
+Atropine Sulfate Injection
+(Currently in Shortage)
+Atropine Sulfate Injection
+(Discontinuation)
+Benztropine Mesylate Injection
+(Discontinuation)
+Carbamazepine Capsule, Extended Release
+(Discontinuation)
+Clonazepam Tablet
+(Currently in Shortage)
+Dexamethasone Sodium Phosphate Injection
+(Currently in Shortage)
+Donepezil Hydrochloride; Memantine Hydrochloride Capsule, Extended Release
+(Discontinuation)
+Flurazepam Hydrochloride Capsule
+(Currently in Shortage)
+Frovatriptan Succinate Tablet
+(Discontinuation)
+Lamotrigine Tablet, Extended Release
+(Discontinuation)
+Lasmiditan Succinate Tablet
+(Discontinuation)
+Lorazepam Injection
+(Currently in Shortage)
+Midazolam Hydrochloride Injection
+(Currently in Shortage)
+Phenobarbital Tablet
+(Discontinuation)
+Riluzole Oral Suspension
+(Currently in Shortage)
+Rivastigmine Film, Extended Release
+(Discontinuation)
+Scopolamine Transdermal System
+(Discontinuation)
+Tiagabine Hydrochloride Tablet
+(Discontinuation)
+Valproate Sodium Injection
+(Currently in Shortage)
+Vigabatrin Tablet
+(Discontinuation)
+Oncology
+Allopurinol Tablet
+(Discontinuation)
+Arsenic Trioxide Injection
+(Discontinuation)
+Azacitidine Injection
+(Currently in Shortage)
+Bendamustine Hydrochloride Injection, Solution
+(Discontinuation)
+Carboplatin Injection
+(Currently in Shortage)
+Carboplatin Injection
+(Discontinuation)
+Dacomitinib Tablet
+(Discontinuation)
+Decitabine Injection
+(Discontinuation)
+Dexamethasone Sodium Phosphate Injection
+(Currently in Shortage)
+Docetaxel Injection
+(Discontinuation)
+Flurazepam Hydrochloride Capsule
+(Currently in Shortage)
+Fulvestrant Injection
+(Discontinuation)
+Idelalisib Tablet
+(Discontinuation)
+Ifosfamide Injection
+(Currently in Shortage)
+Irinotecan Hydrochloride Injection
+(Discontinuation)
+Leuprolide Acetate Injection
+(Discontinuation)
+Lorlatinib Tablet
+(Discontinuation)
+Melphalan Hydrochloride Injection
+(Discontinuation)
+Methotrexate Sodium Injection
+(Currently in Shortage)
+Nilutamide Tablet
+(Discontinuation)
+Oxaliplatin Injection
+(Discontinuation)
+Palbociclib Capsule
+(Discontinuation)
+Pentostatin Injection
+(Currently in Shortage)
+Streptozocin Powder, For Solution
+(Currently in Shortage)
+Tazemetostat Hydrobromide Tablet
+(Discontinuation)
+Ophthalmology
+Bacitracin Ophthalmic Ointment
+(Currently in Shortage)
+Dexamethasone Sodium Phosphate Injection
+(Currently in Shortage)
+Echothiophate Iodide Ophthalmic Solution
+(Currently in Shortage)
+Pilocarpine Hydrochloride Ophthalmic Solution
+(Discontinuation)
+Riboflavin 5-phosphate Ophthalmic Solution
+(Discontinuation)
+Travoprost Ophthalmic Solution
+(Discontinuation)
+Triamcinolone Acetonide Injection
+(Resolved)
+Other
+Activated Charcoal Oral Suspension
+(Discontinuation)
+Dexamethasone Sodium Phosphate Injection
+(Currently in Shortage)
+Dextrose Monohydrate 10% Injection
+(Currently in Shortage)
+Dextrose Monohydrate 5% Injection
+(Currently in Shortage)
+Dextrose Monohydrate 70% Injection
+(Currently in Shortage)
+Doxylamine Succinate and Pyridoxine Hydrochloride Tablet, Delayed Release
+(Discontinuation)
+Flurazepam Hydrochloride Capsule
+(Currently in Shortage)
+Hydrocortisone Acetate Suppository
+(Discontinuation)
+Hydroxocobalamin Injection
+(Currently in Shortage)
+Hydroxychloroquine Sulfate Tablet
+(Discontinuation)
+Itraconazole Capsule
+(Discontinuation)
+Mirikizumab-mrkz Injection
+(Discontinuation)
+Nitrofurantoin Oral Suspension
+(Discontinuation)
+Phenobarbital Tablet
+(Discontinuation)
+Podofilox Topical Gel
+(Discontinuation)
+Promethazine Hydrochloride Injection
+(Currently in Shortage)
+Scopolamine Transdermal System
+(Discontinuation)
+Sodium Chloride 0.9% Injection
+(Discontinuation)
+Sterile Water Injection
+(Currently in Shortage)
+Sterile Water Irrigant
+(Currently in Shortage)
+Ursodiol Capsule
+(Discontinuation)
+Pediatric
+Albuterol Sulfate Solution
+(Resolved)
+Atropine Sulfate Injection
+(Currently in Shortage)
+Atropine Sulfate Injection
+(Discontinuation)
+Cefotaxime Sodium Powder, for Solution
+(Currently in Shortage)
+Clonazepam Tablet
+(Currently in Shortage)
+Dextrose Monohydrate 10% Injection
+(Currently in Shortage)
+Dextrose Monohydrate 5% Injection
+(Currently in Shortage)
+Dextrose Monohydrate 50% Injection
+(Currently in Shortage)
+Dextrose Monohydrate 50% Injection
+(Discontinuation)
+Dextrose Monohydrate 70% Injection
+(Currently in Shortage)
+Dobutamine Hydrochloride Injection
+(Currently in Shortage)
+Epinephrine Bitartrate, Lidocaine Hydrochloride Injection
+(Currently in Shortage)
+Fentanyl Citrate Injection
+(Currently in Shortage)
+Ifosfamide Injection
+(Currently in Shortage)
+Lidocaine Hydrochloride Injection
+(Currently in Shortage)
+Lidocaine Hydrochloride Injection
+(Discontinuation)
+Promethazine Hydrochloride Injection
+(Currently in Shortage)
+Sodium Acetate Injection
+(Currently in Shortage)
+Sodium Bicarbonate Injection
+(Currently in Shortage)
+Sodium Bicarbonate Injection
+(Discontinuation)
+Sterile Water Irrigant
+(Currently in Shortage)
+Sufentanil Citrate Injection
+(Currently in Shortage)
+Psychiatry
+Amphetamine Aspartate Monohydrate, Amphetamine Sulfate, Dextroamphetamine Saccharate, Dextroamphetamine Sulfate Tablet
+(Currently in Shortage)
+Clonazepam Tablet
+(Currently in Shortage)
+Guanfacine Hydrochloride Tablet, Extended Release
+(Discontinuation)
+Haloperidol Decanoate Injection
+(Discontinuation)
+Isocarboxazid Tablet
+(Currently in Shortage)
+Lisdexamfetamine Dimesylate Capsule
+(Currently in Shortage)
+Lisdexamfetamine Dimesylate Tablet, Chewable
+(Currently in Shortage)
+Methylphenidate Film, Extended Release
+(Currently in Shortage)
+Methylphenidate Hydrochloride Tablet, Extended Release
+(Currently in Shortage)
+Ramelteon Tablet
+(Discontinuation)
+Sodium Oxybate Solution
+(Discontinuation)
+Pulmonary/Allergy
+Albuterol Sulfate Solution
+(Resolved)
+Cromolyn Sodium Concentrate
+(Currently in Shortage)
+Dexamethasone Sodium Phosphate Injection
+(Currently in Shortage)
+Fluticasone Propionate and Salmeterol Xinafoate Aerosol, Metered
+(Discontinuation)
+Montelukast Sodium Tablet, Chewable
+(Discontinuation)
+Promethazine Hydrochloride Injection
+(Currently in Shortage)
+Renal
+Allopurinol Tablet
+(Discontinuation)
+Calcium Chloride; Dextrose; Magnesium Chloride; Sodium Chloride; Sodium Lactate Intraperitoneal Injection, Solution
+(Discontinuation)
+Dextrose Monohydrate, Sodium Chloride, Sodium Lactate, Calcium Chloride, Magnesium Chloride Solution
+(Discontinuation)
+Dobutamine Hydrochloride Injection
+(Currently in Shortage)
+Peritoneal Dialysis Solution
+(Discontinuation)
+Sodium Chloride 0.9% Injection
+(Discontinuation)
+Reproductive
+Cetrorelix Acetate Injection
+(Discontinuation)
+Rheumatology
+Adalimumab-adaz Injection
+(Discontinuation)
+Adalimumab-ryvk Kit
+(Discontinuation)
+Allopurinol Tablet
+(Discontinuation)
+Dexamethasone Sodium Phosphate Injection
+(Currently in Shortage)
+Diclofenac Sodium Tablet, Delayed Release
+(Discontinuation)
+Hydroxychloroquine Sulfate Tablet
+(Discontinuation)
+Leflunomide Tablet
+(Discontinuation)
+Methotrexate Sodium Injection
+(Currently in Shortage)
+Methylprednisolone Acetate Injection
+(Currently in Shortage)
+Triamcinolone Hexacetonide Injection
+(Currently in Shortage)
+Total Parenteral Nutrition
+Sodium Acetate Injection
+(Currently in Shortage)
+Transplant
+Everolimus Tablet
+(Discontinuation)
+Urology
+Medroxyprogesterone Acetate Tablet
+(Discontinuation)
+Progesterone Vaginal Gel
+(Discontinuation)
+New
+October 22, 2026
+Metformin Hydrochloride Tablet, Extended Release
+(Discontinuation)
+October 20, 2026
+Carboplatin Injection
+(Currently in Shortage)
+Enoxaparin Sodium Injection
+(Discontinuation)
+Leuprolide Acetate Injection
+(Discontinuation)
+Molnupiravir Capsule
+(Discontinuation)
+October 19, 2026
+Lamivudine Tablet
+(Discontinuation)
+October 16, 2026
+Vigabatrin Tablet
+(Discontinuation)
+October 14, 2026
+Dexmedetomidine Hydrochloride Injection
+(Discontinuation)
+Everolimus Tablet
+(Discontinuation)
+Updated
+October 29, 2026
+Bupivacaine Hydrochloride, Epinephrine Bitartrate Injection
+(Currently in Shortage)
+Methotrexate Sodium Injection
+(Currently in Shortage)
+Midazolam Hydrochloride Injection
+(Currently in Shortage)
+Sterile Water Injection
+(Currently in Shortage)
+October 28, 2026
+Amphetamine Aspartate Monohydrate, Amphetamine Sulfate, Dextroamphetamine Saccharate, Dextroamphetamine Sulfate Tablet
+(Currently in Shortage)
+October 27, 2026
+Dextrose Monohydrate 50% Injection
+(Currently in Shortage)
+Furosemide Oral Solution
+(Currently in Shortage)
+October 23, 2026
+Bacitracin Ophthalmic Ointment
+(Currently in Shortage)
+Clonazepam Tablet
+(Currently in Shortage)
+October 21, 2026
+Atropine Sulfate Injection
+(Currently in Shortage)
+Bupivacaine Hydrochloride Injection
+(Currently in Shortage)
+Carboplatin Injection
+(Currently in Shortage)
+Clindamycin Phosphate Injection
+(Currently in Shortage)
+Dexmedetomidine Hydrochloride Injection
+(Currently in Shortage)
+Dobutamine Hydrochloride Injection
+(Currently in Shortage)
+Dopamine Hydrochloride Injection
+(Currently in Shortage)
+Epinephrine Bitartrate, Lidocaine Hydrochloride Injection
+(Currently in Shortage)
+Etomidate Injection
+(Currently in Shortage)
+Fentanyl Citrate Injection
+(Currently in Shortage)
+Furosemide Injection
+(Currently in Shortage)
+Hydromorphone Hydrochloride Injection
+(Currently in Shortage)
+Ketorolac Tromethamine Injection
+(Currently in Shortage)
+Lidocaine Hydrochloride Injection
+(Currently in Shortage)
+Lorazepam Injection
+(Currently in Shortage)
+Methylprednisolone Acetate Injection
+(Currently in Shortage)
+Morphine Sulfate Injection
+(Currently in Shortage)
+Penicillin G Benzathine Injection
+(Currently in Shortage)
+Pentostatin Injection
+(Currently in Shortage)
+Sodium Acetate Injection
+(Currently in Shortage)
+Sodium Bicarbonate Injection
+(Currently in Shortage)
+Sufentanil Citrate Injection
+(Currently in Shortage)
+Footer Links
+FDA Archive
+About FDA
+Accessibility
+Visitor Information
+Website Policies / Privacy
+No FEAR Act
+Vulnerability Disclosure Policy
+FOIA
+HHS.gov
+USA.gov
+Contact FDA
+Follow FDA on Facebook
+Follow FDA on Twitter
+View FDA videos on YouTube
+Subscribe to FDA RSS feeds
+FDA Homepage
+Contact Number
+1-888-INFO-FDA (1-888-463-6332)
+Back to Top
