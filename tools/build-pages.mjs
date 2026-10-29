@@ -958,11 +958,11 @@ const PATHWAY_FAQS = {
   trumprx: [
     {
       q: 'What does TrumpRx charge for GLP-1 medications?',
-      a: 'We do not publish a verified figure. A November 2025 announcement described roughly $350 a month for Ozempic and Wegovy and roughly $346 for Zepbound, and later readings of the live site described materially lower figures. These conflict, the live site governs, and we cannot read it automatically \u2014 so TrumpRx figures render as unverified with a link to the platform.',
+      a: 'We publish the figures the platform itself displays, read directly from each product page on the date shown on the card. Where the platform states a price as conditional \u2014 an introductory offer with a fill limit, or a purchase offer that continues only while you keep a refill window \u2014 the condition sits on the card beside the figure.',
     },
     {
-      q: 'Why doesn\u2019t this site show TrumpRx prices?',
-      a: 'Because we could not read the platform automatically and no government page we could reach states a current per-drug price. Publishing a number we cannot verify is exactly the aggregator behavior this site exists to correct.',
+      q: 'Why does this site show some TrumpRx prices and not others?',
+      a: 'Because a figure is published only where the platform states a price we could read on the page itself. A figure is not published because a search result repeated it, and it is not published where the page states a bound such as "as little as" rather than a price. Every published figure carries the page it came from and the date it was read.',
     },
   ],
 };
@@ -979,16 +979,13 @@ const PATHWAY_PAGES = [
       {
         h: 'What we can and cannot tell you about current TrumpRx prices',
         p: [
-          // Precise about WHERE the refusal happened. The 403s came from our own
-          // network's egress gateway, before any connection to trumprx.gov was
-          // established, so we learned nothing about what the platform itself
-          // permits. Saying "our requests were refused" would let a reader infer
-          // the platform blocked us. On a page whose entire claim is precision
-          // about provenance, misattributing our own limitation would be exactly
-          // the error we criticise other sites for.
-          'We cannot read the live platform automatically, so figures for this pathway are curated by hand. To be precise about why: the refusals we hit on 2026-07-30 came from our own network before any connection to trumprx.gov was made, so they tell us nothing about what the platform itself allows. Either way, we have not read it, and we do not pretend to have.',
-          'The published figures have also moved repeatedly. A November 2025 announcement described roughly $350 a month for Ozempic and Wegovy and roughly $346 for Zepbound. Later readings of the live site described materially lower figures. These conflict, and the live site governs.',
-          'Because we could not read the live site and no government page we could reach states a current per-drug price, we file every TrumpRx figure as unverified or conflicting. It renders as "price not currently verified" with a link to the platform, never as a number. This is the honest position, and it is the difference between this page and an aggregator that is still quoting the November announcement as though it were current.',
+          // 2026-10-29: the platform is readable, and the figures on this
+          // pathway are read from it rather than curated by hand. Each product
+          // page carries its own price table and its own conditions, so a
+          // conditional price carries its condition onto the card.
+          'We read the platform directly. Every figure on this pathway comes from the product page that states it, carries the date we read it, and carries the condition the platform puts beside it \u2014 a fill limit on an introductory offer, a refill window on a purchase offer, or a per-strength price table.',
+          'The prices have moved repeatedly. A November 2025 announcement described roughly $350 a month for Ozempic and Wegovy and roughly $346 for Zepbound; the platform shows lower figures now, and the announced figure and the figure the platform shows are not the same thing. Only the second is published here, and only with the date it was read.',
+          'Where a figure is not confirmed against the platform itself, it renders as "price not currently verified" with a link to the platform, never as a number. That is the honest position, and it is the difference between this page and an aggregator that is still quoting the November announcement as though it were current.',
         ],
       },
       {
@@ -1019,7 +1016,7 @@ const PATHWAY_PAGES = [
         h: 'Priced in tiers, not at one rate',
         p: [
           'Zepbound single-dose vials are filed in tiers rather than at a flat price, so the starter dose and the maintenance doses are different figures. Any page quoting one Zepbound price is wrong for most readers.',
-          'A refill-window condition has also been reported at the higher doses, requiring a refill within a set number of days to hold the reduced price. We have not been able to confirm that condition against Eli Lilly, and we flag it as a caveat rather than burying it, because if it is real it changes what you actually pay.',
+          'A refill-window condition attaches at the higher doses, and it is a stated condition rather than a reported one: we read on the manufacturer\u2019s own terms on 2026-10-29 that the purchase offer continues only while you complete your refill within 45 days of the delivery or receipt date of your previous prescription, and that if you miss that window the offer does not apply and the regular price is charged instead. At the two higher tiers that difference is material, so it sits on the card beside the figure.',
         ],
       },
       {
@@ -1387,17 +1384,18 @@ function buildMethodology() {
     discipline.
   </p>
 
-  <h2>Current verification status: an honest problem</h2>
+  <h2>Current verification status: what has been read, and what has not</h2>
   <div class="banner banner--urgent" role="alert">
     ${icon('alertTriangle', { size: 20 })}
     <span>
-      <strong>We currently publish no verified prices at all.</strong>
-      On ${BUILT_ON}, the network our build runs on refused outbound connections to
-      every primary source we rely on: fda.gov, cms.gov, medicare.gov, hhs.gov,
-      trumprx.gov, sec.gov, and every Eli Lilly and Novo Nordisk domain. We could
-      search, but we could not read. Under our own rules of evidence a search result
-      summarising a page is not the same as reading it, so every figure below is filed
-      as unverified and none of them renders as a number.
+      <strong>${byConfidence.confirmed ?? 0} of ${total} figures are confirmed against a primary source.</strong>
+      On ${BUILT_ON} we read trumprx.gov, medicare.gov, novocare.com, ozempic.com,
+      aspe.hhs.gov, fda.gov, cms.gov and investor.lilly.com directly, and the Eli Lilly
+      pages in a browser, because our automated requests to those pages were refused.
+      The other ${total - (byConfidence.confirmed ?? 0)} figures are not confirmed. They
+      render as no price at all, and each one records what we did find and what a
+      confirmation would take. A search result summarising a page is still not a read
+      of it, so nothing is published on that basis.
     </span>
   </div>
   <p>
@@ -1410,6 +1408,11 @@ function buildMethodology() {
     Alongside each unverified figure we record what our research located and the
     provenance we actually hold for it, so that a single verification pass can promote
     it. That data is in the site’s price file and is summarised in the table below.
+  </p>
+  <p>
+    A figure that is confirmed is still only as good as the day it was read. Every
+    published figure therefore carries the date we read it, and the freshness of the
+    whole set is visible on the same page.
   </p>
 
   <h2>Staleness</h2>

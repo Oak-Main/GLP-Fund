@@ -429,10 +429,34 @@ async function main() {
       shippedCards.map((c) => `${c.name}: ${c.cost}`).join(' | ').slice(0, 160)
     );
     const shippedTrumpRx = shippedCards.find((c) => /TrumpRx/.test(c.name ?? ''));
+    // 2026-10-29: this used to assert $299 for a 15 mg selection, because the
+    // TrumpRx price was filed under the tier name "any" and the 2.5 mg
+    // headline was what a 15 mg visitor received. The price is now filed per
+    // strength, so a 15 mg visitor gets the higher-dose tier and a 2.5 mg
+    // visitor gets the starting tier. Both are asserted below, because the
+    // defect was a tier leak and one assertion cannot catch it.
     check(
-      'shipped data: TrumpRx Zepbound renders the verified $299 (first verified prices, PR #13)',
-      shippedTrumpRx?.cost === '$299' && /\d{4}-\d{2}-\d{2}/.test(shippedTrumpRx?.verified ?? ''),
+      'shipped data: TrumpRx Zepbound at 15 mg renders the $449 higher-dose tier',
+      shippedTrumpRx?.cost === '$449' && /\d{4}-\d{2}-\d{2}/.test(shippedTrumpRx?.verified ?? ''),
       `${shippedTrumpRx?.name ?? 'no TrumpRx card'}: ${shippedTrumpRx?.cost ?? '?'} (${shippedTrumpRx?.verified ?? 'no date'})`
+    );
+
+    await page.select('[data-input="dose"]', '2.5mg');
+    const shippedCards25 = await page.eval(SCRAPE_CARDS);
+    const shippedTrumpRx25 = shippedCards25.find((c) => /TrumpRx/.test(c.name ?? ''));
+    check(
+      'shipped data: TrumpRx Zepbound at 2.5 mg renders the $299 starting tier',
+      shippedTrumpRx25?.cost === '$299',
+      `${shippedTrumpRx25?.name ?? 'no TrumpRx card'}: ${shippedTrumpRx25?.cost ?? '?'}`
+    );
+
+    await page.select('[data-input="dose"]', '15mg');
+    const shippedCardsBack = await page.eval(SCRAPE_CARDS);
+    const shippedLilly15 = shippedCardsBack.find((c) => /LillyDirect/.test(c.name ?? ''));
+    check(
+      'shipped data: LillyDirect Zepbound at 15 mg renders $449 and carries the 45-day refill condition',
+      shippedLilly15?.cost === '$449' && (shippedLilly15?.caveats ?? []).some((c) => /45 days/i.test(c)),
+      `${shippedLilly15?.name ?? 'no LillyDirect card'}: ${shippedLilly15?.cost ?? '?'}, caveats: ${(shippedLilly15?.caveats ?? []).length}`
     );
     check(
       'every card carries a source link and a verification date',

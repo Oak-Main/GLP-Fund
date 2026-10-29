@@ -66,21 +66,29 @@ test('the shipped dataset publishes numbers only from the verified allowlist, by
   // a value may exist ONLY on a row confirmed in this file's pass, and the
   // provenance suite (test/provenance.test.js) holds every published number
   // to a primary source, a date, and a deleted candidate block.
-  // 2026-10-28: the second verification pass read trumprx.gov directly and
-  // added two rows to the allowlist. Every added row names the exact page read.
+  // 2026-10-29: the second verification pass read trumprx.gov, medicare.gov,
+  // novocare.com, ozempic.com and the Eli Lilly pages directly, and added
+  // thirteen rows to the allowlist. Every added row names the exact page read.
   const VERIFIED_2026_10_28 = new Set([
-    'zepbound|any|trumprx',
+    'zepbound|2.5mg|lillydirect_self_pay',
+    'zepbound|5mg|lillydirect_self_pay',
+    'zepbound|all_other_doses|lillydirect_self_pay',
+    'zepbound|2.5mg|trumprx',
+    'zepbound|5mg|trumprx',
+    'zepbound|all_other_doses|trumprx',
     'zepbound|any|medicare_bridge',
     'ozempic|any|novocare_self_pay',
     'ozempic|any|trumprx',
     'wegovy_pill|1.5mg|novocare_self_pay',
     'wegovy_pill|higher_doses|novocare_self_pay',
+    'mounjaro|any|list_price',
     'wegovy_injection|low_doses|novocare_self_pay',
     'wegovy_injection|standard_doses|novocare_self_pay',
     'wegovy_injection|any|medicare_bridge',
     'wegovy_pill|any|medicare_bridge',
     'foundayo|any|trumprx',
     'foundayo|any|medicare_bridge',
+    'foundayo|any|list_price',
     'wegovy_injection|low_doses|trumprx',
     'wegovy_injection|standard_doses|trumprx',
   ]);
@@ -134,22 +142,21 @@ test('the engine never reads the candidate block', () => {
 test('the verification debt on hard eligibility rules is visible and counted', () => {
   const debt = verificationDebt(SHIPPED.eligibilityRules);
   assert.ok(debt.total > 0);
-  // 2026-10-28: two hard rules were retired against verbatim quotes read on
-  // medicare.gov (Medicare GLP-1 Bridge). The count is pinned to the exact
-  // pending set so it cannot drift silently in either direction: a rule that
-  // gains a quote must be removed from this list in the same commit that
-  // adds it, and a rule that loses its quote must be added.
+  // 2026-10-29: two more hard rules were retired against verbatim quotes
+  // read from the manufacturer's own Zepbound savings card terms. The count
+  // is pinned to the exact pending set so it cannot drift silently in
+  // either direction: a rule that gains a quote must be removed from this
+  // list in the same commit that adds it, and a rule that loses its quote
+  // must be added.
   assert.deepEqual(
     debt.pendingIds,
     [
-      'copay-card-federal-program-bar',
-      'copay-card-requires-commercial-coverage',
       'patient-assistance-income-tier',
     ],
-    'The three hard rules still awaiting a verbatim quote from their own cited source.'
+    'The one hard rule still awaiting a verbatim quote from its own cited source.'
   );
-  assert.equal(debt.pending, 3);
-  assert.equal(debt.total, 5, 'Five hard rules exist; two of them now carry a verbatim quote.');
+  assert.equal(debt.pending, 1);
+  assert.equal(debt.total, 5, 'Five hard rules exist; four of them now carry a verbatim quote.');
   // The fixture, standing in for a verified world, has zero pending rules.
   assert.equal(verificationDebt(ENGINE.eligibilityRules).pending, 0);
 });
@@ -226,6 +233,50 @@ test('every dose above 5mg maps to the same tier', () => {
   }
 });
 
+test('the shipped Zepbound price is filed per strength, so a dose never inherits another dose price', () => {
+  // 2026-10-29: the TrumpRx Zepbound price was filed under the tier name
+  // "any", which is how a flat-priced drug is filed. A visitor who selected
+  // 15 mg was shown the 2.5 mg headline of two hundred ninety nine dollars,
+  // and the browser test asserted that figure. A caveat underneath an
+  // incorrect headline does not make the result accurate, so the price is
+  // now filed per strength and this test fails if a flat row comes back.
+  const cases = [
+    { dose: '2.5mg', tier: '2.5mg', expected: 299 },
+    { dose: '5mg', tier: '5mg', expected: 399 },
+    { dose: '7.5mg', tier: 'all_other_doses', expected: 449 },
+    { dose: '10mg', tier: 'all_other_doses', expected: 449 },
+    { dose: '12.5mg', tier: 'all_other_doses', expected: 449 },
+    { dose: '15mg', tier: 'all_other_doses', expected: 449 },
+  ];
+
+  for (const c of cases) {
+    const results = rankPathways({ drug: 'zepbound', dose: c.dose, insurance: 'none' }, SHIPPED, '2026-10-29');
+    const trumpRx = find(results, 'trumprx');
+    assert.ok(trumpRx, `TrumpRx must be offered at ${c.dose}`);
+    assert.equal(trumpRx.doseOrTier, c.tier, `dose ${c.dose} must resolve to the ${c.tier} tier`);
+    assert.equal(trumpRx.monthlyCost, c.expected, `dose ${c.dose} must cost ${c.expected}`);
+    assert.equal(trumpRx.annualCost, c.expected * 12, `dose ${c.dose} annual cost`);
+  }
+
+  // The flat row is the defect. It must not come back.
+  assert.deepEqual(
+    SHIPPED.prices
+      .filter((p) => p.drug === 'zepbound' && p.pathway === 'trumprx' && p.dose_or_tier === 'any')
+      .map((p) => `${p.drug}|${p.dose_or_tier}|${p.pathway}`),
+    [],
+    'No Zepbound TrumpRx price may be filed under the tier name "any"'
+  );
+
+  // And the manufacturer tier must carry the same restriction, not an
+  // unconditional price.
+  const lilly15 = find(rankPathways({ drug: 'zepbound', dose: '15mg', insurance: 'none' }, SHIPPED, '2026-10-29'), 'lillydirect_self_pay');
+  assert.equal(lilly15.monthlyCost, 449);
+  assert.ok(
+    lilly15.caveats.some((c) => /45 days/i.test(c)),
+    `the 45-day refill condition must reach the user, got: ${JSON.stringify(lilly15.caveats)}`
+  );
+});
+
 test('resolveDoseTiers prefers the specific tier over the flat one', () => {
   assert.deepEqual(resolveDoseTiers(ENGINE, 'zepbound', '2.5mg'), ['2.5mg', 'any']);
   assert.deepEqual(resolveDoseTiers(ENGINE, 'zepbound', '15mg'), ['all_other_doses', '15mg', 'any']);
@@ -287,10 +338,10 @@ test('vector 5, shipped data: the 149-vs-199 conflict is RESOLVED by direct read
   );
   assert.equal(datum.confidence, 'confirmed');
   assert.equal(datum.value, 149);
-  // Re-read on 2026-10-28, so the date moved. The runbook is explicit that
+  // Re-read on 2026-10-29, so the date moved. The runbook is explicit that
   // re-confirming is a verification event and the date must move, even where
   // the figure did not change.
-  assert.equal(datum.verified_date, '2026-10-28');
+  assert.equal(datum.verified_date, '2026-10-29');
   assert.equal(datum.candidate, undefined);
   assert.ok(datum.caveats.some((c) => /9 mg and 25 mg strengths are verified at a higher|9 mg and 25 mg strengths higher still/i.test(c) || /higher still/i.test(c)));
 
@@ -473,17 +524,19 @@ test('the introductory-pricing trap reaches the user as a caveat', () => {
   // lowest doses and the first two fills only. Omitting that is how a patient
   // ends up budgeting a number that triples. It must be on the card, not in a
   // footnote, and not only in the data file.
-  // 2026-10-28: zepbound|any|trumprx was REMOVED from this list. The prior
-  // pass carried an "INTRODUCTORY price" caveat on it that it had not been
-  // able to confirm or refute ("the introductory warning above reflects
-  // secondary reporting we could not confirm or refute on the platform page
-  // itself"). The direct read of trumprx.gov/p/zepbound refutes it: the
-  // page states no introductory period and no fill limit for Zepbound, and
-  // its price payload carries a per-strength tier structure with a 45-day
-  // refill condition instead -- unlike the Ozempic and Wegovy pen pages,
-  // which carry an explicit "Limited Time Offer" for two fills. The card
-  // still carries the real conditions: the per-strength prices and the
-  // refill penalty. See test/fixtures/sources/2026-10-28/trumprx.gov-p-zepbound.txt.
+  // 2026-10-29: zepbound was REMOVED from this list, and the reason is NOT
+  // that the prior caveat was refuted. The Zepbound offer is not an
+  // introductory offer at all. The manufacturer's own terms state a purchase
+  // offer that continues only while the refill purchase is completed within
+  // 45 days of the delivery or receipt date of the previous prescription,
+  // with the regular price stated as four hundred ninety nine dollars at
+  // 7.5 mg and six hundred ninety nine dollars at 10 mg, 12.5 mg and 15 mg
+  // once that window is missed. The TrumpRx page shows the same 45-day
+  // condition and the same contingent prices. So the Zepbound rows carry
+  // that precise restriction, not a blanket introductory warning, and not an
+  // unconditional price either. The absence of a warning on one platform
+  // says nothing about the terms on another.
+  // See test/fixtures/sources/2026-10-29/lilly.com-lillydirect-zepbound-self-pay-terms-conditions.txt.
   const checks = [
     { drug: 'wegovy_injection', dose: '0.25mg', pathway: 'novocare_self_pay' },
     { drug: 'wegovy_injection', dose: 'any', pathway: 'trumprx' },

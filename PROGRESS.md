@@ -63,3 +63,49 @@ One dated line per work block, with the real exit code of every gate that was ru
   confirm it now fails as it should.
 - After the fix, the gate scans 36 files in the deployed tree locally, the same
   set CI scans.
+
+## 2026-10-29, second pass, after review
+
+- Review finding: a visitor selecting Zepbound 15 mg was shown the $299
+  TrumpRx headline, because the price was filed under the tier name "any" and
+  the browser test selected 15 mg and asserted $299. Fixed: the TrumpRx Zepbound
+  price is now filed per strength (299 at 2.5 mg, 399 at 5 mg, 449 above), the
+  LillyDirect Zepbound rows are promoted from the manufacturer's own self-pay
+  terms, and a new test asserts all six doses against both pathways plus the
+  absence of a flat row. The browser harness now asserts $449 at 15 mg, $299 at
+  2.5 mg, and the 45-day refill condition on the LillyDirect card.
+- Review finding: the "introductory caveat refuted" rationale was wrong and is
+  withdrawn. The Zepbound offer is a purchase offer conditional on a refill
+  within 45 days, read from the manufacturer's own terms. The rows now carry
+  the precise restriction, and the verbatim source is frozen as a fixture.
+- Review finding: the evidence dates were wrong. Every read happened on
+  2026-10-29 UTC, so every `verified_date` is now 2026-10-29, the fixture
+  directory was renamed to 2026-10-29 to match the timestamps inside the files,
+  and the verification log was renamed to docs/verification-2026-10-29.md. The
+  counts were also wrong: it is 8 re-confirmed plus 13 promoted, across 47
+  figures, and the changelog lists 27 sources, not 18.
+- Review finding: the methodology banner and the TrumpRx pathway page still said
+  no verified prices were published and that the platform could not be read.
+  Both repaired, with the counts computed from the data rather than typed.
+- Review finding: the allowlist gate needed to prove it was looking at
+  something. It now asserts the deployed-file set is non-empty and carries a
+  negative control that plants a non-allowlisted link and asserts it is caught.
+  The repaired gate immediately caught a real violation in the changelog, which
+  is how the `www.accessdata.fda.gov` allowlist entry was found; that one-line
+  addition needs the owner's confirmation.
+- The Eli Lilly pages were read in the in-app browser after the scripted fetches
+  were refused with HTTP 403. Six pages were read that way: the Zepbound
+  self-pay and savings card terms, the three price-disclosure pages, the
+  LillyDirect Mounjaro page and two LillyCares pages. That is the method the
+  runbook has always prescribed for these hosts.
+- Promotions this pass: six Zepbound rows (three per pathway), the Medicare
+  Bridge copayment for four medications, the Wegovy standard-dose TrumpRx
+  price, the Foundayo TrumpRx price, and the Foundayo and Mounjaro list prices.
+  Four of the five pending rules are retired; one remains.
+- Gates, with real exit codes:
+  - `npm test` -> exit 0 (121 passed, 0 failed)
+  - `node tools/build-pages.mjs` -> exit 0
+  - `git diff --exit-code public/` -> clean after the regenerated tree was committed
+  - `node tools/qa.mjs` -> exit 0 (28 of 28 checks passed)
+  - `node tools/contrast-audit.mjs` -> exit 0
+  - `node tools/keyboard-audit.mjs` -> exit 0

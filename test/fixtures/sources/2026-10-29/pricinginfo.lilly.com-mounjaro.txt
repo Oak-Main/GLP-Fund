@@ -1,0 +1,41 @@
+SHA-256: 0eb6fcd1b9fcf3dc8f28e729589ddf0f2259c0386aeefe7842bca5476b83b272
+URL: https://pricinginfo.lilly.com/mounjaro
+Final-URL: https://pricinginfo.lilly.com/mounjaro
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29 (read in the in-app browser between 21:20Z and 22:05Z)
+Read-By: mm/glp-verify-1028 verification pass, read in the in-app browser. A scripted fetch of the Lilly hosts is refused with HTTP 403 and a bot-protection interstitial; the pages read normally in a browser, which is the method docs/ops-runbook.md has always prescribed for Lilly.
+Hash-Covers: every byte after the first line of this file
+Extraction: rendered page text, read with the browser text query.
+
+Prescribing Information Links
+How much should I expect to pay for Mounjaro® (tirzepatide)?
+
+Prescription drug prices can be confusing. Two people may pay different prices for the same drug, depending on their insurance situation.
+
+The list price1 of Mounjaro is $1,112.16 per fill, but the amount you pay will largely depend on your prescription drug insurance plan. Data on specific insurance plan pricing is not yet available. Lilly is committed to sharing the average patient out-of-pocket costs once they become available.
+
+Commercially insured patients may be eligible for the Mounjaro Savings Card program.2 Click here for more information. If you have questions about how to save on your Mounjaro prescription, or if you have additional questions, please contact Lilly Support Services™ at 1-800-LillyRx (1-800-545-5979).
+
+If your commercial or government insurance does not cover Mounjaro or if you have no insurance at all, you may be eligible for self-pay savings options. Terms and conditions apply. To learn more about ways you may be able to save, visit https://www.lilly.com/lillydirect/medicines/mounjaro.
+
+If you are interested in obtaining insurance, there are resources available to help you:
+
+To find out if you qualify for Medicaid and for information about copayments in your state, please visit: https://www.medicaid.gov/resources-for-states.
+To learn more about private individual policies via the Insurance Marketplace, please visit: https://americasmedicines.com/education/health-insurance-resources.
+
+For the most accurate information, talk to your insurance provider who knows the details of your plan.
+
+See Indication and Safety Summary, including Warnings.
+
+Go to mounjaro.lilly.com
+
+1 List price, also referred to as wholesale acquisition cost or WAC, is the price at which Lilly sells its products to wholesalers. The prices patients pay at the pharmacy may be different and largely depend on the out-of-pocket costs set by their insurance provider, pharmacy charges, and/or discounts or financial assistance that may be available to the patient. WAC from AnalySource accessed on January 1, 2026. Reprinted with permission by First Databank, Inc. All rights reserved. 2026. https://www.fdbhealth.com/policies/drug-pricing-policy. One fill is equal to a month's supply of Mounjaro which is defined as four pens per month.
+
+2 Patients with Medicaid, Medicare, Medigap, DoD, VA, TRICARE®/CHAMPUS, or any state patient or pharmaceutical assistance program are not eligible for the Mounjaro Savings Program. Patients without commercial insurance who need assistance may call The Lilly Answers Center at 1-800-LillyRx (1-800-545-5979) for information on other types of affordability solutions.
+
+To speak to customer support:
+
+Call (800) 545-5979
+
+This site is intended for US residents aged 18 or older.
+CMAT-08352 06/2026 ©Lilly USA, LLC 2026. All rights reserved.

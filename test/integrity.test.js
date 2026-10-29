@@ -124,6 +124,12 @@ const ALLOWED_HOSTS = new Set([
   'www.googletagmanager.com', 'googletagmanager.com',
   // Government, primary.
   'www.fda.gov', 'fda.gov', 'accessdata.fda.gov',
+  // The www form of FDA's AccessData service. Same organisation as the entry
+  // above, and the only one that resolves: accessdata.fda.gov without the www
+  // prefix returns no connection at all, so the entry above could never be
+  // linked. The gate compares host strings exactly rather than normalising
+  // them, because normalising would widen every other entry too.
+  'www.accessdata.fda.gov',
   'www.cms.gov', 'cms.gov', 'www.medicare.gov', 'medicare.gov',
   'www.hhs.gov', 'hhs.gov', 'aspe.hhs.gov',
   'trumprx.gov', 'www.trumprx.gov',
@@ -181,25 +187,68 @@ const EXPLICITLY_FORBIDDEN = [
 
 const URL_PATTERN = /https?:\/\/([^\s"'`)<>\]}\\]+)/g;
 
+/**
+ * Find every outbound link in a text whose host is outside the allowlist.
+ *
+ * Split out of the gate below so that the negative control can exercise the
+ * same code path without writing anything into the deployed tree.
+ *
+ * @param {string} text
+ * @param {string} label
+ * @returns {string[]}
+ */
+function findDisallowedHosts(text, label = 'text') {
+  const violations = [];
+  for (const match of text.matchAll(URL_PATTERN)) {
+    let host;
+    try {
+      host = new URL(match[0]).host.toLowerCase();
+    } catch {
+      continue;
+    }
+    if (!ALLOWED_HOSTS.has(host)) {
+      const line = text.slice(0, match.index).split('\n').length;
+      violations.push(`${label}:${line} links to non-allowlisted host "${host}"`);
+    }
+  }
+  return violations;
+}
+
+test('the allowlist gate is looking at a non-empty deployed tree', () => {
+  // A gate that collects zero files passes vacuously. The path filter used to
+  // be relative(ROOT, f).startsWith('public/'), which is false for every file
+  // on Windows because relative() emits backslashes: the gate checked
+  // nothing, reported success, and CI on Linux caught a real violation it
+  // had never looked at. Assert the set is non-empty so that cannot happen
+  // again silently.
+  assert.ok(PUBLIC_FILES.length > 20, `expected the deployed tree, collected ${PUBLIC_FILES.length} files`);
+  assert.ok(
+    PUBLIC_FILES.some((f) => f.endsWith('index.html')),
+    'expected rendered pages in the deployed tree'
+  );
+});
+
+test('the allowlist gate still catches a link it should reject', () => {
+  // The negative control. If this stops catching the planted violation,
+  // the gate above is not running and everything it reports is meaningless.
+  const planted = '<a href="https://not-allowed.example.com/price">price</a>';
+  const violations = findDisallowedHosts(planted, 'planted');
+  assert.equal(violations.length, 1, 'a planted non-allowlisted host must be caught');
+  assert.match(violations[0], /not-allowed\.example\.com/);
+  // And a primary source must not be flagged.
+  assert.deepEqual(
+    findDisallowedHosts('<a href="https://www.medicare.gov/coverage/weight-loss-drugs">x</a>'),
+    []
+  );
+});
+
 test('every outbound link in the deployed tree is a primary source', () => {
   const violations = [];
 
   for (const file of PUBLIC_FILES) {
     const text = readFileSync(file, 'utf8');
     const rel = relative(ROOT, file);
-
-    for (const match of text.matchAll(URL_PATTERN)) {
-      let host;
-      try {
-        host = new URL(match[0]).host.toLowerCase();
-      } catch {
-        continue;
-      }
-      if (!ALLOWED_HOSTS.has(host)) {
-        const line = text.slice(0, match.index).split('\n').length;
-        violations.push(`${rel}:${line} links to non-allowlisted host "${host}"`);
-      }
-    }
+    violations.push(...findDisallowedHosts(text, rel));
   }
 
   assert.deepEqual(
