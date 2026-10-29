@@ -44,3 +44,9 @@ One dated line per work block, with the real exit code of every gate that was ru
   - The browser gates need `CHROMIUM_PATH` set to a local Chrome binary on this
     machine. Without it they exit non-zero with "No Chromium found", which is an
     environment problem and not a result about the site.
+- Correction before the branch was pushed: two rows that cite a refused host had no
+  refusal recorded against them. `zepbound|any|list_price` and
+  `mounjaro|any|list_price` both cite lillydirect.lilly.com. Fixed, and the count of
+  rows carrying a refusal note is 17.
+- Both draft pull requests are open: #17 for the verification pass and #18 for the
+  year-end prices.

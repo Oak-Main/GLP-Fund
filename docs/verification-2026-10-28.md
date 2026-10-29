@@ -262,7 +262,7 @@ integrity gate enforces.
 | 6 Part D rows | unverified | unchanged, value null; each candidate block now records the read |
 | 2 pending rules | pending | retired against verbatim quotes from medicare.gov |
 | 3 pending rules | pending | still pending, with the new evidence recorded in the basis |
-| 19 rows on refused hosts | unverified | unverified; each candidate block records the refusal |
+| 17 rows on refused hosts | unverified | unverified; each candidate block records the refusal |
 
 ## 7. Gate results
 

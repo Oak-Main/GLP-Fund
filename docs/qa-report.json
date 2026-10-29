@@ -1,7 +1,7 @@
 {
-  "ranAt": "2026-09-28T14:30:04.203Z",
+  "ranAt": "2026-10-29T20:21:37.360Z",
   "viewport": "390x844",
-  "chromium": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+  "chromium": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
   "checks": [
     {
       "name": "landing page has no horizontal scroll",
@@ -29,9 +29,14 @@
       "detail": "4 cards"
     },
     {
-      "name": "shipped data renders no price as a number",
-      "pass": false,
+      "name": "shipped data: every card renders a verified number or the honest not-verified state",
+      "pass": true,
       "detail": "TrumpRx: $299 | LillyDirect Self Pay: Price not currently verified | Medicare Part D: Price not currently verified | Patient assistance program: Price not curre"
+    },
+    {
+      "name": "shipped data: TrumpRx Zepbound renders the verified $299 (first verified prices, PR #13)",
+      "pass": true,
+      "detail": "TrumpRx: $299 (Verified 2026-10-28)"
     },
     {
       "name": "every card carries a source link and a verification date",
@@ -126,21 +131,21 @@
     {
       "name": "every source URL was checked and its status recorded",
       "pass": true,
-      "detail": "10 URLs; 4 unreachable from this network"
+      "detail": "13 URLs; 4 unreachable from this network"
     }
   ],
-  "failures": 1,
+  "failures": 0,
   "urlLiveness": [
     {
       "url": "https://lillydirect.lilly.com/",
       "status": "403"
     },
     {
-      "url": "https://www.trumprx.gov/",
+      "url": "https://trumprx.gov/p/zepbound",
       "status": "200"
     },
     {
-      "url": "https://www.medicare.gov/",
+      "url": "https://www.medicare.gov/coverage/weight-loss-drugs",
       "status": "200"
     },
     {
@@ -148,16 +153,28 @@
       "status": "200"
     },
     {
+      "url": "https://www.novocare.com/delivery.html",
+      "status": "200"
+    },
+    {
+      "url": "https://trumprx.gov/p/ozempic",
+      "status": "200"
+    },
+    {
       "url": "https://www.novocare.com/pharmacy.html",
       "status": "200"
     },
     {
-      "url": "https://trumprx.gov/",
+      "url": "https://trumprx.gov/p/foundayo",
       "status": "200"
     },
     {
       "url": "https://pricinginfo.lilly.com/foundayo",
       "status": "403"
+    },
+    {
+      "url": "https://trumprx.gov/p/wegovy",
+      "status": "200"
     },
     {
       "url": "https://www.lillycares.com/",

@@ -519,7 +519,7 @@
       "notes": "Reference figure only. Sources give 1086 as WAC and approximately 1059 attributed to April 2026 published pricing. A spread in the denominator changes the headline saving, so no single figure is adopted.",
       "candidate": {
         "value": null,
-        "provenance": "Re-checked 2026-10-28: trumprx.gov/p/zepbound was read directly and displays \"Original Price $1,087.00\" beside the vial offer, and trumprx.gov/p/zepbound-kwikpen displays \"Original Price $499.00\" for the 2.5 mg and 5 mg KwikPen and \"$699.00\" for the higher strengths. The platform does not label these figures as list prices, so the conflict between the circulating manufacturer figures is not resolved and no value is adopted.",
+        "provenance": "Re-checked 2026-10-28: trumprx.gov/p/zepbound was read directly and displays \"Original Price $1,087.00\" beside the vial offer, and trumprx.gov/p/zepbound-kwikpen displays \"Original Price $499.00\" for the 2.5 mg and 5 mg KwikPen and \"$699.00\" for the higher strengths. The platform does not label these figures as list prices, so the conflict between the circulating manufacturer figures is not resolved and no value is adopted. Re-checked 2026-10-28: lillydirect.lilly.com refused (HTTP 403, bot-protection interstitial \"Just a moment...\").",
         "basis": "conflicting_secondary",
         "needs": "A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com."
       }
@@ -728,7 +728,7 @@
       "notes": "Reference figure only.",
       "candidate": {
         "value": null,
-        "provenance": "Not separately located from Zepbound reporting. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served \"no healthy upstream\"; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required.",
+        "provenance": "Not separately located from Zepbound reporting. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served \"no healthy upstream\"; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required. Re-checked 2026-10-28: lillydirect.lilly.com refused (HTTP 403, bot-protection interstitial \"Just a moment...\").",
         "basis": "unretrieved",
         "needs": "A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com."
       }
