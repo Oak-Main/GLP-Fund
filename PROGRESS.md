@@ -50,3 +50,16 @@ One dated line per work block, with the real exit code of every gate that was ru
   rows carrying a refusal note is 17.
 - Both draft pull requests are open: #17 for the verification pass and #18 for the
   year-end prices.
+- CI caught what the local gate could not. The allowlist gate in
+  `test/integrity.test.js` filtered the deployed tree with
+  `relative(ROOT, f).startsWith('public/')`. On Windows `relative()` emits
+  backslashes, so that expression is false for every file and the gate scanned
+  ZERO files and passed vacuously. CI, on Linux, caught a real non-allowlisted
+  host in the deployed tree: the changelog cited `www.accessdata.fda.gov`, and the
+  allowlist carries `accessdata.fda.gov` without the www prefix. The link was
+  removed rather than the allowlist widened, because `accessdata.fda.gov` without
+  the www prefix does not resolve, and a dead link is worse than no link. The
+  gate's path check was fixed and a planted non-allowlisted link was used to
+  confirm it now fails as it should.
+- After the fix, the gate scans 36 files in the deployed tree locally, the same
+  set CI scans.

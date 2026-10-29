@@ -43,7 +43,12 @@ function collectFiles(dir, out = []) {
 }
 
 const ALL_FILES = collectFiles(ROOT);
-const PUBLIC_FILES = ALL_FILES.filter((f) => relative(ROOT, f).startsWith('public/'));
+// The path check must not assume a forward slash. relative() emits the
+// platform separator, so on Windows startsWith('public/') is false for every
+// file and this gate scanned NOTHING: it passed vacuously while CI, running
+// on Linux, caught a real non-allowlisted host in the deployed tree.
+// Split on either separator and compare the first segment.
+const PUBLIC_FILES = ALL_FILES.filter((f) => relative(ROOT, f).split(/[\\/]/)[0] === 'public');
 
 test('the repository has files to check', () => {
   assert.ok(ALL_FILES.length > 5, `expected a populated tree, found ${ALL_FILES.length} files`);
