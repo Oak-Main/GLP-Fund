@@ -457,16 +457,16 @@
       "drug": "zepbound",
       "dose_or_tier": "any",
       "pathway": "trumprx",
-      "source_url": "https://www.trumprx.gov/",
+      "source_url": "https://trumprx.gov/p/zepbound",
       "source_type": "primary_government",
-      "verified_date": "2026-09-28",
+      "verified_date": "2026-10-28",
       "confidence": "confirmed",
-      "notes": "Direct read of the federal TrumpRx platform. A November 2025 announcement had described a higher figure, which the current listing supersedes.",
+      "notes": "Direct read of the federal TrumpRx platform, 2026-10-28. The platform states the price per strength and the refill condition.",
       "caveats": [
-        "The low figure widely quoted for this pathway is reported to be an INTRODUCTORY price that applies to the two starting doses only, and only for the first two monthly fills. After that it is reported to rise substantially. Do not budget it as your ongoing cost.",
-        "Price as displayed on the federal platform on September 28, 2026, beside a reference figure of roughly one thousand ninety dollars. The listing states no dose split, fill limits, or introductory conditions; the introductory warning above reflects secondary reporting we could not confirm or refute on the platform page itself."
+        "This row holds the 2.5 mg single-dose vial figure. The platform also states three hundred ninety nine dollars for the 5 mg vial, and four hundred forty nine dollars for the 7.5 mg, 10 mg, 12.5 mg and 15 mg vials. Budget the figure for your exact strength.",
+        "The platform states a refill condition at the higher strengths: if more than 45 days pass since your last delivery or receipt of the product, the price becomes four hundred ninety nine dollars at 7.5 mg and six hundred ninety nine dollars at 10 mg and above."
       ],
-      "reverifyBy": "2026-10-31"
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": null,
@@ -587,16 +587,16 @@
       "drug": "ozempic",
       "dose_or_tier": "any",
       "pathway": "trumprx",
-      "source_url": "https://www.trumprx.gov/",
+      "source_url": "https://trumprx.gov/p/ozempic",
       "source_type": "primary_government",
-      "verified_date": "2026-09-28",
+      "verified_date": "2026-10-28",
       "confidence": "confirmed",
-      "notes": "Direct read of the federal TrumpRx platform, 2026-09-28.",
+      "notes": "Direct read of the federal TrumpRx platform, 2026-10-28. The platform states the price per strength and the introductory terms.",
       "caveats": [
-        "The low figure widely quoted for this pathway is reported to be an INTRODUCTORY price that applies to the two starting doses only, and only for the first two monthly fills. After that it is reported to rise substantially. Do not budget it as your ongoing cost.",
-        "Price as displayed on the federal platform on September 28, 2026, beside a reference figure of roughly one thousand thirty dollars. The listing states no dose split, fill limits, or introductory conditions; the introductory warning above reflects secondary reporting we could not confirm or refute on the platform page itself."
+        "This is an INTRODUCTORY price, and the platform states its terms: new self-pay patients pay this figure for the first two monthly fills of the 0.25 mg or 0.5 mg strengths, and the offer runs only between 11/17/2025 and 12/31/2026. Do not budget it as your ongoing cost.",
+        "The platform states that after those fills the price is three hundred forty nine dollars per month for the 0.25 mg, 0.5 mg and 1 mg strengths, and four hundred ninety nine dollars per month for the 2 mg strength. One month is one box of one pen."
       ],
-      "reverifyBy": "2026-10-31"
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": null,
@@ -906,22 +906,22 @@
       }
     },
     {
-      "value": null,
+      "value": 149,
       "unit": "USD/month",
       "drug": "foundayo",
       "dose_or_tier": "any",
       "pathway": "trumprx",
-      "source_url": "https://trumprx.gov/",
+      "source_url": "https://trumprx.gov/p/foundayo",
       "source_type": "primary_government",
-      "verified_date": "2026-07-30",
-      "confidence": "unverified",
-      "notes": "A product page for this medication is reported to exist on the federal platform. The platform could not be read.",
-      "candidate": {
-        "value": null,
-        "provenance": "A Foundayo product page was located on trumprx.gov. No price was obtained. This pathway was missing entirely from an earlier version of this file, which is a coverage gap rather than a wrong price.",
-        "basis": "secondary_press",
-        "needs": "A direct read of the trumprx.gov Foundayo product page."
-      }
+      "verified_date": "2026-10-28",
+      "confidence": "confirmed",
+      "notes": "Direct read of the federal TrumpRx platform, 2026-10-28. This is the starting-strength figure, shared by the 0.8 mg and 2.5 mg tablets.",
+      "caveats": [
+        "This row holds the 0.8 mg and 2.5 mg tablet figures. The platform also states one hundred ninety nine dollars for the 5.5 mg strength, and two hundred ninety nine dollars for the 9 mg, 14.5 mg and 17.2 mg strengths. One bottle of 30 tablets is the fill quantity.",
+        "The platform states that the 2.5 mg price is temporarily reduced through December 31, 2026 and that the regular price is one hundred ninety nine dollars, and that the 5.5 mg price is temporarily reduced through December 31, 2026 and that the regular price is two hundred ninety nine dollars. Those are year-end changes, not permanent prices.",
+        "At the 14.5 mg and 17.2 mg strengths the platform states a refill condition: if more than 45 days pass since your last delivery or receipt of the product, the price becomes three hundred forty nine dollars."
+      ],
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": null,
@@ -969,37 +969,33 @@
       "drug": "wegovy_injection",
       "dose_or_tier": "low_doses",
       "pathway": "trumprx",
-      "source_url": "https://www.trumprx.gov/",
+      "source_url": "https://trumprx.gov/p/wegovy",
       "source_type": "primary_government",
-      "verified_date": "2026-09-28",
+      "verified_date": "2026-10-28",
       "confidence": "confirmed",
-      "notes": "Direct read of the federal TrumpRx platform, 2026-09-28.",
+      "notes": "Direct read of the federal TrumpRx platform, 2026-10-28. The platform states the price per strength and the introductory terms.",
       "caveats": [
-        "The low figure widely quoted for this pathway is reported to be an INTRODUCTORY price that applies to the two starting doses only, and only for the first two monthly fills. After that it is reported to rise substantially. Do not budget it as your ongoing cost.",
-        "Price as displayed on the federal platform on September 28, 2026, beside a reference figure of roughly one thousand three hundred fifty dollars. The listing states no dose split, fill limits, or introductory conditions; the introductory warning above reflects secondary reporting we could not confirm or refute on the platform page itself."
+        "This is an INTRODUCTORY price. The platform states that new patients pay this figure for the first two monthly fills of the 0.25 mg and 0.5 mg strengths, and that the offer runs only between 11/17/2025 and 12/31/2026. Do not budget it as your ongoing cost.",
+        "The platform states that after those fills the price is three hundred forty nine dollars per month for the 0.25 mg, 0.5 mg, 1 mg, 1.7 mg and 2.4 mg strengths, and three hundred ninety nine dollars per month for the 7.2 mg Wegovy HD strength. One month is one box of four pens."
       ],
-      "reverifyBy": "2026-10-31"
+      "reverifyBy": "2026-11-30"
     },
     {
-      "value": null,
+      "value": 349,
       "unit": "USD/month",
       "drug": "wegovy_injection",
       "dose_or_tier": "standard_doses",
       "pathway": "trumprx",
-      "source_url": "https://trumprx.gov/",
+      "source_url": "https://trumprx.gov/p/wegovy",
       "source_type": "primary_government",
-      "verified_date": "2026-07-30",
-      "confidence": "unverified",
-      "notes": "TrumpRx read 2026-09-28 shows a single Wegovy pen price with no dose tiering; no standard-dose-specific figure is separately stated on the platform. See the low-doses row on this pathway.",
+      "verified_date": "2026-10-28",
+      "confidence": "confirmed",
+      "notes": "Direct read of the federal TrumpRx platform, 2026-10-28. The platform states this figure for the 1 mg, 1.7 mg and 2.4 mg strengths.",
       "caveats": [
-        "IMPORTANT: the low figure you have probably seen advertised for this pathway is reported NOT to apply to this dose at all. It is reported to cover only the two starting doses. At this dose the higher price is reported to apply from your FIRST fill, not after a promotional period. Arriving at the counter expecting the advertised figure could mean a difference of roughly 150 dollars on day one. Confirm your dose price before you fill."
+        "IMPORTANT: the lower figure advertised for this pathway does NOT apply to this dose. It covers only the two starting strengths, and only for the first two monthly fills. At this dose the higher price applies from your FIRST fill, not after a promotional period. Arriving at the counter expecting the advertised figure could mean a difference of roughly 150 dollars on day one. Confirm your dose price before you fill.",
+        "The platform also states three hundred ninety nine dollars per month for the 7.2 mg Wegovy HD strength, which is a separate tier from this one."
       ],
-      "candidate": {
-        "value": null,
-        "provenance": "Direct read of trumprx.gov on 2026-09-28: the platform lists one Wegovy pen price with no dose split, so a standard-dose-specific figure cannot be confirmed separately. Previously circulating secondary figures remain unconfirmed.",
-        "basis": "secondary_press",
-        "needs": "A direct read of the trumprx.gov Wegovy product page, per dose."
-      }
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": null,

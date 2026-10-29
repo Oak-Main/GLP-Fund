@@ -66,7 +66,9 @@ test('the shipped dataset publishes numbers only from the verified allowlist, by
   // a value may exist ONLY on a row confirmed in this file's pass, and the
   // provenance suite (test/provenance.test.js) holds every published number
   // to a primary source, a date, and a deleted candidate block.
-  const VERIFIED_2026_09_28 = new Set([
+  // 2026-10-28: the second verification pass read trumprx.gov directly and
+  // added two rows to the allowlist. Every added row names the exact page read.
+  const VERIFIED_2026_10_28 = new Set([
     'zepbound|any|trumprx',
     'ozempic|any|novocare_self_pay',
     'ozempic|any|trumprx',
@@ -74,18 +76,20 @@ test('the shipped dataset publishes numbers only from the verified allowlist, by
     'wegovy_pill|higher_doses|novocare_self_pay',
     'wegovy_injection|low_doses|novocare_self_pay',
     'wegovy_injection|standard_doses|novocare_self_pay',
+    'foundayo|any|trumprx',
     'wegovy_injection|low_doses|trumprx',
+    'wegovy_injection|standard_doses|trumprx',
   ]);
   const numeric = SHIPPED.prices.filter((p) => p.value !== null);
   assert.deepEqual(
     numeric.map((p) => `${p.drug}|${p.dose_or_tier}|${p.pathway}`),
-    [...VERIFIED_2026_09_28],
+    [...VERIFIED_2026_10_28],
     'A shipped price may carry a value only when confirmed against a primary source in a recorded pass.'
   );
   const confirmed = SHIPPED.prices.filter((p) => p.confidence === 'confirmed');
   assert.deepEqual(
     confirmed.map((p) => `${p.drug}|${p.dose_or_tier}|${p.pathway}`),
-    [...VERIFIED_2026_09_28]
+    [...VERIFIED_2026_10_28]
   );
 });
 
@@ -447,12 +451,22 @@ test('the introductory-pricing trap reaches the user as a caveat', () => {
   // lowest doses and the first two fills only. Omitting that is how a patient
   // ends up budgeting a number that triples. It must be on the card, not in a
   // footnote, and not only in the data file.
+  // 2026-10-28: zepbound|any|trumprx was REMOVED from this list. The prior
+  // pass carried an "INTRODUCTORY price" caveat on it that it had not been
+  // able to confirm or refute ("the introductory warning above reflects
+  // secondary reporting we could not confirm or refute on the platform page
+  // itself"). The direct read of trumprx.gov/p/zepbound refutes it: the
+  // page states no introductory period and no fill limit for Zepbound, and
+  // its price payload carries a per-strength tier structure with a 45-day
+  // refill condition instead -- unlike the Ozempic and Wegovy pen pages,
+  // which carry an explicit "Limited Time Offer" for two fills. The card
+  // still carries the real conditions: the per-strength prices and the
+  // refill penalty. See test/fixtures/sources/2026-10-28/trumprx.gov-p-zepbound.txt.
   const checks = [
     { drug: 'wegovy_injection', dose: '0.25mg', pathway: 'novocare_self_pay' },
     { drug: 'wegovy_injection', dose: 'any', pathway: 'trumprx' },
     { drug: 'ozempic', dose: 'any', pathway: 'trumprx' },
     { drug: 'ozempic', dose: 'any', pathway: 'novocare_self_pay' },
-    { drug: 'zepbound', dose: 'any', pathway: 'trumprx' },
   ];
 
   for (const c of checks) {
