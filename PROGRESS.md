@@ -109,3 +109,11 @@ One dated line per work block, with the real exit code of every gate that was ru
   - `node tools/qa.mjs` -> exit 0 (28 of 28 checks passed)
   - `node tools/contrast-audit.mjs` -> exit 0
   - `node tools/keyboard-audit.mjs` -> exit 0
+- The year-end branch surfaced a layout defect the base branch also had: a
+  changelog entry names the exact page a figure was read from, so its prose
+  carries full URLs, and a URL is one unbreakable word. The changelog page was
+  419px wide in a 390px viewport. The base branch's own changelog had the same
+  fault and had not been through the browser gate since that entry was
+  rewritten. Fixed with a scoped `overflow-wrap: break-word` on the changelog
+  list, so no other page's typography moves, and the QA harness now reports
+  which element overflowed instead of only how wide the page was.

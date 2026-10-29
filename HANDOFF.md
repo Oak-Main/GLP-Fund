@@ -118,6 +118,15 @@ immediately caught a real violation in the changelog, which is how the
 verified prices were published and that the platform could not be read. Both
 are repaired, with the counts computed from the data rather than typed.
 
+**A changelog entry pushed its page sideways on a phone.** Each entry names the
+exact page a figure was read from, so its prose carries full URLs, and a URL is
+one unbreakable word: the changelog measured 419px wide in a 390px viewport.
+The base branch's own changelog had the same fault, and had not been through
+the browser gate since that entry was rewritten. Fixed with a scoped
+`overflow-wrap: break-word` on the changelog list, so no other page's
+typography moves. The QA harness now names the element that overflowed instead
+of only reporting how wide the page was.
+
 ## How to run it
 
 ```
