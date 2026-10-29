@@ -1633,7 +1633,7 @@ function buildChangelog() {
       (entry) => `
   <h2>${esc(entry.date)} &mdash; ${esc(entry.title)}</h2>
   <p>${esc(entry.summary)}</p>
-  <ul>
+  <ul class="changelog__changes">
     ${entry.changes.map((c) => `<li>${esc(c)}</li>`).join('\n    ')}
   </ul>
   ${
