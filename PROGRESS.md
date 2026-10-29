@@ -117,3 +117,14 @@ One dated line per work block, with the real exit code of every gate that was ru
   rewritten. Fixed with a scoped `overflow-wrap: break-word` on the changelog
   list, so no other page's typography moves, and the QA harness now reports
   which element overflowed instead of only how wide the page was.
+- CI could not be given a runner for the last pushes. Every workflow in the
+  repository, including the CodeQL and Analyze workflows that have nothing to do
+  with this work, failed in two seconds with `steps: []` and `runner_id: 0`,
+  which is a GitHub Actions outage and not a result about the code. The last
+  green CI run on the verification branch was the gate repair, and the only
+  genuine CI failure in this pass was the non-allowlisted host the repaired
+  gate then caught. The local gates were run against the exact final tree of
+  both branches instead: `npm test` 121 passed, `node tools/qa.mjs` 28 of 28,
+  contrast and keyboard exit 0, and `git diff --exit-code public/` clean. The
+  runs were re-requested and will report themselves on the pull requests when
+  a runner is available.
