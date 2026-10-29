@@ -98,7 +98,12 @@ test('the shipped dataset publishes numbers only from the verified allowlist, by
 });
 
 test('the shipped dataset states its verification status out loud', () => {
-  assert.equal(SHIPPED.verification.status, 'primary_sources_unreachable');
+  // 2026-10-28: the pass confirmed 14 of 45 figures from primary sources.
+  // The status is no longer "primary_sources_unreachable" because the
+  // federal platform, medicare.gov and the Novo pages were all read
+  // directly; it is not "verified" either, because every Eli Lilly property
+  // refused an automated read and 28 figures are still unverified.
+  assert.equal(SHIPPED.verification.status, 'partially_verified');
   assert.match(SHIPPED.verification.summary, /unverified/);
   assert.ok(SHIPPED.verification.discrepancyReport, 'must point at the discrepancy report');
 });

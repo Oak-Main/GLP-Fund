@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28",
+  "generatedAt": "2026-10-28",
   "verification": {
-    "status": "primary_sources_unreachable",
-    "summary": "Partial verification achieved 2026-09-28: the NovoCare Pharmacy page (novocare.com/pharmacy.html) and the federal TrumpRx platform (trumprx.gov) were read directly and eight figures were confirmed with their conditions. Every Lilly-sourced figure remains unverified: lillydirect.lilly.com, zepbound.lilly.com and the other Lilly properties refused both automated readers (HTTP 403, gateway errors, timeouts). Any figure not marked confirmed still renders no price.",
+    "status": "partially_verified",
+    "summary": "Verification pass 2026-10-28: 14 of 45 figures are confirmed from a direct read of a primary source, 3 remain conflicting and 28 remain unverified. The federal TrumpRx platform, medicare.gov, novocare.com, ozempic.com and aspe.hhs.gov were all read directly on 2026-10-28, and the Medicare GLP-1 Bridge programme is now confirmed at fifty dollars per month. Every Eli Lilly property refused an automated read with HTTP 403, so the LillyDirect, LillyCares and Lilly pricing figures stay unverified; they are listed for a browser read in OWNER_STEPS.md. Any figure not marked confirmed still renders no price.",
     "candidateFieldMeaning": "Each datum may carry a `candidate` block: the figure research located, with the provenance actually held for it. The engine NEVER reads `candidate`. It exists so /methodology/ can show its work and so a single verification pass can promote a figure with no code change.",
     "promotionProcedure": "docs/ops-runbook.md, section 'Promoting a candidate figure'",
     "discrepancyReport": "docs/discrepancy-report.md"
