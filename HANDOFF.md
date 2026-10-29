@@ -62,12 +62,14 @@ read directly and frozen as fixtures with a SHA-256 line at the top each.
 
 - Every host in `docs/ops-runbook.md` section 1.1 probed, at most two retries
   each. The log is in `docs/verification-2026-10-29.md`.
-- 13 rows promoted to confirmed: six Zepbound rows (three per pathway), the
+- 14 rows promoted to confirmed: six Zepbound rows (three per pathway), the
   Medicare Bridge copayment for four medications, the Wegovy standard-dose
   TrumpRx price, the Foundayo TrumpRx price, and the Foundayo and Mounjaro list
-  prices.
-- 8 rows re-confirmed. The date moved to 2026-10-29 on every one of them,
-  because re-confirming is a verification event.
+  prices. The flat TrumpRx Zepbound row was replaced by three per-strength rows,
+  which is why the count of tracked figures rose from 45 to 47.
+- 7 rows re-confirmed at the same figure. The date moved to 2026-10-29 on every
+  one of them, because re-confirming is a verification event. 14 promoted and 7
+  re-confirmed is the 21 confirmed.
 - 4 of the 5 pending eligibility rules retired against verbatim quotes: two from
   medicare.gov and two from the manufacturer's own savings card terms. The
   `verificationDebt` assertion now pins the one remaining pending rule id.

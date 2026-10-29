@@ -12,6 +12,10 @@ The figure count changed because the TrumpRx Zepbound price is now filed per
 strength instead of once under the tier name "any". That is the correction
 described in section 2.
 
+The 21 confirmed are 14 newly promoted rows and 7 rows re-confirmed at the same
+figure. The eighth row confirmed before this pass, the flat TrumpRx Zepbound
+row, was replaced by three per-strength rows, which is the two extra figures.
+
 ## 1. Egress probe
 
 The egress allowlist in the runbook had never been applied: the 2026-07-30 pass
@@ -388,7 +392,7 @@ outside the allowlist, which the integrity gate enforces.
 | `zepbound\|any\|list_price` | conflicting | unverified, with the manufacturer's range in the notes |
 | `ozempic\|any\|list_price` | conflicting | unchanged; the read is recorded |
 | `mounjaro\|any\|lillydirect_self_pay` | unverified | unchanged; the read is recorded, and the figure is a bound |
-| 8 other confirmed rows | confirmed at the same figure | re-confirmed, date moved to 2026-10-29, conditions replaced with the source's own |
+| 7 other confirmed rows | confirmed at the same figure | re-confirmed, date moved to 2026-10-29, conditions replaced with the source's own |
 | 3 list-price and 6 Part D rows | unverified or conflicting | unchanged in value; each candidate block records the read |
 | 3 copay-card rows | unverified | unchanged in value; each candidate block records the read and the bound |
 | 4 pending rules | pending | retired against verbatim quotes |
