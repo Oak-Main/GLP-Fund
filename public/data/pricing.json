@@ -202,7 +202,7 @@
       "reason": "Manufacturer savings cards exclude anyone enrolled in a federal healthcare program, including Medicare, Medicaid, TRICARE and VA coverage. This pathway is not available to you.",
       "sourceUrl": "https://lillydirect.lilly.com/",
       "verification": "pending_primary_verification",
-      "basis": "Every manufacturer copay card program in this category carries a federal-healthcare-program exclusion in its terms and conditions. The verbatim sentence could not be retrieved on 2026-07-30 because the egress policy denied access to every manufacturer domain. Applying this rule narrows options rather than widening them, which is the safe direction: its absence would tell a Medicare beneficiary that a low copay is available to them when it is not."
+      "basis": "Every manufacturer copay card program in this category carries a federal-healthcare-program exclusion in its terms and conditions. The verbatim sentence could not be retrieved on 2026-07-30 because the egress policy denied access to every manufacturer domain. Applying this rule narrows options rather than widening them, which is the safe direction: its absence would tell a Medicare beneficiary that a low copay is available to them when it is not. Partially evidenced 2026-10-28: ozempic.com was read directly and states \"Patients enrolled in federal or state health care programs, such as Medicaid, are not eligible for the Ozempic® pay as little as $25 offer.\" The cited Lilly terms were refused (HTTP 403), so the rule is not retired: it still governs the Lilly savings cards, whose own terms have not been read."
     },
     {
       "id": "copay-card-requires-commercial-coverage",
@@ -219,7 +219,7 @@
       "reason": "A manufacturer savings card requires commercial insurance. It cannot be used without coverage.",
       "sourceUrl": "https://lillydirect.lilly.com/",
       "verification": "pending_primary_verification",
-      "basis": "Copay assistance is by construction a cost-share reducer applied on top of commercial coverage, so it has no function for an uninsured purchaser. Verbatim terms unretrievable on 2026-07-30 under the egress blockade."
+      "basis": "Copay assistance is by construction a cost-share reducer applied on top of commercial coverage, so it has no function for an uninsured purchaser. Verbatim terms unretrievable on 2026-07-30 under the egress blockade. Partially evidenced 2026-10-28: ozempic.com was read directly and states \"Commercially insured patients with Ozempic® coverage can pay as little as $25/month, saving up to $100/month for up to 48 months\" and names the offer \"Ozempic® Savings Card - Commercially Insured\". The cited Lilly terms were refused (HTTP 403), so the rule is not retired: it still governs the Lilly savings cards, whose own terms have not been read."
     },
     {
       "id": "medicare-bridge-requires-medicare",
@@ -532,14 +532,14 @@
       "pathway": "copay_card",
       "source_url": "https://www.novocare.com/",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-07-30",
+      "verified_date": "2026-10-28",
       "confidence": "unverified",
       "notes": "Requires commercial insurance. Amount depends on whether your plan covers the weight-management indication.",
       "candidate": {
         "value": null,
-        "provenance": "Direct read of novocare.com/pharmacy.html on 2026-09-28 confirms the insured offer as a bound, not a price: \"Pay as little as $25 per month for up to 3 months\", capped at \"a maximum savings of $100/month\" (exact source wording held here; card prose stays number-free by policy). Value stays null because a bound is not a price.",
-        "basis": "primary_read_bound",
-        "needs": "Verbatim capture of the covered-vs-not-covered distinction and the federal-program exclusion sentence from the product savings pages, which still refused automated readers."
+        "provenance": "Direct read of novocare.com on 2026-10-28 confirms the insured offer as a bound, not a price: \"Pay as little as $25, subject to a maximum savings of $100/month. Government beneficiaries excluded. One month is defined as 1 box of 4 pens of Wegovy® and 1 bottle of 30 tablets of Wegovy®.\" Value stays null because a bound is not a price.",
+        "basis": "primary_manufacturer_bound",
+        "needs": "A single copay figure from the manufacturer terms. The offer is expressed as a bound with a maximum monthly saving, so no single price is defensible."
       }
     },
     {
@@ -566,15 +566,15 @@
       "drug": "ozempic",
       "dose_or_tier": "any",
       "pathway": "novocare_self_pay",
-      "source_url": "https://www.novocare.com/pharmacy.html",
+      "source_url": "https://www.novocare.com/delivery.html",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-09-28",
+      "verified_date": "2026-10-28",
       "confidence": "confirmed",
-      "notes": "Direct cash-pay price for the type 2 diabetes indication. Verified introductory self-pay price on the NovoCare Pharmacy page.",
+      "notes": "Direct cash-pay price for the type 2 diabetes indication, read on the NovoCare Pharmacy page on 2026-10-28 (https://www.novocare.com/pharmacy.html now redirects to /delivery.html).",
       "caveats": [
-        "This is an INTRODUCTORY price for the two starting doses (0.25 mg and 0.5 mg), for the first two monthly fills, verified to run through December 31, 2026. Afterward the verified ongoing prices are roughly three hundred fifty dollars per month for the 0.25 mg, 0.5 mg and 1 mg strengths, and roughly five hundred dollars per month for the 2 mg strength. One month equals one box of one pen. Do not budget the introductory figure as your ongoing cost."
+        "This is an INTRODUCTORY price. The manufacturer states that patients new to the Ozempic Savings Offer and NovoCare home delivery pay this figure for each month of 0.25 mg and 0.5 mg, for two monthly fills through December 31, 2026. Afterward the ongoing price is three hundred forty nine dollars per month for the 0.25 mg, 0.5 mg and 1 mg strengths, and four hundred ninety nine dollars per month for the 2 mg strength. One month is one box of one pen. Do not budget the introductory figure as your ongoing cost."
       ],
-      "reverifyBy": "2026-10-31"
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": 199,
@@ -601,14 +601,14 @@
       "pathway": "copay_card",
       "source_url": "https://www.novocare.com/",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-07-30",
+      "verified_date": "2026-10-28",
       "confidence": "unverified",
       "notes": "Requires commercial insurance covering the type 2 diabetes indication.",
       "candidate": {
         "value": null,
-        "provenance": "Direct read of novocare.com/pharmacy.html on 2026-09-28 confirms the insured offer as a bound, not a price: \"Pay as little as $25 per month for up to 3 months\", capped at \"a maximum savings of $100/month\" (exact source wording held here; card prose stays number-free by policy). Value stays null because a bound is not a price.",
-        "basis": "primary_read_bound",
-        "needs": "Verbatim capture of the covered-vs-not-covered distinction and the federal-program exclusion sentence from the product savings pages, which still refused automated readers."
+        "provenance": "Re-read 2026-10-28 on ozempic.com/savings-and-resources/save-on-ozempic.html, read directly: \"Pay as little as $25, subject to a maximum savings of $100/month. Eligibility and restrictions apply. Government beneficiaries excluded.\" and \"Commercially insured patients with Ozempic® coverage can pay as little as $25/month, saving up to $100/month for up to 48 months\". Value stays null because \"as little as\" is a bound, not a price.",
+        "basis": "primary_manufacturer_bound",
+        "needs": "A single copay figure from the manufacturer terms. The offer is expressed as a bound with a maximum monthly saving, so no single price is defensible."
       }
     },
     {
@@ -637,13 +637,13 @@
       "pathway": "novocare_self_pay",
       "source_url": "https://www.novocare.com/pharmacy.html",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-09-28",
+      "verified_date": "2026-10-28",
       "confidence": "confirmed",
       "notes": "Oral starting strength, verified on the NovoCare Pharmacy page. Higher strengths carry higher verified figures on the same page.",
       "caveats": [
-        "This figure is the verified 1.5 mg starting strength only. The 4 mg strength is verified at a higher figure, and the 9 mg and 25 mg strengths higher still, on the same pharmacy page. Budget the figure for your exact strength."
+        "This figure is the verified 1.5 mg starting strength only. The manufacturer states one hundred ninety nine dollars per month for the 4 mg strength, and the 9 mg and 25 mg strengths are verified at a higher figure, roughly three hundred dollars per month, on the same pharmacy page. Budget the figure for your exact strength."
       ],
-      "reverifyBy": "2026-10-31"
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": 199,
@@ -653,13 +653,13 @@
       "pathway": "novocare_self_pay",
       "source_url": "https://www.novocare.com/pharmacy.html",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-09-28",
+      "verified_date": "2026-10-28",
       "confidence": "confirmed",
       "notes": "Oral doses above the starting strength. This row holds the verified 4 mg strength figure; the two highest strengths are verified higher on the same page.",
       "caveats": [
         "This is the verified 4 mg strength figure. The 9 mg and 25 mg strengths are verified at roughly three hundred dollars per month on the same pharmacy page. If you take one of those strengths, budget the higher figure."
       ],
-      "reverifyBy": "2026-10-31"
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": null,
@@ -741,13 +741,13 @@
       "pathway": "novocare_self_pay",
       "source_url": "https://www.novocare.com/pharmacy.html",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-09-28",
+      "verified_date": "2026-10-28",
       "confidence": "confirmed",
       "notes": "Lowest two doses (0.25 mg and 0.5 mg). Verified introductory self-pay price on the NovoCare Pharmacy page.",
       "caveats": [
-        "This is an INTRODUCTORY price for the two starting doses only, and only for the first two monthly fills. The offer is verified to run through December 31, 2026. After those fills the ongoing price is the standard-doses figure on this pathway. Do not budget the introductory figure as your ongoing cost. One month equals one box of four pens."
+        "This is an INTRODUCTORY price for the two starting doses only, and only for the first two monthly fills. The manufacturer states the offer runs through December 31, 2026, and that patients new to the Wegovy Savings Offer and NovoCare home delivery pay this figure for each month of 0.25 mg and 0.5 mg. After those fills the ongoing price is the standard-doses figure on this pathway. Do not budget the introductory figure as your ongoing cost. One month equals one box of four pens."
       ],
-      "reverifyBy": "2026-10-31"
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": 349,
@@ -757,13 +757,13 @@
       "pathway": "novocare_self_pay",
       "source_url": "https://www.novocare.com/pharmacy.html",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-09-28",
+      "verified_date": "2026-10-28",
       "confidence": "confirmed",
       "notes": "Doses from 1 mg upward. Verified ongoing self-pay price on the NovoCare Pharmacy page.",
       "caveats": [
-        "This is the ongoing non-introductory price for the 0.25 mg through 2.4 mg strengths. The highest strength, Wegovy HD at 7.2 mg, is verified at a higher figure, roughly four hundred dollars per month, on the same pharmacy page. One month equals one box of four pens."
+        "This is the ongoing non-introductory price for the 0.25 mg through 2.4 mg strengths. The manufacturer states three hundred forty nine dollars per month for those strengths and three hundred ninety nine dollars per month for Wegovy HD at 7.2 mg. One month equals one box of four pens."
       ],
-      "reverifyBy": "2026-10-31"
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": 50,

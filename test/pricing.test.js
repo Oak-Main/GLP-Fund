@@ -282,7 +282,10 @@ test('vector 5, shipped data: the 149-vs-199 conflict is RESOLVED by direct read
   );
   assert.equal(datum.confidence, 'confirmed');
   assert.equal(datum.value, 149);
-  assert.equal(datum.verified_date, '2026-09-28');
+  // Re-read on 2026-10-28, so the date moved. The runbook is explicit that
+  // re-confirming is a verification event and the date must move, even where
+  // the figure did not change.
+  assert.equal(datum.verified_date, '2026-10-28');
   assert.equal(datum.candidate, undefined);
   assert.ok(datum.caveats.some((c) => /9 mg and 25 mg strengths are verified at a higher|9 mg and 25 mg strengths higher still/i.test(c) || /higher still/i.test(c)));
 
