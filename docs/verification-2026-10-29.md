@@ -6,7 +6,7 @@ read directly, and every figure it confirmed or refuted was applied to
 `public/data/pricing.json` under section 1.3.
 
 **Before this pass:** 8 confirmed, 3 conflicting, 34 unverified, across 45 figures.
-**After this pass:** 21 confirmed, 2 conflicting, 24 unverified, across 47 figures.
+**After this pass:** 26 confirmed, 1 conflicting, 20 unverified, across 47 figures.
 
 The figure count changed because the TrumpRx Zepbound price is now filed per
 strength instead of once under the tier name "any". That is the correction
@@ -330,6 +330,30 @@ matches the timestamps inside the files, and the document to
 `docs/verification-2026-10-29.md`. The branch name was left as the lane
 specified it; it is an identifier, not an evidence claim.
 
+## 4b. The reads of the second round
+
+After the review, the remaining pages were read and the following changed.
+
+| Read | What it gave |
+| --- | --- |
+| Foundayo on LillyDirect and its full terms | Four rows promoted: 149 at 0.8 mg, 149 at 2.5 mg, 299 for the mid doses, 299 for the top doses. The terms state the regular price per strength, the temporary reductions on the 2.5 mg and 5.5 mg doses through 2026-12-31, and the 45-day refill condition on the 14.5 mg and 17.2 mg doses. |
+| Lilly Cares available medications and eligibility | The last pending rule retired. The income limits are published as 300%, 400% or 500% of the 2026 federal poverty guidelines, by medication group. The published groups do not include Zepbound, Mounjaro or Foundayo, so that programme does not cover them. |
+| Mounjaro self-pay at a named strength | The page shows the same figure, 499 per month, at every strength from 2.5 mg to 15 mg. Promoted. |
+| novonordiskpap.com | **The host does not resolve in DNS.** The programme now lives at novocare.com/diabetes/help-with-costs/pap.html, which was read: the income limits are published, at 200% of the federal poverty level for an uninsured patient on Ozempic and 400% for any other medicine, with the insurance conditions. |
+| Novo Nordisk's own Ozempic price guide | The self-pay and savings prices and no list price, so the Ozempic list price stays conflicting. |
+
+## 4b. The reads of the second round
+
+After the review, the remaining pages were read and the following changed.
+
+| Read | What it gave |
+| --- | --- |
+| Foundayo on LillyDirect and its full terms | Four rows promoted: 149 at 0.8 mg, 149 at 2.5 mg, 299 for the mid doses, 299 for the top doses. The terms state the regular price per strength, the temporary reductions on the 2.5 mg and 5.5 mg doses through 2026-12-31, and the 45-day refill condition on the 14.5 mg and 17.2 mg doses. |
+| Lilly Cares available medications and eligibility | The last pending rule retired. The income limits are published as 300%, 400% or 500% of the 2026 federal poverty guidelines, by medication group. The published groups do not include Zepbound, Mounjaro or Foundayo, so that programme does not cover them. |
+| Mounjaro self-pay at a named strength | The page shows the same figure, 499 per month, at every strength from 2.5 mg to 15 mg. Promoted. |
+| novonordiskpap.com | **The host does not resolve in DNS.** The programme now lives at novocare.com/diabetes/help-with-costs/pap.html, which was read: the income limits are published, at 200% of the federal poverty level for an uninsured patient on Ozempic and 400% for any other medicine, with the insurance conditions. |
+| Novo Nordisk's own Ozempic price guide | The self-pay and savings prices and no list price, so the Ozempic list price stays conflicting. |
+
 ## 5. Frozen fixtures
 
 Every page read is frozen under `test/fixtures/sources/2026-10-29/`, with a
@@ -368,6 +392,16 @@ SHA-256 line at the top covering every byte after that first line.
 The values above are the first 12 hex characters of each full digest. The full
 digest is the first line of each file.
 
+The trumprx.gov pages are frozen twice over: the raw HTML, byte for byte, and the
+decoded flight payload, because that is where the platform states its prices. The
+proof gate holds every confirmed figure to the fixture for the page it claims to
+come from.
+
+The trumprx.gov pages are frozen twice over: the raw HTML, byte for byte, and the
+decoded flight payload, because that is where the platform states its prices. The
+proof gate holds every confirmed figure to the fixture for the page it claims to
+come from.
+
 These fixtures are text extractions of the source pages, so they contain
 third-party URLs quoted from those pages. They are research evidence, not
 published links: no file under `public/` gained an outbound link to any host
@@ -403,10 +437,13 @@ outside the allowlist, which the integrity gate enforces.
 
 | Gate | Result |
 | --- | --- |
-| `npm test` | 121 passed, 0 failed |
+| `npm test` | 126 passed, 0 failed |
 | `node tools/build-pages.mjs` | exit 0 |
 | `git diff --exit-code public/` | clean after the regenerated tree was committed |
 | `node tools/qa.mjs` | exit 0, 28 of 28 checks passed |
+| `node --test test/proof.test.js` | exit 0, 5 passed, 0 failed |
+| `node --test test/proof.test.js` | exit 0, 5 passed, 0 failed |
+| `node --test test/proof.test.js` | exit 0, 5 passed, 0 failed |
 | `node tools/contrast-audit.mjs` | exit 0 |
 | `node tools/keyboard-audit.mjs` | exit 0 |
 

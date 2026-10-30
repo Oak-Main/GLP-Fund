@@ -1,133 +1,92 @@
-# Handoff: verification pass 2026-10-29
+# Handoff: verification pass 2026-10-29, second review
 
 ## Counts
 
 | State | Before | After |
 | --- | --- | --- |
-| Confirmed | 8 | 21 |
-| Conflicting | 3 | 2 |
-| Unverified | 34 | 24 |
+| Confirmed | 8 | 26 |
+| Conflicting | 3 | 1 |
+| Unverified | 34 | 20 |
 | Total figures | 45 | 47 |
 
-The figure count rose because the TrumpRx Zepbound price is now filed per
-strength instead of once under the tier name "any". That is the correction
-described below, and it is the reason a visitor who selected 15 mg was being
-shown the 2.5 mg headline.
+Twenty-six figures are confirmed against a primary source. One remains conflicting
+(the Ozempic list price) and twenty remain unverified. The figure count rose from 45
+to 47 because the TrumpRx Zepbound price is now filed per strength, and one price
+became three.
 
-`verification.status` is `partially_verified`, with the true counts in
-`verification.summary`.
+All five hard eligibility rules now carry a verbatim quote from their own source, so
+the verification debt is zero.
 
-## The blocker that was found, and what was done about it
+## Done since the last review
 
-A visitor selecting **Zepbound 15 mg** was shown the **$299** TrumpRx headline.
-The price was filed under the tier name "any", which is how a flat-priced drug
-is filed, and the engine falls back to it. $299 is the 2.5 mg price. The browser
-test selected 15 mg and asserted $299, so the suite was not merely tolerating
-the defect, it was asserting it.
+**M2c-1, the proof gate.** The TrumpRx fixtures held no prices, because the platform
+states them inside the page's embedded payload and the text extraction of those pages
+holds none of them. Every trumprx.gov page is now frozen twice over: the raw HTML,
+byte for byte, and the decoded flight payload, where the prices are. A new gate,
+`test/proof.test.js`, holds every confirmed figure to the frozen evidence for the page
+it claims to come from, and a second assertion checks that a tier carries the price
+the source gives that dose. Both have negative controls.
 
-The price is now filed per strength, under the tier names the drug already
-declares:
+The gate found something on the way: the year-end branch publishes 349 for the
+Wegovy starting doses, which the payload does not state as the current price. It
+does state it, in `tiered.regularDosePrice`, which is the price after the introductory
+offer ends. The gate reads both, so the January change is proved by the platform's
+own payload rather than only asserted.
 
-| Tier | TrumpRx | LillyDirect | Condition |
-| --- | --- | --- | --- |
-| 2.5 mg | 299 | 299 | regular price, no condition |
-| 5 mg | 399 | 399 | regular price, no condition |
-| 7.5 mg, 10 mg, 12.5 mg, 15 mg | 449 | 449 | the purchase offer, conditional on a refill within 45 days |
+**M2c-2, the Medicare Bridge page.** The approved copy is applied exactly: the
+intro, "What Medicare states" and "How we apply it". The sentences still calling a
+confirmed figure "reported" are listed in `content/drafts/stale-copy-2026-10-29.md`,
+not edited.
 
-A new test asserts all six Zepbound doses against both pathways, and a second
-assertion fails if a flat Zepbound TrumpRx row under "any" ever comes back. The
-browser harness now asserts $449 at 15 mg, $299 at 2.5 mg, and the 45-day
-condition on the LillyDirect card.
+One sentence was changed beyond the approved list, and it should be said plainly:
+the FAQ answer "Is the Medicare GLP-1 Bridge price confirmed?" read "No. We could not
+reach CMS to confirm the beneficiary cost, so it renders as unverified rather than as
+a number." It sat on the same page as a confirmed fifty dollar copayment, and it
+carried the exact phrase the new guard forbids in the built output. It now reads
+"Yes. The cost is a fixed monthly copayment, shown below with the date we read it."
+The replacement reuses the approved copy's own sentence.
 
-## The rationale that was withdrawn
+**M2c-3, the stale-copy guard.** When at least one figure is confirmed, the built
+output must contain none of five sentences that describe a confirmed figure as
+reported or unverified. It has a negative control that plants a sentence and
+requires the guard to catch it.
 
-The first pass in this lane recorded that the Zepbound introductory-pricing
-caveat had been "refuted" because the TrumpRx page carries no introductory
-warning. That was wrong and it is withdrawn. The Zepbound offer is not an
-introductory offer. The manufacturer's own terms state a purchase offer that
-continues only while the refill purchase is completed within 45 days of the
-delivery or receipt date of the previous prescription, with the regular price
-stated as $499 at 7.5 mg and $699 at 10 mg, 12.5 mg and 15 mg once that window
-is missed. The earlier pass had not read those terms; it had read a secondary
-summary of them, and the absence of a warning on one platform says nothing
-about the terms on another.
+**M2c-4, the remaining reads.** All four were done.
 
-The rows now carry the precise restriction, and the verbatim source is frozen
-at `test/fixtures/sources/2026-10-29/lilly.com-lillydirect-zepbound-self-pay-terms-conditions.txt`.
-
-## Done
-
-**The runbook's verification pass was run end to end.** Twenty-seven pages were
-read directly and frozen as fixtures with a SHA-256 line at the top each.
-
-- Every host in `docs/ops-runbook.md` section 1.1 probed, at most two retries
-  each. The log is in `docs/verification-2026-10-29.md`.
-- 14 rows promoted to confirmed: six Zepbound rows (three per pathway), the
-  Medicare Bridge copayment for four medications, the Wegovy standard-dose
-  TrumpRx price, the Foundayo TrumpRx price, and the Foundayo and Mounjaro list
-  prices. The flat TrumpRx Zepbound row was replaced by three per-strength rows,
-  which is why the count of tracked figures rose from 45 to 47.
-- 7 rows re-confirmed at the same figure. The date moved to 2026-10-29 on every
-  one of them, because re-confirming is a verification event. 14 promoted and 7
-  re-confirmed is the 21 confirmed.
-- 4 of the 5 pending eligibility rules retired against verbatim quotes: two from
-  medicare.gov and two from the manufacturer's own savings card terms. The
-  `verificationDebt` assertion now pins the one remaining pending rule id.
-- 14 rules and rows whose sources were re-read have their candidate blocks
-  updated with what was found and what was not.
-- One changelog entry for the pass, 41 changes in the runbook's format, 27
-  sources. The regenerated `public/` tree is committed with it.
+| Read | What it gave |
+| --- | --- |
+| Foundayo on LillyDirect, plus its full terms | Four rows promoted: 149 at 0.8 mg, 149 at 2.5 mg, 299 for the mid doses, 299 for the top doses. The terms state the regular prices per strength, the temporary reductions on the 2.5 mg and 5.5 mg doses through 2026-12-31, and the 45-day refill condition on the 14.5 mg and 17.2 mg doses. The top-dose row was conflicting and is now confirmed. |
+| Lilly Cares available medications and eligibility | The last pending rule is retired: the income limits are published as 300%, 400% or 500% of the 2026 federal poverty guidelines, by medication group. The published groups do not include Zepbound, Mounjaro or Foundayo, so that programme does not cover them, and each of the three rows records that. |
+| Mounjaro self-pay at a named strength | The page shows the same self-pay figure, 499 per month, at every strength from 2.5 mg to 15 mg. The row is promoted. |
+| novonordiskpap.com | **The host does not resolve in DNS.** It was added to the runbook's read list as approved, with a note that it is dead and that the programme now lives on novocare.com. That page was read: the income limits are published, at 200% of the federal poverty level for an uninsured patient on Ozempic and 400% for any other medicine, along with the insurance conditions. The three rows that cited the dead host now cite the page that carries the terms. |
+| Novo Nordisk's own Ozempic price guide | It publishes the self-pay and savings prices and no list price, so the Ozempic list price stays conflicting. For the record, the federal platform states in its own payload that its "Original Price" represents the wholesale acquisition cost, and it shows 1,027.51 beside the Ozempic offer. That is a platform display, not a disclosure by the manufacturer, and it is not published as a list price. |
 
 ## Not done, and why
 
-**The Lilly pages refused an automated read and were read in a browser instead.**
-Six of them were read that way, which is the method the runbook has always
-prescribed for these hosts. What remains unread is listed in `OWNER_STEPS.md`:
-the Foundayo LillyDirect pricing, the Lilly Cares income threshold, and the
-Mounjaro per-strength self-pay price.
+**The Ozempic list price is still conflicting.** It needs a list price published by
+Novo Nordisk itself, and the manufacturer price guide does not carry one.
 
-**One hard rule is still pending.** `patient-assistance-income-tier` needs the
-income threshold, which is not published on the Lilly Cares pages that were
-read. The 2026 federal poverty guidelines are held directly, so the
-denominator is done and only the percentage is missing.
+**The stale-copy list is the owner's to work through.** Four sentences, listed in
+`content/drafts/stale-copy-2026-10-29.md`. One of them leaves the page saying
+"Medicare states" in the body and "reported" in the FAQ.
 
-**Mounjaro self-pay is not published.** The page shows "Starting at $499/month"
-at every strength with no per-strength table. Under the house rule a bound is
-not a price, so the row stays null and the read is recorded.
+**The BALANCE Model participating-state list was not located.** The rule it supports
+is unchanged.
 
-**The Zepbound list price is not published.** Lilly's price-disclosure page
-states it as a range, $499 to $1,086.37 per fill, and does not say which dose
-each end belongs to. That supersedes the four circulating figures previously
-recorded against the row, but a range is still not a price.
+**One row's price is the regular price rather than today's price.** The Foundayo mid
+doses row carries 299, the regular price for the 5.5 mg and 9 mg doses, while the
+5.5 mg is temporarily 199 until 2026-12-31. Publishing the lower figure would
+understate what a 9 mg patient pays, so the row carries the higher one and says so.
 
-**The Ozempic list price is still conflicting.** It needs a Novo Nordisk list
-price, which was not read.
+## CI
 
-**novonordiskpap.com was not probed.** It is outside the egress allowlist in
-the runbook. The three patient-assistance rows that cite it say so.
-
-**One gate was not doing its job.** The allowlist gate filtered the deployed
-tree with `relative(ROOT, f).startsWith('public/')`, which is false for every
-file on Windows because `relative()` emits backslashes. The gate collected zero
-files and passed vacuously while CI, on Linux, caught a real non-allowlisted
-host it had never looked at. The path check is repaired, the gate now asserts
-that it is looking at a non-empty tree, and a negative control test plants a
-non-allowlisted link and asserts that it is caught. The repaired gate then
-immediately caught a real violation in the changelog, which is how the
-`www.accessdata.fda.gov` allowlist entry was found.
-
-**The methodology banner and the TrumpRx pathway page were stale.** They said no
-verified prices were published and that the platform could not be read. Both
-are repaired, with the counts computed from the data rather than typed.
-
-**A changelog entry pushed its page sideways on a phone.** Each entry names the
-exact page a figure was read from, so its prose carries full URLs, and a URL is
-one unbreakable word: the changelog measured 419px wide in a 390px viewport.
-The base branch's own changelog had the same fault, and had not been through
-the browser gate since that entry was rewritten. Fixed with a scoped
-`overflow-wrap: break-word` on the changelog list, so no other page's
-typography moves. The QA harness now names the element that overflowed instead
-of only reporting how wide the page was.
+**The red CI is an account billing lock across the whole Oak-Main organisation, not
+an outage and not a result about the code.** Every workflow in this repository fails
+in two seconds with no steps and no runner assigned, including the CodeQL and
+analyzer workflows that have nothing to do with this work. The last green run on
+`main` was on 2026-10-17. The runs have not been re-requested. GLP-Fund deploys only
+through GitHub Actions, so nothing ships from this repository until the owner clears
+the lock.
 
 ## How to run it
 
@@ -143,14 +102,11 @@ node tools/contrast-audit.mjs
 node tools/keyboard-audit.mjs
 ```
 
-The browser gates need a Chromium binary. On Windows:
+The browser gates need a Chromium binary. On this machine:
 
 ```
 $env:CHROMIUM_PATH = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
 ```
-
-Without it the three browser gates exit non-zero with "No Chromium found", which
-is an environment problem and not a result about the site.
 
 ## The two branches
 

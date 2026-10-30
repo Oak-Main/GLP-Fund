@@ -119,12 +119,91 @@ One dated line per work block, with the real exit code of every gate that was ru
   which element overflowed instead of only how wide the page was.
 - CI could not be given a runner for the last pushes. Every workflow in the
   repository, including the CodeQL and Analyze workflows that have nothing to do
-  with this work, failed in two seconds with `steps: []` and `runner_id: 0`,
-  which is a GitHub Actions outage and not a result about the code. The last
-  green CI run on the verification branch was the gate repair, and the only
-  genuine CI failure in this pass was the non-allowlisted host the repaired
-  gate then caught. The local gates were run against the exact final tree of
-  both branches instead: `npm test` 121 passed, `node tools/qa.mjs` 28 of 28,
-  contrast and keyboard exit 0, and `git diff --exit-code public/` clean. The
-  runs were re-requested and will report themselves on the pull requests when
-  a runner is available.
+  with this work, failed in two seconds with `steps: []` and `runner_id: 0`, which
+  the owner has since identified as an account billing lock across the whole
+  Oak-Main organisation, not an outage and not a result about the code. The last
+  green run on `main` was on 2026-10-17. The runs were not re-requested. GLP-Fund
+  deploys only through GitHub Actions, so nothing ships from this repository until
+  the owner clears the lock. The local gates were run against the exact final tree
+  of both branches instead: `npm test` 121 passed, `node tools/qa.mjs` 28 of 28,
+  contrast and keyboard exit 0, and `git diff --exit-code public/` clean.
+
+## 2026-10-29, M2c pass, after the second review
+
+- M2c-1, the proof gate: every trumprx.gov page is now frozen as the raw HTML and as
+  the decoded flight payload, where the platform states its prices. A new gate holds
+  every confirmed figure to the frozen page it claims to come from, checks that a
+  tier carries the price the source gives that dose, and carries a negative control
+  for each. The gate proved the year-end branch's 349 for the Wegovy starting doses:
+  the payload states it in `tiered.regularDosePrice`, the price after the
+  introductory offer ends.
+- The credential heuristic's fixture skip had the same Windows path bug as the
+  allowlist gate: `startsWith('test/fixtures/')` is false on Windows, so the
+  fixtures were scanned locally while CI skipped them. Fixed to compare path
+  segments, which makes the local gate match CI.
+- M2c-2: the approved Medicare Bridge copy applied exactly. The remaining stale
+  sentences are listed in content/drafts/stale-copy-2026-10-29.md, not edited. One
+  FAQ answer was changed beyond the approved list, because it carried a phrase the
+  new guard forbids and sat beside a confirmed figure; the replacement reuses the
+  approved sentence.
+- M2c-3: the stale-copy guard, with a negative control that plants a sentence and
+  requires the guard to catch it.
+- M2c-4: Foundayo on LillyDirect and its full terms read in the browser, promoting
+  four rows. The Lilly Cares medication groups and income limits read, retiring the
+  last pending rule and recording that the programme does not cover the
+  weight-management products. Mounjaro self-pay read at every strength. The Novo
+  patient assistance programme read from novocare.com. The Ozempic list price stays
+  conflicting because Novo Nordisk's own price guide carries no list price.
+- novonordiskpap.com does not resolve in DNS. It was added to the runbook's read
+  list as approved, with a note that the host is dead and where the programme now
+  lives. The three rows that cited it now cite the page that carries the terms.
+- Counts: 26 confirmed, 1 conflicting, 20 unverified, across 47 figures. All five
+  hard rules carry a verbatim quote.
+- Gates, with real exit codes:
+  - `npm test` -> exit 0 (126 passed, 0 failed)
+  - `node tools/build-pages.mjs` -> exit 0
+  - `git diff --exit-code public/` -> clean after the regenerated tree was committed
+  - `node tools/qa.mjs` -> exit 0 (28 of 28 checks passed)
+  - `node tools/contrast-audit.mjs` -> exit 0
+  - `node tools/keyboard-audit.mjs` -> exit 0
+  - `node --test test/proof.test.js` -> exit 0 (5 passed, 0 failed)
+
+## 2026-10-29, M2c pass, after the second review
+
+- M2c-1, the proof gate: every trumprx.gov page is now frozen as the raw HTML and as
+  the decoded flight payload, where the platform states its prices. A new gate holds
+  every confirmed figure to the frozen page it claims to come from, checks that a
+  tier carries the price the source gives that dose, and carries a negative control
+  for each. The gate proved the year-end branch's 349 for the Wegovy starting doses:
+  the payload states it in `tiered.regularDosePrice`, the price after the
+  introductory offer ends.
+- The credential heuristic's fixture skip had the same Windows path bug as the
+  allowlist gate: `startsWith('test/fixtures/')` is false on Windows, so the
+  fixtures were scanned locally while CI skipped them. Fixed to compare path
+  segments, which makes the local gate match CI.
+- M2c-2: the approved Medicare Bridge copy applied exactly. The remaining stale
+  sentences are listed in content/drafts/stale-copy-2026-10-29.md, not edited. One
+  FAQ answer was changed beyond the approved list, because it carried a phrase the
+  new guard forbids and sat beside a confirmed figure; the replacement reuses the
+  approved sentence.
+- M2c-3: the stale-copy guard, with a negative control that plants a sentence and
+  requires the guard to catch it.
+- M2c-4: Foundayo on LillyDirect and its full terms read in the browser, promoting
+  four rows. The Lilly Cares medication groups and income limits read, retiring the
+  last pending rule and recording that the programme does not cover the
+  weight-management products. Mounjaro self-pay read at every strength. The Novo
+  patient assistance programme read from novocare.com. The Ozempic list price stays
+  conflicting because Novo Nordisk's own price guide carries no list price.
+- novonordiskpap.com does not resolve in DNS. It was added to the runbook's read
+  list as approved, with a note that the host is dead and where the programme now
+  lives. The three rows that cited it now cite the page that carries the terms.
+- Counts: 26 confirmed, 1 conflicting, 20 unverified, across 47 figures. All five
+  hard rules carry a verbatim quote.
+- Gates, with real exit codes:
+  - `npm test` -> exit 0 (126 passed, 0 failed)
+  - `node tools/build-pages.mjs` -> exit 0
+  - `git diff --exit-code public/` -> clean after the regenerated tree was committed
+  - `node tools/qa.mjs` -> exit 0 (28 of 28 checks passed)
+  - `node tools/contrast-audit.mjs` -> exit 0
+  - `node tools/keyboard-audit.mjs` -> exit 0
+  - `node --test test/proof.test.js` -> exit 0 (5 passed, 0 failed)
