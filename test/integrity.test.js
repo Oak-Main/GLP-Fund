@@ -414,8 +414,11 @@ test('no credential is committed to the repository', () => {
     // This file necessarily contains the patterns it forbids.
     if (rel === 'test/integrity.test.js') continue;
     // Frozen research fixtures contain long hashes and URL slugs that trip the
-    // generic 40-character heuristic without being credentials.
-    if (rel.startsWith('test/fixtures/')) continue;
+    // generic 40-character heuristic without being credentials. The skip must
+    // not assume a forward slash: relative() emits the platform separator, so
+    // startsWith('test/fixtures/') was false on Windows and the fixtures were
+    // scanned here while CI skipped them. Compare path segments instead.
+    if (rel.split(/[\\/]/).slice(0, 2).join('/') === 'test/fixtures') continue;
 
     const text = readFileSync(file, 'utf8');
 
