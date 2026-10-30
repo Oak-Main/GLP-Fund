@@ -23,6 +23,8 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { rankPathways } from '../public/engine/pricing.js';
+
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const FIXTURES = join(ROOT, 'test', 'fixtures', 'sources');
 const PUBLIC = join(ROOT, 'public');
@@ -169,6 +171,37 @@ function strengthsForTier(drug, tier) {
     .map(([dose]) => dose.replace(/mg$/, ''));
 }
 
+
+/**
+ * Every currency figure a caveat states, proved against the page the row was
+ * read from. A figure that is not in the page is a sentence to cut, not a
+ * sentence to rewrite in words.
+ */
+function caveatFigureOffenders(rows, find) {
+  const offenders = [];
+  for (const row of rows) {
+    for (const caveat of row.caveats ?? []) {
+      for (const match of String(caveat).matchAll(/\$([0-9][0-9,]*(?:\.\d+)?)/g)) {
+        const figure = Number(match[1].replace(/,/g, ''));
+        const evidence = find(row.source_url);
+        if (!evidence.length) {
+          offenders.push(`${row.drug}|${row.dose_or_tier}|${row.pathway}: "${match[0]}" but no fixture was frozen for ${row.source_url}`);
+          continue;
+        }
+        if (!evidence.some((f) => f.text.includes(String(figure)) || f.text.includes(String(Math.round(figure * 100))))) {
+          offenders.push(`${row.drug}|${row.dose_or_tier}|${row.pathway}: "${match[0]}" does not appear in the fixture for ${row.source_url}`);
+        }
+      }
+    }
+  }
+  return offenders;
+}
+
+/** Does the text call anything "reported"? */
+function saysReported(text) {
+  return /reported/i.test(text);
+}
+
 const fixtures = loadFixtures();
 
 test('every confirmed figure is visible in the frozen evidence for its source', () => {
@@ -256,6 +289,60 @@ test('the built site does not tell a reader that a confirmed figure is unreporte
     }
   }
   assert.deepEqual(hits, [], 'The site must not describe a figure it publishes as confirmed as reported or unverified.');
+});
+
+test('every currency figure in a caveat is visible in the page it was read from', () => {
+  const offenders = caveatFigureOffenders(SHIPPED.prices, (url) => evidenceFor(fixtures, url));
+  assert.deepEqual(offenders, [], 'A figure in a caveat must be visible in the page it came from.');
+});
+
+test('the caveat-figure guard rejects a figure that is not in the evidence', () => {
+  // The negative control. A planted figure that the source never states must
+  // be caught, or the gate above is not running.
+  const planted = [{
+    drug: 'test', dose_or_tier: 'any', pathway: 'test',
+    source_url: 'https://www.novocare.com/pharmacy.html',
+    caveats: ['The price is $123, which the page does not state.'],
+  }];
+  const offenders = caveatFigureOffenders(planted, (url) => evidenceFor(fixtures, url));
+  assert.equal(offenders.length, 1);
+  assert.match(offenders[0], /\$123/);
+});
+
+test('the Medicare Bridge page does not call a confirmed figure reported', () => {
+  // The word must not appear anywhere on the page, including inside its
+  // FAQPage JSON-LD, because that is what a search engine may quote.
+  const page = readFileSync(join(PUBLIC, 'medicare-glp1-bridge', 'index.html'), 'utf8');
+  assert.ok(!saysReported(page), 'The Bridge page still says a confirmed figure is reported.');
+});
+
+test('the reported-claim guard rejects a planted sentence', () => {
+  // The negative control.
+  assert.equal(saysReported('<p>This program is reported to provide a fixed cost.</p>'), true);
+  assert.equal(saysReported('<p>Medicare states that the program covers certain drugs.</p>'), false);
+});
+
+test('a starting price says so wherever it is rendered', () => {
+  const row = SHIPPED.prices.find((p) => p.drug === 'mounjaro' && p.pathway === 'lillydirect_self_pay');
+  assert.ok(row, 'the Mounjaro self-pay row exists');
+  assert.equal(row.startingPrice, true, 'the Mounjaro figure is a starting price');
+
+  // The card.
+  const results = rankPathways({ drug: 'mounjaro', dose: 'any', insurance: 'none' }, SHIPPED, '2026-10-29');
+  const mounjaro = results.find((r) => r.pathway === 'lillydirect_self_pay');
+  assert.ok(mounjaro, 'the LillyDirect pathway is offered');
+  assert.match(mounjaro.displayCost, /^From \$499/);
+  assert.match(mounjaro.displayAnnualCost, /^From \$5,988/);
+
+  // The table and the body copy on the built pages.
+  const methodology = readFileSync(join(PUBLIC, 'methodology', 'index.html'), 'utf8');
+  assert.ok(methodology.includes('From $499'), 'the price table says From');
+  const drugPage = readFileSync(join(PUBLIC, 'mounjaro-cost', 'index.html'), 'utf8');
+  assert.ok(drugPage.includes('From $499'), 'the body copy says From');
+
+  // And a price that is not a starting price is unchanged.
+  const ozempic = results.find((r) => r.pathway === 'novocare_self_pay');
+  if (ozempic) assert.doesNotMatch(ozempic.displayCost, /^From /);
 });
 
 test('the stale-copy guard rejects a planted sentence', () => {
