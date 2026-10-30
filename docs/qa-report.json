@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-29T22:48:22.501Z",
+  "ranAt": "2026-10-30T04:19:28.814Z",
   "viewport": "390x844",
   "chromium": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
   "checks": [
@@ -141,7 +141,7 @@
     {
       "name": "every source URL was checked and its status recorded",
       "pass": true,
-      "detail": "16 URLs; 7 unreachable from this network"
+      "detail": "19 URLs; 8 unreachable from this network"
     }
   ],
   "failures": 0,
@@ -179,11 +179,23 @@
       "status": "200"
     },
     {
+      "url": "https://www.novocare.com/content/dam/novonordisk/novocare/redesign/pdf/Ozempic_Price_Guide.pdf",
+      "status": "200"
+    },
+    {
       "url": "https://www.novocare.com/pharmacy.html",
       "status": "200"
     },
     {
+      "url": "https://www.lilly.com/lillydirect/medicines/mounjaro",
+      "status": "403"
+    },
+    {
       "url": "https://pricinginfo.lilly.com/mounjaro",
+      "status": "403"
+    },
+    {
+      "url": "https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions",
       "status": "403"
     },
     {
@@ -199,7 +211,7 @@
       "status": "200"
     },
     {
-      "url": "https://www.lillycares.com/",
+      "url": "https://www.lillycares.com/available-medications",
       "status": "403"
     },
     {
@@ -207,8 +219,8 @@
       "status": "200"
     },
     {
-      "url": "https://www.novonordiskpap.com/",
-      "status": "blocked"
+      "url": "https://www.novocare.com/diabetes/help-with-costs/pap.html",
+      "status": "200"
     }
   ]
 }
