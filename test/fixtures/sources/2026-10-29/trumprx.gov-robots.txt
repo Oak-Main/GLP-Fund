@@ -1,0 +1,14 @@
+SHA-256: a8eaa370bd1dba304aa7e41bc5dd9526497b661db0b8b1e1e1f1a044d7fbbcf8
+URL: https://www.trumprx.gov/robots.txt
+Final-URL: https://trumprx.gov/robots.txt
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29T20:05:55.656Z
+Attempts: 1
+Read-By: mm/glp-verify-1028 verification pass (docs/ops-runbook.md section 1.1)
+Hash-Covers: every byte after the first line of this file
+Extraction: HTML stripped to text; inline elements removed, block elements become lines.
+
+User-Agent: *
+Allow: /
+Disallow: /api/
+Sitemap: https://trumprx.gov/sitemap.xml

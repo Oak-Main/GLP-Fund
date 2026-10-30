@@ -1,0 +1,124 @@
+SHA-256: 3f3754c164617e089abff1a6ebdaea0066cd192753a7c6dfb8d9282694e9ade0
+URL: https://investor.lilly.com/
+Final-URL: https://investor.lilly.com/
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29T20:05:58.673Z
+Attempts: 1
+Read-By: mm/glp-verify-1028 verification pass (docs/ops-runbook.md section 1.1)
+Hash-Covers: every byte after the first line of this file
+Extraction: HTML stripped to text; inline elements removed, block elements become lines.
+
+Investors | Eli Lilly and Company
+Skip to main content
+Email Alerts
+News
+Lilly.com
+Menu
+Menu
+Close
+Close
+Stock Info
+Expand mega menu
+Expand submenu
+Left icon for back button
+Back
+Stock Info
+Stock Quote & Chart
+Historic Price Lookup
+Dividends & Stock Splits
+Investment Calculator
+Tokenization of LLY Stock
+Webcasts & Presentations
+Financials
+Expand mega menu
+Expand submenu
+Left icon for back button
+Back
+Financials
+SEC Filings
+Annual Reports
+Quarterly Results
+Key Ratios
+Interactive Financials
+Debt Securities
+Individual Investors
+Corporate Governance
+Expand mega menu
+Expand submenu
+Left icon for back button
+Back
+Corporate Governance
+Governance Documents & Committee Charters
+Committee Composition
+Board of Directors and Executive Committee
+Resources
+Expand mega menu
+Expand submenu
+Left icon for back button
+Back
+Resources
+Clinical Development Pipeline
+Current Medicines
+Key Facts
+2025 Year in Review
+Sustainability Report
+Search button
+Email Alerts
+News
+Lilly.com
+Close
+Search Lilly.com For Content...
+Submit search
+Investors
+Latest News
+October 29, 2026
+Lilly reports third-quarter 2026 financial results, raises full-year guidance and highlights regulatory progress across the portfolio
+October 28, 2026
+Lilly's retatrutide delivered greater A1C reduction and more than double the weight loss of Ozempic's highest approved dose in head-to-head trial
+October 27, 2026
+Patrik Jonsson to retire after 36 years; Ilya Yuffa named president, Lilly Global Markets
+View All
+Upcoming Events
+October 29, 2026 at 10:00 AM EDT
+Q3 2026 Earnings Call
+December 7, 2026 from 9:00 AM to 1:00 PM EST
+Lilly Innovation Day 2026
+View All
+Clinical Development Pipeline
+Learn More
+Quarterly Results
+View Results
+2025 Year in Review
+View This Report
+Key Ratios
+Key Financial Ratios
+Sustainability Report
+Learn More
+Latest Sustainability Developments
+View Stories
+Investor Email Alerts
+Sign up to receive email alerts for various types of investor content.
+Diversity
+Contact
+Suppliers
+Login
+Terms of Use
+Privacy Statement
+Consumer Health Privacy Notice
+Accessibility Statement
+Sitemap
+To speak to customer support:
+Call (800) 545-5979
+Your Privacy Choices
+Cookie Settings
+Copyright © 2026 Eli Lilly and Company. All rights reserved.
+Twitter
+Facebook
+Instagram
+LinkedIn
+YouTube
+Terms of Use
+Privacy Statement
+Consumer Health Privacy Notice
+Accessibility Statement
+Sitemap

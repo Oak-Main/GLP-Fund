@@ -429,10 +429,34 @@ async function main() {
       shippedCards.map((c) => `${c.name}: ${c.cost}`).join(' | ').slice(0, 160)
     );
     const shippedTrumpRx = shippedCards.find((c) => /TrumpRx/.test(c.name ?? ''));
+    // 2026-10-29: this used to assert $299 for a 15 mg selection, because the
+    // TrumpRx price was filed under the tier name "any" and the 2.5 mg
+    // headline was what a 15 mg visitor received. The price is now filed per
+    // strength, so a 15 mg visitor gets the higher-dose tier and a 2.5 mg
+    // visitor gets the starting tier. Both are asserted below, because the
+    // defect was a tier leak and one assertion cannot catch it.
     check(
-      'shipped data: TrumpRx Zepbound renders the verified $299 (first verified prices, PR #13)',
-      shippedTrumpRx?.cost === '$299' && /\d{4}-\d{2}-\d{2}/.test(shippedTrumpRx?.verified ?? ''),
+      'shipped data: TrumpRx Zepbound at 15 mg renders the $449 higher-dose tier',
+      shippedTrumpRx?.cost === '$449' && /\d{4}-\d{2}-\d{2}/.test(shippedTrumpRx?.verified ?? ''),
       `${shippedTrumpRx?.name ?? 'no TrumpRx card'}: ${shippedTrumpRx?.cost ?? '?'} (${shippedTrumpRx?.verified ?? 'no date'})`
+    );
+
+    await page.select('[data-input="dose"]', '2.5mg');
+    const shippedCards25 = await page.eval(SCRAPE_CARDS);
+    const shippedTrumpRx25 = shippedCards25.find((c) => /TrumpRx/.test(c.name ?? ''));
+    check(
+      'shipped data: TrumpRx Zepbound at 2.5 mg renders the $299 starting tier',
+      shippedTrumpRx25?.cost === '$299',
+      `${shippedTrumpRx25?.name ?? 'no TrumpRx card'}: ${shippedTrumpRx25?.cost ?? '?'}`
+    );
+
+    await page.select('[data-input="dose"]', '15mg');
+    const shippedCardsBack = await page.eval(SCRAPE_CARDS);
+    const shippedLilly15 = shippedCardsBack.find((c) => /LillyDirect/.test(c.name ?? ''));
+    check(
+      'shipped data: LillyDirect Zepbound at 15 mg renders $449 and carries the 45-day refill condition',
+      shippedLilly15?.cost === '$449' && (shippedLilly15?.caveats ?? []).some((c) => /45 days/i.test(c)),
+      `${shippedLilly15?.name ?? 'no LillyDirect card'}: ${shippedLilly15?.cost ?? '?'}, caveats: ${(shippedLilly15?.caveats ?? []).length}`
     );
     check(
       'every card carries a source link and a verification date',
@@ -610,9 +634,18 @@ async function main() {
       const audit = await p.eval(`(() => {
         const doc = document.documentElement;
         const text = document.body.innerText;
+        const wide = [];
+        for (const el of document.querySelectorAll('body *')) {
+          const r = el.getBoundingClientRect();
+          if (r.width > 0 && r.right > doc.clientWidth + 1) {
+            wide.push(el.tagName.toLowerCase() + (el.className ? '.' + String(el.className).split(' ')[0] : '') + ' (' + Math.round(r.right) + 'px)');
+          }
+        }
         return {
           overflow: doc.scrollWidth > doc.clientWidth,
           scrollWidth: doc.scrollWidth,
+          clientWidth: doc.clientWidth,
+          wide: [...new Set(wide)].slice(0, 4),
           hasDisclaimer: text.includes('This tool provides pricing information only'),
           hasNonAffiliation: text.includes('Not affiliated with, endorsed by, or sponsored by'),
           hasDataStamp: /as of \\d{4}-\\d{2}-\\d{2}/.test(text),
@@ -624,7 +657,12 @@ async function main() {
         };
       })()`);
 
-      if (audit.overflow) pageIssues.push(`${path}: horizontal overflow (${audit.scrollWidth}px)`);
+      if (audit.overflow) {
+        pageIssues.push(
+          `${path}: horizontal overflow (${audit.scrollWidth}px in ${audit.clientWidth}px)` +
+            (audit.wide?.length ? ` by ${audit.wide.join(', ')}` : '')
+        );
+      }
       if (!audit.hasDisclaimer) pageIssues.push(`${path}: missing footer disclaimer`);
       if (!audit.hasNonAffiliation) pageIssues.push(`${path}: missing non-affiliation statement`);
       if (audit.emoji.length) pageIssues.push(`${path}: emoji in rendered DOM: ${audit.emoji.join('')}`);
@@ -670,8 +708,9 @@ async function main() {
       `${urlReport.length} URLs; ${blocked.length} unreachable from this network`
     );
     console.log(
-      `       note: ${blocked.length}/${urlReport.length} are BLOCKED BY EGRESS POLICY, not broken. ` +
-        'This is the same blockade that forced every price to unverified.'
+      `       note: ${blocked.length}/${urlReport.length} refused an automated request from this network. ` +
+        'On the Eli Lilly hosts that is bot protection, not a dead link: those pages read normally in a browser, ' +
+        'and the figures taken from them are published with the date they were read.'
     );
 
     /* ----------------------------------------------------------- the report */

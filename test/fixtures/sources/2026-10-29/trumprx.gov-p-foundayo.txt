@@ -1,0 +1,53 @@
+SHA-256: 1fd57d3548794a458fa496ae7d895d91f2c958cd883c695d01fbcc365661af12
+URL: https://trumprx.gov/p/foundayo
+Final-URL: https://trumprx.gov/p/foundayo
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29T20:05:55.473Z
+Attempts: 1
+Read-By: mm/glp-verify-1028 verification pass (docs/ops-runbook.md section 1.1)
+Hash-Covers: every byte after the first line of this file
+Extraction: HTML stripped to text; inline elements removed, block elements become lines.
+
+Foundayo™ on TrumpRx - TrumpRx
+Skip to main content
+Trump
+Rx
+Trump
+Rx
+Location pin Set location Browse medications
+Search medications
+Browse
+Search medications
+Location pin Enter your zip code for local prices
+Actual product appearance may vary
+Actual product appearance may vary
+Foundayo™
+up to 77% offUp to 77% off
+Orforglipron by Eli Lilly and Company®
+Configure your drug
+This is an out-of-pocket price.
+If you have insurance, check your co-pay first—it may be even lower.
+Select your strength to see your savings.
+What form?
+Tablet
+What strength? (mg)
+0.8 2.5 5.5 9 14.5 17.2
+How many? (ct)
+30
+Fill period
+N/a
+The price for the 2.5mg dose is temporarily reduced through December 31, 2026. Regular price is $199. The price for the 5.5mg dose is temporarily reduced through December 31, 2026. Regular price is $299. *Eligibility required, terms and conditions apply. Review full terms and conditions.
+See full terms and conditions
+How it Works
+LillyDirect® will guide you to savings options, eligibility confirmation, and offers delivery options or transfer to a retail pharmacy of your choosing.
+For support call LillyDirect Customer Care at 844-559-3471 between 9am and 7pm ET, Monday through Friday.
+Get Started on LillyDirect®
+Foundayo™ Details
+Last updated unavailable.
+More deals coming soon.
+Email address
+Success! You&#x27;ll be notified
+Sign up
+Submitted
+Designed & Engineered in D.C. by National Design Studio
+Privacy Policy Accessibility Policy

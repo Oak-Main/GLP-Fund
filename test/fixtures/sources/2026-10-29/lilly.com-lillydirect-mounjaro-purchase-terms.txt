@@ -1,0 +1,19 @@
+SHA-256: 1f34fb60b2ca7441ef099dace67ecd269f05686c6901774e3b3e6c265da5bce6
+URL: https://www.lilly.com/lillydirect/medicines/mounjaro/mounjaro-purchase-terms
+Final-URL: https://www.lilly.com/lillydirect/medicines/mounjaro/mounjaro-purchase-terms
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29 (read in the in-app browser between 21:20Z and 23:20Z)
+Read-By: mm/glp-verify-1028 verification pass, M2c-4 remaining reads
+Hash-Covers: every byte after the first line of this file
+Capture: the rendered page in full. It states the programme conditions and the definition of a fill, and no price.
+
+Mounjaro (tirzepatide): LillyDirect Pharmacy Self Pay Purchase Offer Terms
+
+I have been prescribed Mounjaro for an approved use consistent with the FDA-approved product labeling.
+I will not seek payment or accept reimbursement, either directly or indirectly, from any insurance plan or other third-party payer, including any state or federal health care program or any private or other insurance plan, for Mounjaro purchased under the Program, regardless of whether the payer covers Mounjaro.
+I will not count the amount I pay for Mounjaro purchased under the Program towards my insurance deductible or out-of-pocket spending requirements.
+If I am enrolled in Medicare Part D, I will not count any portion of the amount I pay for Mounjaro under the Program, or any costs associated with my purchase of Mounjaro under the Program, towards my Medicare Part D true out-of-pocket ("TrOOP") costs.
+I am purchasing Mounjaro for my own use. I will not sell, repackage, reformulate, trade, barter, export, or distribute for sale Mounjaro purchased through the Program.
+One fill is equal to a month's supply of Mounjaro which is defined as four pens per month.
+I am a resident of the United States or Puerto Rico.
+I am 18 years of age or older.

@@ -1,0 +1,44 @@
+SHA-256: 5a271a5fabd2b64ff7dfd52fb2160e08af529589dacde9db2151090a9c5c9276
+URL: https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions
+Final-URL: https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29 (read in the in-app browser between 21:20Z and 23:20Z)
+Read-By: mm/glp-verify-1028 verification pass, M2c-4 remaining reads
+Hash-Covers: every byte after the first line of this file
+Capture: the rendered terms, read with the browser text query. The page continues with the post-transaction reimbursement section and the additional terms, which repeat the eligibility criteria and the 12/31/2026 expiry quoted above.
+
+Foundayo (orforglipron): Full Terms and Conditions
+
+Journey Program Terms and Conditions
+
+Pay $299 for each 1-month supply of the 14.5 mg and 17.2 mg Foundayo dosages. You will automatically receive the $299 purchase offer on your first purchase of the 14.5 mg and 17.2 mg Foundayo dosages.
+
+To remain eligible for this purchase offer, you must complete your refill purchase of Foundayo within 45 days of the delivery/receipt date of your previous Foundayo prescription. Offer valid for 14.5 mg and 17.2 mg dosages of Foundayo only. New and existing patients are eligible. A 1-month supply is defined as 30 days. If a refill purchase is completed more than 45 days after delivery/receipt of your previous Foundayo prescription, the purchase offer will not apply.
+
+Separately, for a limited time, through December 31, 2026, the self-pay price of the 2.5 mg dose is temporarily reduced to $149 per month and the price of the 5.5 mg dosage is temporarily reduced to $199 per month.
+
+Regular pricing for a 1-month supply of Foundayo: $149 (0.8 mg), $199 (2.5 mg), $299 (5.5 mg), $299 (9 mg), $349 (14.5 mg), $349 (17.2 mg). Additional taxes and fees may apply. This purchase offer may be terminated, rescinded, revoked, or amended by Lilly at any time, with or without notice, for any reason. Eligibility required and restrictions apply.
+
+Savings Card Program Terms and Conditions
+
+Card Eligibility:
+
+You have been prescribed Foundayo (orforglipron) for an approved use consistent with FDA approved product labeling;
+You are enrolled in a commercial drug insurance plan;
+You are not enrolled in any state, federal, or government funded healthcare program, including, without limitation, Medicaid, Medicare, Medicare Part D, Medicare Advantage, Medigap, DoD, VA, TRICARE/CHAMPUS, or any state prescription drug assistance program;
+You are a resident of the United States or Puerto Rico; and
+You are 18 years of age or older.
+
+Card Terms and Conditions
+
+For patients who have been prescribed Foundayo and have commercial drug insurance coverage for Foundayo: You must have commercial drug insurance that covers Foundayo and a prescription for an approved use consistent with FDA-approved product labeling to pay as little as $25 for a 1-month, 2-month, or 3-month prescription fill of Foundayo. Month is defined as 30 days; 2 months is defined as 60 days; 3 months is defined as 90 days. Card savings are subject to a maximum monthly savings of up to $100 per 1-month prescription, $200 per 2-month prescription, or $300 per 3-month prescription fill and a separate maximum annual savings of up to $1,000 per calendar year. Card may be used for a maximum of up to 10 prescription fills per calendar year. Subject to Lilly USA, LLC's ("Lilly") right to terminate, rescind, revoke, or amend Card eligibility criteria and/or Card terms and conditions which may occur at Lilly's sole discretion, without notice, and for any reason. Card expires and savings end on 12/31/2026.
+
+For patients who have been prescribed Foundayo and have commercial drug insurance that does not provide coverage for Foundayo: You must have commercial drug insurance that does not cover Foundayo and a prescription for an approved use consistent with FDA-approved product labeling to: (1) Pay as low as $149 for your 1-month prescription fill of Foundayo 0.8 mg dosage, subject to a maximum monthly savings of up to $520; (2) Pay as low as $149 for your 1-month prescription fill of Foundayo 2.5 mg dosage, subject to a maximum monthly savings of up to $520; (3) Pay as low as $199 for your 1-month prescription fill of Foundayo 5.5 mg dosage, subject to a maximum monthly savings of up to $470; or (4) Pay as low as $299 for your 1-month prescription fill of Foundayo 9 mg, 14.5 mg, or 17.2 mg dosage, subject to a maximum monthly savings of up to $370. Savings on Foundayo 2.5 mg, 5.5 mg, 14.5 mg and 17.2 mg dosages are subject to Purchase Offer Terms and Conditions. For all Foundayo dosages, month is defined as 30-days. Card may be used for a maximum of up to 10 prescription fills per calendar year. Subject to Lilly's right to terminate, rescind, revoke, or amend Card eligibility criteria and/or Card terms and conditions which may occur at Lilly's sole discretion, without notice, and for any reason. Card expires and savings end on 12/31/2026.
+
+Purchase Offer Terms and Conditions
+
+You will automatically receive the $299 purchase offer on your first purchase of the 14.5 mg or 17.2 mg Foundayo dosages. To continue to be eligible for this purchase offer, you must complete your refill purchase of Foundayo within 45 days of the delivery/received date of your previous Foundayo prescription fill. Offer valid for 14.5 mg or 17.2 mg dosages of Foundayo only. New and existing patients are eligible. If refill purchase is completed more than 45 days after the delivery/receipt of your previous Foundayo prescription, purchase offer will not apply.
+
+Separately, through December 31, 2026, the price of the 2.5 mg dosage is temporarily reduced to $149 per month and the price of the 5.5 mg dosage is temporarily reduced to $199 per month.
+
+Regular price for a 1-month supply of Foundayo dosages is $149 for 0.8 mg, $199 for 2.5 mg, $299 for 5.5 mg and 9 mg, and $349 for 14.5 mg and 17.2 mg. For all Foundayo dosages, 1-month supply is defined as 30 days. Additional taxes and fees may apply. This purchase offer may be terminated, rescinded, revoked, or amended by Lilly at any time, with or without notice, for any reason. Eligibility required and restrictions apply.

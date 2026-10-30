@@ -1,0 +1,171 @@
+SHA-256: 78583a2778ce93e073966c6cee625563fae4d705fbbfc7525fda1be27e91d3fe
+URL: https://www.novocare.com/pharmacy.html
+Final-URL: https://www.novocare.com/delivery.html
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29T20:05:56.996Z
+Attempts: 1
+Read-By: mm/glp-verify-1028 verification pass (docs/ops-runbook.md section 1.1)
+Hash-Covers: every byte after the first line of this file
+Extraction: HTML stripped to text; inline elements removed, block elements become lines.
+
+Get Your GLP-1 Medications Delivered with Novocare® home delivery | Novocare®
+Patients |
+Health Care Professionals
+HOME DELIVERY
+HOME
+®</sup>" class="">
+WEGOVY®
+®</sup>" class="">
+OZEMPIC®
+FIND A DOCTOR
+Patients |
+Health Care Professionals
+MENU
+CLOSE
+We are FDA-approved. Compound semaglutides are not. Find out about the risks here .
+We are FDA-approved. Compound semaglutides are not. Find out about the risks here .
+Take control of your GLP‑1 medicine journey
+Flexible payment and delivery options designed around your needs.
+Get started
+Get started today
+GLP-1 medicines aren't one-size-fits-all. Check out what is available and move forward.
+Get started
+Available GLP-1 medicines
+Whether you self pay or go through insurance, all doses of Wegovy® (semaglutide) and Ozempic® (semaglutide) require a prescription.
+Payment method</p>
+" data-options='[ {"uuid": "-983975772", "parentValue": "", "tagid": "self", "value": "self", "text": "Self Pay", "accordionbody":"", "action": "none", "hiddenSection": ""} , {"uuid": "-983975772", "parentValue": "", "tagid": "insurance", "value": "insurance", "text": "Insurance", "accordionbody":"", "action": "none", "hiddenSection": ""}]' data-defaultValueSelected="self" data-optionStyle='rdo-buttons' data-fieldRequiredMessage="This is a required field" data-gaEventAction="Field Interaction - Radio Button" data-gaEventValue="false" data-tooltip-icon-path="/content/dam/novonordisk/novocare/redesign/icons/icon-circle-question-mark.svg" data-tooltip-text="<p><strong>Self pay</strong></p>
+<p>If you don't have insurance or elect not to use it, this is your cost. By opting to pay outside of your insurance, any money spent will not count toward your out-of-pocket limits or deductible.</p>
+<p><strong>Commercial insurance</strong></p>
+<p>This is what your cost could be under your health insurance plan. If your plan covers the medication, your insurance will set the cost for your medication. The savings offer through NovoCare® Pharmacy is a discount that may be applied to the amount charged by your insurance.</p>
+" data-tooltip-alignment="up" data-preload-from-url="false" data-enable-toggle="true" data-render-by-selector=".radiogroup > .radiogroup-component">
+Wegovy® pill
+Starting at
+$149
+per montha
+Get Started
+Pay as little as
+$25
+per month for up to 3 monthse
+Get Started
+Important Safety Information
+Prescribing Information & Medication Guide
+Wegovy® pen
+Starting at
+$199
+per monthb
+Get Started
+Pay as little as
+$25
+per month for up to 3 monthse
+Get Started
+Important Safety Information
+Prescribing Information & Medication Guide
+Ozempic® pill
+Starting at
+$149
+per monthc
+Get Started
+Pay as little as
+$25
+per month for up to 3 monthsf
+Get Started
+Important Safety Information
+Prescribing Information & Medication Guide
+Ozempic® pen
+Starting at
+$199
+per monthd
+Get Started
+Pay as little as
+$25
+per month for up to 3 monthsf
+Get Started
+Important Safety Information
+Prescribing Information & Medication Guide
+Download full pricing tables
+Wegovy®
+Ozempic®
+aSelf-pay pricing varies by dose. Patients pay $149 for each month of 1.5 mg, $199 per month for 4 mg and $299 per month for 9 mg and 25 mg. One month defined as 1 bottle of 30 tablets. Eligibility and restrictions apply. Novo Nordisk reserves the right to modify or cancel this program at any time. See full terms at WegovyTerms.com and NovocareDeliveryTerms.com .
+bPatients new to the Wegovy® Savings Offer and Novocare® home delivery pay $199 for each month of 0.25 mg and 0.5 mg. Offer is for 2 monthly fills through December 31, 2026, then $349 per month for Wegovy® 0.25 mg, 0.5 mg, 1 mg, 1.7 mg or 2.4 mg and $399 per month for Wegovy® HD (semaglutide) injection 7.2 mg. One month is defined as 1 box of 4 pens of Wegovy®. Eligibility and restrictions apply. Novo Nordisk reserves the right to modify or cancel this program at any time. See full terms at WegovyTerms.com and NovocareDeliveryTerms.com .
+cSelf-pay pricing varies by dose. Eligibility and restrictions apply. One month defined as 1 bottle of 30 tablets. Novo Nordisk reserves the right to modify or cancel this program at any time. See full terms at SavingsCardEligibility and NovocareDeliveryTerms.com .
+d Patients new to the Ozempic® Savings Offer and Novocare® home delivery pay $199 for each month of 0.25 mg and 0.5 mg. Offer for 2 monthly fills through December 31, 2026 then $349 per month for Ozempic® 0.25 mg, 0.5 mg or 1 mg and $499 per month for Ozempic® 2 mg. One month is defined as 1 box of 1 Ozempic® pen. Novo Nordisk reserves the right to modify or cancel these offers at any time. See full terms at SavingsCardEligibility and NovocareDeliveryTerms.com .
+ePay as little as $25, subject to a maximum savings of $100/month. Government beneficiaries excluded. One month is defined as 1 box of 4 pens of Wegovy® and 1 bottle of 30 tablets of Wegovy®. Eligibility and restrictions apply. Novo Nordisk reserves the right to modify or cancel this program at any time. See full terms at WegovyTerms.com and NovocareDeliveryTerms.com .
+fPay as little as $25, subject to a maximum savings of $100/month. Eligibility and restrictions apply. One month is defined as 1 box of 1 Ozempic® pen and 1 bottle of 30 tablets of Ozempic®, Novo Nordisk reserves the right to modify or cancel these offers at any time. See full terms at SavingsCardEligibility and NovocareDeliveryTerms.com .
+You're closer than you think
+Once you select your GLP-1 medicine, follow these steps to get started.
+1.
+Speak to your prescriber
+1.
+Speak to your prescriber
+A GLP-1 medicine requires a prescription. Talk to your prescriber, or we can connect you with one right here .
+2.
+Choose how you pay
+2.
+Choose how you pay
+You can self pay or go through insurance.
+3.
+Get your GLP-1 medicine
+3.
+Get your GLP-1 medicine
+You can choose telehealth, delivery, or pickup—you have options at every step.
+Options to get your prescription
+Self pay to get your GLP-1 medicine, your way.
+Free home delivery
+Get your GLP-1 medicine shipped straight to you. Have your prescriber send your prescription to Novocare® and look for your confirmation text.
+Wegovy®
+Ozempic®
+Pharmacy services powered by BlinkRx .
+Pharmacy pickup
+Prefer to pick up? Sign up for your offer to save on your prescription.
+Wegovy®
+Ozempic®
+Telehealth
+Need a prescription? Connect with a prescriber here.
+Telehealth Options
+If it’s not made by Novo, it’s not FDA‑approved Wegovy® or Ozempic®
+We know you have a choice, but make it an informed one. Learn about the health risks associated with compound semaglutides on the market.
+Your health care professional will determine the prescription and the dose. Always follow the detailed instructions provided by your health care professional.
+Keep me in the loop
+Be the first to know about new offerings and program updates, no commitment required.
+.textfield-component" data-gaEventPrePopulated="false" data-tooltip-alignment="up">
+.textfield-component" data-gaEventPrePopulated="false" data-tooltip-alignment="up">
+.mailfield-component" data-tooltip-alignment="up">
+.zipfield-component" data-tooltip-alignment="up">
+.otprivacynoticecheckbox-component">
+Stay Connected
+Stay Connected</p>
+" data-description="<p>Stay Connected</p>
+" data-movetostep="1" data-gaeventaction="Field Interaction - Button" data-gaeventvalue="false" data-btn-center="true" data-tagging-properties='{}' data-web-service-error="Some error has occurred. Please try again.">
+Stay Connected
+Close
+You are being redirected to an another page. Do you wish to continue ?
+Yes
+No
+&times;
+Loading....
+You have successfully signed up. Watch for an email from us soon.
+There was an error submitting the form.
+Please refresh the page and try again.
+&times;
+You are now leaving NovoCare.com
+Clicking “Continue” below will take you to a website to which our Privacy Policy does not apply. Links are provided as a public service and for informational purposes only. No endorsement is made or implied.
+Continue
+Return to NovoCare.com
+Terms of Use Privacy Notice Consumer Health Privacy Notice Cookie Notice Cookie Settings Your Privacy Choices Contact Us Novo Nordisk US
+Terms of Use
+Privacy Notice
+Consumer Health Privacy Notice
+Cookie Notice
+Cookie Settings
+Your Privacy Choices
+Contact Us
+Novo Nordisk US
+{trademark-info}
+All other trademarks, registered or unregistered, are the property of their respective owners.
+© {PRB-year} Novo Nordisk All rights reserved. {PRB-number} {PRB-month} {PRB-year}
+Close
+You are being redirected to an another page. Do you wish to continue ?
+Yes
+No
+&times;
+Loading....

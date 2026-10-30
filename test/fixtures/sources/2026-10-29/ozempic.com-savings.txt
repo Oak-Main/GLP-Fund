@@ -1,0 +1,572 @@
+SHA-256: fdf859a18c29f57a1ddead7d9d268f8fb34b9adc95e8210e46eebe7f9c3abff7
+URL: https://www.ozempic.com/savings-and-resources/save-on-ozempic.html
+Final-URL: https://www.ozempic.com/savings-and-resources/save-on-ozempic.html
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29T20:05:57.269Z
+Attempts: 1
+Read-By: mm/glp-verify-1028 verification pass (docs/ops-runbook.md section 1.1)
+Hash-Covers: every byte after the first line of this file
+Extraction: HTML stripped to text; inline elements removed, block elements become lines.
+
+Ozempic® Cost & Coverage | Ozempic® (semaglutide) pen and pill
+Skip to main content
+Important Safety Information
+Top navigation link:
+Important Safety Information
+Top navigation link:
+Medication Guide</span> <span class=\"dropdown-menu mobile\"> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempic.pdf\" data-hash=\"guide\">Ozempic<sup>®</sup> Injection Medication Guide</span> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempictablets.pdf\" data-hash=\"guide\">Ozempic<sup>®</sup> Tablets Medication Guide</span> </span>","xdm:linkURL":"javascript:NOTE_Medication_Guide_MOBILE"}}">
+Medication Guide Ozempic® Injection Medication Guide Ozempic® Tablets Medication Guide
+Top navigation link:
+Prescribing Information</span> <span class=\"dropdown-menu\"> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempic.pdf\">Ozempic<sup>®</sup> Injection Prescribing Information</span> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempictablets.pdf\">Ozempic<sup>®</sup> Tablets Prescribing Information</span> </span>","xdm:linkURL":"javascript:NOTE_Prescribing_Information_DESKTOP"}}">
+Prescribing Information Ozempic® Injection Prescribing Information Ozempic® Tablets Prescribing Information
+Top navigation link:
+Prescribing Information</span> <span class=\"dropdown-menu mobile\"> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempic.pdf\">Ozempic<sup>®</sup> Injection Prescribing Information</span> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempictablets.pdf\">Ozempic<sup>®</sup> Tablets Prescribing Information</span> </span>","xdm:linkURL":"javascript:NOTE_Prescribing_Information_MOBILE"}}">
+Prescribing Information Ozempic® Injection Prescribing Information Ozempic® Tablets Prescribing Information
+Top navigation link:
+Medication Guide</span> <span class=\"dropdown-menu\"> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempic.pdf\" data-hash=\"guide\">Ozempic<sup>®</sup> Injection Medication Guide</span> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempictablets.pdf\" data-hash=\"guide\">Ozempic<sup>®</sup> Tablets Medication Guide</span> </span>","xdm:linkURL":"javascript:NOTE_Medication_Guide_DESKTOP"}}">
+Medication Guide Ozempic® Injection Medication Guide Ozempic® Tablets Medication Guide
+Top navigation link:
+En Español
+Top navigation link:
+Health Care Professional Site
+Top navigation link:
+Search
+Top navigation link:
+®</sup> Pen","xdm:linkURL":"/content/experience-fragments/dct/ozempic/en/header/sub-menus/ozempic-pen/master.html"}}">
+Ozempic® Pen
+keyboard_arrow_down
+®</sup> Pen?","xdm:linkURL":"/ozempic-pen/what-is-ozempic-pen.html"}}">
+What Is Ozempic® Pen?
+®</sup> in a Pen Works","xdm:linkURL":"/ozempic-pen/how-ozempic-pen-works.html"}}">
+How Ozempic® in a Pen Works
+®</sup> in a Pen vs Other Type 2 Diabetes Medicines","xdm:linkURL":"/ozempic-pen/diabetes-medicines-comparison.html"}}">
+Ozempic® in a Pen vs Other Type 2 Diabetes Medicines
+®</sup> Pen Dosing","xdm:linkURL":"/ozempic-pen/dosing.html"}}">
+Ozempic® Pen Dosing
+®</sup> in a Pen Possible Side Effects","xdm:linkURL":"/ozempic-pen/side-effects.html"}}">
+Ozempic® in a Pen Possible Side Effects
+®</sup> Pen Stories","xdm:linkURL":"/ozempic-pen/real-ozempic-stories.html"}}">
+Real Ozempic® Pen Stories
+®</sup> Pill","xdm:linkURL":"/content/experience-fragments/dct/ozempic/en/header/sub-menus/ozempic-pill/master.html"}}">
+Ozempic® Pill
+keyboard_arrow_down
+®</sup> Pill?","xdm:linkURL":"/ozempic-pill/what-is-ozempic-pill.html"}}">
+What Is Ozempic® Pill?
+®</sup> Pill Works","xdm:linkURL":"/ozempic-pill/how-ozempic-pill-works.html"}}">
+How Ozempic® Pill Works
+®</sup> Pill Dosing","xdm:linkURL":"/ozempic-pill/dosing.html"}}">
+Ozempic® Pill Dosing
+®</sup> Pill Possible Side Effects","xdm:linkURL":"/ozempic-pill/side-effects.html"}}">
+Ozempic® Pill Possible Side Effects
+Savings, Support, & Resources
+keyboard_arrow_down
+®</sup> Savings","xdm:linkURL":"/savings-and-resources/save-on-ozempic.html"}}">
+Ozempic® Savings
+Tools & Resources
+FAQs
+keyboard_arrow_down
+®</sup> Pen FAQs","xdm:linkURL":"/faqs/ozempic-pen.html"}}">
+Ozempic® Pen FAQs
+®</sup> Pill FAQs","xdm:linkURL":"/faqs/ozempic-pill.html"}}">
+Ozempic® Pill FAQs
+Lifestyle Tips
+keyboard_arrow_down
+Lifestyle Tips
+Healthy Eating
+Staying Active
+What Is Type 2 Diabetes?
+Sign Up & Save
+Mobile menu link: Important Safety Information
+Mobile menu link: Important Safety Information
+Medication Guide</span> <span class=\"dropdown-menu mobile\"> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempic.pdf\" data-hash=\"guide\">Ozempic<sup>®</sup> Injection Medication Guide</span> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempictablets.pdf\" data-hash=\"guide\">Ozempic<sup>®</sup> Tablets Medication Guide</span> </span>","xdm:linkURL":"javascript:NOTE_Medication_Guide_MOBILE"}}">
+Mobile menu link: Medication Guide Ozempic® Injection Medication Guide Ozempic® Tablets Medication Guide
+Prescribing Information</span> <span class=\"dropdown-menu\"> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempic.pdf\">Ozempic<sup>®</sup> Injection Prescribing Information</span> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempictablets.pdf\">Ozempic<sup>®</sup> Tablets Prescribing Information</span> </span>","xdm:linkURL":"javascript:NOTE_Prescribing_Information_DESKTOP"}}">
+Mobile menu link: Prescribing Information Ozempic® Injection Prescribing Information Ozempic® Tablets Prescribing Information
+Prescribing Information</span> <span class=\"dropdown-menu mobile\"> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempic.pdf\">Ozempic<sup>®</sup> Injection Prescribing Information</span> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempictablets.pdf\">Ozempic<sup>®</sup> Tablets Prescribing Information</span> </span>","xdm:linkURL":"javascript:NOTE_Prescribing_Information_MOBILE"}}">
+Mobile menu link: Prescribing Information Ozempic® Injection Prescribing Information Ozempic® Tablets Prescribing Information
+Medication Guide</span> <span class=\"dropdown-menu\"> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempic.pdf\" data-hash=\"guide\">Ozempic<sup>®</sup> Injection Medication Guide</span> <span class=\"dropdown-menu-item\" data-target=\"_blank\" data-url=\"https://www.novo-pi.com/ozempictablets.pdf\" data-hash=\"guide\">Ozempic<sup>®</sup> Tablets Medication Guide</span> </span>","xdm:linkURL":"javascript:NOTE_Medication_Guide_DESKTOP"}}">
+Mobile menu link: Medication Guide Ozempic® Injection Medication Guide Ozempic® Tablets Medication Guide
+Mobile menu link: En Español
+Mobile menu link: Health Care Professional Site
+Mobile menu link: Search
+menu
+close
+Ozempic<sup>®</sup> (semaglutide) Cost and Insurance Coverage</strong>","repo:modifyDate":"2026-07-09T20:19:23Z"}}" id="title-fcb68aaaba" class="cmp-title">
+Ozempic® (semaglutide) Cost and Insurance Coverage
+®</sup> (semaglutide) Cost and Insurance Coverage","repo:modifyDate":"2026-03-20T16:16:24Z"}}" id="title-42160598eb" class="cmp-title">
+Ozempic® (semaglutide) Cost and Insurance Coverage
+®</sup> when you could be eligible for savings?","repo:modifyDate":"2026-03-09T19:12:23Z"}}" id="title-1c7c21970b" class="cmp-title">
+Why pay full price for Ozempic® when you could be eligible for savings?
+Sign up & save</strong>","repo:modifyDate":"2026-07-21T14:42:38Z"}}" href="https://www.novocare.com/diabetes/products/ozempic/savings-offer.html">
+Sign up & save
+chevron_right
+Ozempic® pen
+Ozempic® pill
+®</sup> pen"}}" tabindex="0">
+COMMERCIALLY COVERED
+<span class=\"text-primary\"><strong>Pay as little as</strong></span></p>\r\n"}}" id="text-c504d98cb3" class="cmp-text">
+Pay as little as
+<span class=\"text-primary heading-xl\"><strong><sup>$</sup>25</strong></span></p>\r\n"}}" id="text-7eaf097d08" class="cmp-text">
+$25
+<span class=\"text-primary\"><strong>for any dose of Ozempic<sup>®</sup>&nbsp;pen for up to a 3-month prescription</strong><sup>a</sup></span></p>\r\n"}}" id="text-d699060ea2" class="cmp-text">
+for any dose of Ozempic® pen for up to a 3-month prescriptiona
+UNINSURED AND SELF-PAY
+<span class=\"text-black\"><strong>LIMITED TIME OFFER</strong></span></p>\r\n"}}" id="text-6babcdd912" class="cmp-text">
+LIMITED TIME OFFER
+<span class=\"text-black\">New patients pay</span></p>\r\n"}}" id="text-e46e957273" class="cmp-text">
+New patients pay
+<span class=\"text-secondary heading-xl\"><strong><sup>$</sup>199</strong></span></p>\r\n"}}" id="text-acd81e538d" class="cmp-text">
+$199
+per month for the first 2 months <span class=\"text-secondary\"><span class=\"text-black\">of</span><strong> Ozempic</strong><sup style=\"font-weight: bold;\">®</sup><strong> pen 0.25 mg, 0.5 mg</strong><sup>b</sup></span></p>\r\n"}}" id="text-55243a10d1" class="cmp-text">
+per month for the first 2 months of Ozempic® pen 0.25 mg, 0.5 mgb
+Existing patients pay</p>\r\n"}}" id="text-c17a664015" class="cmp-text">
+Existing patients pay
+<span class=\"text-secondary heading-xl\"><strong><sup>$</sup>349</strong></span></p>\r\n"}}" id="text-9ef635a32e" class="cmp-text">
+$349
+per month of&nbsp;<span class=\"text-secondary\"><strong>Ozempic</strong><sup style=\"font-weight: bold;\">®</sup><strong> pen 0.25 mg, 0.5 mg, or 1 mg</strong><sup>b</sup></span></p>\r\n"}}" id="text-07c77f4150" class="cmp-text">
+per month of Ozempic® pen 0.25 mg, 0.5 mg, or 1 mgb
+Existing patients pay</p>\r\n"}}" id="text-d6280fe748" class="cmp-text">
+Existing patients pay
+<span class=\"text-secondary heading-xl\"><strong><sup>$</sup>499</strong></span></p>\r\n"}}" id="text-d7be081227" class="cmp-text">
+$499
+per month of&nbsp;<span class=\"text-secondary\"><strong>Ozempic</strong><sup style=\"font-weight: bold;\">®</sup><strong> pen 2 mg</strong><sup>b</sup></span></p>\r\n"}}" id="text-d2d035e891" class="cmp-text">
+per month of Ozempic® pen 2 mgb
+<span class=\"body-xs\"><sup>a</sup>Pay as little as $25, subject to a maximum savings of $100/month. Eligibility and restrictions apply. Government beneficiaries excluded. One month defined as 1 box of 1 Ozempic<sup>® </sup>pen. Novo Nordisk reserves the right to modify or cancel this program at any time. See full terms at <a href=\"https://www.novocare.com/eligibility/diabetes-savings-card.html\"><u>www.savingscardeligibility.com</u></a> and <a href=\"https://www.novocare.com/eligibility/pharmacy.html\"><u>NovoCarePharmacyTerms.com</u></a>.</span></p>\r\n<p><span class=\"body-xs\"><sup>b</sup>Patients new to the Ozempic<sup>®</sup> Savings offer or NovoCare<sup>®</sup> Pharmacy pay $199 for each month of 0.25 mg &amp; 0.5 mg. Offer for 2 monthly fills through December 31, 2026, then $349 per month for Ozempic<sup>®</sup> 0.25 mg, 0.5 mg, or 1 mg and $499/month for Ozempic<sup>®</sup> 2 mg. Eligibility and restrictions apply. One month defined as 1 box of 1 Ozempic<sup>®</sup> pen. Novo Nordisk reserves the right to modify or cancel this program at any time. See full terms at <a href=\"https://www.novocare.com/eligibility/diabetes-savings-card.html\"><u>www.savingscardeligibility.com</u></a> and <a href=\"https://www.novocare.com/eligibility/pharmacy.html\"><u>NovoCarePharmacyTerms.com</u></a>.</span></p>\r\n"}}" id="text-d4da2dc318" class="cmp-text">
+aPay as little as $25, subject to a maximum savings of $100/month. Eligibility and restrictions apply. Government beneficiaries excluded. One month defined as 1 box of 1 Ozempic® pen. Novo Nordisk reserves the right to modify or cancel this program at any time. See full terms at www.savingscardeligibility.com and NovoCarePharmacyTerms.com .
+bPatients new to the Ozempic® Savings offer or NovoCare® Pharmacy pay $199 for each month of 0.25 mg & 0.5 mg. Offer for 2 monthly fills through December 31, 2026, then $349 per month for Ozempic® 0.25 mg, 0.5 mg, or 1 mg and $499/month for Ozempic® 2 mg. Eligibility and restrictions apply. One month defined as 1 box of 1 Ozempic® pen. Novo Nordisk reserves the right to modify or cancel this program at any time. See full terms at www.savingscardeligibility.com and NovoCarePharmacyTerms.com .
+®</sup> pill"}}" tabindex="-1">
+COMMERCIALLY COVERED
+<span class=\"text-primary\"><strong>Pay as little as</strong></span></p>\r\n"}}" id="text-662d71b982" class="cmp-text">
+Pay as little as
+<span class=\"text-primary heading-xl\"><strong><sup>$</sup>25</strong></span></p>\r\n"}}" id="text-7bc124fe94" class="cmp-text">
+$25
+<span class=\"text-primary\"><strong>for any dose of Ozempic<sup>®</sup>&nbsp;pill for up to a 3-month prescription</strong><sup>a</sup></span></p>\r\n"}}" id="text-fd18cc8ca5" class="cmp-text">
+for any dose of Ozempic® pill for up to a 3-month prescriptiona
+UNINSURED AND SELF-PAY
+<span class=\"text-black\">New patients pay</span></p>\r\n"}}" id="text-e2f09438e3" class="cmp-text">
+New patients pay
+<span class=\"text-secondary heading-xl\"><strong><sup>$</sup>149</strong></span></p>\r\n"}}" id="text-66116228e5" class="cmp-text">
+$149
+per month of&nbsp;</p>\r\n"}}" id="text-15ef3f7076" class="cmp-text">
+per month of
+<span class=\"text-secondary\"><strong> Ozempic<sup>®</sup> pill 1.5 mg</strong><sup>b</sup></span></p>\r\n"}}" id="text-f0c0720e80" class="cmp-text">
+Ozempic® pill 1.5 mgb
+Existing patients pay</p>\r\n"}}" id="text-833d54b172" class="cmp-text">
+Existing patients pay
+<span class=\"text-secondary heading-xl\"><strong><sup>$</sup>199</strong></span></p>\r\n"}}" id="text-41dfdf0b0b" class="cmp-text">
+$199
+per month of&nbsp;</p>\r\n"}}" id="text-c89e366d3e" class="cmp-text">
+per month of
+<span class=\"text-secondary\"><strong> Ozempic<sup>®</sup> pill 4 mg</strong><sup>b</sup></span></p>\r\n"}}" id="text-5fe12544f4" class="cmp-text">
+Ozempic® pill 4 mgb
+Existing patients pay</p>\r\n"}}" id="text-cc5a3ef0f0" class="cmp-text">
+Existing patients pay
+<span class=\"text-secondary heading-xl\"><strong><sup>$</sup>299</strong></span></p>\r\n"}}" id="text-df8c52837c" class="cmp-text">
+$299
+per month of&nbsp;</p>\r\n"}}" id="text-b3909601b9" class="cmp-text">
+per month of
+<span class=\"text-secondary\"><strong> Ozempic<sup>®</sup> pill 9 mg</strong><sup>b</sup></span></p>\r\n"}}" id="text-b2d794342c" class="cmp-text">
+Ozempic® pill 9 mgb
+<span class=\"label-sm\">Pill is not actual size.</span></p>\r\n"}}" id="text-8901e8296f" class="cmp-text">
+Pill is not actual size.
+<span class=\"body-xs\"><sup>a</sup>Pay as little as $25, subject to a maximum savings of $100/month. Eligibility and restrictions apply. Government beneficiaries excluded. One month defined as 1 bottle of 30 tablets of Ozempic<sup>® </sup>pill. Novo Nordisk reserves the right to modify or cancel this program at any time. See full terms at <a href=\"https://www.novocare.com/eligibility/diabetes-savings-card.html\"><u>www.savingscardeligibility.com</u></a> and <a href=\"https://www.novocare.com/eligibility/pharmacy.html\"><u>NovoCarePharmacyTerms.com</u></a>.</span></p>\r\n<p><span class=\"body-xs\"><sup>b</sup>Self-pay pricing varies by dose. Eligibility and restrictions apply. One month defined as 1 bottle of 30 tablets of Ozempic<sup>®</sup> pill. Novo Nordisk reserves the right to modify or cancel this program at any time.&nbsp;See full terms at <a href=\"https://www.novocare.com/eligibility/diabetes-savings-card.html\"><u>www.savingscardeligibility.com</u></a> and <a href=\"https://www.novocare.com/eligibility/pharmacy.html\"><u>NovoCarePharmacyTerms.com</u></a>.</span></p>\r\n"}}" id="text-f003142470" class="cmp-text">
+aPay as little as $25, subject to a maximum savings of $100/month. Eligibility and restrictions apply. Government beneficiaries excluded. One month defined as 1 bottle of 30 tablets of Ozempic® pill. Novo Nordisk reserves the right to modify or cancel this program at any time. See full terms at www.savingscardeligibility.com and NovoCarePharmacyTerms.com .
+bSelf-pay pricing varies by dose. Eligibility and restrictions apply. One month defined as 1 bottle of 30 tablets of Ozempic® pill. Novo Nordisk reserves the right to modify or cancel this program at any time. See full terms at www.savingscardeligibility.com and NovoCarePharmacyTerms.com .
+Key Takeaways:
+\r\n<li>Commercially insured patients with Ozempic<sup>®</sup> coverage can pay as little as $25/month, saving up to $100/month for up to 48 months</li>\r\n<li>Confirm Ozempic<sup>®</sup> coverage by contacting your insurer, as it depends on your plan’s formulary, FDA-approved indication, and prior authorization/step therapy requirements</li>\r\n</ul>\r\n"}}" id="text-ec01fedf43" class="cmp-text">
+Commercially insured patients with Ozempic® coverage can pay as little as $25/month, saving up to $100/month for up to 48 months
+Confirm Ozempic® coverage by contacting your insurer, as it depends on your plan’s formulary, FDA-approved indication, and prior authorization/step therapy requirements
+Frequently Asked Questions
+®</sup> cost savings","repo:modifyDate":"2026-03-20T15:39:53Z"}}" id="faq-ozempic-eligible" class="cmp-title">
+Find out if you’re eligible for Ozempic® cost savings
+Save on Ozempic<sup>®</sup>, a prescription GLP-1 used to improve blood sugar in adults with type 2 diabetes.</p>\r\n"}}" id="text-1901b9e997" class="cmp-text">
+Save on Ozempic®, a prescription GLP-1 used to improve blood sugar in adults with type 2 diabetes.
+®</sup> (semaglutide) for $25?"}}" data-phx-ele="accordion-item" id="accordion-c16c615d56-item-a552d97de0">
+How to get Ozempic® (semaglutide) for $25?
+<span class=\"text-secondary\">For commercially insured patients who have coverage for Ozempic<sup>®</sup>, you may pay as little as $25 per month. This offer provides up to $100 in monthly savings and is valid for up to 48 months.&nbsp;See full terms at <a href=\"https://www.novocare.com/eligibility/diabetes-savings-card.html\"><u>www.savingscardeligibility.com</u></a> and <a href=\"https://www.novocare.com/eligibility/pharmacy.html\"><u>NovoCarePharmacyTerms.com</u></a>.</span></p>\r\n"}}" id="text-82237bc271" class="cmp-text">
+For commercially insured patients who have coverage for Ozempic®, you may pay as little as $25 per month. This offer provides up to $100 in monthly savings and is valid for up to 48 months. See full terms at www.savingscardeligibility.com and NovoCarePharmacyTerms.com .
+Start saving</strong>","repo:modifyDate":"2026-07-21T14:49:22Z"}}" href="https://www.novocare.com/diabetes/products/ozempic/savings-offer.html">
+Start saving
+chevron_right
+®</sup> (semaglutide) cost with Medicare?"}}" data-phx-ele="accordion-item" id="accordion-c16c615d56-item-d9d33cb4e5">
+How much does Ozempic® (semaglutide) cost with Medicare?
+<span class=\"text-secondary\">Most Medicare Part D plans cover Ozempic<sup>®</sup>,&nbsp;but the exact cost may vary from plan to plan.&nbsp;Medicare beneficiaries with Part D coverage are not eligible for the Ozempic<sup>® </sup>pay as little as $25 offer or to receive Ozempic<sup>®</sup>&nbsp;through the Patient Assistance Program. Patients can explore options like the Medicare Prescription Payment Plan (M3P) to spread out prescription costs.</span></p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"text-secondary\">Medicare beneficiaries with Part D coverage are also eligible for self-pay options.<sup>a</sup></span></p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"text-secondary\"><sup>a</sup>If you use a self-pay offer, your prescription is purchased outside of your insurance plan, and you cannot ask your insurance to reimburse you or count the cost of this medicine toward your insurance deductible or out-of-pocket limit.</span></p>\r\n<p>&nbsp;</p>\r\n"}}" id="text-252fe8390e" class="cmp-text">
+Most Medicare Part D plans cover Ozempic®, but the exact cost may vary from plan to plan. Medicare beneficiaries with Part D coverage are not eligible for the Ozempic® pay as little as $25 offer or to receive Ozempic® through the Patient Assistance Program. Patients can explore options like the Medicare Prescription Payment Plan (M3P) to spread out prescription costs.
+Medicare beneficiaries with Part D coverage are also eligible for self-pay options.a
+aIf you use a self-pay offer, your prescription is purchased outside of your insurance plan, and you cannot ask your insurance to reimburse you or count the cost of this medicine toward your insurance deductible or out-of-pocket limit.
+®</sup> (semaglutide) cost with Medicaid?"}}" data-phx-ele="accordion-item" id="accordion-c16c615d56-item-448380202f">
+How much does Ozempic® (semaglutide) cost with Medicaid?
+<span class=\"text-secondary\">Medicaid provides its own prescription coverage for Ozempic<sup>®</sup> and costs may vary. Patients enrolled in federal or state health care programs, such as Medicaid, are not eligible for the Ozempic<sup>®</sup> pay as little as $25 offer.</span></p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"text-secondary\">Medicaid beneficiaries are eligible for self-pay options.<sup>a</sup></span></p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"text-secondary\"><sup>a</sup>If you use a self-pay offer, your prescription is purchased outside of your insurance plan, and you cannot ask your insurance to reimburse you or count the cost of this medicine toward your insurance deductible or out-of-pocket limit.</span></p>\r\n"}}" id="text-9e02400a17" class="cmp-text">
+Medicaid provides its own prescription coverage for Ozempic® and costs may vary. Patients enrolled in federal or state health care programs, such as Medicaid, are not eligible for the Ozempic® pay as little as $25 offer.
+Medicaid beneficiaries are eligible for self-pay options.a
+aIf you use a self-pay offer, your prescription is purchased outside of your insurance plan, and you cannot ask your insurance to reimburse you or count the cost of this medicine toward your insurance deductible or out-of-pocket limit.
+®</sup> Savings Questions","repo:modifyDate":"2026-03-10T20:05:39Z"}}" id="faq-ozempic-questions" class="cmp-title">
+Frequently Asked Ozempic® Savings Questions
+®</sup>?"}}" data-phx-ele="accordion-item" id="accordion-eec53502e6-item-c35cdc6d12">
+When does insurance cover Ozempic®?
+<span class=\"text-secondary\">Ozempic<sup>® </sup>is covered by most commercial insurance plans in the US. Coverage should be confirmed by contacting your insurer, as it depends on your plan’s formulary, the FDA-approved indication if applicable, and any prior authorization or step therapy requirements.</span></p>\r\n<p>&nbsp;</p>\r\n"}}" id="text-a24f45b299" class="cmp-text">
+Ozempic® is covered by most commercial insurance plans in the US. Coverage should be confirmed by contacting your insurer, as it depends on your plan’s formulary, the FDA-approved indication if applicable, and any prior authorization or step therapy requirements.
+®</sup>?"}}" data-phx-ele="accordion-item" id="accordion-eec53502e6-item-a9ae99467d">
+Does my insurance cover Ozempic®?
+<span class=\"text-secondary\">To determine if your insurance covers Ozempic<sup>®</sup>, you must contact your specific health insurance provider directly. Coverage depends entirely on your individual plan’s formulary and whether the Ozempic<sup>®</sup> prescription meets any prior authorization or step therapy requirements set by your insurer. Your plan documents or a call to your insurer's member services will provide the most accurate details regarding your specific coverage and potential out-of-pocket costs.</span></p>\r\n"}}" id="text-c59c1016e7" class="cmp-text">
+To determine if your insurance covers Ozempic®, you must contact your specific health insurance provider directly. Coverage depends entirely on your individual plan’s formulary and whether the Ozempic® prescription meets any prior authorization or step therapy requirements set by your insurer. Your plan documents or a call to your insurer's member services will provide the most accurate details regarding your specific coverage and potential out-of-pocket costs.
+See if your insurance plan covers Ozempic<sup>®</sup></strong>","repo:modifyDate":"2026-06-09T19:48:06Z"}}" href="https://www.novocare.com/diabetes/products/ozempic/check-coverage.html">
+See if your insurance plan covers Ozempic®
+chevron_right
+®</sup>?"}}" data-phx-ele="accordion-item" id="accordion-eec53502e6-item-927cf3fe63">
+What impacts the cost of Ozempic®?
+<span class=\"text-secondary\">The cost of Ozempic<sup>®&nbsp;&nbsp;</sup>is primarily impacted by your insurance coverage (type of plan, formulary, deductible, co-pay/co-insurance, and whether it requires prior authorization for an FDA-approved indication like type 2 diabetes), manufacturer savings programs or patient assistance eligibility, and the specific pharmacy you use.</span></p>\r\n<p>&nbsp;</p>\r\n"}}" id="text-9e31678367" class="cmp-text">
+The cost of Ozempic®  is primarily impacted by your insurance coverage (type of plan, formulary, deductible, co-pay/co-insurance, and whether it requires prior authorization for an FDA-approved indication like type 2 diabetes), manufacturer savings programs or patient assistance eligibility, and the specific pharmacy you use.
+®</sup> savings offer?"}}" data-phx-ele="accordion-item" id="accordion-eec53502e6-item-8dfbc69676">
+Who is eligible for the Ozempic® savings offer?
+<span class=\"text-secondary\">Eligible patients for Ozempic<sup>®&nbsp;&nbsp;</sup>savings offers include those with commercial insurance, who may pay as little as $25 for a multi-month supply, and uninsured or self-paying patients, for whom additional savings options are available.</span></p>\r\n<p>&nbsp;</p>\r\n"}}" id="text-cadeff33fe" class="cmp-text">
+Eligible patients for Ozempic®  savings offers include those with commercial insurance, who may pay as little as $25 for a multi-month supply, and uninsured or self-paying patients, for whom additional savings options are available.
+®</sup>?"}}" data-phx-ele="accordion-item" id="accordion-eec53502e6-item-79cb629d11">
+How can the Patient Assistance Program assist with the cost of Ozempic®?
+<span class=\"text-secondary\">The NovoCare<sup>® </sup>Patient Assistance Program (PAP) can help with Ozempic<sup>® </sup>costs by providing free Ozempic<sup>® </sup>to eligible individuals. To qualify, patients must meet specific income requirements, have no prescription drug coverage through Medicare, Medicaid, or other federal/state programs (with an exception for uninsured patients for Ozempic<sup>®</sup>), and be a US resident.&nbsp;</span></p>\r\n"}}" id="text-cee9ee0782" class="cmp-text">
+The NovoCare® Patient Assistance Program (PAP) can help with Ozempic® costs by providing free Ozempic® to eligible individuals. To qualify, patients must meet specific income requirements, have no prescription drug coverage through Medicare, Medicaid, or other federal/state programs (with an exception for uninsured patients for Ozempic®), and be a US resident.
+Apply for the NovoCare<sup>®</sup> Patient Assistance Program</strong>","repo:modifyDate":"2026-06-09T15:25:15Z"}}" href="https://www.novocare.com/diabetes/help-with-costs/pap.html">
+Apply for the NovoCare® Patient Assistance Program
+chevron_right
+Sign up for support
+<span class=\"body-md\">With Ozempic<sup>®</sup>, you get access to TexT2Connect—a text-based coaching program that gives you reminders, inspiration, and resources to help you start and stay on Ozempic<sup>®</sup>.</span></p>\r\n<p style=\"text-align: center;\"><span class=\"body-md\"><strong>Text SIGNUP to 21848 to get started.</strong><sup>a</sup></span></p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p style=\"text-align: left;\"><span class=\"body-xs\"><sup>a</sup>Message and data rates may apply. Check with your mobile service provider. See&nbsp;<a href=\"/content/dam/dct/ozempic/en/shared/downloadable-assets/terms-of-use.pdf\">Terms and Conditions of Use</a>.</span></p>\r\n"}}" id="text-94c23eead0" class="cmp-text">
+With Ozempic®, you get access to TexT2Connect—a text-based coaching program that gives you reminders, inspiration, and resources to help you start and stay on Ozempic®.
+Text SIGNUP to 21848 to get started.a
+aMessage and data rates may apply. Check with your mobile service provider. See  Terms and Conditions of Use .
+®</sup>?","repo:modifyDate":"2026-09-09T16:56:10Z"}}" id="title-f9bc2c930b" class="cmp-title">
+Have questions about Ozempic®?
+<span class=\"body-md\">You can call <strong><a href=\"tel:18666964090\">1-866-696-4090</a></strong>&nbsp;Monday through Friday between 8:30 ᴀᴍ and 6:00 ᴘᴍ ET to get live support.<br>\r\n &nbsp;</span></p>\r\n"}}" id="text-335f5f4445" class="cmp-text">
+You can call 1-866-696-4090  Monday through Friday between 8:30 ᴀᴍ and 6:00 ᴘᴍ ET to get live support.
+®</sup> Pharmacy ships Ozempic<sup>®</sup>","repo:modifyDate":"2026-03-13T20:02:48Z"}}" id="title-d53177b874" class="cmp-title">
+NovoCare® Pharmacy ships Ozempic®
+Get direct shipping through NovoCare<sup>®</sup> Pharmacy—your reliable source for authentic Ozempic<sup>®</sup>.</p>\r\n"}}" id="text-bf3461a82c" class="cmp-text">
+Get direct shipping through NovoCare® Pharmacy—your reliable source for authentic Ozempic®.
+Find out more
+chevron_right
+<a href=\"https://www.assistrx.com/coassist-pharmacy/\">CoAssist&nbsp;Pharmacy</a> is a dispensing pharmacy for NovoCare<sup>®</sup> Pharmacy.</p>\r\n"}}" id="text-73278f8a74" class="cmp-text">
+CoAssist Pharmacy is a dispensing pharmacy for NovoCare® Pharmacy.
+NEXT:</strong> Ozempic<sup>®</sup> Tools & Resources","repo:modifyDate":"2026-06-12T18:19:20Z"}}" href="/savings-and-resources/tools-and-resources.html">
+NEXT: Ozempic® Tools & Resources
+chevron_right
+Stay connected:
+READ MORE
+keyboard_arrow_up
+READ LESS
+keyboard_arrow_down
+Scroll to Indication
+Important Safety Information
+Do not share your Ozempic® pen with other people, even if the needle has been changed. You may give other people a serious infection or get a serious infection from them.
+What is the most important information I should know about Ozempic®?
+Ozempic® may cause serious side effects, including:
+Possible thyroid tumors, including cancer. Tell your health care provider if you get a lump or swelling in your neck, hoarseness, trouble swallowing, or shortness of breath. These may be symptoms of thyroid cancer. In studies with rodents, Ozempic® and medicines that work like Ozempic® caused thyroid tumors, including thyroid cancer. It is not known if Ozempic® will cause thyroid tumors or a type of thyroid cancer called medullary thyroid carcinoma (MTC) in people
+Do not use Ozempic® if:
+you or any of your family have ever had MTC, or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+you have had a serious allergic reaction to semaglutide or any of the ingredients in Ozempic® injection or Ozempic® tablets
+Before using Ozempic®, tell your health care provider if you have any other medical conditions, including if you:
+have or have had problems with your pancreas or kidneys
+have a history of vision problems related to your diabetes
+have severe problems with your stomach, such as slowed emptying of your stomach (gastroparesis) or problems with digesting food
+are scheduled to have surgery or other procedures that use anesthesia or deep sleepiness (deep sedation)
+are pregnant or plan to become pregnant. It is not known if Ozempic® will harm your unborn baby. You should stop using Ozempic® 2 months before you plan to become pregnant
+are breastfeeding or plan to breastfeed. Breastfeeding is not recommended during treatment with Ozempic® tablets. It is not known if Ozempic® when received through an injection passes into your breast milk
+Tell your health care provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, herbal supplements, and other medicines to treat diabetes, including insulin or sulfonylureas.
+What are the possible side effects of Ozempic®?
+Ozempic® may cause serious side effects, including:
+inflammation of your pancreas (pancreatitis). Stop using Ozempic® and call your health care provider right away if you have severe pain in your stomach area (abdomen) that will not go away, with or without nausea or vomiting. Sometimes you may feel the pain from your abdomen to your back
+changes in vision. Tell your health care provider if you have changes in vision during treatment with Ozempic®
+low blood sugar (hypoglycemia). Your risk for getting low blood sugar may be higher if you use Ozempic® with another medicine that can cause low blood sugar, such as a sulfonylurea or insulin. Signs and symptoms of low blood sugar may include: dizziness or lightheadedness, blurred vision, anxiety, irritability or mood changes, sweating, slurred speech, hunger, confusion or drowsiness, shakiness, weakness, headache, fast heartbeat, and feeling jittery
+dehydration leading to kidney problems. Diarrhea, nausea, and vomiting may cause a loss of fluids (dehydration), which may cause kidney problems. It is important for you to drink fluids to help reduce your chance of dehydration. Tell your health care provider right away if you have nausea, vomiting, or diarrhea that does not go away
+severe stomach problems. Stomach problems, sometimes severe, have been reported in people who use Ozempic®. Tell your health care provider if you have stomach problems that are severe or will not go away
+serious allergic reactions. Stop using Ozempic® and get medical help right away if you have any symptoms of a serious allergic reaction, including swelling of your face, lips, tongue, or throat; problems breathing or swallowing; severe rash or itching; fainting or feeling dizzy; or very rapid heartbeat
+gallbladder problems. Gallbladder problems have happened in some people who take Ozempic®. Tell your health care provider right away if you get symptoms which may include: pain in your upper stomach (abdomen), fever, yellowing of the skin or eyes (jaundice), or clay-colored stools
+food or liquid getting into the lungs during surgery or other procedures that use anesthesia or deep sleepiness (deep sedation). Ozempic® may increase the chance of food getting into your lungs during surgery or other procedures. Tell all your health care providers that you are taking Ozempic® before you are scheduled to have surgery or other procedures
+The most common side effects of Ozempic® may include nausea, vomiting, diarrhea, stomach (abdominal) pain, and constipation. When taking Ozempic® tablets, they may also include decreased appetite.
+Please click here for Prescribing Information and Medication Guide for Ozempic® injection.
+Please click here for Prescribing Information and Medication Guide for Ozempic® tablets.
+Ozempic® injection and Ozempic® tablets are prescription medications.
+Novo Nordisk provides patient assistance for those who qualify. Please call  1-866-310-7549  to learn more about Novo Nordisk assistance programs.
+You are encouraged to report negative side effects of prescription drugs to the FDA. Visit  www.fda.gov/medwatch  or call  1-800-FDA-1088 .
+Scroll to ISI
+What is Ozempic®?
+Ozempic® (semaglutide) injection 0.5 mg, 1 mg, or 2 mg and Ozempic® (semaglutide) tablets 4 mg or 9 mg are prescription medicines used:
+along with diet and exercise to improve blood sugar (glucose) in adults with type 2 diabetes
+Ozempic® injection is used:
+to reduce the risk of major cardiovascular events such as heart attack, stroke, or death in adults with type 2 diabetes and known heart disease
+to reduce the risk of kidney disease worsening, kidney failure (end-stage kidney disease), and death due to cardiovascular disease in adults with type 2 diabetes and chronic kidney disease
+Ozempic® tablets are used:
+to reduce the risk of major cardiovascular events such as heart attack, stroke or death in adults with type 2 diabetes who are at high risk for these events
+It is not known if Ozempic® injection and Ozempic® tablets are safe and effective for use in children.
+Scroll to ISI
+What is Ozempic®?
+Ozempic® (semaglutide) injection 0.5 mg, 1 mg, or 2 mg and Ozempic® (semaglutide) tablets 4 mg or 9 mg are prescription medicines used:
+along with diet and exercise to improve blood sugar (glucose) in adults with type 2 diabetes
+Ozempic® injection is used:
+to reduce the risk of major cardiovascular events such as heart attack, stroke, or death in adults with type 2 diabetes and known heart disease
+to reduce the risk of kidney disease worsening, kidney failure (end-stage kidney disease), and death due to cardiovascular disease in adults with type 2 diabetes and chronic kidney disease
+Ozempic® tablets are used:
+to reduce the risk of major cardiovascular events such as heart attack, stroke or death in adults with type 2 diabetes who are at high risk for these events
+It is not known if Ozempic® injection and Ozempic® tablets are safe and effective for use in children.
+Scroll to Indication
+Important Safety Information
+Do not share your Ozempic® pen with other people, even if the needle has been changed. You may give other people a serious infection or get a serious infection from them.
+What is the most important information I should know about Ozempic®?
+Ozempic® may cause serious side effects, including:
+Possible thyroid tumors, including cancer. Tell your health care provider if you get a lump or swelling in your neck, hoarseness, trouble swallowing, or shortness of breath. These may be symptoms of thyroid cancer. In studies with rodents, Ozempic® and medicines that work like Ozempic® caused thyroid tumors, including thyroid cancer. It is not known if Ozempic® will cause thyroid tumors or a type of thyroid cancer called medullary thyroid carcinoma (MTC) in people
+Do not use Ozempic® if:
+you or any of your family have ever had MTC, or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+you have had a serious allergic reaction to semaglutide or any of the ingredients in Ozempic® injection or Ozempic® tablets
+Before using Ozempic®, tell your health care provider if you have any other medical conditions, including if you:
+have or have had problems with your pancreas or kidneys
+have a history of vision problems related to your diabetes
+have severe problems with your stomach, such as slowed emptying of your stomach (gastroparesis) or problems with digesting food
+are scheduled to have surgery or other procedures that use anesthesia or deep sleepiness (deep sedation)
+are pregnant or plan to become pregnant. It is not known if Ozempic® will harm your unborn baby. You should stop using Ozempic® 2 months before you plan to become pregnant
+are breastfeeding or plan to breastfeed. Breastfeeding is not recommended during treatment with Ozempic® tablets. It is not known if Ozempic® when received through an injection passes into your breast milk
+Tell your health care provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, herbal supplements, and other medicines to treat diabetes, including insulin or sulfonylureas.
+What are the possible side effects of Ozempic®?
+Ozempic® may cause serious side effects, including:
+inflammation of your pancreas (pancreatitis). Stop using Ozempic® and call your health care provider right away if you have severe pain in your stomach area (abdomen) that will not go away, with or without nausea or vomiting. Sometimes you may feel the pain from your abdomen to your back
+changes in vision. Tell your health care provider if you have changes in vision during treatment with Ozempic®
+low blood sugar (hypoglycemia). Your risk for getting low blood sugar may be higher if you use Ozempic® with another medicine that can cause low blood sugar, such as a sulfonylurea or insulin. Signs and symptoms of low blood sugar may include: dizziness or lightheadedness, blurred vision, anxiety, irritability or mood changes, sweating, slurred speech, hunger, confusion or drowsiness, shakiness, weakness, headache, fast heartbeat, and feeling jittery
+dehydration leading to kidney problems. Diarrhea, nausea, and vomiting may cause a loss of fluids (dehydration), which may cause kidney problems. It is important for you to drink fluids to help reduce your chance of dehydration. Tell your health care provider right away if you have nausea, vomiting, or diarrhea that does not go away
+severe stomach problems. Stomach problems, sometimes severe, have been reported in people who use Ozempic®. Tell your health care provider if you have stomach problems that are severe or will not go away
+serious allergic reactions. Stop using Ozempic® and get medical help right away if you have any symptoms of a serious allergic reaction, including swelling of your face, lips, tongue, or throat; problems breathing or swallowing; severe rash or itching; fainting or feeling dizzy; or very rapid heartbeat
+gallbladder problems. Gallbladder problems have happened in some people who take Ozempic®. Tell your health care provider right away if you get symptoms which may include: pain in your upper stomach (abdomen), fever, yellowing of the skin or eyes (jaundice), or clay-colored stools
+food or liquid getting into the lungs during surgery or other procedures that use anesthesia or deep sleepiness (deep sedation). Ozempic® may increase the chance of food getting into your lungs during surgery or other procedures. Tell all your health care providers that you are taking Ozempic® before you are scheduled to have surgery or other procedures
+The most common side effects of Ozempic® may include nausea, vomiting, diarrhea, stomach (abdominal) pain, and constipation. When taking Ozempic® tablets, they may also include decreased appetite.
+Please click here for Prescribing Information and Medication Guide for Ozempic® injection.
+Please click here for Prescribing Information and Medication Guide for Ozempic® tablets.
+Ozempic® injection and Ozempic® tablets are prescription medications.
+Novo Nordisk provides patient assistance for those who qualify. Please call  1-866-310-7549  to learn more about Novo Nordisk assistance programs.
+You are encouraged to report negative side effects of prescription drugs to the FDA. Visit  www.fda.gov/medwatch  or call  1-800-FDA-1088 .
+READ MORE
+keyboard_arrow_up
+READ LESS
+keyboard_arrow_down
+READ MORE
+keyboard_arrow_up
+READ LESS
+keyboard_arrow_down
+What is Ozempic®?
+Ozempic® (semaglutide) injection 0.5 mg, 1 mg, or 2 mg and Ozempic® (semaglutide) tablets 4 mg or 9 mg are prescription medicines used:
+along with diet and exercise to improve blood sugar (glucose) in adults with type 2 diabetes
+Ozempic® injection is used:
+to reduce the risk of major cardiovascular events such as heart attack, stroke, or death in adults with type 2 diabetes and known heart disease
+to reduce the risk of kidney disease worsening, kidney failure (end-stage kidney disease), and death due to cardiovascular disease in adults with type 2 diabetes and chronic kidney disease
+Ozempic® tablets are used:
+to reduce the risk of major cardiovascular events such as heart attack, stroke or death in adults with type 2 diabetes who are at high risk for these events
+It is not known if Ozempic® injection and Ozempic® tablets are safe and effective for use in children.
+Scroll to ISI
+What is Ozempic®?
+Ozempic® (semaglutide) injection 0.5 mg, 1 mg, or 2 mg and Ozempic® (semaglutide) tablets 4 mg or 9 mg are prescription medicines used:
+along with diet and exercise to improve blood sugar (glucose) in adults with type 2 diabetes
+Ozempic® injection is used:
+to reduce the risk of major cardiovascular events such as heart attack, stroke, or death in adults with type 2 diabetes and known heart disease
+to reduce the risk of kidney disease worsening, kidney failure (end-stage kidney disease), and death due to cardiovascular disease in adults with type 2 diabetes and chronic kidney disease
+Ozempic® tablets are used:
+to reduce the risk of major cardiovascular events such as heart attack, stroke or death in adults with type 2 diabetes who are at high risk for these events
+It is not known if Ozempic® injection and Ozempic® tablets are safe and effective for use in children.
+Scroll to Indication
+Important Safety Information
+Do not share your Ozempic® pen with other people, even if the needle has been changed. You may give other people a serious infection or get a serious infection from them.
+What is the most important information I should know about Ozempic®?
+Ozempic® may cause serious side effects, including:
+Possible thyroid tumors, including cancer. Tell your health care provider if you get a lump or swelling in your neck, hoarseness, trouble swallowing, or shortness of breath. These may be symptoms of thyroid cancer. In studies with rodents, Ozempic® and medicines that work like Ozempic® caused thyroid tumors, including thyroid cancer. It is not known if Ozempic® will cause thyroid tumors or a type of thyroid cancer called medullary thyroid carcinoma (MTC) in people
+Do not use Ozempic® if:
+you or any of your family have ever had MTC, or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+you have had a serious allergic reaction to semaglutide or any of the ingredients in Ozempic® injection or Ozempic® tablets
+Before using Ozempic®, tell your health care provider if you have any other medical conditions, including if you:
+have or have had problems with your pancreas or kidneys
+have a history of vision problems related to your diabetes
+have severe problems with your stomach, such as slowed emptying of your stomach (gastroparesis) or problems with digesting food
+are scheduled to have surgery or other procedures that use anesthesia or deep sleepiness (deep sedation)
+are pregnant or plan to become pregnant. It is not known if Ozempic® will harm your unborn baby. You should stop using Ozempic® 2 months before you plan to become pregnant
+are breastfeeding or plan to breastfeed. Breastfeeding is not recommended during treatment with Ozempic® tablets. It is not known if Ozempic® when received through an injection passes into your breast milk
+Tell your health care provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, herbal supplements, and other medicines to treat diabetes, including insulin or sulfonylureas.
+What are the possible side effects of Ozempic®?
+Ozempic® may cause serious side effects, including:
+inflammation of your pancreas (pancreatitis). Stop using Ozempic® and call your health care provider right away if you have severe pain in your stomach area (abdomen) that will not go away, with or without nausea or vomiting. Sometimes you may feel the pain from your abdomen to your back
+changes in vision. Tell your health care provider if you have changes in vision during treatment with Ozempic®
+low blood sugar (hypoglycemia). Your risk for getting low blood sugar may be higher if you use Ozempic® with another medicine that can cause low blood sugar, such as a sulfonylurea or insulin. Signs and symptoms of low blood sugar may include: dizziness or lightheadedness, blurred vision, anxiety, irritability or mood changes, sweating, slurred speech, hunger, confusion or drowsiness, shakiness, weakness, headache, fast heartbeat, and feeling jittery
+dehydration leading to kidney problems. Diarrhea, nausea, and vomiting may cause a loss of fluids (dehydration), which may cause kidney problems. It is important for you to drink fluids to help reduce your chance of dehydration. Tell your health care provider right away if you have nausea, vomiting, or diarrhea that does not go away
+severe stomach problems. Stomach problems, sometimes severe, have been reported in people who use Ozempic®. Tell your health care provider if you have stomach problems that are severe or will not go away
+serious allergic reactions. Stop using Ozempic® and get medical help right away if you have any symptoms of a serious allergic reaction, including swelling of your face, lips, tongue, or throat; problems breathing or swallowing; severe rash or itching; fainting or feeling dizzy; or very rapid heartbeat
+gallbladder problems. Gallbladder problems have happened in some people who take Ozempic®. Tell your health care provider right away if you get symptoms which may include: pain in your upper stomach (abdomen), fever, yellowing of the skin or eyes (jaundice), or clay-colored stools
+food or liquid getting into the lungs during surgery or other procedures that use anesthesia or deep sleepiness (deep sedation). Ozempic® may increase the chance of food getting into your lungs during surgery or other procedures. Tell all your health care providers that you are taking Ozempic® before you are scheduled to have surgery or other procedures
+The most common side effects of Ozempic® may include nausea, vomiting, diarrhea, stomach (abdominal) pain, and constipation. When taking Ozempic® tablets, they may also include decreased appetite.
+Please click here for Prescribing Information and Medication Guide for Ozempic® injection.
+Please click here for Prescribing Information and Medication Guide for Ozempic® tablets.
+Important Safety Information
+Do not share your Ozempic® pen with other people, even if the needle has been changed. You may give other people a serious infection or get a serious infection from them.
+What is the most important information I should know about Ozempic®?
+Ozempic® may cause serious side effects, including:
+Possible thyroid tumors, including cancer. Tell your health care provider if you get a lump or swelling in your neck, hoarseness, trouble swallowing, or shortness of breath. These may be symptoms of thyroid cancer. In studies with rodents, Ozempic® and medicines that work like Ozempic® caused thyroid tumors, including thyroid cancer. It is not known if Ozempic® will cause thyroid tumors or a type of thyroid cancer called medullary thyroid carcinoma (MTC) in people
+Do not use Ozempic® if:
+you or any of your family have ever had MTC, or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+you have had a serious allergic reaction to semaglutide or any of the ingredients in Ozempic® injection or Ozempic® tablets
+Before using Ozempic®, tell your health care provider if you have any other medical conditions, including if you:
+have or have had problems with your pancreas or kidneys
+have a history of vision problems related to your diabetes
+have severe problems with your stomach, such as slowed emptying of your stomach (gastroparesis) or problems with digesting food
+are scheduled to have surgery or other procedures that use anesthesia or deep sleepiness (deep sedation)
+are pregnant or plan to become pregnant. It is not known if Ozempic® will harm your unborn baby. You should stop using Ozempic® 2 months before you plan to become pregnant
+are breastfeeding or plan to breastfeed. Breastfeeding is not recommended during treatment with Ozempic® tablets. It is not known if Ozempic® when received through an injection passes into your breast milk
+Tell your health care provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, herbal supplements, and other medicines to treat diabetes, including insulin or sulfonylureas.
+What are the possible side effects of Ozempic®?
+Ozempic® may cause serious side effects, including:
+inflammation of your pancreas (pancreatitis). Stop using Ozempic® and call your health care provider right away if you have severe pain in your stomach area (abdomen) that will not go away, with or without nausea or vomiting. Sometimes you may feel the pain from your abdomen to your back
+changes in vision. Tell your health care provider if you have changes in vision during treatment with Ozempic®
+low blood sugar (hypoglycemia). Your risk for getting low blood sugar may be higher if you use Ozempic® with another medicine that can cause low blood sugar, such as a sulfonylurea or insulin. Signs and symptoms of low blood sugar may include: dizziness or lightheadedness, blurred vision, anxiety, irritability or mood changes, sweating, slurred speech, hunger, confusion or drowsiness, shakiness, weakness, headache, fast heartbeat, and feeling jittery
+dehydration leading to kidney problems. Diarrhea, nausea, and vomiting may cause a loss of fluids (dehydration), which may cause kidney problems. It is important for you to drink fluids to help reduce your chance of dehydration. Tell your health care provider right away if you have nausea, vomiting, or diarrhea that does not go away
+severe stomach problems. Stomach problems, sometimes severe, have been reported in people who use Ozempic®. Tell your health care provider if you have stomach problems that are severe or will not go away
+serious allergic reactions. Stop using Ozempic® and get medical help right away if you have any symptoms of a serious allergic reaction, including swelling of your face, lips, tongue, or throat; problems breathing or swallowing; severe rash or itching; fainting or feeling dizzy; or very rapid heartbeat
+gallbladder problems. Gallbladder problems have happened in some people who take Ozempic®. Tell your health care provider right away if you get symptoms which may include: pain in your upper stomach (abdomen), fever, yellowing of the skin or eyes (jaundice), or clay-colored stools
+food or liquid getting into the lungs during surgery or other procedures that use anesthesia or deep sleepiness (deep sedation). Ozempic® may increase the chance of food getting into your lungs during surgery or other procedures. Tell all your health care providers that you are taking Ozempic® before you are scheduled to have surgery or other procedures
+The most common side effects of Ozempic® may include nausea, vomiting, diarrhea, stomach (abdominal) pain, and constipation. When taking Ozempic® tablets, they may also include decreased appetite.
+Please click here for Prescribing Information and Medication Guide for Ozempic® injection.
+Please click here for Prescribing Information and Medication Guide for Ozempic® tablets.
+Scroll to Indication
+Important Safety Information
+Do not share your Ozempic® pen with other people, even if the needle has been changed. You may give other people a serious infection or get a serious infection from them.
+What is the most important information I should know about Ozempic®?
+Ozempic® may cause serious side effects, including:
+Possible thyroid tumors, including cancer. Tell your health care provider if you get a lump or swelling in your neck, hoarseness, trouble swallowing, or shortness of breath. These may be symptoms of thyroid cancer. In studies with rodents, Ozempic® and medicines that work like Ozempic® caused thyroid tumors, including thyroid cancer. It is not known if Ozempic® will cause thyroid tumors or a type of thyroid cancer called medullary thyroid carcinoma (MTC) in people
+Do not use Ozempic® if:
+you or any of your family have ever had MTC, or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+you have had a serious allergic reaction to semaglutide or any of the ingredients in Ozempic® injection or Ozempic® tablets
+Before using Ozempic®, tell your health care provider if you have any other medical conditions, including if you:
+have or have had problems with your pancreas or kidneys
+have a history of vision problems related to your diabetes
+have severe problems with your stomach, such as slowed emptying of your stomach (gastroparesis) or problems with digesting food
+are scheduled to have surgery or other procedures that use anesthesia or deep sleepiness (deep sedation)
+are pregnant or plan to become pregnant. It is not known if Ozempic® will harm your unborn baby. You should stop using Ozempic® 2 months before you plan to become pregnant
+are breastfeeding or plan to breastfeed. Breastfeeding is not recommended during treatment with Ozempic® tablets. It is not known if Ozempic® when received through an injection passes into your breast milk
+Tell your health care provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, herbal supplements, and other medicines to treat diabetes, including insulin or sulfonylureas.
+What are the possible side effects of Ozempic®?
+Ozempic® may cause serious side effects, including:
+inflammation of your pancreas (pancreatitis). Stop using Ozempic® and call your health care provider right away if you have severe pain in your stomach area (abdomen) that will not go away, with or without nausea or vomiting. Sometimes you may feel the pain from your abdomen to your back
+changes in vision. Tell your health care provider if you have changes in vision during treatment with Ozempic®
+low blood sugar (hypoglycemia). Your risk for getting low blood sugar may be higher if you use Ozempic® with another medicine that can cause low blood sugar, such as a sulfonylurea or insulin. Signs and symptoms of low blood sugar may include: dizziness or lightheadedness, blurred vision, anxiety, irritability or mood changes, sweating, slurred speech, hunger, confusion or drowsiness, shakiness, weakness, headache, fast heartbeat, and feeling jittery
+dehydration leading to kidney problems. Diarrhea, nausea, and vomiting may cause a loss of fluids (dehydration), which may cause kidney problems. It is important for you to drink fluids to help reduce your chance of dehydration. Tell your health care provider right away if you have nausea, vomiting, or diarrhea that does not go away
+severe stomach problems. Stomach problems, sometimes severe, have been reported in people who use Ozempic®. Tell your health care provider if you have stomach problems that are severe or will not go away
+serious allergic reactions. Stop using Ozempic® and get medical help right away if you have any symptoms of a serious allergic reaction, including swelling of your face, lips, tongue, or throat; problems breathing or swallowing; severe rash or itching; fainting or feeling dizzy; or very rapid heartbeat
+gallbladder problems. Gallbladder problems have happened in some people who take Ozempic®. Tell your health care provider right away if you get symptoms which may include: pain in your upper stomach (abdomen), fever, yellowing of the skin or eyes (jaundice), or clay-colored stools
+food or liquid getting into the lungs during surgery or other procedures that use anesthesia or deep sleepiness (deep sedation). Ozempic® may increase the chance of food getting into your lungs during surgery or other procedures. Tell all your health care providers that you are taking Ozempic® before you are scheduled to have surgery or other procedures
+The most common side effects of Ozempic® may include nausea, vomiting, diarrhea, stomach (abdominal) pain, and constipation. When taking Ozempic® tablets, they may also include decreased appetite.
+Scroll to ISI
+What is Ozempic®?
+Ozempic® (semaglutide) injection 0.5 mg, 1 mg, or 2 mg and Ozempic® (semaglutide) tablets 4 mg or 9 mg are prescription medicines used:
+along with diet and exercise to improve blood sugar (glucose) in adults with type 2 diabetes
+Ozempic® injection is used:
+to reduce the risk of major cardiovascular events such as heart attack, stroke, or death in adults with type 2 diabetes and known heart disease
+to reduce the risk of kidney disease worsening, kidney failure (end-stage kidney disease), and death due to cardiovascular disease in adults with type 2 diabetes and chronic kidney disease
+Ozempic® tablets are used:
+to reduce the risk of major cardiovascular events such as heart attack, stroke or death in adults with type 2 diabetes who are at high risk for these events
+It is not known if Ozempic® injection and Ozempic® tablets are safe and effective for use in children.
+Please click here for Prescribing Information and Medication Guide for Ozempic® injection.
+Please click here for Prescribing Information and Medication Guide for Ozempic® tablets.
+Ozempic® injection and Ozempic® tablets are prescription medications.
+Novo Nordisk provides patient assistance for those who qualify. Please call  1-866-310-7549  to learn more about Novo Nordisk assistance programs.
+You are encouraged to report negative side effects of prescription drugs to the FDA. Visit  www.fda.gov/medwatch  or call  1-800-FDA-1088 .
+Scroll to Indication
+Important Safety Information
+Do not share your Ozempic® pen with other people, even if the needle has been changed. You may give other people a serious infection or get a serious infection from them.
+What is the most important information I should know about Ozempic®?
+Ozempic® may cause serious side effects, including:
+Possible thyroid tumors, including cancer. Tell your health care provider if you get a lump or swelling in your neck, hoarseness, trouble swallowing, or shortness of breath. These may be symptoms of thyroid cancer. In studies with rodents, Ozempic® and medicines that work like Ozempic® caused thyroid tumors, including thyroid cancer. It is not known if Ozempic® will cause thyroid tumors or a type of thyroid cancer called medullary thyroid carcinoma (MTC) in people
+Do not use Ozempic® if:
+you or any of your family have ever had MTC, or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+you have had a serious allergic reaction to semaglutide or any of the ingredients in Ozempic® injection or Ozempic® tablets
+Before using Ozempic®, tell your health care provider if you have any other medical conditions, including if you:
+have or have had problems with your pancreas or kidneys
+have a history of vision problems related to your diabetes
+have severe problems with your stomach, such as slowed emptying of your stomach (gastroparesis) or problems with digesting food
+are scheduled to have surgery or other procedures that use anesthesia or deep sleepiness (deep sedation)
+are pregnant or plan to become pregnant. It is not known if Ozempic® will harm your unborn baby. You should stop using Ozempic® 2 months before you plan to become pregnant
+are breastfeeding or plan to breastfeed. Breastfeeding is not recommended during treatment with Ozempic® tablets. It is not known if Ozempic® when received through an injection passes into your breast milk
+Tell your health care provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, herbal supplements, and other medicines to treat diabetes, including insulin or sulfonylureas.
+What are the possible side effects of Ozempic®?
+Ozempic® may cause serious side effects, including:
+inflammation of your pancreas (pancreatitis). Stop using Ozempic® and call your health care provider right away if you have severe pain in your stomach area (abdomen) that will not go away, with or without nausea or vomiting. Sometimes you may feel the pain from your abdomen to your back
+changes in vision. Tell your health care provider if you have changes in vision during treatment with Ozempic®
+low blood sugar (hypoglycemia). Your risk for getting low blood sugar may be higher if you use Ozempic® with another medicine that can cause low blood sugar, such as a sulfonylurea or insulin. Signs and symptoms of low blood sugar may include: dizziness or lightheadedness, blurred vision, anxiety, irritability or mood changes, sweating, slurred speech, hunger, confusion or drowsiness, shakiness, weakness, headache, fast heartbeat, and feeling jittery
+dehydration leading to kidney problems. Diarrhea, nausea, and vomiting may cause a loss of fluids (dehydration), which may cause kidney problems. It is important for you to drink fluids to help reduce your chance of dehydration. Tell your health care provider right away if you have nausea, vomiting, or diarrhea that does not go away
+severe stomach problems. Stomach problems, sometimes severe, have been reported in people who use Ozempic®. Tell your health care provider if you have stomach problems that are severe or will not go away
+serious allergic reactions. Stop using Ozempic® and get medical help right away if you have any symptoms of a serious allergic reaction, including swelling of your face, lips, tongue, or throat; problems breathing or swallowing; severe rash or itching; fainting or feeling dizzy; or very rapid heartbeat
+gallbladder problems. Gallbladder problems have happened in some people who take Ozempic®. Tell your health care provider right away if you get symptoms which may include: pain in your upper stomach (abdomen), fever, yellowing of the skin or eyes (jaundice), or clay-colored stools
+food or liquid getting into the lungs during surgery or other procedures that use anesthesia or deep sleepiness (deep sedation). Ozempic® may increase the chance of food getting into your lungs during surgery or other procedures. Tell all your health care providers that you are taking Ozempic® before you are scheduled to have surgery or other procedures
+The most common side effects of Ozempic® may include nausea, vomiting, diarrhea, stomach (abdominal) pain, and constipation. When taking Ozempic® tablets, they may also include decreased appetite.
+Please click here for Prescribing Information and Medication Guide for Ozempic® injection.
+Please click here for Prescribing Information and Medication Guide for Ozempic® tablets.
+Ozempic® injection and Ozempic® tablets are prescription medications.
+Novo Nordisk provides patient assistance for those who qualify. Please call  1-866-310-7549  to learn more about Novo Nordisk assistance programs.
+You are encouraged to report negative side effects of prescription drugs to the FDA. Visit  www.fda.gov/medwatch  or call  1-800-FDA-1088 .
+Scroll to ISI
+What is Ozempic®?
+Ozempic® (semaglutide) injection 0.5 mg, 1 mg, or 2 mg and Ozempic® (semaglutide) tablets 4 mg or 9 mg are prescription medicines used:
+along with diet and exercise to improve blood sugar (glucose) in adults with type 2 diabetes
+Ozempic® injection is used:
+to reduce the risk of major cardiovascular events such as heart attack, stroke, or death in adults with type 2 diabetes and known heart disease
+to reduce the risk of kidney disease worsening, kidney failure (end-stage kidney disease), and death due to cardiovascular disease in adults with type 2 diabetes and chronic kidney disease
+Ozempic® tablets are used:
+to reduce the risk of major cardiovascular events such as heart attack, stroke or death in adults with type 2 diabetes who are at high risk for these events
+It is not known if Ozempic® injection and Ozempic® tablets are safe and effective for use in children.
+Scroll to ISI
+What is Ozempic®?
+Ozempic® (semaglutide) injection 0.5 mg, 1 mg, or 2 mg and Ozempic® (semaglutide) tablets 4 mg or 9 mg are prescription medicines used:
+along with diet and exercise to improve blood sugar (glucose) in adults with type 2 diabetes
+Ozempic® injection is used:
+to reduce the risk of major cardiovascular events such as heart attack, stroke, or death in adults with type 2 diabetes and known heart disease
+to reduce the risk of kidney disease worsening, kidney failure (end-stage kidney disease), and death due to cardiovascular disease in adults with type 2 diabetes and chronic kidney disease
+Ozempic® tablets are used:
+to reduce the risk of major cardiovascular events such as heart attack, stroke or death in adults with type 2 diabetes who are at high risk for these events
+It is not known if Ozempic® injection and Ozempic® tablets are safe and effective for use in children.
+Scroll to Indication
+Important Safety Information
+Do not share your Ozempic® pen with other people, even if the needle has been changed. You may give other people a serious infection or get a serious infection from them.
+What is the most important information I should know about Ozempic®?
+Ozempic® may cause serious side effects, including:
+Possible thyroid tumors, including cancer. Tell your health care provider if you get a lump or swelling in your neck, hoarseness, trouble swallowing, or shortness of breath. These may be symptoms of thyroid cancer. In studies with rodents, Ozempic® and medicines that work like Ozempic® caused thyroid tumors, including thyroid cancer. It is not known if Ozempic® will cause thyroid tumors or a type of thyroid cancer called medullary thyroid carcinoma (MTC) in people
+Do not use Ozempic® if:
+you or any of your family have ever had MTC, or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+you have had a serious allergic reaction to semaglutide or any of the ingredients in Ozempic® injection or Ozempic® tablets
+Before using Ozempic®, tell your health care provider if you have any other medical conditions, including if you:
+have or have had problems with your pancreas or kidneys
+have a history of vision problems related to your diabetes
+have severe problems with your stomach, such as slowed emptying of your stomach (gastroparesis) or problems with digesting food
+are scheduled to have surgery or other procedures that use anesthesia or deep sleepiness (deep sedation)
+are pregnant or plan to become pregnant. It is not known if Ozempic® will harm your unborn baby. You should stop using Ozempic® 2 months before you plan to become pregnant
+are breastfeeding or plan to breastfeed. Breastfeeding is not recommended during treatment with Ozempic® tablets. It is not known if Ozempic® when received through an injection passes into your breast milk
+Tell your health care provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, herbal supplements, and other medicines to treat diabetes, including insulin or sulfonylureas.
+What are the possible side effects of Ozempic®?
+Ozempic® may cause serious side effects, including:
+inflammation of your pancreas (pancreatitis). Stop using Ozempic® and call your health care provider right away if you have severe pain in your stomach area (abdomen) that will not go away, with or without nausea or vomiting. Sometimes you may feel the pain from your abdomen to your back
+changes in vision. Tell your health care provider if you have changes in vision during treatment with Ozempic®
+low blood sugar (hypoglycemia). Your risk for getting low blood sugar may be higher if you use Ozempic® with another medicine that can cause low blood sugar, such as a sulfonylurea or insulin. Signs and symptoms of low blood sugar may include: dizziness or lightheadedness, blurred vision, anxiety, irritability or mood changes, sweating, slurred speech, hunger, confusion or drowsiness, shakiness, weakness, headache, fast heartbeat, and feeling jittery
+dehydration leading to kidney problems. Diarrhea, nausea, and vomiting may cause a loss of fluids (dehydration), which may cause kidney problems. It is important for you to drink fluids to help reduce your chance of dehydration. Tell your health care provider right away if you have nausea, vomiting, or diarrhea that does not go away
+severe stomach problems. Stomach problems, sometimes severe, have been reported in people who use Ozempic®. Tell your health care provider if you have stomach problems that are severe or will not go away
+serious allergic reactions. Stop using Ozempic® and get medical help right away if you have any symptoms of a serious allergic reaction, including swelling of your face, lips, tongue, or throat; problems breathing or swallowing; severe rash or itching; fainting or feeling dizzy; or very rapid heartbeat
+gallbladder problems. Gallbladder problems have happened in some people who take Ozempic®. Tell your health care provider right away if you get symptoms which may include: pain in your upper stomach (abdomen), fever, yellowing of the skin or eyes (jaundice), or clay-colored stools
+food or liquid getting into the lungs during surgery or other procedures that use anesthesia or deep sleepiness (deep sedation). Ozempic® may increase the chance of food getting into your lungs during surgery or other procedures. Tell all your health care providers that you are taking Ozempic® before you are scheduled to have surgery or other procedures
+The most common side effects of Ozempic® may include nausea, vomiting, diarrhea, stomach (abdominal) pain, and constipation. When taking Ozempic® tablets, they may also include decreased appetite.
+Please click here for Prescribing Information and Medication Guide for Ozempic® injection.
+Please click here for Prescribing Information and Medication Guide for Ozempic® tablets.
+Ozempic® injection and Ozempic® tablets are prescription medications.
+Novo Nordisk provides patient assistance for those who qualify. Please call  1-866-310-7549  to learn more about Novo Nordisk assistance programs.
+You are encouraged to report negative side effects of prescription drugs to the FDA. Visit  www.fda.gov/medwatch  or call  1-800-FDA-1088 .
+Terms of Use
+Privacy Notice
+Consumer Health Privacy Notice
+Cookie Notice
+Cookie Settings
+Your Privacy Choices
+Contact Us
+About Novo Nordisk
+Site Map
+<strong>Only Novo Nordisk manufactures FDA-approved semaglutide medicines, like Ozempic<sup>®</sup>.</strong></p>\r\n<p>NovoCare<sup>®</sup>, NovoFine<sup>®</sup>, and Ozempic<sup>®</sup>&nbsp;are registered trademarks of Novo Nordisk A/S.</p>\r\n<p>Novo Nordisk is a registered trademark of Novo Nordisk A/S.</p>\r\n<p>All other trademarks, registered or unregistered, are the property of their respective owners.</p>\r\n"}}" id="text-26fe4d1dd4" class="cmp-text">
+Only Novo Nordisk manufactures FDA-approved semaglutide medicines, like Ozempic®.
+NovoCare®, NovoFine®, and Ozempic® are registered trademarks of Novo Nordisk A/S.
+Novo Nordisk is a registered trademark of Novo Nordisk A/S.
+All other trademarks, registered or unregistered, are the property of their respective owners.
+© 2026 Novo Nordisk All rights reserved.
+US26OZM00484 August 2026

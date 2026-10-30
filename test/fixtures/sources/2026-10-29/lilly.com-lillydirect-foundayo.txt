@@ -1,0 +1,68 @@
+SHA-256: 888f82904d6533de18d0cdb10cc82d36e002cb522553dccc189450c244d673a2
+URL: https://www.lilly.com/lillydirect/medicines/foundayo
+Final-URL: https://www.lilly.com/lillydirect/foundayo
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29 (read in the in-app browser between 21:20Z and 23:20Z)
+Read-By: mm/glp-verify-1028 verification pass, M2c-4 remaining reads
+Hash-Covers: every byte after the first line of this file
+Capture: the rendered page, read with the browser text query. The page continues with the savings and coverage sections, the how-to-get-started steps and the safety summary; those are not reproduced here.
+
+Foundayo is available for self-pay through LillyDirect
+
+0.8 mg dose (starting dosage)
+
+Self-pay price:
+Starting at $149/month^
+
+Terms and conditions apply.
+
+2.5 mg dose
+
+Self-pay price:
+Starting at $149/month^
+
+Terms and conditions apply.
+*Prices for the 2.5 mg and 5.5 mg dose are temporarily reduced through December 31, 2026.
+
+5.5 mg dose
+
+Self-pay price:
+Starting at $199/month^
+
+Terms and conditions apply.
+*Prices for the 2.5 mg and 5.5 mg dose are temporarily reduced through December 31, 2026.
+
+9 mg dose
+
+Self-pay price:
+Starting at $299/month^
+
+Terms and conditions apply.
+
+14.5 mg dose
+
+Self-pay price:
+Starting at $299/month^ when you refill within 45 days
+
+Terms and conditions apply.
+
+17.2 mg dose
+
+Self-pay price:
+Starting at $299/month^ when you refill within 45 days
+
+Terms and conditions apply.
+
+Card 1 of 6. 0.8 mg dose (starting dosage) Self-pay price: Starting at $149/month^ Terms and conditions apply.
+
+^Self-pay only. Prescription required. Additional taxes and fees may apply. Month is defined as 30-days. NOT INSURANCE. Card eligibility and terms and conditions apply. Lilly reserves the right to modify or cancel this offer at any time. Review full terms and conditions.
+
+†For 14.5 mg and 17.2 mg doses, prices reflect monthly cost with Foundayo Self-Pay Journey Program. Regular prices will apply if prescription is not refilled within 45 days. Review full terms and conditions.
+
+COMMERCIALLY INSURED WITH COVERAGE
+
+You could pay as low as $25 a month*
+
+If you are eligible and commercially insured with coverage for Foundayo, you could pay as low as $25 a month. Terms and conditions apply.
+
+*Governmental beneficiaries excluded. Month is defined as 30-days. NOT INSURANCE. Card eligibility and terms and conditions apply. Lilly reserves the right to modify or cancel this offer at any time. Review full terms and conditions.

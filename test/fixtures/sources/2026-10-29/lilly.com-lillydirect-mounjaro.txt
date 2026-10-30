@@ -1,0 +1,56 @@
+SHA-256: 5bfa1f91def151fc2f5700ea1d7fd2f903c8461f8c70bf070e5aaf019a811e56
+URL: https://www.lilly.com/lillydirect/medicines/mounjaro
+Final-URL: https://www.lilly.com/lillydirect/mounjaro
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29 (read in the in-app browser between 21:20Z and 23:20Z)
+Read-By: mm/glp-verify-1028 verification pass, M2c-4 remaining reads
+Hash-Covers: every byte after the first line of this file
+Capture: the rendered price section, read with the browser text query. The page continues with the how-to-get-started steps, the savings and coverage sections and the safety summary.
+
+Mounjaro is available for self-pay through LillyDirect
+
+2.5 mg/0.5 mL
+
+Self-pay price:
+Starting at $499/month*
+
+Terms apply.
+
+5 mg/0.5 mL
+
+Self-pay price:
+Starting at $499/month*
+
+Terms apply.
+
+7.5 mg/0.5 mL
+
+Self-pay price:
+Starting at $499/month*
+
+Terms apply.
+
+10 mg/0.5 mL
+
+Self-pay price:
+Starting at $499/month*
+
+Terms apply.
+
+12.5 mg/0.5 mL
+
+Self-pay price:
+Starting at $499/month*
+
+Terms apply.
+
+15 mg/0.5 mL
+
+Self-pay price:
+Starting at $499/month*
+
+Terms apply.
+
+Card 1 of 6. 2.5 mg/0.5 mL Self-pay price: Starting at $499/month* Terms apply.
+
+*For self-pay. Prescription required. Terms apply. Additional taxes and fees may apply.

@@ -318,6 +318,15 @@ main > .link-list {
   max-width: var(--measure);
 }
 
+/* A changelog entry names the exact page a figure was read from, so its prose
+   carries full URLs. A URL is one unbreakable word, and a word longer than the
+   line is what pushes a page sideways on a phone: the changelog was 419px wide
+   in a 390px viewport. break-word lets a long URL wrap instead, and it is
+   scoped to the changelog so no other page's typography moves. */
+.changelog__changes li {
+  overflow-wrap: break-word;
+}
+
 /* Panels carry prose too, just more of it per line. Wider than the measure,
    nowhere near the full evidence-table track. */
 main > .verification-state,

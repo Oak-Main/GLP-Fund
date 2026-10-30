@@ -1,0 +1,44 @@
+SHA-256: 922ecb13542dc87b6a7fade1c12bb5930bf3168448e3d134e11a907fc0cf9d92
+URL: https://www.novocare.com/content/dam/novonordisk/novocare/redesign/pdf/Ozempic_Price_Guide.pdf
+Final-URL: https://www.novocare.com/content/dam/novonordisk/novocare/redesign/pdf/Ozempic_Price_Guide.pdf
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29 (read in the in-app browser between 21:20Z and 23:20Z)
+Read-By: mm/glp-verify-1028 verification pass, M2c-4 remaining reads
+Hash-Covers: every byte after the first line of this file
+Capture: the single-page price guide, read with a script fetch of the same URL and extracted as text.
+
+Ozempic pill and pen price guide
+
+Self pay
+Ozempic pill 4.0 mg
+Ozempic pen
+Limited-time offer
+First 2 months (new patients only) b
+Standard offer
+Standard offer
+Pay as little as
+Pay as little as
+$199/mo
+$199/mo
+$349/mo
+$349/mo
+$349/mo
+$499/mo
+$25 (subject to a max savings of $100/mo) c
+$25 (subject to a max savings of $100/mo) c
+
+1.5 mg 4 mg 9 mg
+0.25 mg 0.5 mg 1 mg 2 mg
+All doses
+All doses
+$299/mo a
+$199/mo a
+$149/mo a
+
+a Self-pay pricing varies by dose. Eligibility and restrictions apply. One month defined as 1 bottle of 30 tablets. Novo Nordisk reserves the right to modify or cancel this program at any time. See full terms at SavingsCardEligibility.com and NovocareDeliveryTerms.com.
+b Patients new to the Ozempic Savings offer or Novocare home delivery pay $199 for each month of 0.25 mg and 0.5 mg. Offer for 2 monthly fills through December 31, 2026, then $349 per month for Ozempic 0.25 mg, 0.5 mg, or 1 mg and $499/month for Ozempic 2 mg. Eligibility and restrictions apply. One month defined as 1 box of 1 Ozempic pen. Novo Nordisk reserves the right to modify or cancel this program at any time. See full terms at SavingsCardEligibility.com and NovocareDeliveryTerms.com.
+c Pay as little as $25, subject to a maximum savings of $100/month. Eligibility and restrictions apply. Government beneficiaries excluded. One month defined as 1 box of 1 Ozempic pen and 1 bottle of 30 tablets of Ozempic pill. Novo Nordisk reserves the right to modify or cancel this program at any time. See full terms at SavingsCardEligibility.com and NovocareDeliveryTerms.com.
+
+US26NC00009 May 2026. Copyright 2026 Novo Nordisk A/S. All rights reserved.
+
+The guide publishes self-pay and savings prices. It does not publish a list price or a wholesale acquisition cost.

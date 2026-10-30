@@ -1,0 +1,18 @@
+SHA-256: e791367321924807b288c83fac179be02528f8f9139a5a5cdfa7b5a87d197e3d
+URL: https://www.lillycares.com/
+Final-URL: https://www.lillycares.com/
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29 (read in the in-app browser between 21:20Z and 22:05Z)
+Read-By: mm/glp-verify-1028 verification pass, read in the in-app browser. A scripted fetch of the Lilly hosts is refused with HTTP 403 and a bot-protection interstitial; the pages read normally in a browser, which is the method docs/ops-runbook.md has always prescribed for Lilly.
+Hash-Covers: every byte after the first line of this file
+Extraction: rendered page text, read with the browser text query.
+
+New applications for Trulicity are once again being accepted, and no longer require a medical exception request.
+Lilly Cares® Foundation Patient Assistance Program
+
+Helping patients with financial need receive their prescribed Eli Lilly and Company (Lilly) medications at no cost.
+
+Lilly Cares Foundation, Inc. (Lilly Cares) is a nonprofit charitable organization that provides prescribed Lilly medications for free for up to 12 months to qualifying U.S. patients. Over the past 20 years, Lilly Cares has helped more than one million patients with financial need receive medicines donated by Lilly.
+
+Available Medications
+Check Your Eligibility

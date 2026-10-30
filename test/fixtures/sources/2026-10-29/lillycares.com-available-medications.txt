@@ -1,0 +1,49 @@
+SHA-256: 39a62170472d7759f9a81db85e2333dc9ffd7b9f618f4981085da5682af74fe4
+URL: https://www.lillycares.com/available-medications
+Final-URL: https://www.lillycares.com/available-medications
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29 (read in the in-app browser between 21:20Z and 22:05Z)
+Read-By: mm/glp-verify-1028 verification pass, read in the in-app browser. A scripted fetch of the Lilly hosts is refused with HTTP 403 and a bot-protection interstitial; the pages read normally in a browser, which is the method docs/ops-runbook.md has always prescribed for Lilly.
+Hash-Covers: every byte after the first line of this file
+Extraction: rendered page text, read with the browser text query.
+
+Available Medications
+
+All
+A - H
+I - P
+Q - Z
+List of all products
+Basaglar® (insulin glargine injection)	Prescribing Information	Patient Information
+Cialis® (tadalafil) tablets	Prescribing Information	Patient Information
+Cyramza® (ramucirumab) injection	Prescribing Information	
+
+Ebglyss® (lebrikizumab-lbkz) injection	Prescribing Information	Patient Information
+Emgality® (galcanezumab-gnlm) injection	Prescribing Information	Patient Information
+Erbitux® (cetuximab) injection	Prescribing Information	
+
+Forteo® (teriparatide injection)	Prescribing Information	Medication Guide
+Humalog® U-100 (insulin lispro injection)	Prescribing Information	Patient Information
+Humalog® U-200 (insulin lispro injection)	Prescribing Information	Patient Information
+Humalog® Mix50/50™ (insulin lispro protamine and insulin lispro injectable suspension)	Prescribing Information	Patient Information
+Humalog® Mix75/25™ (insulin lispro protamine and insulin lispro injectable suspension)	Prescribing Information	Patient Information
+Humulin® 70/30 (human insulin isophane suspension and human insulin injection)	Prescribing Information	Patient Information
+Humulin® N (insulin human injection)	Prescribing Information	Patient Information
+Inluriyo™ (imlunestrant) tablets	Prescribing Information	Patient Information
+Jaypirca® (pirtobrutinib) tablets	Prescribing Information	Patient Information
+Kisunla™ (donanemab-azbt) injection	Prescribing Information	Medication Guide
+Lyumjev® (insulin lispro-aabc) injection	Prescribing Information	Patient Information
+Olumiant® (baricitinib) tablets	Prescribing Information	Medication Guide
+Omvoh® (mirikizumab-mrkz) infusion	Prescribing Information	Medication Guide
+Omvoh® (mirikizumab-mrkz) injection	Prescribing Information	Medication Guide
+Retevmo® (selpercatinib) tablets	Prescribing Information	Patient Information
+Reyvow® (lasmiditan) tablets C-V Reyvow availability is limited to currently enrolled and re-enrolling patients	Prescribing Information	Medication Guide
+Taltz® (ixekizumab) injection	Prescribing Information	Medication Guide
+Trulicity® (dulaglutide) injection	Prescribing Information	Medication Guide
+Verzenio® (abemaciclib) tablets	Prescribing Information	Patient Information
+
+Frequently Asked Questions (FAQ)
+
+What if my medication is not listed or I don't qualify for Lilly Cares?
+
+[Capture note: this fixture holds the rendered page as read. The A-H, I-P and Q-Z medication filters are tabbed, and the page states that a full list of all products is available; only the rendered subset is recorded here. The income eligibility criterion was not published on the pages reached.]

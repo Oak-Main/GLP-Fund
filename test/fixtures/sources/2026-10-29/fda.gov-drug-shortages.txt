@@ -1,0 +1,139 @@
+SHA-256: e72b5f51f8aa7de206c526ab321e06d8b30d7109a3b86b19887e08e36fb16345
+URL: https://www.fda.gov/drugs/drug-safety-and-availability/drug-shortages
+Final-URL: https://www.fda.gov/drugs/drug-safety-and-availability/drug-shortages
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29T20:05:58.075Z
+Attempts: 1
+Read-By: mm/glp-verify-1028 verification pass (docs/ops-runbook.md section 1.1)
+Hash-Covers: every byte after the first line of this file
+Extraction: HTML stripped to text; inline elements removed, block elements become lines.
+
+Drug Shortages | FDA
+Skip to main content
+Skip to FDA Search
+Skip to in this section menu
+Skip to footer links
+An official website of the United States government
+Here’s how you know
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site.
+The site is secure.
+The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+Search
+Menu
+Search FDA
+Submit search
+Featured
+Report a Product Problem
+Contact FDA
+FDA Guidance Documents
+Recalls, Market Withdrawals and Safety Alerts
+Press Announcements
+Warning Letters
+Advisory Committees
+En Espa&#241ol
+Products
+Food
+Drugs
+Medical Devices
+Radiation-Emitting Products
+Vaccines, Blood, and Biologics
+Animal and Veterinary
+Cosmetics
+Tobacco Products
+Topics
+About FDA
+Combination Products
+Regulatory Information
+Safety
+Emergency Preparedness
+International Programs
+News and Events
+Training and Continuing Education
+Inspections and Compliance
+Science and Research
+Information For
+Consumers
+Patients
+Industry
+Health Professionals
+Federal, State and Local Officials
+Home
+Drugs
+Drug Safety and Availability
+Drug Shortages
+Drug Safety and Availability
+In this section
+Drug Shortages
+Drug Shortages | Additional News and Information
+Frequently Asked Questions about Drug Shortages
+Drug Shortages Infographic
+Drug Shortages
+Drug Shortages
+Drug Shortages | Additional News and Information
+Frequently Asked Questions about Drug Shortages
+Drug Shortages Infographic
+Drug Shortages can occur for many reasons, including manufacturing and quality problems, delays, and discontinuations. Manufacturers provide FDA most drug shortage information, and the agency works closely with them to prevent or reduce the impact of shortages. When a shortage is listed as current on the Drug Shortage Database, the FDA is aware of the supply situation and is working with the manufactures on efforts to mitigate the supply disruption. FDA also continue to work with manufacturers on shortage prevention efforts for drugs not yet listed on the Drug Shortage Database.
+Current and resolved drug
+shortages and discontinuations.
+Search Drug Shortage Database
+List of extended use dates to
+assist with drug shortages.
+Search Extended Use Dates
+Drug Shortage Notifications
+For Industry
+Industry can notify FDA Drug Shortage Staff of drug and supply shortages via the CDER Direct NextGen Portal .
+This portal is intended ONLY for drug manufacturers/applicants. Industry can notify the FDA Drug Shortage Staff of new discontinuances, GMP issues, increase in product demand, recalls, supply interruptions, or other events. If you have any questions, please contact: drugshortages@fda.hhs.gov .
+Drug Shortage Status Information
+Patients, healthcare providers, organizations, and other interested parties may submit information to FDA regarding the status of an existing shortage by emailing drugshortages@fda.hhs.gov .
+Public portal for patients, healthcare providers, and organizations to report NEW shortages
+When a medication is not available, it can be helpful to make FDA's Drug Shortages staff aware. Usually when a drug is not in stock, it's a temporary, localized issue and more product is on the way. Occasionally local supply issues can be a signal of a future drug shortage.
+When FDA receives reports of new local shortages, we contact the manufacturers to confirm if their available supply will meet the national demand for the drug. If a drug is at risk of going into shortage, sometimes this advanced notice helps FDA take early action to prevent or shorten the duration of a shortage.
+To use the public portal:
+First check the Drug Shortages Database for current shortages to see if FDA is already aware of this shortage. Search by your product's generic name or active ingredient.
+If the drug is already in the Drug Shortages Database, talk with your health care provider or pharmacist for other treatment options during the shortage. FDA is actively working on resolving that shortage.
+If the drug is NOT in the Drug Shortages database, send a report to FDA through our new public portal.
+Report New Drug Shortage
+Sub-Topic Paragraphs
+Spotlight
+2025 Drug Shortages Report
+Annual report to Congress summarizing the major actions taken by FDA in 2025 to prevent or mitigate drug shortages in the United States.
+Guidance for Industry: Notify FDA
+Guidance to assist applicants and manufacturers in notifying FDA about finished drugs and biological products production changes.
+Additional Resources
+CARES Act
+2020 Coronavirus Aid, Relief, and Economic Security Act (CARES Act) enhances FDA’s ability to identify, prevent, and mitigate drug shortages.
+Drug Shortages Task Force Public Meeting
+November 2018 webcast of stakeholder input on the underlying systemic causes of and recommendations for preventing drug shortages.
+Drug Shortages: Causes and Solutions
+2019 report examining the underlying factors of and potential solutions for drug shortages.
+Availability of Antiviral Medications
+List of antiviral medications and their availability for the 2024-2025 influenza (flu) season.
+Content current as of:
+07/15/2026
+Regulated Product(s)
+Drugs
+Feedback
+Subscribe to emails about Drug Shortages and more
+Information about new and updated drug shortages plus recent news related to drugs
+Enter your email address to subscribe:
+FDA Archive
+About FDA
+Accessibility
+Visitor Information
+Website Policies / Privacy
+No FEAR Act
+Vulnerability Disclosure Policy
+FOIA
+HHS.gov
+USA.gov
+Contact FDA
+Follow FDA on Facebook
+Follow FDA on X
+Follow FDA on Instagram
+Follow FDA on LinkedIn
+View FDA videos on YouTube
+Subscribe to FDA RSS feeds
+Contact Number
+1-888-INFO-FDA (1-888-463-6332)
+Back to Top

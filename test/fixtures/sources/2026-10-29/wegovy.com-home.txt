@@ -1,0 +1,589 @@
+SHA-256: 68e7c132c9fe5d0ba6e2e3673bd6f5b89736c831feb888d6e1579506e4b38f50
+URL: https://www.wegovy.com/
+Final-URL: https://www.wegovy.com/
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29T20:05:57.437Z
+Attempts: 1
+Read-By: mm/glp-verify-1028 verification pass (docs/ops-runbook.md section 1.1)
+Hash-Covers: every byte after the first line of this file
+Extraction: HTML stripped to text; inline elements removed, block elements become lines.
+
+Weight Management for Adults with Obesity | Wegovy® (semaglutide)
+Skip to main content
+Choose Indication
+keyboard_arrow_down
+Indication switcher link: For Adult Weight Loss
+Indication switcher link: For Adolescent Weight Loss
+Indication switcher link: For Cardiovascular Risk
+Indication switcher link: Other Conditions
+Healthcare Professional Site
+Top navigation link:
+Prescribing Information
+Top navigation link:
+Medication Guide
+Top navigation link:
+Find a Doctor
+®</sup> Right&nbsp;for&nbsp;Me?","xdm:linkURL":"/content/experience-fragments/dct/wegovy/en/obesity/header/sub-menus/is-wegovy-right-for-me/master.html"}}">
+Is Wegovy® Right for Me?
+keyboard_arrow_down
+®</sup> Right for Me?","xdm:linkURL":"/obesity/is-wegovy-right-for-me.html"}}">
+Is Wegovy® Right for Me?
+Results With the Pen
+Results With the Pill
+Safety/Side Effects
+Real Patient Stories
+How Do I Get It?
+What Will I Pay?
+®</sup>","xdm:linkURL":"/content/experience-fragments/dct/wegovy/en/obesity/header/sub-menus/starting-wegovy/master.html"}}">
+Starting Wegovy®
+keyboard_arrow_down
+Getting Started
+®</sup> Pen","xdm:linkURL":"/obesity/starting-wegovy/starting-wegovy-pen.html"}}">
+Taking Wegovy® Pen
+®</sup> Pill","xdm:linkURL":"/obesity/starting-wegovy/starting-wegovy-pill.html"}}">
+Taking Wegovy® Pill
+FAQs
+WeGo<em>Together<sup>®</sup></em></strong> Overview","xdm:linkURL":"/obesity/starting-wegovy/wegotogether.html"}}">
+WeGoTogether® Overview
+Find a Doctor
+Mobile menu link: Healthcare Professional Site
+Mobile menu link: Prescribing Information
+Mobile menu link: Medication Guide
+Mobile menu link: Find a Doctor
+menu
+close
+<span class=\"body-md text-black\"><strong>Meet Wegovy<sup>®</sup> Pill</strong></span></p>\r\n"}}" id="text-bc884e6cc6" class="cmp-text">
+Meet Wegovy® Pill
+<span class=\"body-md text-black\">Wegovy<sup>®</sup> is a once-daily pill and the only semaglutide tablet that's FDA-approved for weight loss in adults. <a href=\"/content/dct/wegovy/main/en/obesity/is-wegovy-right-for-me/wegovy-pill-results.html\"><b>Check out the pill</b></a></span></p>\r\n"}}" id="text-0f2ad8db74" class="cmp-text">
+Wegovy® is a once-daily pill and the only semaglutide tablet that's FDA-approved for weight loss in adults. Check out the pill
+Discover Wegovy<sup>®</sup> Pill</strong>","repo:modifyDate":"2026-01-01T22:26:22Z"}}" href="/obesity/is-wegovy-right-for-me/wegovy-pill-results.html">
+Discover Wegovy® Pill
+chevron_right
+Actor portrayal.
+See Results
+chevron_right
+<span class=\"body-lg text-white\"><strong>Want guided next steps?</strong></span></p>\r\n"}}" id="text-8c518ebdbf" class="cmp-text">
+Want guided next steps?
+Get Started
+chevron_right
+Actor portrayal.
+See Results
+chevron_right
+<span class=\"body-md text-black\">Want guided next steps?</span></p>\r\n"}}" id="text-f9791321db" class="cmp-text">
+Want guided next steps?
+Get Started
+chevron_right
+®</sup> Right for Me?","repo:modifyDate":"2026-04-13T18:09:56Z"}}" href="/obesity/is-wegovy-right-for-me.html">
+Is Wegovy® Right for Me?
+chevron_right
+®</sup>? ","repo:modifyDate":"2026-04-07T13:01:26Z"}}" href="/obesity/how-to-get-wegovy.html">
+How Do I Get Wegovy®?
+chevron_right
+What Will I Pay?
+chevron_right
+<span class=\"heading-lg\">Wegovy<sup>®</sup> gives you options</span></p>\r\n"}}" id="text-76ad1fafb7" class="cmp-text">
+Wegovy® gives you options
+<span class=\"heading-md\">Meet Wegovy<sup>®</sup> Pill</span></p>\r\n"}}" id="text-bfe77b6822" class="cmp-text">
+Meet Wegovy® Pill
+<span class=\"body-lg text-legal\">Wegovy<sup>®</sup>&nbsp;is the first FDA-approved semaglutide pill for weight loss.</span></p>\r\n"}}" id="text-b21c35bb8a" class="cmp-text">
+Wegovy® is the first FDA-approved semaglutide pill for weight loss.
+Results With the Pill
+chevron_right
+<span class=\"heading-md\">Meet Wegovy<sup>®</sup> HD</span></p>\r\n"}}" id="text-5fd1d2a7cd" class="cmp-text">
+Meet Wegovy® HD
+<span class=\"body-lg text-legal\">Wegovy<sup>®</sup> HD (semaglutide) is a higher dose for those who may need it.</span></p>\r\n"}}" id="text-eaa9f0d353" class="cmp-text">
+Wegovy® HD (semaglutide) is a higher dose for those who may need it.
+®</sup> HD","repo:modifyDate":"2026-04-13T18:12:01Z"}}" href="/obesity/is-wegovy-right-for-me/wegovy-pen-results.html">
+Results With Wegovy® HD
+chevron_right
+<span class=\"heading-lg\">Covered by Medicare?</span></p>\r\n<p style=\"text-align: center;\">&nbsp;</p>\r\n<p style=\"text-align: center;\"><span class=\"body-lg\">Eligible Medicare patients can access Wegovy<sup>®</sup>—both pen and pill—available as of July 1st for only</span></p>\r\n"}}" id="fifty-text" class="cmp-text">
+Covered by Medicare?
+Eligible Medicare patients can access Wegovy®—both pen and pill—available as of July 1st for only
+<span class=\"body-lg\">per month.<sup>*</sup></span></p>\r\n"}}" id="text-0c40392909" class="cmp-text">
+per month.*
+Get the Details
+chevron_right
+<span class=\"body-sm\">*Terms apply. For eligible Medicare patients prescribed Wegovy<sup>®</sup> for a covered FDA-approved indication. Eligibility criteria will be determined by Centers for Medicare &amp; Medicaid Services (CMS). This information is not a guarantee of coverage. Month defined as 1 box of 4 pens of Wegovy<sup>®</sup> and 1 bottle of 30 tablets of Wegovy<sup>®</sup>. Talk to your doctor or visit <a href=\"http://wegovybridge.novomedlink.com\" target=\"_blank\" rel=\"noopener noreferrer\">wegovybridge.novomedlink.com</a> to learn more.</span></p>\r\n"}}" id="study" class="cmp-text">
+*Terms apply. For eligible Medicare patients prescribed Wegovy® for a covered FDA-approved indication. Eligibility criteria will be determined by Centers for Medicare & Medicaid Services (CMS). This information is not a guarantee of coverage. Month defined as 1 box of 4 pens of Wegovy® and 1 bottle of 30 tablets of Wegovy®. Talk to your doctor or visit wegovybridge.novomedlink.com to learn more.
+Actor portrayals.
+<span class=\"heading-xl\">Have Wegovy<sup>®</sup> and ready to start?</span></p>\r\n"}}" id="text-39f8c60746" class="cmp-text">
+Have Wegovy® and ready to start?
+<span class=\"body-lg\">Join the millions of people who’ve been prescribed Wegovy<sup>®†</sup></span></p>\r\n"}}" id="text-f5ba53b344" class="cmp-text">
+Join the millions of people who’ve been prescribed Wegovy®†
+®</sup>","repo:modifyDate":"2025-12-04T13:37:30Z"}}" href="/obesity/starting-wegovy/getting-started-on-wegovy.html">
+Start Wegovy®
+chevron_right
+<span class=\"body-sm\"><sup>†</sup>This is based on information licensed from IQVIA: LAAD, for period June 2021-February 2026, reflecting estimates of real-world activity. All rights reserved.</span></p>\r\n"}}" id="text-a9413742f2" class="cmp-text">
+†This is based on information licensed from IQVIA: LAAD, for period June 2021-February 2026, reflecting estimates of real-world activity. All rights reserved.
+<span class=\"heading-lg\">Wegovy<sup>®</sup>&nbsp;goes beyond weight management for adults</span></p>\r\n"}}" id="text-1f55391e7a" class="cmp-text">
+Wegovy® goes beyond weight management for adults
+Actor portrayal.
+<span class=\"heading-sm\">Wegovy<sup>®</sup> may help reduce the risk of major heart events</span></p>\r\n"}}" id="text-1e568834b1" class="cmp-text">
+Wegovy® may help reduce the risk of major heart events
+<span class=\"body-sm text-legal\">For adults with known heart disease with obesity or overweight, along with diet and increased physical activity.<br>\r\n <br>\r\n Wegovy<sup>®</sup> may lower your risk of major cardiovascular events, such as death, heart attack, or stroke.</span></p>\r\n"}}" id="text-030e49ce6d" class="cmp-text">
+For adults with known heart disease with obesity or overweight, along with diet and increased physical activity.
+Wegovy® may lower your risk of major cardiovascular events, such as death, heart attack, or stroke.
+Adults With Heart Disease
+chevron_right
+Actor portrayal.
+<span class=\"heading-sm\">Support your adolescent’s weight-management goals</span></p>\r\n"}}" id="text-0fe7d38a1e" class="cmp-text">
+Support your adolescent’s weight-management goals
+<span class=\"body-sm text-legal\"><span class=\"body-xs\"><span class=\"body-sm\">For children aged 12 and up with obesity, along with a reduced-calorie diet and increased physical activity, to lose weight and keep it off.</span></span></span></p>\r\n<p><span class=\"body-sm text-legal\"><span class=\"body-xs\"><span class=\"body-sm\">&nbsp;</span></span></span></p>\r\n<p><span class=\"body-sm text-legal\"><span class=\"body-xs\"><span class=\"body-sm\">Wegovy<sup>® </sup>pill is not approved for adolescents with obesity.</span></span></span></p>\r\n"}}" id="text-a19db1cc52" class="cmp-text">
+For children aged 12 and up with obesity, along with a reduced-calorie diet and increased physical activity, to lose weight and keep it off.
+Wegovy® pill is not approved for adolescents with obesity.
+®</sup> Pen for Adolescents","repo:modifyDate":"2026-04-10T17:46:46Z"}}" href="//adolescents.wegovy.com">
+Wegovy® Pen for Adolescents
+chevron_right
+Actor portrayal.
+<span class=\"heading-md\">Talk to your healthcare professional</span></p>\r\n"}}" id="text-0db570ba18" class="cmp-text">
+Talk to your healthcare professional
+<span class=\"body-sm text-legal\">Only a healthcare professional can determine whether Wegovy<sup>®</sup> (semaglutide) is the appropriate option for you.</span></p>\r\n"}}" id="text-970eb858eb" class="cmp-text">
+Only a healthcare professional can determine whether Wegovy® (semaglutide) is the appropriate option for you.
+Take the First Step
+chevron_right
+Actor portrayal.
+<span class=\"heading-xl text-white\">Talk to your healthcare professional</span></p>\r\n"}}" id="text-3ec7e4eced" class="cmp-text">
+Talk to your healthcare professional
+<span class=\"body-lg text-white\">Only a healthcare professional  </span></p>\r\n<p><span class=\"body-lg text-white\">can determine whether Wegovy<sup>®</sup> (semaglutide) is the appropriate</span></p>\r\n<p><span class=\"body-lg text-white\">option for you.</span></p>\r\n"}}" id="text-506f432d3f" class="cmp-text">
+Only a healthcare professional
+can determine whether Wegovy® (semaglutide) is the appropriate
+option for you.
+Take the First Step
+chevron_right
+<span class=\"heading-lg\">Hear from others taking Wegovy<sup>®</sup></span></p>\r\n"}}" id="text-d193e87a65" class="cmp-text">
+Hear from others taking Wegovy®
+See Real Patient Stories
+chevron_right
+<span class=\"body-sm\">Real Wegovy<sup>®</sup> patients, compensated by Novo Nordisk.</span></p>\r\n"}}" id="text-32ecc13b33" class="cmp-text">
+Real Wegovy® patients, compensated by Novo Nordisk.
+<span class=\"heading-xl\">Get Wegovy<sup>®</sup> with or without insurance</span></p>\r\n"}}" id="text-e0ddc67dd6" class="cmp-text">
+Get Wegovy® with or without insurance
+<span class=\"body-lg\">There are ways to save on the cost of Wegovy<sup>®</sup>, even if you&nbsp;don‘t have insurance.</span></p>\r\n"}}" id="text-9c7b309048" class="cmp-text">
+There are ways to save on the cost of Wegovy®, even if you don‘t have insurance.
+Find Out How
+chevron_right
+Actor portrayal.
+<span class=\"heading-lg text-white\">Wondering where to go next?</span></p>\r\n"}}" id="text-40b919cec9" class="cmp-text">
+Wondering where to go next?
+<span class=\"text-white\">Take 60 seconds to answer a few questions and we’ll take you to the info you’ll care about most.</span></p>\r\n"}}" id="quiz-text" class="cmp-text">
+Take 60 seconds to answer a few questions and we’ll take you to the info you’ll care about most.
+Get Started
+chevron_right
+Actor portrayal.
+<span class=\"heading-lg text-white\">Wondering where to go next?</span></p>\r\n"}}" id="text-40b919cec9" class="cmp-text">
+Wondering where to go next?
+<span class=\"text-white\">Take 60 seconds to answer a few questions and we’ll take you to the info you’ll care about most.</span></p>\r\n"}}" id="quiz-text" class="cmp-text">
+Take 60 seconds to answer a few questions and we’ll take you to the info you’ll care about most.
+Get Started
+chevron_right
+Actor portrayals.
+<span class=\"heading-md\">Become a <span class=\"heading-md-medium\">WEGOVY<sup>® </sup>INSIDER</span></span></p>\r\n"}}" id="text-346904ed42" class="cmp-text">
+Become a WEGOVY® INSIDER
+Be the first to know about all things Wegovy<sup>®</sup>. Whether it's info on weight-loss results, savings offers, or lifestyle tips—we've got it all. Sign up now to get the latest news.</p>\r\n"}}" id="text-9f36cc459b" class="cmp-text">
+Be the first to know about all things Wegovy®. Whether it's info on weight-loss results, savings offers, or lifestyle tips—we've got it all. Sign up now to get the latest news.
+Sign Up Now
+chevron_right
+<span class=\"heading-sm\">FOLLOW US</span></p>\r\n"}}" id="social-heading" class="cmp-text">
+FOLLOW US
+<a href=\"https://www.facebook.com/mywegovy?mibextid=wwXIfr&amp;rdid=mJrQ4uidiiRzxJb7&amp;share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18fLjeKgJs%2F%3Fmibextid%3DwwXIfr\" target=\"_blank\">Facebook</a></p>\r\n"}}" id="text-2928062945" class="cmp-text">
+Facebook
+<a href=\"https://www.instagram.com/wegovy_semaglutide/?hl=en\" target=\"_blank\">Instagram</a></p>\r\n"}}" id="text-386aefd2a5" class="cmp-text">
+Instagram
+<a href=\"https://www.tiktok.com/@wegovy_semaglutide?lang=en\" target=\"_blank\">TikTok</a></p>\r\n"}}" id="text-d9e6bb1344" class="cmp-text">
+TikTok
+close
+Transcript
+<strong>Narrator: </strong>Keytsiia is a real patient taking Wegovy<sup>®</sup> and has been compensated by Novo Nordisk for her participation in this video. Individual results may vary.</p>\r\n<p><strong>Keytsiia: </strong>Growing up, food meant family. It meant comfort. Anytime there was food, that just meant there was a party gonna happen, and it just was a part of our culture.</p>\r\n<p>I hit a breaking point living like that. Now, I'm doing something to lose weight. I'm increasing my physical activity, I'm managing my appetite, and I'm eating fewer calories. My goal is to keep making progress, and I just wanna keep going.</p>\r\n<p>I was always a big kid. I always had the stigma of, "Oh, you know, you're not normal size. You're much bigger than the average kid your age."&nbsp; In middle school, I was already six feet tall and almost 200 pounds. I would eat whatever I wanted, whenever I wanted. If it tasted good, I would eat it. There was no restriction. It was a free-for-all. There was never portion controls.</p>\r\n<p>I definitely gained a significant amount of weight during my first few years in college. Going into my adult years, it snuck up on me. I didn't see myself gaining the weight. My top weight was at 400 pounds.</p>\r\n<p>It was kind of like a shock because I never figured I would ever get to that point. I would go on short walks and be so out of breath. My knees and back were constantly hurting from the weight. Something definitely had to give.</p>\r\n<p>When I had gotten into the 400-pound weight, I also wanted to get back into motorcycle riding. I didn't want, like, this big, bulky bike. I wanted something slim and something quick and fast, and I really wanted a sports bike. And I knew at that point I had to do something. I couldn't just keep ignoring what was going on with my body.</p>\r\n<p>I went in for a checkup with my doctor. She did a thorough workup and told me most of my challenges were due to my weight. I worked with the nutritionist. I was dieting and exercising, but all of that was not working for me. My body just wasn't responding and I was just stuck at 400 pounds and I was like, "I'm gonna be this big forever," and I lost hope.</p>\r\n<p>So I went back to my doctor to talk about what the best plan of action would be, and we went through everything I tried. My doctor asked me, how do I feel about medication for weight loss? That's when she bought up the option of Wegovy<sup>®</sup>.</p>\r\n<p>We went over the potential benefits and risks of treatment. She explained to me that this would be something I have to take with a lower calorie diet, increased physical activity.</p>\r\n<p>I was hesitant at first because I didn't like the idea of having to inject myself. After I did my own research, I became more comfortable with the idea. I went to my doctor and said, “Hey, I would like to give Wegovy<sup>®</sup> a chance.”</p>\r\n<p><strong>Narrator: </strong>Wegovy<sup>®</sup>&nbsp;(semaglutide) injection is a prescription medicine used with a reduced calorie diet and increased physical activity to:</p>\r\n<ul>\r\n<li>reduce the risk of major cardiovascular events such as death, heart attack, or stroke in adults with known heart disease and with either obesity or overweight.</li>\r\n<li>help adults with obesity, or some adults with excess weight (overweight) who also have weight-related medical problems to lose weight and keep the weight off.</li>\r\n</ul>\r\n<p>Wegovy<sup>®</sup>&nbsp;contains semaglutide and should not be used with other semaglutide-containing products or other GLP-1 receptor agonist medicines.</p>\r\n<p>It is not known if Wegovy<strong><sup>®</sup> </strong>injection<strong> </strong>is safe and effective:</p>\r\n<ul>\r\n<li>to reduce the risk of major cardiovascular events (death, heart attack, or stroke) in people under 18 years</li>\r\n<li>to help children under 12 years of age lose weight and keep the weight off</li>\r\n</ul>\r\n<p>Do not take Wegovy<sup>®</sup> if you have a personal or family history of medullary thyroid cancer, Multiple Endocrine Neoplasia syndrome type 2, or if you are allergic to Wegovy<sup>®</sup>.</p>\r\n<p><strong>Keytsiia: </strong>When I started on Wegovy<sup>®</sup>, I had access to a support program called <strong>WeGo<em>Together</em></strong><sup>®</sup>. I got assigned a wonderful health coach and I'm still in touch with her today. It was the coolest experience because not once throughout my struggles of trying to lose weight did I have someone actually holding me accountable. Having someone there to listen to me really helped me see that I'm not in it alone.</p>\r\n<p>With Wegovy<sup>®</sup>, I noticed that over time, I wasn't eating as much with meals. One day we went out to eat and all of a sudden I was like, “Man, I'm really full right now,” and I just really ate what I needed versus what I wanted. That was something I could never do before.</p>\r\n<p><strong>Narrator: </strong>Stop taking Wegovy<sup>®</sup> and get medical help right away if you get a lump or swelling in your neck or an allergic reaction. Serious side effects may happen, including pancreatitis. Stop taking Wegovy<sup>®</sup> and get medical help right away if you get severe stomach pain.&nbsp;&nbsp;</p>\r\n<p><strong>Keytsiia: </strong>I've been on Wegovy<sup>®</sup> since January 2023, and my goal is to just keep progressing.</p>\r\n<p><strong>Keytsiia:</strong>&nbsp;With Wegovy<sup>®</sup>, a lower calorie diet and more physical activity, I've been able to lose weight and keep it off. It was just mind-blowing to see, like, the weight starting to drop and, "Wow, this is actually, you know, making a difference." Everyone's experience with Wegovy<sup>®</sup> may be different, but this is my experience. I never thought I would get to a point where I can sit here and say. "I was once 400 pounds." There was a lot of work and a lot of effort that was put in to getting here, and I can't wait to see what else comes from it while I'm actively on Wegovy<sup>®</sup>.</p>\r\n<p><strong>Narrator:</strong> Gallbladder or severe stomach problems may occur. Call your provider if you have symptoms such as stomach pain, fever, yellowing of the skin or eyes, or clay-colored stools. Tell your provider if you have type 2 diabetes and experience vision problems; if you are pregnant, plan to become pregnant or are breastfeeding; or if you feel your heart racing while at rest.</p>\r\n<p>In those with diabetes, taking Wegovy<sup>®</sup> with insulin or a sulfonylurea can increase the risk of low blood sugar. This can be a serious side effect. Talk to your provider about how to recognize and treat low blood sugar and check your blood sugar before starting and while taking Wegovy<sup>®</sup>.</p>\r\n<p>Wegovy<sup>®</sup> may increase the chance of food or liquid getting into your lungs during surgery, or other procedures that use anesthesia or deep sleepiness. Tell all your healthcare providers that you are taking Wegovy<sup>®</sup> before you are scheduled to have surgery or other procedures.</p>\r\n<p>Common side effects include nausea, diarrhea, vomiting, constipation, stomach pain, changes in skin sensations, headache, tiredness, upset stomach, dizziness, feeling bloated, belching, low blood sugar in people with type 2 diabetes, gas, stomach flu, heartburn, and hair loss.</p>\r\n<p>Some side effects may lead to dehydration, which may worsen kidney problems. Drinking plenty of fluids may reduce your chances of dehydration.</p>\r\n"}}" id="text-2ce1ad70b7" class="cmp-text">
+Narrator: Keytsiia is a real patient taking Wegovy® and has been compensated by Novo Nordisk for her participation in this video. Individual results may vary.
+Keytsiia: Growing up, food meant family. It meant comfort. Anytime there was food, that just meant there was a party gonna happen, and it just was a part of our culture.
+I hit a breaking point living like that. Now, I'm doing something to lose weight. I'm increasing my physical activity, I'm managing my appetite, and I'm eating fewer calories. My goal is to keep making progress, and I just wanna keep going.
+I was always a big kid. I always had the stigma of, "Oh, you know, you're not normal size. You're much bigger than the average kid your age."  In middle school, I was already six feet tall and almost 200 pounds. I would eat whatever I wanted, whenever I wanted. If it tasted good, I would eat it. There was no restriction. It was a free-for-all. There was never portion controls.
+I definitely gained a significant amount of weight during my first few years in college. Going into my adult years, it snuck up on me. I didn't see myself gaining the weight. My top weight was at 400 pounds.
+It was kind of like a shock because I never figured I would ever get to that point. I would go on short walks and be so out of breath. My knees and back were constantly hurting from the weight. Something definitely had to give.
+When I had gotten into the 400-pound weight, I also wanted to get back into motorcycle riding. I didn't want, like, this big, bulky bike. I wanted something slim and something quick and fast, and I really wanted a sports bike. And I knew at that point I had to do something. I couldn't just keep ignoring what was going on with my body.
+I went in for a checkup with my doctor. She did a thorough workup and told me most of my challenges were due to my weight. I worked with the nutritionist. I was dieting and exercising, but all of that was not working for me. My body just wasn't responding and I was just stuck at 400 pounds and I was like, "I'm gonna be this big forever," and I lost hope.
+So I went back to my doctor to talk about what the best plan of action would be, and we went through everything I tried. My doctor asked me, how do I feel about medication for weight loss? That's when she bought up the option of Wegovy®.
+We went over the potential benefits and risks of treatment. She explained to me that this would be something I have to take with a lower calorie diet, increased physical activity.
+I was hesitant at first because I didn't like the idea of having to inject myself. After I did my own research, I became more comfortable with the idea. I went to my doctor and said, “Hey, I would like to give Wegovy® a chance.”
+Narrator: Wegovy® (semaglutide) injection is a prescription medicine used with a reduced calorie diet and increased physical activity to:
+reduce the risk of major cardiovascular events such as death, heart attack, or stroke in adults with known heart disease and with either obesity or overweight.
+help adults with obesity, or some adults with excess weight (overweight) who also have weight-related medical problems to lose weight and keep the weight off.
+Wegovy® contains semaglutide and should not be used with other semaglutide-containing products or other GLP-1 receptor agonist medicines.
+It is not known if Wegovy® injection is safe and effective:
+to reduce the risk of major cardiovascular events (death, heart attack, or stroke) in people under 18 years
+to help children under 12 years of age lose weight and keep the weight off
+Do not take Wegovy® if you have a personal or family history of medullary thyroid cancer, Multiple Endocrine Neoplasia syndrome type 2, or if you are allergic to Wegovy®.
+Keytsiia: When I started on Wegovy®, I had access to a support program called WeGoTogether®. I got assigned a wonderful health coach and I'm still in touch with her today. It was the coolest experience because not once throughout my struggles of trying to lose weight did I have someone actually holding me accountable. Having someone there to listen to me really helped me see that I'm not in it alone.
+With Wegovy®, I noticed that over time, I wasn't eating as much with meals. One day we went out to eat and all of a sudden I was like, “Man, I'm really full right now,” and I just really ate what I needed versus what I wanted. That was something I could never do before.
+Narrator: Stop taking Wegovy® and get medical help right away if you get a lump or swelling in your neck or an allergic reaction. Serious side effects may happen, including pancreatitis. Stop taking Wegovy® and get medical help right away if you get severe stomach pain.
+Keytsiia: I've been on Wegovy® since January 2023, and my goal is to just keep progressing.
+Keytsiia: With Wegovy®, a lower calorie diet and more physical activity, I've been able to lose weight and keep it off. It was just mind-blowing to see, like, the weight starting to drop and, "Wow, this is actually, you know, making a difference." Everyone's experience with Wegovy® may be different, but this is my experience. I never thought I would get to a point where I can sit here and say. "I was once 400 pounds." There was a lot of work and a lot of effort that was put in to getting here, and I can't wait to see what else comes from it while I'm actively on Wegovy®.
+Narrator: Gallbladder or severe stomach problems may occur. Call your provider if you have symptoms such as stomach pain, fever, yellowing of the skin or eyes, or clay-colored stools. Tell your provider if you have type 2 diabetes and experience vision problems; if you are pregnant, plan to become pregnant or are breastfeeding; or if you feel your heart racing while at rest.
+In those with diabetes, taking Wegovy® with insulin or a sulfonylurea can increase the risk of low blood sugar. This can be a serious side effect. Talk to your provider about how to recognize and treat low blood sugar and check your blood sugar before starting and while taking Wegovy®.
+Wegovy® may increase the chance of food or liquid getting into your lungs during surgery, or other procedures that use anesthesia or deep sleepiness. Tell all your healthcare providers that you are taking Wegovy® before you are scheduled to have surgery or other procedures.
+Common side effects include nausea, diarrhea, vomiting, constipation, stomach pain, changes in skin sensations, headache, tiredness, upset stomach, dizziness, feeling bloated, belching, low blood sugar in people with type 2 diabetes, gas, stomach flu, heartburn, and hair loss.
+Some side effects may lead to dehydration, which may worsen kidney problems. Drinking plenty of fluids may reduce your chances of dehydration.
+close
+Transcript
+<strong>Narrator: </strong>Heath is a real patient taking Wegovy<sup>®</sup>&nbsp;pen and has been compensated by Novo Nordisk for his participation in this video. Individual results may vary.</p>\r\n<p><strong>Heath: </strong>My name’s Heath. I’m married, with two boys. We’re an active family. Every day there is something going on.</p>\r\n<p>I was active in high school. I didn’t think about weight that much. When college came around, I was not as active, and I would eat and drink whatever I wanted. I started gaining a lot of weight. I met my wife, Kelly. We’d come home from work, and it would generally be sitting at home, eating, watching TV, doing absolutely nothing. I was probably gaining about five pounds a month at that point. I would try to diet and exercise, but I couldn’t go anywhere. I might lose five pounds, but then I would probably gain it back within the same month. I eventually hit 342 pounds. For me, 342 pounds felt like I had a boulder on me. Carrying that much weight, I couldn’t walk upstairs without losing my breath. I physically could not get down on the floor without struggling to get back up. I was nervous about how the weight was affecting my body overall. I was nervous about what it was going to do to me long term.</p>\r\n<p>I took my family to a theme park, and one of the rides they were most excited about, we tried to get on, and I had to get off because I was too big to fit in the seat. And that hurt. When that happened to me, I got off the ride and stood off to the side, on the exit line, waiting for them to come back through and all I could do was just smile. It was the only thing I could do to keep it together.</p>\r\n<p>My primary care physician and I were having multiple and ongoing conversations about how I can manage my weight. But we were not finding anything, at the time, that seemed like a good fit for me. About a year later, he brought up Wegovy<sup>®</sup> to help me lose weight and keep it off. It had just been approved by the FDA at the time, and he thought it could be a good option for me. My doctor said, I would need to take Wegovy<sup>®</sup> with a reduced calorie diet and increased physical activity. He let me know that it’s an injection, and wanted to know if that was something I’d be okay with. I was ready for it. I was excited to start treatment with Wegovy<sup>®</sup>.</p>\r\n<p><strong>Narrator: </strong>Wegovy<sup>®</sup>&nbsp;(semaglutide) injection is a prescription medicine used with reduced calorie diet and increased physical activity to:</p>\r\n<ul>\r\n<li>reduce the risk of major cardiovascular events such as death, heart attack, or stroke in adults with known heart disease and with either obesity or overweight.</li>\r\n<li>help adults with obesity, or some adults with excess weight (overweight) who also have weightrelated medical problems to lose weight and keep the weight off.</li>\r\n</ul>\r\n<p>Wegovy<sup>®</sup>&nbsp;contains semaglutide and should not be used with other semaglutide-containing products or other GLP-1 receptor agonist medicines. It is not known if&nbsp;Wegovy<sup>®</sup>&nbsp;injection is safe and effective:</p>\r\n<ul>\r\n<li>to reduce the risk of major cardiovascular events (death, heart attack, or stroke) in people under 18 years</li>\r\n<li>to help children under 12 years of age lose weight and keep the weight off</li>\r\n</ul>\r\n<p>Do not take Wegovy<sup>®</sup> if you have a personal or family history of medullary thyroid cancer, Multiple Endocrine Neoplasia syndrome type 2, or if you are allergic to Wegovy<sup>®</sup>.</p>\r\n<p><strong>Heath: </strong>I began to notice a change in my appetite, and I was eating less. I remember I had this big bowl of spaghetti, and after about halfway through the bowl, I felt full. I didn’t want anymore. I had no want to keep going. I was very surprised. I was shocked. But I was happy. I was smiling ear to ear because all I could think is, "Wow, I’m stopping. I don’t necessarily need this food."</p>\r\n<p>I know everyone’s experience with Wegovy<sup>®</sup> is different, but I was so excited after I lost the first few pounds. It was great, it was such a good feeling. Losing those first few pounds was what motivated me to start moving, to start exercising. Eventually, I was carrying around less weight and I was keeping it off. And that helped me feel like I could do more. Wegovy<sup>®</sup> helps me control how much I eat. I control <em>what </em>I eat. &nbsp;If I want a bite of cake, I will still have a bite of cake. But I’m probably not going to eat half of the cake like I used to. Now I have control. I have control of how much of it I eat. If I’m at a restaurant and they’re serving the massive portions that they generally do, I have realized, "Hey, we can share a meal." Me and one of the boys can share this massive portion of pasta or whatever we’re eating. And it’s worked out great.</p>\r\n<p><strong>Narrator: </strong>Stop taking Wegovy<sup>®</sup> and get medical help right away if you get a lump or swelling in your neck or an allergic reaction.&nbsp;</p>\r\n<p>Serious side effects may happen, including pancreatitis. Stop taking Wegovy<sup>®</sup> and get medical help right away if you get severe stomach pain.</p>\r\n<p><strong>Heath: </strong>My wife and my kids, they’re why I’m staying on Wegovy<sup>®</sup>. They are the reason that I want to do better each and every day. I do feel like I’m setting a good example for them now. They’re seeing me be much more active, and I’m eating less. I’m able to show them that there are tools out there to help you manage your weight and get you on the right track. For me, that tool is Wegovy<sup>®</sup> along with diet and exercise, and working with my doctor. I’m confident that I can lose weight, keep it off, and continue on.</p>\r\n<p><strong>Narrator: </strong>Gallbladder or severe stomach problems may occur. Call your provider if you have symptoms such as stomach pain, fever, yellowing of the skin or eyes or clay-colored stools.</p>\r\n<p>Tell your provider if you have type 2 diabetes and experience vision problems; if you are pregnant, plan to become pregnant, or are breastfeeding; or if you feel your heart racing while at rest.</p>\r\n<p>In those with diabetes, taking Wegovy<sup>®</sup> with insulin or a sulfonylurea can increase the risk of low blood sugar. This can be a serious side effect.</p>\r\n<p>Talk to your provider about how to recognize and treat low blood sugar and check your blood sugar before starting and while taking Wegovy<sup>®</sup>.</p>\r\n<p>Wegovy<sup>®</sup> may increase the chance of food or liquid getting into your lungs during surgery or other procedures that use anesthesia or deep sleepiness. Tell all your healthcare providers that you are taking Wegovy<sup>®</sup> before you are scheduled to have surgery or other procedures.</p>\r\n<p>Common side effects include nausea, diarrhea, vomiting, constipation, stomach pain, changes in skin sensations, headache, tiredness, upset stomach, dizziness, feeling bloated, belching, low blood sugar in people with type 2 diabetes, gas, stomach flu, heartburn, and hair loss.&nbsp;&nbsp;Talk to your doctor about any side effect that bothers you or does not go away.&nbsp; &nbsp;</p>\r\n<p>Some side effects may lead to dehydration, which may worsen kidney problems. Drinking plenty of fluids may reduce your chances of dehydration.</p>\r\n"}}" id="text-d42ea14a21" class="cmp-text">
+Narrator: Heath is a real patient taking Wegovy® pen and has been compensated by Novo Nordisk for his participation in this video. Individual results may vary.
+Heath: My name’s Heath. I’m married, with two boys. We’re an active family. Every day there is something going on.
+I was active in high school. I didn’t think about weight that much. When college came around, I was not as active, and I would eat and drink whatever I wanted. I started gaining a lot of weight. I met my wife, Kelly. We’d come home from work, and it would generally be sitting at home, eating, watching TV, doing absolutely nothing. I was probably gaining about five pounds a month at that point. I would try to diet and exercise, but I couldn’t go anywhere. I might lose five pounds, but then I would probably gain it back within the same month. I eventually hit 342 pounds. For me, 342 pounds felt like I had a boulder on me. Carrying that much weight, I couldn’t walk upstairs without losing my breath. I physically could not get down on the floor without struggling to get back up. I was nervous about how the weight was affecting my body overall. I was nervous about what it was going to do to me long term.
+I took my family to a theme park, and one of the rides they were most excited about, we tried to get on, and I had to get off because I was too big to fit in the seat. And that hurt. When that happened to me, I got off the ride and stood off to the side, on the exit line, waiting for them to come back through and all I could do was just smile. It was the only thing I could do to keep it together.
+My primary care physician and I were having multiple and ongoing conversations about how I can manage my weight. But we were not finding anything, at the time, that seemed like a good fit for me. About a year later, he brought up Wegovy® to help me lose weight and keep it off. It had just been approved by the FDA at the time, and he thought it could be a good option for me. My doctor said, I would need to take Wegovy® with a reduced calorie diet and increased physical activity. He let me know that it’s an injection, and wanted to know if that was something I’d be okay with. I was ready for it. I was excited to start treatment with Wegovy®.
+Narrator: Wegovy® (semaglutide) injection is a prescription medicine used with reduced calorie diet and increased physical activity to:
+reduce the risk of major cardiovascular events such as death, heart attack, or stroke in adults with known heart disease and with either obesity or overweight.
+help adults with obesity, or some adults with excess weight (overweight) who also have weightrelated medical problems to lose weight and keep the weight off.
+Wegovy® contains semaglutide and should not be used with other semaglutide-containing products or other GLP-1 receptor agonist medicines. It is not known if Wegovy® injection is safe and effective:
+to reduce the risk of major cardiovascular events (death, heart attack, or stroke) in people under 18 years
+to help children under 12 years of age lose weight and keep the weight off
+Do not take Wegovy® if you have a personal or family history of medullary thyroid cancer, Multiple Endocrine Neoplasia syndrome type 2, or if you are allergic to Wegovy®.
+Heath: I began to notice a change in my appetite, and I was eating less. I remember I had this big bowl of spaghetti, and after about halfway through the bowl, I felt full. I didn’t want anymore. I had no want to keep going. I was very surprised. I was shocked. But I was happy. I was smiling ear to ear because all I could think is, "Wow, I’m stopping. I don’t necessarily need this food."
+I know everyone’s experience with Wegovy® is different, but I was so excited after I lost the first few pounds. It was great, it was such a good feeling. Losing those first few pounds was what motivated me to start moving, to start exercising. Eventually, I was carrying around less weight and I was keeping it off. And that helped me feel like I could do more. Wegovy® helps me control how much I eat. I control what I eat.  If I want a bite of cake, I will still have a bite of cake. But I’m probably not going to eat half of the cake like I used to. Now I have control. I have control of how much of it I eat. If I’m at a restaurant and they’re serving the massive portions that they generally do, I have realized, "Hey, we can share a meal." Me and one of the boys can share this massive portion of pasta or whatever we’re eating. And it’s worked out great.
+Narrator: Stop taking Wegovy® and get medical help right away if you get a lump or swelling in your neck or an allergic reaction.
+Serious side effects may happen, including pancreatitis. Stop taking Wegovy® and get medical help right away if you get severe stomach pain.
+Heath: My wife and my kids, they’re why I’m staying on Wegovy®. They are the reason that I want to do better each and every day. I do feel like I’m setting a good example for them now. They’re seeing me be much more active, and I’m eating less. I’m able to show them that there are tools out there to help you manage your weight and get you on the right track. For me, that tool is Wegovy® along with diet and exercise, and working with my doctor. I’m confident that I can lose weight, keep it off, and continue on.
+Narrator: Gallbladder or severe stomach problems may occur. Call your provider if you have symptoms such as stomach pain, fever, yellowing of the skin or eyes or clay-colored stools.
+Tell your provider if you have type 2 diabetes and experience vision problems; if you are pregnant, plan to become pregnant, or are breastfeeding; or if you feel your heart racing while at rest.
+In those with diabetes, taking Wegovy® with insulin or a sulfonylurea can increase the risk of low blood sugar. This can be a serious side effect.
+Talk to your provider about how to recognize and treat low blood sugar and check your blood sugar before starting and while taking Wegovy®.
+Wegovy® may increase the chance of food or liquid getting into your lungs during surgery or other procedures that use anesthesia or deep sleepiness. Tell all your healthcare providers that you are taking Wegovy® before you are scheduled to have surgery or other procedures.
+Common side effects include nausea, diarrhea, vomiting, constipation, stomach pain, changes in skin sensations, headache, tiredness, upset stomach, dizziness, feeling bloated, belching, low blood sugar in people with type 2 diabetes, gas, stomach flu, heartburn, and hair loss.  Talk to your doctor about any side effect that bothers you or does not go away.
+Some side effects may lead to dehydration, which may worsen kidney problems. Drinking plenty of fluids may reduce your chances of dehydration.
+close
+Transcript
+<strong>Narrator: </strong>Terry is a real patient taking Wegovy<sup>®</sup> and has been compensated by Novo Nordisk<sup>®</sup> for his participation in this video. Individual results may vary.</p>\r\n<p><strong>Terry: </strong>I didn't think my weight was that big of a problem at first. I tried not to think about it. But as time went on, I was eating more and exercising less. Before I knew it, I gained like 70 pounds over a stretch of about 10 years. But now I'm doing something about it. Right now, my weight is my number one priority. I'm motivated to keep going, and it's been so worth it.</p>\r\n<p>For most of my adult life, I was very active, I was in good shape. I was at a really comfortable about 215 pounds. I was playing basketball four to five times a week, golf when it was summertime, you know, chasing my kids around, staying active coaching their sports, and doing things with them. Starting in my late forties, I became a lot less active, but I continued to eat the way I used to eat—like six slices of pizza. You know, I could knock off a tray of nachos on a football Sunday. I put on a lot of weight. It all caught up to me. In my 50s, I was closing in on 300 pounds. When I looked at the scale and saw that number, I felt despair. I felt shame. I felt embarrassed, that, you know—but I also felt a little bit hopeless, like I've let it go too far and I have nothing I'm gonna be able to do about this.</p>\r\n<p>When I was carrying all that weight, I was getting winded going up a flight of stairs. I mean, I didn't want to go and get the mail. Eventually I got to the point where I gave in and I had to, you know, go up two sizes in my shirts, three sizes in my pants. My doctor started expressing concerns about my excess weight and its impact on things like my blood pressure.</p>\r\n<p>When I was at my heaviest, uh, I, I really tried to, um, avoid seeing people I hadn't seen in a long time. I could see it in their eyes that they're saying to themselves, what happened to this guy?</p>\r\n<p>One night I was talking with my neighbor about my weight. He's a good friend. He asked me if I had ever heard about Wegovy<sup>®</sup>. And I hadn't, but I was curious. I finally spoke to my primary care doctor and suggested Wegovy<sup>®</sup>, and he did a lot of research on it. He looked at my history, and at my next appointment, he said, "You know, I think Wegovy<sup>®</sup> might be right for you," and he agreed to put me on it.</p>\r\n<p>We went over the potential benefits and the risks of treatment. We talked about how I would also need to stick to an exercise plan and a reduced calorie diet.</p>\r\n<p><strong>Narrator: </strong>Wegovy<sup>®</sup>&nbsp;(semaglutide) injection is a prescription medicine used with reduced calorie diet and increased physical activity to:</p>\r\n<ul>\r\n<li>reduce the risk of major cardiovascular events such as death, heart attack, or stroke in adults with known heart disease and with either obesity or overweight.</li>\r\n<li>help adults with obesity, or some adults with excess weight (overweight) who also have weight-related medical problems to lose weight and keep the weight off.</li>\r\n</ul>\r\n<p>Wegovy<sup>®</sup>&nbsp;contains semaglutide and should not be used with other semaglutide-containing products or other GLP-1 receptor agonist medicines.</p>\r\n<p>It is not known if Wegovy<strong><sup>®</sup> </strong>injection<strong> </strong>is safe and effective:</p>\r\n<ul>\r\n<li>to reduce the risk of major cardiovascular events (death, heart attack, or stroke) in people under 18 years</li>\r\n<li>to help children under 12 years of age lose weight and keep the weight off</li>\r\n</ul>\r\n<p>Do not take Wegovy<sup>®</sup> if you have a personal or family history of medullary thyroid cancer, Multiple Endocrine Neoplasia syndrome type two, or if you are allergic to Wegovy<sup>®</sup>.</p>\r\n<p><strong>Terry: </strong>I started taking Wegovy<sup>®</sup> a little over two years ago to help me lose weight and keep it off.</p>\r\n<p>Something that I've noticed is that I'm no longer hungry all the time. I used to eat a lot of snacks in between meals and make a large late-night snacks. With changes in my appetite, I'm waiting until it's time for my next meal. My doctor told me I may experience common side effects like nausea, and we've discussed what to do if I experience any of those side effects.</p>\r\n<p>Since starting Wegovy<sup>®</sup>, I've lost about 50 pounds over two years, and that's about 17 percent of my starting body weight. You know, when I started to take Wegovy<sup>®</sup>, I started a weight log, and over time, man, you could really see those results, and I used to take screenshots on my phone and send it to my kids and I'd get back a “whoop, whoop, Dad, go!” you know, kind of thing, and it was just really motivating.</p>\r\n<p>Everyone's experience with Wegovy<sup>®</sup> may be different. This is just my experience.</p>\r\n<p><strong>Narrator: </strong>Stop taking Wegovy<sup>®</sup> and get medical help right away if you get a lump or swelling in your neck or an allergic reaction. Serious side effects may happen, including pancreatitis. Stop taking Wegovy<sup>®</sup> and get medical help right away if you get severe stomach pain.</p>\r\n<p><strong>Terry:</strong> I'd say I've been chipping away at my weight a little bit at a time. I actually appreciate that I'm making slow and steady progress with Wegovy<sup>®</sup>.</p>\r\n<p>I love it when people see me today and they're like, “Whoa! What happened to Terry?” because now they're noticing the changes I've made with the work I've been putting in to manage my weight.</p>\r\n<p>Taking Wegovy<sup>®</sup> is not like waving a magic wand. I've had to do my part. I've been more mindful about what I put in my body since I started, and I've made a point to be more active and I've made an effort to stick to a reduced calorie diet. When I see that I'm making progress, it feels good, like I'm moving in the right direction.</p>\r\n<p>I want other people out there, especially people my age, to know that there's help. It's not easy taking that first step, and you shouldn't be embarrassed to ask for help. Talk to your healthcare professional and ask them if Wegovy<sup>®</sup> may be right for you.</p>\r\n<p><strong>Narrator: </strong>Gallbladder or severe stomach problems may occur. Call your provider if you have symptoms such as stomach pain, fever, yellowing of the skin or eyes, or clay-colored stools. Tell your provider if you have type two diabetes and experience vision problems; if you are pregnant, plan to become pregnant, or are breastfeeding; or if you feel your heart racing while at rest.</p>\r\n<p>In those with diabetes, taking Wegovy<sup>®</sup> with insulin or sulfonylurea can increase the risk of low blood sugar. This can be a serious side effect. Talk to your provider about how to recognize and treat low blood sugar and check your blood sugar before starting and while taking Wegovy<sup>®</sup>.</p>\r\n<p>Wegovy<sup>®</sup> may increase the chance of food or liquid getting into your lungs during surgery or other procedures that use anesthesia or deep sleepiness. Tell all your healthcare providers that you are taking Wegovy<sup>®</sup> before you are scheduled to have surgery or other procedures.</p>\r\n<p>Common side effects include nausea, diarrhea, vomiting, constipation, stomach pain, changes in skin sensations, headache, tiredness, upset stomach, dizziness, feeling bloated, belching, low blood sugar in people with type two diabetes, gas, stomach flu, heartburn, and hair loss.</p>\r\n<p>Talk to your doctor about any side effect that bothers you or does not go away. Some side effects may lead to dehydration, which may worsen kidney problems. Drinking plenty of fluids may reduce your chances of dehydration.</p>\r\n"}}" id="text-9b40554b41" class="cmp-text">
+Narrator: Terry is a real patient taking Wegovy® and has been compensated by Novo Nordisk® for his participation in this video. Individual results may vary.
+Terry: I didn't think my weight was that big of a problem at first. I tried not to think about it. But as time went on, I was eating more and exercising less. Before I knew it, I gained like 70 pounds over a stretch of about 10 years. But now I'm doing something about it. Right now, my weight is my number one priority. I'm motivated to keep going, and it's been so worth it.
+For most of my adult life, I was very active, I was in good shape. I was at a really comfortable about 215 pounds. I was playing basketball four to five times a week, golf when it was summertime, you know, chasing my kids around, staying active coaching their sports, and doing things with them. Starting in my late forties, I became a lot less active, but I continued to eat the way I used to eat—like six slices of pizza. You know, I could knock off a tray of nachos on a football Sunday. I put on a lot of weight. It all caught up to me. In my 50s, I was closing in on 300 pounds. When I looked at the scale and saw that number, I felt despair. I felt shame. I felt embarrassed, that, you know—but I also felt a little bit hopeless, like I've let it go too far and I have nothing I'm gonna be able to do about this.
+When I was carrying all that weight, I was getting winded going up a flight of stairs. I mean, I didn't want to go and get the mail. Eventually I got to the point where I gave in and I had to, you know, go up two sizes in my shirts, three sizes in my pants. My doctor started expressing concerns about my excess weight and its impact on things like my blood pressure.
+When I was at my heaviest, uh, I, I really tried to, um, avoid seeing people I hadn't seen in a long time. I could see it in their eyes that they're saying to themselves, what happened to this guy?
+One night I was talking with my neighbor about my weight. He's a good friend. He asked me if I had ever heard about Wegovy®. And I hadn't, but I was curious. I finally spoke to my primary care doctor and suggested Wegovy®, and he did a lot of research on it. He looked at my history, and at my next appointment, he said, "You know, I think Wegovy® might be right for you," and he agreed to put me on it.
+We went over the potential benefits and the risks of treatment. We talked about how I would also need to stick to an exercise plan and a reduced calorie diet.
+Narrator: Wegovy® (semaglutide) injection is a prescription medicine used with reduced calorie diet and increased physical activity to:
+reduce the risk of major cardiovascular events such as death, heart attack, or stroke in adults with known heart disease and with either obesity or overweight.
+help adults with obesity, or some adults with excess weight (overweight) who also have weight-related medical problems to lose weight and keep the weight off.
+Wegovy® contains semaglutide and should not be used with other semaglutide-containing products or other GLP-1 receptor agonist medicines.
+It is not known if Wegovy® injection is safe and effective:
+to reduce the risk of major cardiovascular events (death, heart attack, or stroke) in people under 18 years
+to help children under 12 years of age lose weight and keep the weight off
+Do not take Wegovy® if you have a personal or family history of medullary thyroid cancer, Multiple Endocrine Neoplasia syndrome type two, or if you are allergic to Wegovy®.
+Terry: I started taking Wegovy® a little over two years ago to help me lose weight and keep it off.
+Something that I've noticed is that I'm no longer hungry all the time. I used to eat a lot of snacks in between meals and make a large late-night snacks. With changes in my appetite, I'm waiting until it's time for my next meal. My doctor told me I may experience common side effects like nausea, and we've discussed what to do if I experience any of those side effects.
+Since starting Wegovy®, I've lost about 50 pounds over two years, and that's about 17 percent of my starting body weight. You know, when I started to take Wegovy®, I started a weight log, and over time, man, you could really see those results, and I used to take screenshots on my phone and send it to my kids and I'd get back a “whoop, whoop, Dad, go!” you know, kind of thing, and it was just really motivating.
+Everyone's experience with Wegovy® may be different. This is just my experience.
+Narrator: Stop taking Wegovy® and get medical help right away if you get a lump or swelling in your neck or an allergic reaction. Serious side effects may happen, including pancreatitis. Stop taking Wegovy® and get medical help right away if you get severe stomach pain.
+Terry: I'd say I've been chipping away at my weight a little bit at a time. I actually appreciate that I'm making slow and steady progress with Wegovy®.
+I love it when people see me today and they're like, “Whoa! What happened to Terry?” because now they're noticing the changes I've made with the work I've been putting in to manage my weight.
+Taking Wegovy® is not like waving a magic wand. I've had to do my part. I've been more mindful about what I put in my body since I started, and I've made a point to be more active and I've made an effort to stick to a reduced calorie diet. When I see that I'm making progress, it feels good, like I'm moving in the right direction.
+I want other people out there, especially people my age, to know that there's help. It's not easy taking that first step, and you shouldn't be embarrassed to ask for help. Talk to your healthcare professional and ask them if Wegovy® may be right for you.
+Narrator: Gallbladder or severe stomach problems may occur. Call your provider if you have symptoms such as stomach pain, fever, yellowing of the skin or eyes, or clay-colored stools. Tell your provider if you have type two diabetes and experience vision problems; if you are pregnant, plan to become pregnant, or are breastfeeding; or if you feel your heart racing while at rest.
+In those with diabetes, taking Wegovy® with insulin or sulfonylurea can increase the risk of low blood sugar. This can be a serious side effect. Talk to your provider about how to recognize and treat low blood sugar and check your blood sugar before starting and while taking Wegovy®.
+Wegovy® may increase the chance of food or liquid getting into your lungs during surgery or other procedures that use anesthesia or deep sleepiness. Tell all your healthcare providers that you are taking Wegovy® before you are scheduled to have surgery or other procedures.
+Common side effects include nausea, diarrhea, vomiting, constipation, stomach pain, changes in skin sensations, headache, tiredness, upset stomach, dizziness, feeling bloated, belching, low blood sugar in people with type two diabetes, gas, stomach flu, heartburn, and hair loss.
+Talk to your doctor about any side effect that bothers you or does not go away. Some side effects may lead to dehydration, which may worsen kidney problems. Drinking plenty of fluids may reduce your chances of dehydration.
+What is Wegovy®?
+Important Safety information
+Expand
+keyboard_arrow_up
+Show Less
+keyboard_arrow_down
+Scroll to Indication
+Important Safety Information
+What is the most important information I should know about Wegovy®?
+Wegovy® may cause serious side effects, including:
+Possible thyroid tumors, including cancer. Tell your healthcare provider if you get a lump or swelling in your neck, hoarseness, trouble swallowing, or shortness of breath. These may be symptoms of thyroid cancer. In studies with rodents, Wegovy® and other medicines that work like Wegovy® caused thyroid tumors, including thyroid cancer. It is not known if Wegovy® will cause thyroid tumors or a type of thyroid cancer called medullary thyroid carcinoma (MTC) in people
+Do not use Wegovy® if you or any of your family have ever had a type of thyroid cancer called medullary thyroid carcinoma (MTC) or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+Do not use Wegovy® if:
+you or any of your family have ever had a type of thyroid cancer called medullary thyroid carcinoma (MTC) or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+you have had a serious allergic reaction to semaglutide or any of the ingredients in Wegovy® injection or Wegovy® tablets. See symptoms of serious allergic reaction in “What are the possible side effects of Wegovy®?”
+Wegovy® FlexTouch®: Do not share your Wegovy® FlexTouch® pen with other people, even if the needle has been changed. You may give other people a serious infection or get a serious infection from them.
+Before using Wegovy®, tell your healthcare provider if you have any other medical conditions, including if you:
+have or have had problems with your pancreas or kidneys
+have type 2 diabetes and a history of diabetic retinopathy
+are scheduled to have surgery or other procedures that use anesthesia or deep sleepiness (deep sedation)
+are pregnant or plan to become pregnant. Wegovy® may harm your unborn baby. You should stop using Wegovy® 2 months before you plan to become pregnant
+are breastfeeding or plan to breastfeed. Breastfeeding is not recommended during treatment with Wegovy® tablets. It is not known if Wegovy® when received through an injection passes into your breast milk
+Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements. Wegovy® may affect the way some medicines work and some medicines may affect the way Wegovy® works. Tell your healthcare provider if you are taking other medicines to treat diabetes, including sulfonylureas or insulin. Wegovy® slows stomach emptying and can affect medicines that need to pass through the stomach quickly.
+What are the possible side effects of Wegovy®?
+Wegovy® may cause serious side effects, including:
+inflammation of your pancreas (pancreatitis). Stop using Wegovy® and call your healthcare provider right away if you have severe pain in your stomach area (abdomen) that will not go away, with or without nausea or vomiting. Sometimes you may feel the pain from your abdomen to your back
+gallbladder problems. Wegovy® may cause gallbladder problems, including gallstones. Some gallstones may need surgery. Call your healthcare provider if you have symptoms, such as pain in your upper stomach (abdomen), fever, yellowing of the skin or eyes (jaundice), or clay-colored stools
+increased risk of low blood sugar (hypoglycemia), especially those who also take medicines for diabetes such as insulin or sulfonylureas. This can be a serious side effect. Talk to your healthcare provider about how to recognize and treat low blood sugar and check your blood sugar before you start and while you take Wegovy®. Signs and symptoms of low blood sugar may include dizziness or light-headedness, blurred vision, anxiety, irritability or mood changes, sweating, slurred speech, hunger, confusion or drowsiness, shakiness, weakness, headache, fast heartbeat, or feeling jittery
+dehydration leading to kidney problems. Diarrhea, nausea, and vomiting may cause a loss of fluids (dehydration), which may cause kidney problems. It is important for you to drink fluids to help reduce your chance of dehydration. Tell your healthcare provider right away if you have nausea, vomiting, or diarrhea that does not go away
+severe stomach problems. Stomach problems, sometimes severe, have been reported in people who use Wegovy®. Tell your healthcare provider if you have stomach problems that are severe or will not go away
+serious allergic reactions. Stop using Wegovy® and get medical help right away, if you have any symptoms of a serious allergic reaction, including swelling of your face, lips, tongue, or throat; problems breathing or swallowing; severe rash or itching; fainting or feeling dizzy; or very rapid heartbeat
+change in vision in people with type 2 diabetes. Tell your healthcare provider if you have changes in vision during treatment with Wegovy®
+increased heart rate. Wegovy® can increase your heart rate while you are at rest. Tell your healthcare provider if you feel your heart racing or pounding in your chest and it lasts for several minutes
+food or liquid getting into the lungs during surgery or other procedures that use anesthesia or deep sleepiness (deep sedation). Wegovy® may increase the chance of food getting into your lungs during surgery or other procedures. Tell all your healthcare providers that you are taking Wegovy® before you are scheduled to have surgery or other procedures
+The most common side effects of Wegovy® may include: nausea, diarrhea, vomiting, constipation, stomach (abdomen) pain, changes in skin sensations, headache, tiredness (fatigue), upset stomach, dizziness, feeling bloated, belching, low blood sugar in people with type 2 diabetes, gas, stomach flu, heartburn, and hair loss.
+Please see Prescribing Information and Medication Guide for Wegovy®.
+Wegovy® is a prescription medication.
+You are encouraged to report negative side effects of prescription drugs to the FDA. Visit www.fda.gov/medwatch , or call 1-800-FDA-1088 .
+This site is intended for US patients only.
+Scroll to ISI
+What is Wegovy®?
+Wegovy® (semaglutide) injection and Wegovy® (semaglutide) tablets are prescription medicines used with a reduced calorie diet and increased physical activity to:
+reduce the risk of major cardiovascular events such as death, heart attack, or stroke in adults with known heart disease and with either obesity or overweight.
+help adults with obesity, or some adults with excess weight (overweight) who also have weight-related medical problems to lose weight and keep the weight off.
+Wegovy® contains semaglutide and should not be used with other semaglutide-containing products or other GLP-1 receptor agonist medicines.
+It is not known if Wegovy® injection is safe and effective:
+to reduce the risk of major cardiovascular events (death, heart attack, or stroke) in people under 18 years
+to help children under 12 years of age lose weight and keep the weight off
+It is not known if Wegovy® tablets are safe and effective for use in people under 18 years of age.
+Scroll to Indication
+Important Safety Information
+What is the most important information I should know about Wegovy®?
+Wegovy® may cause serious side effects, including:
+Possible thyroid tumors, including cancer. Tell your healthcare provider if you get a lump or swelling in your neck, hoarseness, trouble swallowing, or shortness of breath. These may be symptoms of thyroid cancer. In studies with rodents, Wegovy® and other medicines that work like Wegovy® caused thyroid tumors, including thyroid cancer. It is not known if Wegovy® will cause thyroid tumors or a type of thyroid cancer called medullary thyroid carcinoma (MTC) in people
+Do not use Wegovy® if you or any of your family have ever had a type of thyroid cancer called medullary thyroid carcinoma (MTC) or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+Do not use Wegovy® if:
+you or any of your family have ever had a type of thyroid cancer called medullary thyroid carcinoma (MTC) or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+you have had a serious allergic reaction to semaglutide or any of the ingredients in Wegovy® injection or Wegovy® tablets. See symptoms of serious allergic reaction in “What are the possible side effects of Wegovy®?”
+Wegovy® FlexTouch®: Do not share your Wegovy® FlexTouch® pen with other people, even if the needle has been changed. You may give other people a serious infection or get a serious infection from them.
+Before using Wegovy®, tell your healthcare provider if you have any other medical conditions, including if you:
+have or have had problems with your pancreas or kidneys
+have type 2 diabetes and a history of diabetic retinopathy
+are scheduled to have surgery or other procedures that use anesthesia or deep sleepiness (deep sedation)
+are pregnant or plan to become pregnant. Wegovy® may harm your unborn baby. You should stop using Wegovy® 2 months before you plan to become pregnant
+are breastfeeding or plan to breastfeed. Breastfeeding is not recommended during treatment with Wegovy® tablets. It is not known if Wegovy® when received through an injection passes into your breast milk
+Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements. Wegovy® may affect the way some medicines work and some medicines may affect the way Wegovy® works. Tell your healthcare provider if you are taking other medicines to treat diabetes, including sulfonylureas or insulin. Wegovy® slows stomach emptying and can affect medicines that need to pass through the stomach quickly.
+What are the possible side effects of Wegovy®?
+Wegovy® may cause serious side effects, including:
+inflammation of your pancreas (pancreatitis). Stop using Wegovy® and call your healthcare provider right away if you have severe pain in your stomach area (abdomen) that will not go away, with or without nausea or vomiting. Sometimes you may feel the pain from your abdomen to your back
+gallbladder problems. Wegovy® may cause gallbladder problems, including gallstones. Some gallstones may need surgery. Call your healthcare provider if you have symptoms, such as pain in your upper stomach (abdomen), fever, yellowing of the skin or eyes (jaundice), or clay-colored stools
+increased risk of low blood sugar (hypoglycemia), especially those who also take medicines for diabetes such as insulin or sulfonylureas. This can be a serious side effect. Talk to your healthcare provider about how to recognize and treat low blood sugar and check your blood sugar before you start and while you take Wegovy®. Signs and symptoms of low blood sugar may include dizziness or light-headedness, blurred vision, anxiety, irritability or mood changes, sweating, slurred speech, hunger, confusion or drowsiness, shakiness, weakness, headache, fast heartbeat, or feeling jittery
+dehydration leading to kidney problems. Diarrhea, nausea, and vomiting may cause a loss of fluids (dehydration), which may cause kidney problems. It is important for you to drink fluids to help reduce your chance of dehydration. Tell your healthcare provider right away if you have nausea, vomiting, or diarrhea that does not go away
+severe stomach problems. Stomach problems, sometimes severe, have been reported in people who use Wegovy®. Tell your healthcare provider if you have stomach problems that are severe or will not go away
+serious allergic reactions. Stop using Wegovy® and get medical help right away, if you have any symptoms of a serious allergic reaction, including swelling of your face, lips, tongue, or throat; problems breathing or swallowing; severe rash or itching; fainting or feeling dizzy; or very rapid heartbeat
+change in vision in people with type 2 diabetes. Tell your healthcare provider if you have changes in vision during treatment with Wegovy®
+increased heart rate. Wegovy® can increase your heart rate while you are at rest. Tell your healthcare provider if you feel your heart racing or pounding in your chest and it lasts for several minutes
+food or liquid getting into the lungs during surgery or other procedures that use anesthesia or deep sleepiness (deep sedation). Wegovy® may increase the chance of food getting into your lungs during surgery or other procedures. Tell all your healthcare providers that you are taking Wegovy® before you are scheduled to have surgery or other procedures
+The most common side effects of Wegovy® may include: nausea, diarrhea, vomiting, constipation, stomach (abdomen) pain, changes in skin sensations, headache, tiredness (fatigue), upset stomach, dizziness, feeling bloated, belching, low blood sugar in people with type 2 diabetes, gas, stomach flu, heartburn, and hair loss.
+Scroll to ISI
+What is Wegovy®?
+Wegovy® (semaglutide) injection and Wegovy® (semaglutide) tablets are prescription medicines used with a reduced calorie diet and increased physical activity to:
+reduce the risk of major cardiovascular events such as death, heart attack, or stroke in adults with known heart disease and with either obesity or overweight.
+help adults with obesity, or some adults with excess weight (overweight) who also have weight-related medical problems to lose weight and keep the weight off.
+Wegovy® contains semaglutide and should not be used with other semaglutide-containing products or other GLP-1 receptor agonist medicines.
+It is not known if Wegovy® injection is safe and effective:
+to reduce the risk of major cardiovascular events (death, heart attack, or stroke) in people under 18 years
+to help children under 12 years of age lose weight and keep the weight off
+It is not known if Wegovy® tablets are safe and effective for use in people under 18 years of age.
+Please see Prescribing Information and Medication Guide for Wegovy®.
+Wegovy® is a prescription medication.
+You are encouraged to report negative side effects of prescription drugs to the FDA. Visit www.fda.gov/medwatch , or call 1-800-FDA-1088 .
+This site is intended for US patients only.
+What is Wegovy®?
+Expand
+keyboard_arrow_up
+Show Less
+keyboard_arrow_down
+Important Safety information
+Expand
+keyboard_arrow_up
+Show Less
+keyboard_arrow_down
+Wegovy® (semaglutide) injection and Wegovy® (semaglutide) tablets are prescription medicines used with a reduced calorie diet and increased physical activity to:
+reduce the risk of major cardiovascular events such as death, heart attack, or stroke in adults with known heart disease and with either obesity or overweight.
+help adults with obesity, or some adults with excess weight (overweight) who also have weight-related medical problems to lose weight and keep the weight off.
+Wegovy® contains semaglutide and should not be used with other semaglutide-containing products or other GLP-1 receptor agonist medicines.
+It is not known if Wegovy® injection is safe and effective:
+to reduce the risk of major cardiovascular events (death, heart attack, or stroke) in people under 18 years
+to help children under 12 years of age lose weight and keep the weight off
+It is not known if Wegovy® tablets are safe and effective for use in people under 18 years of age.
+Scroll to Indication
+Important Safety Information
+What is the most important information I should know about Wegovy®?
+Wegovy® may cause serious side effects, including:
+Possible thyroid tumors, including cancer. Tell your healthcare provider if you get a lump or swelling in your neck, hoarseness, trouble swallowing, or shortness of breath. These may be symptoms of thyroid cancer. In studies with rodents, Wegovy® and other medicines that work like Wegovy® caused thyroid tumors, including thyroid cancer. It is not known if Wegovy® will cause thyroid tumors or a type of thyroid cancer called medullary thyroid carcinoma (MTC) in people
+Do not use Wegovy® if you or any of your family have ever had a type of thyroid cancer called medullary thyroid carcinoma (MTC) or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+Do not use Wegovy® if:
+you or any of your family have ever had a type of thyroid cancer called medullary thyroid carcinoma (MTC) or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+you have had a serious allergic reaction to semaglutide or any of the ingredients in Wegovy® injection or Wegovy® tablets. See symptoms of serious allergic reaction in “What are the possible side effects of Wegovy®?”
+Wegovy® FlexTouch®: Do not share your Wegovy® FlexTouch® pen with other people, even if the needle has been changed. You may give other people a serious infection or get a serious infection from them.
+Before using Wegovy®, tell your healthcare provider if you have any other medical conditions, including if you:
+have or have had problems with your pancreas or kidneys
+have type 2 diabetes and a history of diabetic retinopathy
+are scheduled to have surgery or other procedures that use anesthesia or deep sleepiness (deep sedation)
+are pregnant or plan to become pregnant. Wegovy® may harm your unborn baby. You should stop using Wegovy® 2 months before you plan to become pregnant
+are breastfeeding or plan to breastfeed. Breastfeeding is not recommended during treatment with Wegovy® tablets. It is not known if Wegovy® when received through an injection passes into your breast milk
+Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements. Wegovy® may affect the way some medicines work and some medicines may affect the way Wegovy® works. Tell your healthcare provider if you are taking other medicines to treat diabetes, including sulfonylureas or insulin. Wegovy® slows stomach emptying and can affect medicines that need to pass through the stomach quickly.
+What are the possible side effects of Wegovy®?
+Wegovy® may cause serious side effects, including:
+inflammation of your pancreas (pancreatitis). Stop using Wegovy® and call your healthcare provider right away if you have severe pain in your stomach area (abdomen) that will not go away, with or without nausea or vomiting. Sometimes you may feel the pain from your abdomen to your back
+gallbladder problems. Wegovy® may cause gallbladder problems, including gallstones. Some gallstones may need surgery. Call your healthcare provider if you have symptoms, such as pain in your upper stomach (abdomen), fever, yellowing of the skin or eyes (jaundice), or clay-colored stools
+increased risk of low blood sugar (hypoglycemia), especially those who also take medicines for diabetes such as insulin or sulfonylureas. This can be a serious side effect. Talk to your healthcare provider about how to recognize and treat low blood sugar and check your blood sugar before you start and while you take Wegovy®. Signs and symptoms of low blood sugar may include dizziness or light-headedness, blurred vision, anxiety, irritability or mood changes, sweating, slurred speech, hunger, confusion or drowsiness, shakiness, weakness, headache, fast heartbeat, or feeling jittery
+dehydration leading to kidney problems. Diarrhea, nausea, and vomiting may cause a loss of fluids (dehydration), which may cause kidney problems. It is important for you to drink fluids to help reduce your chance of dehydration. Tell your healthcare provider right away if you have nausea, vomiting, or diarrhea that does not go away
+severe stomach problems. Stomach problems, sometimes severe, have been reported in people who use Wegovy®. Tell your healthcare provider if you have stomach problems that are severe or will not go away
+serious allergic reactions. Stop using Wegovy® and get medical help right away, if you have any symptoms of a serious allergic reaction, including swelling of your face, lips, tongue, or throat; problems breathing or swallowing; severe rash or itching; fainting or feeling dizzy; or very rapid heartbeat
+change in vision in people with type 2 diabetes. Tell your healthcare provider if you have changes in vision during treatment with Wegovy®
+increased heart rate. Wegovy® can increase your heart rate while you are at rest. Tell your healthcare provider if you feel your heart racing or pounding in your chest and it lasts for several minutes
+food or liquid getting into the lungs during surgery or other procedures that use anesthesia or deep sleepiness (deep sedation). Wegovy® may increase the chance of food getting into your lungs during surgery or other procedures. Tell all your healthcare providers that you are taking Wegovy® before you are scheduled to have surgery or other procedures
+The most common side effects of Wegovy® may include: nausea, diarrhea, vomiting, constipation, stomach (abdomen) pain, changes in skin sensations, headache, tiredness (fatigue), upset stomach, dizziness, feeling bloated, belching, low blood sugar in people with type 2 diabetes, gas, stomach flu, heartburn, and hair loss.
+Scroll to ISI
+What is Wegovy®?
+Wegovy® (semaglutide) injection and Wegovy® (semaglutide) tablets are prescription medicines used with a reduced calorie diet and increased physical activity to:
+reduce the risk of major cardiovascular events such as death, heart attack, or stroke in adults with known heart disease and with either obesity or overweight.
+help adults with obesity, or some adults with excess weight (overweight) who also have weight-related medical problems to lose weight and keep the weight off.
+Wegovy® contains semaglutide and should not be used with other semaglutide-containing products or other GLP-1 receptor agonist medicines.
+It is not known if Wegovy® injection is safe and effective:
+to reduce the risk of major cardiovascular events (death, heart attack, or stroke) in people under 18 years
+to help children under 12 years of age lose weight and keep the weight off
+It is not known if Wegovy® tablets are safe and effective for use in people under 18 years of age.
+Please see Prescribing Information and Medication Guide for Wegovy®.
+Wegovy® is a prescription medication.
+You are encouraged to report negative side effects of prescription drugs to the FDA. Visit www.fda.gov/medwatch , or call 1-800-FDA-1088 .
+This site is intended for US patients only.
+Wegovy® may cause serious side effects, including:
+Possible thyroid tumors, including cancer. Tell your healthcare provider if you get a lump or swelling in your neck, hoarseness, trouble swallowing, or shortness of breath. These may be symptoms of thyroid cancer. In studies with rodents, Wegovy® and other medicines that work like Wegovy® caused thyroid tumors, including thyroid cancer. It is not known if Wegovy® will cause thyroid tumors or a type of thyroid cancer called medullary thyroid carcinoma (MTC) in people
+Do not use Wegovy® if you or any of your family have ever had a type of thyroid cancer called medullary thyroid carcinoma (MTC) or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+Scroll to Indication
+Important Safety Information
+What is the most important information I should know about Wegovy®?
+Wegovy® may cause serious side effects, including:
+Possible thyroid tumors, including cancer. Tell your healthcare provider if you get a lump or swelling in your neck, hoarseness, trouble swallowing, or shortness of breath. These may be symptoms of thyroid cancer. In studies with rodents, Wegovy® and other medicines that work like Wegovy® caused thyroid tumors, including thyroid cancer. It is not known if Wegovy® will cause thyroid tumors or a type of thyroid cancer called medullary thyroid carcinoma (MTC) in people
+Do not use Wegovy® if you or any of your family have ever had a type of thyroid cancer called medullary thyroid carcinoma (MTC) or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+Do not use Wegovy® if:
+you or any of your family have ever had a type of thyroid cancer called medullary thyroid carcinoma (MTC) or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+you have had a serious allergic reaction to semaglutide or any of the ingredients in Wegovy® injection or Wegovy® tablets. See symptoms of serious allergic reaction in “What are the possible side effects of Wegovy®?”
+Wegovy® FlexTouch®: Do not share your Wegovy® FlexTouch® pen with other people, even if the needle has been changed. You may give other people a serious infection or get a serious infection from them.
+Before using Wegovy®, tell your healthcare provider if you have any other medical conditions, including if you:
+have or have had problems with your pancreas or kidneys
+have type 2 diabetes and a history of diabetic retinopathy
+are scheduled to have surgery or other procedures that use anesthesia or deep sleepiness (deep sedation)
+are pregnant or plan to become pregnant. Wegovy® may harm your unborn baby. You should stop using Wegovy® 2 months before you plan to become pregnant
+are breastfeeding or plan to breastfeed. Breastfeeding is not recommended during treatment with Wegovy® tablets. It is not known if Wegovy® when received through an injection passes into your breast milk
+Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements. Wegovy® may affect the way some medicines work and some medicines may affect the way Wegovy® works. Tell your healthcare provider if you are taking other medicines to treat diabetes, including sulfonylureas or insulin. Wegovy® slows stomach emptying and can affect medicines that need to pass through the stomach quickly.
+What are the possible side effects of Wegovy®?
+Wegovy® may cause serious side effects, including:
+inflammation of your pancreas (pancreatitis). Stop using Wegovy® and call your healthcare provider right away if you have severe pain in your stomach area (abdomen) that will not go away, with or without nausea or vomiting. Sometimes you may feel the pain from your abdomen to your back
+gallbladder problems. Wegovy® may cause gallbladder problems, including gallstones. Some gallstones may need surgery. Call your healthcare provider if you have symptoms, such as pain in your upper stomach (abdomen), fever, yellowing of the skin or eyes (jaundice), or clay-colored stools
+increased risk of low blood sugar (hypoglycemia), especially those who also take medicines for diabetes such as insulin or sulfonylureas. This can be a serious side effect. Talk to your healthcare provider about how to recognize and treat low blood sugar and check your blood sugar before you start and while you take Wegovy®. Signs and symptoms of low blood sugar may include dizziness or light-headedness, blurred vision, anxiety, irritability or mood changes, sweating, slurred speech, hunger, confusion or drowsiness, shakiness, weakness, headache, fast heartbeat, or feeling jittery
+dehydration leading to kidney problems. Diarrhea, nausea, and vomiting may cause a loss of fluids (dehydration), which may cause kidney problems. It is important for you to drink fluids to help reduce your chance of dehydration. Tell your healthcare provider right away if you have nausea, vomiting, or diarrhea that does not go away
+severe stomach problems. Stomach problems, sometimes severe, have been reported in people who use Wegovy®. Tell your healthcare provider if you have stomach problems that are severe or will not go away
+serious allergic reactions. Stop using Wegovy® and get medical help right away, if you have any symptoms of a serious allergic reaction, including swelling of your face, lips, tongue, or throat; problems breathing or swallowing; severe rash or itching; fainting or feeling dizzy; or very rapid heartbeat
+change in vision in people with type 2 diabetes. Tell your healthcare provider if you have changes in vision during treatment with Wegovy®
+increased heart rate. Wegovy® can increase your heart rate while you are at rest. Tell your healthcare provider if you feel your heart racing or pounding in your chest and it lasts for several minutes
+food or liquid getting into the lungs during surgery or other procedures that use anesthesia or deep sleepiness (deep sedation). Wegovy® may increase the chance of food getting into your lungs during surgery or other procedures. Tell all your healthcare providers that you are taking Wegovy® before you are scheduled to have surgery or other procedures
+The most common side effects of Wegovy® may include: nausea, diarrhea, vomiting, constipation, stomach (abdomen) pain, changes in skin sensations, headache, tiredness (fatigue), upset stomach, dizziness, feeling bloated, belching, low blood sugar in people with type 2 diabetes, gas, stomach flu, heartburn, and hair loss.
+Scroll to ISI
+What is Wegovy®?
+Wegovy® (semaglutide) injection and Wegovy® (semaglutide) tablets are prescription medicines used with a reduced calorie diet and increased physical activity to:
+reduce the risk of major cardiovascular events such as death, heart attack, or stroke in adults with known heart disease and with either obesity or overweight.
+help adults with obesity, or some adults with excess weight (overweight) who also have weight-related medical problems to lose weight and keep the weight off.
+Wegovy® contains semaglutide and should not be used with other semaglutide-containing products or other GLP-1 receptor agonist medicines.
+It is not known if Wegovy® injection is safe and effective:
+to reduce the risk of major cardiovascular events (death, heart attack, or stroke) in people under 18 years
+to help children under 12 years of age lose weight and keep the weight off
+It is not known if Wegovy® tablets are safe and effective for use in people under 18 years of age.
+Please see Prescribing Information and Medication Guide for Wegovy®.
+Wegovy® is a prescription medication.
+You are encouraged to report negative side effects of prescription drugs to the FDA. Visit www.fda.gov/medwatch , or call 1-800-FDA-1088 .
+This site is intended for US patients only.
+Scroll to Indication
+Important Safety Information
+What is the most important information I should know about Wegovy®?
+Wegovy® may cause serious side effects, including:
+Possible thyroid tumors, including cancer. Tell your healthcare provider if you get a lump or swelling in your neck, hoarseness, trouble swallowing, or shortness of breath. These may be symptoms of thyroid cancer. In studies with rodents, Wegovy® and other medicines that work like Wegovy® caused thyroid tumors, including thyroid cancer. It is not known if Wegovy® will cause thyroid tumors or a type of thyroid cancer called medullary thyroid carcinoma (MTC) in people
+Do not use Wegovy® if you or any of your family have ever had a type of thyroid cancer called medullary thyroid carcinoma (MTC) or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+Do not use Wegovy® if:
+you or any of your family have ever had a type of thyroid cancer called medullary thyroid carcinoma (MTC) or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+you have had a serious allergic reaction to semaglutide or any of the ingredients in Wegovy® injection or Wegovy® tablets. See symptoms of serious allergic reaction in “What are the possible side effects of Wegovy®?”
+Wegovy® FlexTouch®: Do not share your Wegovy® FlexTouch® pen with other people, even if the needle has been changed. You may give other people a serious infection or get a serious infection from them.
+Before using Wegovy®, tell your healthcare provider if you have any other medical conditions, including if you:
+have or have had problems with your pancreas or kidneys
+have type 2 diabetes and a history of diabetic retinopathy
+are scheduled to have surgery or other procedures that use anesthesia or deep sleepiness (deep sedation)
+are pregnant or plan to become pregnant. Wegovy® may harm your unborn baby. You should stop using Wegovy® 2 months before you plan to become pregnant
+are breastfeeding or plan to breastfeed. Breastfeeding is not recommended during treatment with Wegovy® tablets. It is not known if Wegovy® when received through an injection passes into your breast milk
+Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements. Wegovy® may affect the way some medicines work and some medicines may affect the way Wegovy® works. Tell your healthcare provider if you are taking other medicines to treat diabetes, including sulfonylureas or insulin. Wegovy® slows stomach emptying and can affect medicines that need to pass through the stomach quickly.
+What are the possible side effects of Wegovy®?
+Wegovy® may cause serious side effects, including:
+inflammation of your pancreas (pancreatitis). Stop using Wegovy® and call your healthcare provider right away if you have severe pain in your stomach area (abdomen) that will not go away, with or without nausea or vomiting. Sometimes you may feel the pain from your abdomen to your back
+gallbladder problems. Wegovy® may cause gallbladder problems, including gallstones. Some gallstones may need surgery. Call your healthcare provider if you have symptoms, such as pain in your upper stomach (abdomen), fever, yellowing of the skin or eyes (jaundice), or clay-colored stools
+increased risk of low blood sugar (hypoglycemia), especially those who also take medicines for diabetes such as insulin or sulfonylureas. This can be a serious side effect. Talk to your healthcare provider about how to recognize and treat low blood sugar and check your blood sugar before you start and while you take Wegovy®. Signs and symptoms of low blood sugar may include dizziness or light-headedness, blurred vision, anxiety, irritability or mood changes, sweating, slurred speech, hunger, confusion or drowsiness, shakiness, weakness, headache, fast heartbeat, or feeling jittery
+dehydration leading to kidney problems. Diarrhea, nausea, and vomiting may cause a loss of fluids (dehydration), which may cause kidney problems. It is important for you to drink fluids to help reduce your chance of dehydration. Tell your healthcare provider right away if you have nausea, vomiting, or diarrhea that does not go away
+severe stomach problems. Stomach problems, sometimes severe, have been reported in people who use Wegovy®. Tell your healthcare provider if you have stomach problems that are severe or will not go away
+serious allergic reactions. Stop using Wegovy® and get medical help right away, if you have any symptoms of a serious allergic reaction, including swelling of your face, lips, tongue, or throat; problems breathing or swallowing; severe rash or itching; fainting or feeling dizzy; or very rapid heartbeat
+change in vision in people with type 2 diabetes. Tell your healthcare provider if you have changes in vision during treatment with Wegovy®
+increased heart rate. Wegovy® can increase your heart rate while you are at rest. Tell your healthcare provider if you feel your heart racing or pounding in your chest and it lasts for several minutes
+food or liquid getting into the lungs during surgery or other procedures that use anesthesia or deep sleepiness (deep sedation). Wegovy® may increase the chance of food getting into your lungs during surgery or other procedures. Tell all your healthcare providers that you are taking Wegovy® before you are scheduled to have surgery or other procedures
+The most common side effects of Wegovy® may include: nausea, diarrhea, vomiting, constipation, stomach (abdomen) pain, changes in skin sensations, headache, tiredness (fatigue), upset stomach, dizziness, feeling bloated, belching, low blood sugar in people with type 2 diabetes, gas, stomach flu, heartburn, and hair loss.
+Please see Prescribing Information and Medication Guide for Wegovy®.
+Wegovy® is a prescription medication.
+You are encouraged to report negative side effects of prescription drugs to the FDA. Visit www.fda.gov/medwatch , or call 1-800-FDA-1088 .
+This site is intended for US patients only.
+Scroll to ISI
+What is Wegovy®?
+Wegovy® (semaglutide) injection and Wegovy® (semaglutide) tablets are prescription medicines used with a reduced calorie diet and increased physical activity to:
+reduce the risk of major cardiovascular events such as death, heart attack, or stroke in adults with known heart disease and with either obesity or overweight.
+help adults with obesity, or some adults with excess weight (overweight) who also have weight-related medical problems to lose weight and keep the weight off.
+Wegovy® contains semaglutide and should not be used with other semaglutide-containing products or other GLP-1 receptor agonist medicines.
+It is not known if Wegovy® injection is safe and effective:
+to reduce the risk of major cardiovascular events (death, heart attack, or stroke) in people under 18 years
+to help children under 12 years of age lose weight and keep the weight off
+It is not known if Wegovy® tablets are safe and effective for use in people under 18 years of age.
+Scroll to Indication
+Important Safety Information
+What is the most important information I should know about Wegovy®?
+Wegovy® may cause serious side effects, including:
+Possible thyroid tumors, including cancer. Tell your healthcare provider if you get a lump or swelling in your neck, hoarseness, trouble swallowing, or shortness of breath. These may be symptoms of thyroid cancer. In studies with rodents, Wegovy® and other medicines that work like Wegovy® caused thyroid tumors, including thyroid cancer. It is not known if Wegovy® will cause thyroid tumors or a type of thyroid cancer called medullary thyroid carcinoma (MTC) in people
+Do not use Wegovy® if you or any of your family have ever had a type of thyroid cancer called medullary thyroid carcinoma (MTC) or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+Do not use Wegovy® if:
+you or any of your family have ever had a type of thyroid cancer called medullary thyroid carcinoma (MTC) or if you have an endocrine system condition called Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+you have had a serious allergic reaction to semaglutide or any of the ingredients in Wegovy® injection or Wegovy® tablets. See symptoms of serious allergic reaction in “What are the possible side effects of Wegovy®?”
+Wegovy® FlexTouch®: Do not share your Wegovy® FlexTouch® pen with other people, even if the needle has been changed. You may give other people a serious infection or get a serious infection from them.
+Before using Wegovy®, tell your healthcare provider if you have any other medical conditions, including if you:
+have or have had problems with your pancreas or kidneys
+have type 2 diabetes and a history of diabetic retinopathy
+are scheduled to have surgery or other procedures that use anesthesia or deep sleepiness (deep sedation)
+are pregnant or plan to become pregnant. Wegovy® may harm your unborn baby. You should stop using Wegovy® 2 months before you plan to become pregnant
+are breastfeeding or plan to breastfeed. Breastfeeding is not recommended during treatment with Wegovy® tablets. It is not known if Wegovy® when received through an injection passes into your breast milk
+Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements. Wegovy® may affect the way some medicines work and some medicines may affect the way Wegovy® works. Tell your healthcare provider if you are taking other medicines to treat diabetes, including sulfonylureas or insulin. Wegovy® slows stomach emptying and can affect medicines that need to pass through the stomach quickly.
+What are the possible side effects of Wegovy®?
+Wegovy® may cause serious side effects, including:
+inflammation of your pancreas (pancreatitis). Stop using Wegovy® and call your healthcare provider right away if you have severe pain in your stomach area (abdomen) that will not go away, with or without nausea or vomiting. Sometimes you may feel the pain from your abdomen to your back
+gallbladder problems. Wegovy® may cause gallbladder problems, including gallstones. Some gallstones may need surgery. Call your healthcare provider if you have symptoms, such as pain in your upper stomach (abdomen), fever, yellowing of the skin or eyes (jaundice), or clay-colored stools
+increased risk of low blood sugar (hypoglycemia), especially those who also take medicines for diabetes such as insulin or sulfonylureas. This can be a serious side effect. Talk to your healthcare provider about how to recognize and treat low blood sugar and check your blood sugar before you start and while you take Wegovy®. Signs and symptoms of low blood sugar may include dizziness or light-headedness, blurred vision, anxiety, irritability or mood changes, sweating, slurred speech, hunger, confusion or drowsiness, shakiness, weakness, headache, fast heartbeat, or feeling jittery
+dehydration leading to kidney problems. Diarrhea, nausea, and vomiting may cause a loss of fluids (dehydration), which may cause kidney problems. It is important for you to drink fluids to help reduce your chance of dehydration. Tell your healthcare provider right away if you have nausea, vomiting, or diarrhea that does not go away
+severe stomach problems. Stomach problems, sometimes severe, have been reported in people who use Wegovy®. Tell your healthcare provider if you have stomach problems that are severe or will not go away
+serious allergic reactions. Stop using Wegovy® and get medical help right away, if you have any symptoms of a serious allergic reaction, including swelling of your face, lips, tongue, or throat; problems breathing or swallowing; severe rash or itching; fainting or feeling dizzy; or very rapid heartbeat
+change in vision in people with type 2 diabetes. Tell your healthcare provider if you have changes in vision during treatment with Wegovy®
+increased heart rate. Wegovy® can increase your heart rate while you are at rest. Tell your healthcare provider if you feel your heart racing or pounding in your chest and it lasts for several minutes
+food or liquid getting into the lungs during surgery or other procedures that use anesthesia or deep sleepiness (deep sedation). Wegovy® may increase the chance of food getting into your lungs during surgery or other procedures. Tell all your healthcare providers that you are taking Wegovy® before you are scheduled to have surgery or other procedures
+The most common side effects of Wegovy® may include: nausea, diarrhea, vomiting, constipation, stomach (abdomen) pain, changes in skin sensations, headache, tiredness (fatigue), upset stomach, dizziness, feeling bloated, belching, low blood sugar in people with type 2 diabetes, gas, stomach flu, heartburn, and hair loss.
+Scroll to ISI
+What is Wegovy®?
+Wegovy® (semaglutide) injection and Wegovy® (semaglutide) tablets are prescription medicines used with a reduced calorie diet and increased physical activity to:
+reduce the risk of major cardiovascular events such as death, heart attack, or stroke in adults with known heart disease and with either obesity or overweight.
+help adults with obesity, or some adults with excess weight (overweight) who also have weight-related medical problems to lose weight and keep the weight off.
+Wegovy® contains semaglutide and should not be used with other semaglutide-containing products or other GLP-1 receptor agonist medicines.
+It is not known if Wegovy® injection is safe and effective:
+to reduce the risk of major cardiovascular events (death, heart attack, or stroke) in people under 18 years
+to help children under 12 years of age lose weight and keep the weight off
+It is not known if Wegovy® tablets are safe and effective for use in people under 18 years of age.
+Please see Prescribing Information and Medication Guide for Wegovy®.
+Wegovy® is a prescription medication.
+You are encouraged to report negative side effects of prescription drugs to the FDA. Visit www.fda.gov/medwatch , or call 1-800-FDA-1088 .
+This site is intended for US patients only.
+<span class=\"label-md text-link-primary\"><u><a href=\"https://www.facebook.com/mywegovy?mibextid=wwXIfr&amp;rdid=mJrQ4uidiiRzxJb7&amp;share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18fLjeKgJs%2F%3Fmibextid%3DwwXIfr\" target=\"_blank\">Facebook</a><a href=\"http://www.facebook.com\"></a></u></span></p>\r\n"}}" id="text-21d0a8b19a" class="cmp-text">
+Facebook
+<span class=\"label-md text-link-primary\"><u><a href=\"https://www.instagram.com/wegovy_semaglutide/?hl=en\" target=\"_blank\">Instagram</a><a href=\"http://www.instagram.com\"></a><a href=\"https://www.instagram.com/\" target=\"_blank\" rel=\"noopener noreferrer\"></a></u></span></p>\r\n"}}" id="text-225b3b6c2b" class="cmp-text">
+Instagram
+<span class=\"label-md text-link-primary\"><u><a href=\"https://www.tiktok.com/@wegovy_semaglutide?lang=en\" target=\"_blank\" rel=\"noopener noreferrer\">TikTok</a><a href=\"www..tiktok.com\"></a><a href=\"https://www.tiktok.com\"></a><a href=\"https://www.tiktok.com/\"></a></u></span></p>\r\n"}}" id="text-eb6156f69e" class="cmp-text">
+TikTok
+Terms of Use
+Privacy Notice
+Consumer Health Privacy Notice
+Cookie Policy
+Cookie Settings
+Your Privacy Choices
+Contact Us
+Sitemap
+<span class=\"body-sm\">Novo Nordisk Inc., 800 Scudders Mill Road, Plainsboro, New Jersey 08536 U.S.A.</span></p>\r\n<p><span class=\"body-sm\">Wegovy<sup>®</sup>, <strong>WeGo<em>Together</em></strong><sup>®</sup>, and Novo<sup>®</sup> are registered trademarks of Novo Nordisk A/S.</span></p>\r\n<p><span class=\"body-sm\">&nbsp;</span></p>\r\n<p><span class=\"body-sm\">Novo Nordisk is a registered trademark of Novo Nordisk A/S.</span></p>\r\n"}}" id="text-ee54bc6ff2" class="cmp-text">
+Novo Nordisk Inc., 800 Scudders Mill Road, Plainsboro, New Jersey 08536 U.S.A.
+Wegovy®, WeGoTogether®, and Novo® are registered trademarks of Novo Nordisk A/S.
+Novo Nordisk is a registered trademark of Novo Nordisk A/S.
+© 2026 Novo Nordisk All rights reserved.
+US26SEMO00905 June 2026

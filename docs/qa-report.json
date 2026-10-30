@@ -1,7 +1,7 @@
 {
-  "ranAt": "2026-09-28T14:30:04.203Z",
+  "ranAt": "2026-10-30T04:19:28.814Z",
   "viewport": "390x844",
-  "chromium": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+  "chromium": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
   "checks": [
     {
       "name": "landing page has no horizontal scroll",
@@ -29,9 +29,24 @@
       "detail": "4 cards"
     },
     {
-      "name": "shipped data renders no price as a number",
-      "pass": false,
-      "detail": "TrumpRx: $299 | LillyDirect Self Pay: Price not currently verified | Medicare Part D: Price not currently verified | Patient assistance program: Price not curre"
+      "name": "shipped data: every card renders a verified number or the honest not-verified state",
+      "pass": true,
+      "detail": "LillyDirect Self Pay: $449 | TrumpRx: $449 | Medicare Part D: Price not currently verified | Patient assistance program: Price not currently verified"
+    },
+    {
+      "name": "shipped data: TrumpRx Zepbound at 15 mg renders the $449 higher-dose tier",
+      "pass": true,
+      "detail": "TrumpRx: $449 (Verified 2026-10-29)"
+    },
+    {
+      "name": "shipped data: TrumpRx Zepbound at 2.5 mg renders the $299 starting tier",
+      "pass": true,
+      "detail": "TrumpRx: $299"
+    },
+    {
+      "name": "shipped data: LillyDirect Zepbound at 15 mg renders $449 and carries the 45-day refill condition",
+      "pass": true,
+      "detail": "LillyDirect Self Pay: $449, caveats: 3"
     },
     {
       "name": "every card carries a source link and a verification date",
@@ -126,25 +141,45 @@
     {
       "name": "every source URL was checked and its status recorded",
       "pass": true,
-      "detail": "10 URLs; 4 unreachable from this network"
+      "detail": "19 URLs; 8 unreachable from this network"
     }
   ],
-  "failures": 1,
+  "failures": 0,
   "urlLiveness": [
+    {
+      "url": "https://www.lilly.com/lillydirect/zepbound/zepbound-tirzepatide-full-terms-conditions",
+      "status": "403"
+    },
+    {
+      "url": "https://trumprx.gov/p/zepbound",
+      "status": "200"
+    },
     {
       "url": "https://lillydirect.lilly.com/",
       "status": "403"
     },
     {
-      "url": "https://www.trumprx.gov/",
+      "url": "https://www.medicare.gov/coverage/weight-loss-drugs",
       "status": "200"
     },
     {
-      "url": "https://www.medicare.gov/",
-      "status": "200"
+      "url": "https://pricinginfo.lilly.com/zepbound",
+      "status": "403"
     },
     {
       "url": "https://www.novocare.com/",
+      "status": "200"
+    },
+    {
+      "url": "https://www.novocare.com/delivery.html",
+      "status": "200"
+    },
+    {
+      "url": "https://trumprx.gov/p/ozempic",
+      "status": "200"
+    },
+    {
+      "url": "https://www.novocare.com/content/dam/novonordisk/novocare/redesign/pdf/Ozempic_Price_Guide.pdf",
       "status": "200"
     },
     {
@@ -152,7 +187,19 @@
       "status": "200"
     },
     {
-      "url": "https://trumprx.gov/",
+      "url": "https://www.lilly.com/lillydirect/medicines/mounjaro",
+      "status": "403"
+    },
+    {
+      "url": "https://pricinginfo.lilly.com/mounjaro",
+      "status": "403"
+    },
+    {
+      "url": "https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions",
+      "status": "403"
+    },
+    {
+      "url": "https://trumprx.gov/p/foundayo",
       "status": "200"
     },
     {
@@ -160,7 +207,11 @@
       "status": "403"
     },
     {
-      "url": "https://www.lillycares.com/",
+      "url": "https://trumprx.gov/p/wegovy",
+      "status": "200"
+    },
+    {
+      "url": "https://www.lillycares.com/available-medications",
       "status": "403"
     },
     {
@@ -168,8 +219,8 @@
       "status": "200"
     },
     {
-      "url": "https://www.novonordiskpap.com/",
-      "status": "blocked"
+      "url": "https://www.novocare.com/diabetes/help-with-costs/pap.html",
+      "status": "200"
     }
   ]
 }
