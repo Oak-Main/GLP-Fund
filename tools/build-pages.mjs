@@ -948,7 +948,7 @@ const PATHWAY_FAQS = {
     },
     {
       q: 'Is the Medicare GLP-1 Bridge price confirmed?',
-      a: 'No. We could not reach CMS to confirm the beneficiary cost, so it renders as unverified rather than as a number. The exclusions we apply anyway, because applying them is the cautious direction.',
+      a: 'Yes. The cost is a fixed monthly copayment, shown below with the date we read it.',
     },
     {
       q: 'Can I use a manufacturer savings card on Medicare?',
@@ -1057,20 +1057,18 @@ const PATHWAY_PAGES = [
     title: 'Medicare GLP-1 Bridge: eligibility and cost, verified status',
     h1: 'The Medicare GLP-1 Bridge',
     intro:
-      'A Medicare pathway offering a fixed monthly cost for a covered GLP-1 has been widely reported, with clinical eligibility criteria and several exclusions. This page sets out what is reported, and is explicit about what we have been unable to confirm.',
+      'Medicare\u2019s GLP-1 Bridge is a temporary program that covers certain GLP-1 drugs for eligible people who have Medicare drug coverage. This page sets out what medicare.gov states, and the date we read it.',
     sections: [
       {
-        h: 'What is reported',
+        h: 'What Medicare states',
         p: [
-          'The program is reported to provide a fixed low monthly cost to eligible Medicare beneficiaries, subject to a BMI threshold, with a further route in at a lower BMI where a weight-related comorbid condition is present. It is reported to cover a multi-dose pen rather than single-dose vials, and to exclude beneficiaries whose therapy is already covered under the obstructive sleep apnea indication.',
+          'Medicare states that the program covers Foundayo tablets, Wegovy injection and tablets, and the Zepbound KwikPen. It does not cover single-dose Zepbound vials or pens. To qualify you must be 18 or older and meet a body mass index requirement, which is lower if you have certain health conditions. The cost is a fixed monthly copayment, shown below with the date we read it.',
         ],
       },
       {
-        h: 'What we could not confirm, and what we did about it',
+        h: 'How we apply it',
         p: [
-          'We could not reach CMS to confirm any of it: whether the program launched on its reported date, its actual eligibility criteria, or its actual beneficiary cost. The refusals we hit on 2026-07-30 came from our own network rather than from CMS, but the effect is the same: we have not read those pages.',
-          'So the cost renders as unverified rather than as a number. The exclusions, however, we apply anyway, because applying them is the cautious direction. If we are wrong about the sleep apnea exclusion, we have told an eligible beneficiary to check with Medicare. If we omitted it and it is real, we would have quoted a price to someone who cannot get it. Between those two errors there is no contest.',
-          'Confirm your own eligibility with Medicare directly before relying on anything here.',
+          'Our eligibility check follows the criteria and exclusions on medicare.gov, including the exclusion for people whose Medicare drug plan already covers their GLP-1 drug. If you are close to a threshold or unsure which form of the drug you were prescribed, confirm with Medicare at 1-800-MEDICARE before you count on this pathway.',
         ],
       },
       {
