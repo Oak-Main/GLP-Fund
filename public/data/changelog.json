@@ -1,5 +1,30 @@
 [
   {
+    "date": "2027-01-01",
+    "title": "Year-end price changes: the introductory offers end, and the Lilly savings cards expire",
+    "summary": "The prices published here change on January 1, 2027, because the manufacturer and federal introductory offers are stated to run only through December 31, 2026, and because the Lilly savings cards state that they expire on that date. Each change below was read on 2026-10-29 from a primary source that states both the effective date and the price that replaces it, and was held out of the site until this date rather than published early.",
+    "changes": [
+      "Ozempic, NovoCare self-pay: $199 to $349 per month for the 0.25 mg, 0.5 mg and 1 mg strengths, effective 2027-01-01. The manufacturer states the introductory offer runs for two monthly fills through December 31, 2026, and that the price after those fills is $349 per month for the 0.25 mg, 0.5 mg and 1 mg strengths and $499 per month for the 2 mg strength. Source: https://www.novocare.com/pharmacy.html",
+      "Ozempic, TrumpRx: $199 to $349 per month, effective 2027-01-01. The platform states a Limited Time Offer for new self-pay patients paying $199 for the first two monthly fills of the 0.25 mg or 0.5 mg strengths, available only for two monthly fills between 11/17/2025 and 12/31/2026, and states that each fill after that is $349/month for the 0.25 mg, 0.5 mg and 1 mg strengths and $499/month for the 2 mg strength. Source: https://trumprx.gov/p/ozempic",
+      "Wegovy injection, starting doses, NovoCare self-pay: $199 to $349 per month for the 0.25 mg and 0.5 mg strengths, effective 2027-01-01. The manufacturer states the offer runs for two monthly fills through December 31, 2026, and that the price after those fills is $349 per month for the 0.25 mg, 0.5 mg, 1 mg, 1.7 mg and 2.4 mg strengths and $399 per month for Wegovy HD at 7.2 mg. Source: https://www.novocare.com/pharmacy.html",
+      "Wegovy injection, starting doses, TrumpRx: $199 to $349 per month, effective 2027-01-01. The platform states a Limited Time Offer for new patients paying $199 for the first two monthly fills of the 0.25 mg and 0.5 mg strengths, available only for two monthly fills between 11/17/2025 and 12/31/2026, and states that each fill after that is $349/month for the 0.25 mg, 0.5 mg, 1 mg, 1.7 mg and 2.4 mg strengths and $399/month for Wegovy HD 7.2 mg. Source: https://trumprx.gov/p/wegovy",
+      "Wegovy injection, standard doses, both pathways: the figure does not move; from 2027-01-01 it is the same as the starting-strength figure, so the card no longer warns that the advertised low price does not apply to this dose. The Wegovy HD 7.2 mg strength remains a separate tier at $399 per month. Sources: https://www.novocare.com/pharmacy.html and https://trumprx.gov/p/wegovy",
+      "Foundayo, LillyDirect self-pay, 2.5 mg: $149 to $199 per month, effective 2027-01-01. The manufacturer states that the self-pay price of the 2.5 mg dose is temporarily reduced to $149 per month through December 31, 2026, and that the regular price for the 2.5 mg dose is $199. Source: https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions",
+      "Foundayo, LillyDirect self-pay, mid doses: the figure does not move, but the temporary reduction on the 5.5 mg dose ends on 2026-12-31, so from 2027-01-01 a 5.5 mg prescription costs the same as a 9 mg prescription. Source: https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions",
+      "Foundayo, TrumpRx: the 2.5 mg tablet $149 to $199 per month and the 5.5 mg tablet $199 to $299 per month, effective 2027-01-01. The platform states that the 2.5 mg price is temporarily reduced through December 31, 2026 with a regular price of $199, and that the 5.5 mg price is temporarily reduced through December 31, 2026 with a regular price of $299. The 0.8 mg strength, which is the figure on the card, is unaffected. Source: https://trumprx.gov/p/foundayo",
+      "Zepbound, manufacturer savings card: the programme ends on 2026-12-31, so the savings-card pathway for Zepbound is closed. The manufacturer states that the card expires and savings end on 12/31/2026, for the single-dose pen savings card and for the KwikPen self-pay savings card alike. Source: https://www.lilly.com/lillydirect/zepbound/zepbound-tirzepatide-full-terms-conditions",
+      "Foundayo, manufacturer savings card: the programme ends on 2026-12-31, so the savings-card pathway for Foundayo is closed. The manufacturer states that the card expires and savings end on 12/31/2026. Source: https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions"
+    ],
+    "sources": [
+      "https://www.novocare.com/pharmacy.html",
+      "https://trumprx.gov/p/ozempic",
+      "https://trumprx.gov/p/wegovy",
+      "https://trumprx.gov/p/foundayo",
+      "https://www.lilly.com/lillydirect/zepbound/zepbound-tirzepatide-full-terms-conditions",
+      "https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions"
+    ]
+  },
+  {
     "date": "2026-10-29",
     "title": "Verification pass 2026-10-28: six figures published, the Medicare Bridge confirmed, every Lilly property still unread",
     "summary": "The verification pass of 2026-10-29, run end to end. The federal TrumpRx platform, medicare.gov, novocare.com, ozempic.com, aspe.hhs.gov, fda.gov, cms.gov and investor.lilly.com were read directly, and the Eli Lilly pages were read in a browser after our automated requests to them were refused. Twenty-one of forty-seven figures are now confirmed against a primary source, two remain conflicting and twenty-four remain unverified. Six figures that rendered no price now do, the Zepbound prices are filed per strength so that a dose can no longer inherit another dose price, the Medicare GLP-1 Bridge is confirmed at fifty dollars per month, and four of the five pending eligibility rules were retired against verbatim quotes. The figures whose conditions change on 2026-12-31 are staged on a separate branch and are not applied here.",
