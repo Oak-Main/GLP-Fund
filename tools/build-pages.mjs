@@ -347,7 +347,7 @@ const SOURCE_PILL = {
 /** How a figure renders in a static table. Never a number unless confirmed. */
 function displayValue(datum) {
   return datum.confidence === 'confirmed' && typeof datum.value === 'number'
-    ? `$${datum.value.toLocaleString('en-US')}`
+    ? `${datum.startingPrice ? 'From ' : ''}$${datum.value.toLocaleString('en-US')}`
     : 'Not verified';
 }
 
@@ -425,7 +425,7 @@ function faqFor(drugId) {
   qa.push({
     q: `How much does ${meta.label} cost per month without insurance in 2026?`,
     a: cheapest
-      ? `The lowest verified cash price we hold for ${meta.label} is $${cheapest.value.toLocaleString('en-US')} per month via ${DATA.pathways[cheapest.pathway]?.label}, verified ${cheapest.verified_date}.`
+      ? `The lowest verified cash price we hold for ${meta.label} is ${cheapest.startingPrice ? 'From ' : ''}$${cheapest.value.toLocaleString('en-US')} per month via ${DATA.pathways[cheapest.pathway]?.label}, verified ${cheapest.verified_date}.`
       : `We do not currently publish a verified monthly price for ${meta.label}. Every figure in circulation failed our verification standard, which requires confirmation against a primary manufacturer or government source. We show the pathways and link you to each official page rather than printing a number we cannot stand behind. Data as of ${BUILT_ON}.`,
   });
 
@@ -907,7 +907,7 @@ const PATHWAY_DESCRIPTIONS = {
   novocare:
     'NovoCare Pharmacy cash prices for Wegovy and Ozempic: flat injectable pricing, the oral-dose conflict we could not resolve, and the deductible trade-off.',
   'medicare-glp1-bridge':
-    'Medicare GLP-1 Bridge eligibility and cost as reported: BMI thresholds, the comorbid route, exclusions we apply, and what we could not confirm with CMS.',
+    'Medicare GLP-1 Bridge eligibility and cost: what medicare.gov states, the BMI thresholds, the covered medicines, and how we apply the exclusions.',
   trumprx:
     'TrumpRx GLP-1 prices: what the federal platform has announced, why the figures conflict, and why we render them unverified.',
 };
@@ -944,7 +944,7 @@ const PATHWAY_FAQS = {
   'medicare-glp1-bridge': [
     {
       q: 'Who is eligible for the Medicare GLP-1 Bridge?',
-      a: 'The program is reported to provide a fixed low monthly cost to eligible Medicare beneficiaries, subject to a BMI threshold, with a further route in at a lower BMI where a weight-related comorbid condition is present. It is reported to exclude beneficiaries whose therapy is already covered under the obstructive sleep apnea indication. Confirm your own eligibility with Medicare directly.',
+      a: 'Medicare states that the program gives eligible beneficiaries a fixed monthly copayment for a covered GLP-1, with a BMI threshold and a further route in at a lower BMI. You are not eligible if you already get GLP-1 drugs covered through your Part D plan, or if you have type 2 diabetes, moderate-to-severe sleep apnea, or fatty liver disease. Confirm your own eligibility with Medicare directly.',
     },
     {
       q: 'Is the Medicare GLP-1 Bridge price confirmed?',

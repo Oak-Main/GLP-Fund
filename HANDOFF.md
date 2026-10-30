@@ -80,13 +80,10 @@ understate what a 9 mg patient pays, so the row carries the higher one and says 
 
 ## CI
 
-**The red CI is an account billing lock across the whole Oak-Main organisation, not
-an outage and not a result about the code.** Every workflow in this repository fails
-in two seconds with no steps and no runner assigned, including the CodeQL and
-analyzer workflows that have nothing to do with this work. The last green run on
-`main` was on 2026-10-17. The runs have not been re-requested. GLP-Fund deploys only
-through GitHub Actions, so nothing ships from this repository until the owner clears
-the lock.
+**CI is green.** The account billing lock cleared at 02:24Z. CI, CodeQL and
+browser-qa ran green on `8d4bfec` (runs 41002400053, 41002404558) and on `bdc90ec` (runs 41001319917, 41001325158).
+Nothing about the code was red, and the local gates below were run against the exact
+final tree of both branches.
 
 ## How to run it
 

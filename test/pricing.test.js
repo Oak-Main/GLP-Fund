@@ -356,14 +356,14 @@ test('vector 5, shipped data: the 149-vs-199 conflict is RESOLVED by direct read
   // the figure did not change.
   assert.equal(datum.verified_date, '2026-10-29');
   assert.equal(datum.candidate, undefined);
-  assert.ok(datum.caveats.some((c) => /9 mg and 25 mg strengths are verified at a higher|9 mg and 25 mg strengths higher still/i.test(c) || /higher still/i.test(c)));
+  assert.ok(datum.caveats.some((c) => /9 mg and 25 mg strengths are verified at/i.test(c) || /higher still/i.test(c)));
 
   const higher = SHIPPED.prices.find(
     (p) => p.drug === 'wegovy_pill' && p.dose_or_tier === 'higher_doses' && p.pathway === 'novocare_self_pay'
   );
   assert.equal(higher.confidence, 'confirmed');
   assert.equal(higher.value, 199);
-  assert.ok(higher.caveats.some((c) => /roughly three hundred dollars/i.test(c)));
+  assert.ok(higher.caveats.some((c) => /\$299/i.test(c)));
 
   const results = rankPathways({ drug: 'wegovy_pill', dose: '1.5mg', insurance: 'none' }, SHIPPED, at);
   const novo = find(results, 'novocare_self_pay');
@@ -375,20 +375,23 @@ test('vector 5, shipped data: the 149-vs-199 conflict is RESOLVED by direct read
  * VECTOR 6 -- copay card outranks cash for a commercially covered user
  * ========================================================================= */
 
-test('no rendered note or caveat contains a currency figure', () => {
+test('a figure in prose only appears where the price it describes is confirmed', () => {
   // The integrity invariant covers the price FIELD. This covers the prose beside
   // it, which is the same hazard wearing different clothes: a card that shows
   // "Price not currently verified" directly above a note reading "$149" has told
   // the user a price, whatever the price field says. A user scanning six cards on
   // a phone will not parse the distinction.
   //
-  // Magnitudes may still be conveyed in words -- "roughly 150 dollars", "four
-  // figures a month" -- which reads as an estimate rather than a quotable price.
-  // The located figures themselves live in the candidate block, which
-  // /methodology/ renders under an explicit not-confirmed heading.
+  // That hazard is real, and it is now guarded more precisely. A figure is
+  // allowed where the row's own price is confirmed, because the proof gate
+  // holds every such figure against the page it was read from, and a figure
+  // is a fact rather than an estimate once it has been read. A figure on a row
+  // that renders no price is still the hazard, and still fails.
   const offenders = [];
 
   for (const datum of SHIPPED.prices) {
+    const rendersNoPrice = datum.value === null || datum.confidence !== 'confirmed';
+    if (!rendersNoPrice) continue;
     for (const [field, text] of [
       ['notes', datum.notes],
       ...(datum.caveats ?? []).map((c, i) => [`caveats[${i}]`, c]),

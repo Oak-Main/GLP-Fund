@@ -30,6 +30,20 @@ import { toContext, evaluatePathway, validateRules } from './eligibility.js';
 
 export const UNVERIFIED_DISPLAY = 'Price not currently verified';
 
+
+/**
+ * A starting price is what a programme offers from, not a price it guarantees
+ * for a given strength. Every visible rendering of such a figure says so.
+ *
+ * @param {{startingPrice?: boolean}} datum
+ * @param {number|null} amount
+ * @returns {string}
+ */
+function displayPrice(datum, amount) {
+  if (amount === null || amount === undefined) return UNVERIFIED_DISPLAY;
+  const text = formatUsd(amount, UNVERIFIED_DISPLAY);
+  return datum?.startingPrice ? `From ${text}` : text;
+}
 /**
  * THE CHOKEPOINT. The only function permitted to yield a numeric monthly cost.
  *
@@ -155,8 +169,9 @@ function buildResult(datum, dataset, ctx, today, extraCaveats = []) {
 
     monthlyCost,
     annualCost: annualize(monthlyCost),
-    displayCost: formatUsd(monthlyCost, UNVERIFIED_DISPLAY),
-    displayAnnualCost: formatUsd(annualize(monthlyCost), UNVERIFIED_DISPLAY),
+    displayCost: displayPrice(datum, monthlyCost),
+    displayAnnualCost: displayPrice(datum, annualize(monthlyCost)),
+    isStartingPrice: Boolean(datum?.startingPrice),
 
     eligibilityNotes: [...evaluation.eligibilityNotes, ...(datum.eligibilityNotes ?? [])],
     caveats: [...evaluation.caveats, ...(datum.caveats ?? []), ...extraCaveats],

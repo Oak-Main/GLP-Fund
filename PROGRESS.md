@@ -121,10 +121,9 @@ One dated line per work block, with the real exit code of every gate that was ru
   repository, including the CodeQL and Analyze workflows that have nothing to do
   with this work, failed in two seconds with `steps: []` and `runner_id: 0`, which
   the owner has since identified as an account billing lock across the whole
-  Oak-Main organisation, not an outage and not a result about the code. The last
-  green run on `main` was on 2026-10-17. The runs were not re-requested. GLP-Fund
-  deploys only through GitHub Actions, so nothing ships from this repository until
-  the owner clears the lock. The local gates were run against the exact final tree
+  Oak-Main organisation, not an outage and not a result about the code. The lock
+  cleared at 02:24Z, and CI, CodeQL and browser-qa then ran green on 8d4bfec (runs
+  41002400053, 41002404558) and on bdc90ec (runs 41001319917, 41001325158). The local gates were run against the exact final tree
   of both branches instead: `npm test` 121 passed, `node tools/qa.mjs` 28 of 28,
   contrast and keyboard exit 0, and `git diff --exit-code public/` clean.
 

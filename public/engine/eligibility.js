@@ -329,7 +329,7 @@ export function toContext(input = {}) {
      * Research indicates the Medicare Bridge disqualifier is broader than the
      * "already covered for sleep apnea" exclusion originally specified: what
      * disqualifies is HAVING a Part D-qualifying diagnosis (type 2 diabetes,
-     * moderate to severe obstructive sleep apnea, or noncirrhotic MASH), not
+     * moderate-to-severe sleep apnea, or fatty liver disease), not
      * being enrolled in coverage for one. Kept as a separate field from
      * osaCovered so the narrower originally-specified rule and the broader
      * mechanism can both be expressed, and so a future verification pass can
