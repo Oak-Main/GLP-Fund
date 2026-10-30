@@ -159,7 +159,17 @@ test('the verification debt on hard eligibility rules is visible and counted', (
     'Every hard rule now carries a verbatim quote from its own source.'
   );
   assert.equal(debt.pending, 0);
-  assert.equal(debt.total, 5, 'Five hard rules exist, and all five carry a verbatim quote.');
+  // And the other half of the claim, checked per rule rather than by a total,
+  // so that a rule added on a year-end branch cannot silently change it.
+  const hard = SHIPPED.eligibilityRules.filter((r) => r.effect === 'require' || r.effect === 'suppress');
+  assert.ok(hard.length >= 5, `expected at least the five original hard rules, found ${hard.length}`);
+  for (const r of hard) {
+    assert.ok(
+      typeof r.quote === 'string' && r.quote.length >= 20,
+      `hard rule ${r.id} must carry a verbatim quote from its source`
+    );
+    assert.equal(r.verification, undefined, `hard rule ${r.id} must not still be pending`);
+  }
   // The fixture, standing in for a verified world, has zero pending rules.
   assert.equal(verificationDebt(ENGINE.eligibilityRules).pending, 0);
 });
