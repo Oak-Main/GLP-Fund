@@ -204,6 +204,32 @@
       "quote": "You are not enrolled in any state, federal, or government funded healthcare program, including, without limitation, Medicaid, Medicare, Medicare Part D, Medicare Advantage, Medigap, DoD, VA, TRICARE®/CHAMPUS, or any state prescription drug assistance program;"
     },
     {
+      "id": "zepbound-savings-card-expired",
+      "pathway": "copay_card",
+      "effect": "suppress",
+      "when": {
+        "field": "drug",
+        "op": "eq",
+        "value": "zepbound"
+      },
+      "reason": "The Zepbound savings card expired on 2026-12-31, so this pathway is no longer available to you. The manufacturer states that the card expires and savings end on that date.",
+      "sourceUrl": "https://www.lilly.com/lillydirect/zepbound/zepbound-tirzepatide-full-terms-conditions",
+      "quote": "Card expires and savings end on 12/31/2026."
+    },
+    {
+      "id": "foundayo-savings-card-expired",
+      "pathway": "copay_card",
+      "effect": "suppress",
+      "when": {
+        "field": "drug",
+        "op": "eq",
+        "value": "foundayo"
+      },
+      "reason": "The Foundayo savings card expired on 2026-12-31, so this pathway is no longer available to you. The manufacturer states that the card expires and savings end on that date.",
+      "sourceUrl": "https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions",
+      "quote": "Card expires and savings end on 12/31/2026."
+    },
+    {
       "id": "copay-card-requires-commercial-coverage",
       "pathway": "copay_card",
       "effect": "require",
@@ -587,7 +613,7 @@
       }
     },
     {
-      "value": 199,
+      "value": 349,
       "unit": "USD/month",
       "drug": "ozempic",
       "dose_or_tier": "any",
@@ -598,12 +624,12 @@
       "confidence": "confirmed",
       "notes": "Direct cash-pay price for the type 2 diabetes indication, read on the NovoCare Pharmacy page on 2026-10-28 (https://www.novocare.com/pharmacy.html now redirects to /delivery.html).",
       "caveats": [
-        "This is an INTRODUCTORY price. The manufacturer states that patients new to the Ozempic Savings Offer and NovoCare home delivery pay this figure for each month of 0.25 mg and 0.5 mg, for two monthly fills through December 31, 2026. Afterward the ongoing price is $349 per month for the 0.25 mg, 0.5 mg and 1 mg strengths, and $499 per month for the 2 mg strength. One month is one box of one pen. Do not budget the introductory figure as your ongoing cost."
+        "IMPORTANT: the INTRODUCTORY price ended on 2026-12-31. From 2027-01-01 this figure is the ongoing price for the 0.25 mg, 0.5 mg and 1 mg strengths, with no promotional period, and the 2 mg strength is $499 per month. One month is one box of one pen. If you saw a lower advertised price before, it is no longer available."
       ],
       "reverifyBy": "2026-11-30"
     },
     {
-      "value": 199,
+      "value": 349,
       "unit": "USD/month",
       "drug": "ozempic",
       "dose_or_tier": "any",
@@ -614,8 +640,7 @@
       "confidence": "confirmed",
       "notes": "Direct read of the federal TrumpRx platform, 2026-10-28. The platform states the price per strength and the introductory terms.",
       "caveats": [
-        "This is an INTRODUCTORY price, and the platform states its terms: new self-pay patients pay this figure for the first two monthly fills of the 0.25 mg or 0.5 mg strengths, and the offer runs only between 11/17/2025 and 12/31/2026. Do not budget it as your ongoing cost.",
-        "The platform states that after those fills the price is $349 per month for the 0.25 mg, 0.5 mg and 1 mg strengths, and $499 per month for the 2 mg strength. One month is one box of one pen."
+        "IMPORTANT: the INTRODUCTORY price ended on 2026-12-31. From 2027-01-01 the platform states this figure for the 0.25 mg, 0.5 mg and 1 mg strengths with no promotional period, and $499 per month for the 2 mg strength. One month is one box of one pen. If you saw a lower advertised price before, it is no longer available."
       ],
       "reverifyBy": "2026-11-30"
     },
@@ -761,7 +786,7 @@
       "reverifyBy": "2026-11-30"
     },
     {
-      "value": 199,
+      "value": 349,
       "unit": "USD/month",
       "drug": "wegovy_injection",
       "dose_or_tier": "low_doses",
@@ -772,7 +797,7 @@
       "confidence": "confirmed",
       "notes": "Lowest two doses (0.25 mg and 0.5 mg). Verified introductory self-pay price on the NovoCare Pharmacy page.",
       "caveats": [
-        "This is an INTRODUCTORY price for the two starting doses only, and only for the first two monthly fills. The manufacturer states the offer runs through December 31, 2026, and that patients new to the Wegovy Savings Offer and NovoCare home delivery pay this figure for each month of 0.25 mg and 0.5 mg. After those fills the ongoing price is the standard-doses figure on this pathway. Do not budget the introductory figure as your ongoing cost. One month equals one box of four pens."
+        "IMPORTANT: the INTRODUCTORY price ended on 2026-12-31. From 2027-01-01 this figure is the ongoing price for the 0.25 mg and 0.5 mg strengths, with no promotional period, and it is the same figure as the 1 mg, 1.7 mg and 2.4 mg strengths. One month equals one box of four pens. If you saw a lower advertised price before, it is no longer available."
       ],
       "reverifyBy": "2026-11-30"
     },
@@ -788,7 +813,7 @@
       "confidence": "confirmed",
       "notes": "Doses from 1 mg upward. Verified ongoing self-pay price on the NovoCare Pharmacy page.",
       "caveats": [
-        "This is the ongoing non-introductory price for the 0.25 mg through 2.4 mg strengths. The manufacturer states $349 per month for those strengths and $399 per month for Wegovy HD at 7.2 mg. One month equals one box of four pens."
+        "IMPORTANT: the INTRODUCTORY price ended on 2026-12-31. From 2027-01-01 this is the ongoing price for the 0.25 mg through 2.4 mg strengths, with no promotional period, and it is the same figure as the starting strengths. The manufacturer states $399 per month for Wegovy HD at 7.2 mg, a separate tier. One month equals one box of four pens."
       ],
       "reverifyBy": "2026-11-30"
     },
@@ -848,7 +873,7 @@
       "reverifyBy": "2026-11-30"
     },
     {
-      "value": 149,
+      "value": 199,
       "unit": "USD/month",
       "drug": "foundayo",
       "dose_or_tier": "2.5mg",
@@ -859,8 +884,8 @@
       "confidence": "confirmed",
       "notes": "Direct read of the manufacturer self-pay terms on 2026-10-29. The manufacturer states that through December 31, 2026 the self-pay price of this dose is temporarily reduced.",
       "caveats": [
-        "IMPORTANT: this price is temporary. The manufacturer states that through December 31, 2026 the self-pay price of the 2.5 mg dose is temporarily reduced to $149 per month, and that the regular price for the 2.5 mg dose is $199.",
-        "One month is 30 days. The 0.8 mg dose is the one this card carries, and it is not part of the temporary reduction."
+        "From 2027-01-01 this is the regular price for the 2.5 mg tablet, with no condition attached. The manufacturer states that the self-pay price of this dose was temporarily reduced to $149 per month through December 31, 2026, and that the regular price for the 2.5 mg dose is $199.",
+        "One month is 30 days. The 0.8 mg dose is the one this card carries, and it was never part of the temporary reduction."
       ],
       "reverifyBy": "2026-11-30"
     },
@@ -877,7 +902,7 @@
       "notes": "Direct read of the manufacturer self-pay terms on 2026-10-29. This tier covers the 5.5 mg and 9 mg doses, whose regular price is the same figure.",
       "caveats": [
         "This card covers the 5.5 mg and 9 mg doses. The manufacturer states the regular price of a one-month supply for both as $299.",
-        "IMPORTANT: through December 31, 2026 the self-pay price of the 5.5 mg dose is temporarily reduced to $199 per month. Until then a 5.5 mg prescription costs less than the figure on this card, and from 2027-01-01 the two are the same.",
+        "IMPORTANT: the temporary reduction on the 5.5 mg dose ended on 2026-12-31. Until then a 5.5 mg prescription cost $199 per month, and from 2027-01-01 it is the same figure as this card.",
         "One month is 30 days."
       ],
       "reverifyBy": "2026-11-30"
@@ -930,9 +955,8 @@
       "confidence": "confirmed",
       "notes": "Direct read of the federal TrumpRx platform, 2026-10-28. This is the starting-strength figure, shared by the 0.8 mg and 2.5 mg tablets.",
       "caveats": [
-        "This row holds the 0.8 mg and 2.5 mg tablet figures. The platform also states $199 for the 5.5 mg strength, and $299 for the 9 mg, 14.5 mg and 17.2 mg strengths. One bottle of 30 tablets is the fill quantity.",
-        "The platform states that the 2.5 mg price is temporarily reduced through December 31, 2026 and that the regular price is $199, and that the 5.5 mg price is temporarily reduced through December 31, 2026 and that the regular price is $299. Those are year-end changes, not permanent prices.",
-        "At the 14.5 mg and 17.2 mg strengths the platform states a refill condition: if more than 45 days pass since your last delivery or receipt of the product, the price becomes $349."
+        "This row holds the 0.8 mg and 2.5 mg tablet figures. From 2027-01-01 the 2.5 mg tablet is $199 per month and the 5.5 mg tablet is $299 per month; the temporarily reduced prices ended on 2026-12-31. The 0.8 mg strength, which is the figure on this card, was never part of the temporary reduction.",
+        "The platform states $299 per month for the 9 mg, 14.5 mg and 17.2 mg strengths. At the 14.5 mg and 17.2 mg strengths it also states a refill condition: if more than 45 days pass since your last delivery or receipt of the product, the price becomes $349."
       ],
       "reverifyBy": "2026-11-30"
     },
@@ -973,7 +997,7 @@
       "reverifyBy": "2026-11-30"
     },
     {
-      "value": 199,
+      "value": 349,
       "unit": "USD/month",
       "drug": "wegovy_injection",
       "dose_or_tier": "low_doses",
@@ -984,8 +1008,7 @@
       "confidence": "confirmed",
       "notes": "Direct read of the federal TrumpRx platform, 2026-10-28. The platform states the price per strength and the introductory terms.",
       "caveats": [
-        "This is an INTRODUCTORY price. The platform states that new patients pay this figure for the first two monthly fills of the 0.25 mg and 0.5 mg strengths, and that the offer runs only between 11/17/2025 and 12/31/2026. Do not budget it as your ongoing cost.",
-        "The platform states that after those fills the price is $349 per month for the 0.25 mg, 0.5 mg, 1 mg, 1.7 mg and 2.4 mg strengths, and $399 per month for the 7.2 mg Wegovy HD strength. One month is one box of four pens."
+        "IMPORTANT: the INTRODUCTORY price ended on 2026-12-31. From 2027-01-01 the platform states this figure for the 0.25 mg and 0.5 mg strengths with no promotional period, and for the 1 mg, 1.7 mg and 2.4 mg strengths. One month is one box of four pens. If you saw a lower advertised price before, it is no longer available."
       ],
       "reverifyBy": "2026-11-30"
     },
@@ -1001,8 +1024,7 @@
       "confidence": "confirmed",
       "notes": "Direct read of the federal TrumpRx platform, 2026-10-28. The platform states this figure for the 1 mg, 1.7 mg and 2.4 mg strengths.",
       "caveats": [
-        "IMPORTANT: the lower figure advertised for this pathway does NOT apply to this dose. It covers only the two starting strengths, and only for the first two monthly fills. At this dose the higher price applies from your FIRST fill, not after a promotional period. Arriving at the counter expecting the advertised figure could mean a difference of roughly 150 dollars on day one. Confirm your dose price before you fill.",
-        "The platform also states $399 per month for the 7.2 mg Wegovy HD strength, which is a separate tier from this one."
+        "IMPORTANT: the INTRODUCTORY price ended on 2026-12-31. From 2027-01-01 this figure applies to the 0.25 mg, 0.5 mg, 1 mg, 1.7 mg and 2.4 mg strengths with no promotional period, so it is the same as the price at the starting strengths. The platform also states $399 per month for the 7.2 mg Wegovy HD strength, which is a separate tier from this one."
       ],
       "reverifyBy": "2026-11-30"
     },
