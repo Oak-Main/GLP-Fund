@@ -20,12 +20,47 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const FIXTURES = join(ROOT, 'test', 'fixtures', 'sources');
+const PUBLIC = join(ROOT, 'public');
 const SHIPPED = JSON.parse(readFileSync(join(ROOT, 'public', 'data', 'pricing.json'), 'utf8'));
+
+/**
+ * Sentences that describe a figure the site publishes as confirmed as being
+ * reported, unreachable or unverified. They were true when the network
+ * refused every primary source, and they are the kind of sentence a reader
+ * cannot check: they assert the state of the world rather than our reading of
+ * it. Once a figure is confirmed, the site must not say it is only reported.
+ */
+const STALE_CLAIMS = [
+  'We currently publish no verified prices',
+  'We cannot read the live platform',
+  'We could not reach CMS',
+  'shows no verified price for any medication',
+  'has been widely reported',
+];
+
+/** The built pages. */
+function builtPages() {
+  const out = [];
+  const walk = (dir) => {
+    for (const entry of readdirSync(dir, { withFileTypes: true })) {
+      const full = join(dir, entry.name);
+      if (entry.isDirectory()) walk(full);
+      else if (entry.name.endsWith('.html')) out.push(full);
+    }
+  };
+  walk(PUBLIC);
+  return out;
+}
+
+/** The stale claims a text contains. */
+function staleClaims(text) {
+  return STALE_CLAIMS.filter((phrase) => text.includes(phrase));
+}
 
 /** Normalise a URL for comparison: lower-case host, no trailing slash. */
 function normaliseUrl(value) {
@@ -207,4 +242,30 @@ test('the proof gate rejects a figure that is not in the evidence', () => {
   assert.ok(valueAppears(evidence.map((f) => f.text).join('\n'), ozempic.value), 'the real figure is found');
   assert.ok(!valueAppears(evidence.map((f) => f.text).join('\n'), 1234), 'a figure that is not in the page is not found');
   assert.equal(evidenceFor(fixtures, 'https://trumprx.gov/p/not-a-real-page').length, 0, 'an unknown source has no evidence');
+});
+
+test('the built site does not tell a reader that a confirmed figure is unreported', () => {
+  const confirmed = SHIPPED.prices.filter((p) => p.confidence === 'confirmed').length;
+  if (!confirmed) return; // nothing is published, so the site may say so
+
+  const hits = [];
+  for (const file of builtPages()) {
+    const text = readFileSync(file, 'utf8');
+    for (const phrase of staleClaims(text)) {
+      hits.push(`${relative(ROOT, file)}: "${phrase}"`);
+    }
+  }
+  assert.deepEqual(hits, [], 'The site must not describe a figure it publishes as confirmed as reported or unverified.');
+});
+
+test('the stale-copy guard rejects a planted sentence', () => {
+  // The negative control. If this stops failing, the guard above is not
+  // running and the pages could say anything.
+  const planted = '<p>We currently publish no verified prices at all.</p>';
+  const hits = staleClaims(planted);
+  assert.equal(hits.length, 1);
+  assert.match(hits[0], /no verified prices/);
+
+  const clean = '<p>Twenty-one of forty-seven figures are confirmed against a primary source.</p>';
+  assert.deepEqual(staleClaims(clean), []);
 });
