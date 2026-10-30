@@ -1,28 +1,17 @@
-SHA-256: fc33d5b07d91d078c434e7f7064c554952d4cd17f1df000b96abd04178401c0e
+SHA-256: 5bfa1f91def151fc2f5700ea1d7fd2f903c8461f8c70bf070e5aaf019a811e56
 URL: https://www.lilly.com/lillydirect/medicines/mounjaro
 Final-URL: https://www.lilly.com/lillydirect/mounjaro
 HTTP-Status: 200
-Fetched-At-UTC: 2026-10-29 (read in the in-app browser between 21:20Z and 22:05Z)
-Read-By: mm/glp-verify-1028 verification pass, read in the in-app browser. A scripted fetch of the Lilly hosts is refused with HTTP 403 and a bot-protection interstitial; the pages read normally in a browser, which is the method docs/ops-runbook.md has always prescribed for Lilly.
+Fetched-At-UTC: 2026-10-29 (read in the in-app browser between 21:20Z and 23:20Z)
+Read-By: mm/glp-verify-1028 verification pass, M2c-4 remaining reads
 Hash-Covers: every byte after the first line of this file
-Extraction: rendered page text, read with the browser text query.
+Capture: the rendered price section, read with the browser text query. The page continues with the how-to-get-started steps, the savings and coverage sections and the safety summary.
 
-Mounjaro® (tirzepatide)
-
-Once-weekly Mounjaro, along with diet and exercise, helps improve blood sugar in people with type 2 diabetes (T2D) aged 10+ and reduces the risk of major cardiovascular (CV) events (heart attack, stroke, or CV death) in adults with T2D at high risk for these events. Not for use in children under 10.
-
-Important Mounjaro links
-
-Single-Dose Prefilled Pen
-
-Mounjaro is available for self-pay through LillyDirect®
-
-FSA/HSA eligible: Eligibility may vary by plan.
+Mounjaro is available for self-pay through LillyDirect
 
 2.5 mg/0.5 mL
 
 Self-pay price:
-
 Starting at $499/month*
 
 Terms apply.
@@ -30,7 +19,6 @@ Terms apply.
 5 mg/0.5 mL
 
 Self-pay price:
-
 Starting at $499/month*
 
 Terms apply.
@@ -38,7 +26,6 @@ Terms apply.
 7.5 mg/0.5 mL
 
 Self-pay price:
-
 Starting at $499/month*
 
 Terms apply.
@@ -46,7 +33,6 @@ Terms apply.
 10 mg/0.5 mL
 
 Self-pay price:
-
 Starting at $499/month*
 
 Terms apply.
@@ -54,7 +40,6 @@ Terms apply.
 12.5 mg/0.5 mL
 
 Self-pay price:
-
 Starting at $499/month*
 
 Terms apply.
@@ -62,7 +47,6 @@ Terms apply.
 15 mg/0.5 mL
 
 Self-pay price:
-
 Starting at $499/month*
 
 Terms apply.
@@ -70,23 +54,3 @@ Terms apply.
 Card 1 of 6. 2.5 mg/0.5 mL Self-pay price: Starting at $499/month* Terms apply.
 
 *For self-pay. Prescription required. Terms apply. Additional taxes and fees may apply.
-
-[Capture note: this fixture holds the first 5,000 characters of the rendered page, which is the window the browser text query returned. The full page continues with the LillyDirect enrolment steps, the savings and coverage-support sections, the frequently asked questions, and the safety summary with warnings.]
-
-How to get started with Mounjaro
-
-Mounjaro is available for self-pay through LillyDirect. Start by talking to your doctor to see if Mounjaro is right for you, then follow the steps below.
-
-Step 1
-
-Ask your doctor to send your prescription to:
-
-LillyDirect Pharmacy
-NPI: 1912889320 | NCPDP: 1574056
-1555 S Harding St, Ste 171-B68,  Indianapolis, IN 46221
-
-If you need help finding a doctor, we can connect you with virtual and in-person care.
-
-Step 2
-
-Once your prescription is received, a pharmacy partner will reach out to guide you through the next steps. They’ll help confirm details, explore any available savings, choose pharmacy options, and let you know when your medicine is ready for checkout.

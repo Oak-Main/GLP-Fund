@@ -120,7 +120,7 @@
   "@type": "Dataset",
   "@id": "https://glp1-fund.com/methodology/#dataset",
   "name": "GLP-1 Price Check GLP-1 price dataset",
-  "description": "Every GLP-1 payment pathway we track, with the source, source type, verification date and confidence level for each figure. 47 rows across 6 medications and 8 payment pathways. 21 rows currently carry a confirmed price; the remainder are published as unverified because no figure in circulation survived a direct read of a primary source.",
+  "description": "Every GLP-1 payment pathway we track, with the source, source type, verification date and confidence level for each figure. 47 rows across 6 medications and 8 payment pathways. 26 rows currently carry a confirmed price; the remainder are published as unverified because no figure in circulation survived a direct read of a primary source.",
   "url": "https://glp1-fund.com/methodology/",
   "isAccessibleForFree": true,
   "creator": {
@@ -151,19 +151,19 @@
     {
       "@type": "PropertyValue",
       "name": "Confirmed against a primary source",
-      "value": 21,
+      "value": 26,
       "unitText": "price figures"
     },
     {
       "@type": "PropertyValue",
       "name": "Sources conflict",
-      "value": 2,
+      "value": 1,
       "unitText": "price figures"
     },
     {
       "@type": "PropertyValue",
       "name": "Not verified",
-      "value": 24,
+      "value": 20,
       "unitText": "price figures"
     },
     {
@@ -181,13 +181,13 @@
     {
       "@type": "PropertyValue",
       "name": "Rules awaiting a verbatim source quote",
-      "value": 1,
+      "value": 0,
       "unitText": "eligibility rules"
     },
     {
       "@type": "PropertyValue",
       "name": "Figures rendered as a number",
-      "value": 21,
+      "value": 26,
       "unitText": "price figures"
     }
   ],
@@ -261,7 +261,7 @@
       <li class="pipeline__step pipeline__step--good">
         <span class="pipeline__n">4</span>
         <span class="pipeline__body">
-          <strong>Published as a number (21 of 47)</strong>
+          <strong>Published as a number (26 of 47)</strong>
           <span>Only a confirmed figure renders as a price, and it carries its source and its verification date.</span>
         </span>
       </li>
@@ -269,7 +269,7 @@
       <li class="pipeline__step pipeline__step--warn">
         <span class="pipeline__n">5</span>
         <span class="pipeline__body">
-          <strong>Withheld (26 of 47)</strong>
+          <strong>Withheld (21 of 47)</strong>
           <span>Everything else renders as unverified, with what we found and what a confirmation would require.</span>
         </span>
       </li>
@@ -285,13 +285,13 @@
   <h2>The tally</h2>
   <dl class="receipt">
     <div class="receipt__row"><dt>Price figures tracked</dt><dd>47</dd></div>
-    <div class="receipt__row"><dt>Confirmed against a primary source</dt><dd>21</dd></div>
-    <div class="receipt__row"><dt>Sources conflict</dt><dd>2</dd></div>
-    <div class="receipt__row"><dt>Not verified</dt><dd>24</dd></div>
+    <div class="receipt__row"><dt>Confirmed against a primary source</dt><dd>26</dd></div>
+    <div class="receipt__row"><dt>Sources conflict</dt><dd>1</dd></div>
+    <div class="receipt__row"><dt>Not verified</dt><dd>20</dd></div>
     <div class="receipt__row"><dt>Eligibility rules applied</dt><dd>17</dd></div>
     <div class="receipt__row"><dt>Rules that remove a pathway</dt><dd>5</dd></div>
-    <div class="receipt__row"><dt>Rules awaiting a verbatim source quote</dt><dd>1</dd></div>
-    <div class="receipt__row receipt__total"><dt>Figures rendered as a number</dt><dd>21</dd></div>
+    <div class="receipt__row"><dt>Rules awaiting a verbatim source quote</dt><dd>0</dd></div>
+    <div class="receipt__row receipt__total"><dt>Figures rendered as a number</dt><dd>26</dd></div>
   </dl>
 
   <h2>Our rules of evidence</h2>
@@ -324,11 +324,11 @@
   <div class="banner banner--urgent" role="alert">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3.5 21.5 20H2.5Z"/><line x1="12" y1="9.75" x2="12" y2="14"/><line x1="12" y1="16.75" x2="12" y2="16.85"/></svg>
     <span>
-      <strong>21 of 47 figures are confirmed against a primary source.</strong>
+      <strong>26 of 47 figures are confirmed against a primary source.</strong>
       On 2026-10-29 we read trumprx.gov, medicare.gov, novocare.com, ozempic.com,
       aspe.hhs.gov, fda.gov, cms.gov and investor.lilly.com directly, and the Eli Lilly
       pages in a browser, because our automated requests to those pages were refused.
-      The other 26 figures are not confirmed. They
+      The other 21 figures are not confirmed. They
       render as no price at all, and each one records what we did find and what a
       confirmation would take. A search result summarising a page is still not a read
       of it, so nothing is published on that basis.
@@ -456,8 +456,8 @@
           <td>Patient assistance is limited to applicants below an income threshold.</td>
           <td>Patient assistance program</td>
           <td>require</td>
-          <td><span class="pill pill--unverified">Pending verification</span></td>
-          <td><a href="https://www.lillycares.com/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+          <td><span class="pill pill--confirmed">Quoted verbatim</span></td>
+          <td><a href="https://www.lillycares.com/how-to-apply" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
         </tr>
         <tr>
           <td>Figures for this pathway were read directly from trumprx.gov on 2026-10-28, so they are no longer hand-curated from an unreachable page. They still carry the date they were read, and prices in this market move without announcement, so check trumprx.gov directly before relying on a price.</td>
@@ -693,7 +693,7 @@
               <td><span class="pill pill--conflicting">Sources conflict</span></td>
               <td><span class="pill pill--primary">Primary, manufacturer</span></td>
               <td class="num">2026-10-29</td>
-              <td><a href="https://www.novocare.com/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td><a href="https://www.novocare.com/content/dam/novonordisk/novocare/redesign/pdf/Ozempic_Price_Guide.pdf" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Wegovy tablets</td>
@@ -729,11 +729,11 @@
               <td>Mounjaro</td>
               <td>LillyDirect Self Pay</td>
               <td>any</td>
-              <td class="num">Not verified</td>
-              <td><span class="pill pill--unverified">Not verified</span></td>
+              <td class="num">$499</td>
+              <td><span class="pill pill--confirmed">Confirmed</span></td>
               <td><span class="pill pill--primary">Primary, manufacturer</span></td>
               <td class="num">2026-10-29</td>
-              <td><a href="https://lillydirect.lilly.com/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td><a href="https://www.lilly.com/lillydirect/medicines/mounjaro" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Mounjaro</td>
@@ -799,41 +799,41 @@
               <td>Foundayo</td>
               <td>LillyDirect Self Pay</td>
               <td>0.8mg</td>
-              <td class="num">Not verified</td>
-              <td><span class="pill pill--unverified">Not verified</span></td>
+              <td class="num">$149</td>
+              <td><span class="pill pill--confirmed">Confirmed</span></td>
               <td><span class="pill pill--primary">Primary, manufacturer</span></td>
-              <td class="num">2026-07-30</td>
-              <td><a href="https://lillydirect.lilly.com/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td class="num">2026-10-29</td>
+              <td><a href="https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Foundayo</td>
               <td>LillyDirect Self Pay</td>
               <td>2.5mg</td>
-              <td class="num">Not verified</td>
-              <td><span class="pill pill--unverified">Not verified</span></td>
+              <td class="num">$149</td>
+              <td><span class="pill pill--confirmed">Confirmed</span></td>
               <td><span class="pill pill--primary">Primary, manufacturer</span></td>
-              <td class="num">2026-07-30</td>
-              <td><a href="https://lillydirect.lilly.com/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td class="num">2026-10-29</td>
+              <td><a href="https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Foundayo</td>
               <td>LillyDirect Self Pay</td>
               <td>mid doses</td>
-              <td class="num">Not verified</td>
-              <td><span class="pill pill--unverified">Not verified</span></td>
+              <td class="num">$299</td>
+              <td><span class="pill pill--confirmed">Confirmed</span></td>
               <td><span class="pill pill--primary">Primary, manufacturer</span></td>
-              <td class="num">2026-07-30</td>
-              <td><a href="https://lillydirect.lilly.com/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td class="num">2026-10-29</td>
+              <td><a href="https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Foundayo</td>
               <td>LillyDirect Self Pay</td>
               <td>top doses</td>
-              <td class="num">Not verified</td>
-              <td><span class="pill pill--conflicting">Sources conflict</span></td>
+              <td class="num">$299</td>
+              <td><span class="pill pill--confirmed">Confirmed</span></td>
               <td><span class="pill pill--primary">Primary, manufacturer</span></td>
-              <td class="num">2026-07-30</td>
-              <td><a href="https://lillydirect.lilly.com/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td class="num">2026-10-29</td>
+              <td><a href="https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Foundayo</td>
@@ -902,8 +902,8 @@
               <td class="num">Not verified</td>
               <td><span class="pill pill--unverified">Not verified</span></td>
               <td><span class="pill pill--primary">Primary, manufacturer</span></td>
-              <td class="num">2026-07-30</td>
-              <td><a href="https://www.lillycares.com/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td class="num">2026-10-29</td>
+              <td><a href="https://www.lillycares.com/available-medications" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Zepbound</td>
@@ -922,8 +922,8 @@
               <td class="num">Not verified</td>
               <td><span class="pill pill--unverified">Not verified</span></td>
               <td><span class="pill pill--primary">Primary, manufacturer</span></td>
-              <td class="num">2026-07-30</td>
-              <td><a href="https://www.novonordiskpap.com/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td class="num">2026-10-29</td>
+              <td><a href="https://www.novocare.com/diabetes/help-with-costs/pap.html" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Wegovy</td>
@@ -942,8 +942,8 @@
               <td class="num">Not verified</td>
               <td><span class="pill pill--unverified">Not verified</span></td>
               <td><span class="pill pill--primary">Primary, manufacturer</span></td>
-              <td class="num">2026-07-30</td>
-              <td><a href="https://www.novonordiskpap.com/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td class="num">2026-10-29</td>
+              <td><a href="https://www.novocare.com/diabetes/help-with-costs/pap.html" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Ozempic</td>
@@ -962,8 +962,8 @@
               <td class="num">Not verified</td>
               <td><span class="pill pill--unverified">Not verified</span></td>
               <td><span class="pill pill--primary">Primary, manufacturer</span></td>
-              <td class="num">2026-07-30</td>
-              <td><a href="https://www.lillycares.com/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td class="num">2026-10-29</td>
+              <td><a href="https://www.lillycares.com/available-medications" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Mounjaro</td>
@@ -982,8 +982,8 @@
               <td class="num">Not verified</td>
               <td><span class="pill pill--unverified">Not verified</span></td>
               <td><span class="pill pill--primary">Primary, manufacturer</span></td>
-              <td class="num">2026-07-30</td>
-              <td><a href="https://www.novonordiskpap.com/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td class="num">2026-10-29</td>
+              <td><a href="https://www.novocare.com/diabetes/help-with-costs/pap.html" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Wegovy tablets</td>
@@ -1002,8 +1002,8 @@
               <td class="num">Not verified</td>
               <td><span class="pill pill--unverified">Not verified</span></td>
               <td><span class="pill pill--primary">Primary, manufacturer</span></td>
-              <td class="num">2026-07-30</td>
-              <td><a href="https://www.lillycares.com/" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
+              <td class="num">2026-10-29</td>
+              <td><a href="https://www.lillycares.com/available-medications" rel="noopener nofollow" target="_blank">Open <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.5 4.5H19.5V10.5"/><line x1="19.5" y1="4.5" x2="11.5" y2="12.5"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></svg></a></td>
             </tr>
             <tr>
               <td>Foundayo</td>
@@ -1085,8 +1085,8 @@
           <td>List price, no program</td>
           <td>any</td>
           <td class="num">none</td>
-          <td>Re-checked 2026-10-28: novocare.com was read directly and states no list price for this product. TrumpRx (read 2026-10-28 at trumprx.gov/p/ozempic) displays &quot;Original Price $1,027.51&quot; beside the offer, but the platform does not label that figure a list price, so the conflict between the circulating figures is not resolved and no value is adopted.</td>
-          <td>A current list figure from a Novo Nordisk source.</td>
+          <td>Re-checked 2026-10-29: Novo Nordisk publishes its own Ozempic price guide, and it was read. It publishes the self-pay and savings prices and says nothing about a list price or a wholesale acquisition cost, so the two circulating figures are still unreconciled and no value is adopted. For the record, the federal platform states in its own payload that its &quot;Original Price&quot; represents the wholesale acquisition cost, and it shows $1,027.51 beside the Ozempic offer, but that is a platform display and not a disclosure by the manufacturer.</td>
+          <td>A list price published by Novo Nordisk itself. The manufacturer price guide does not carry one.</td>
         </tr>
         <tr>
           <td>Wegovy tablets</td>
@@ -1098,51 +1098,11 @@
         </tr>
         <tr>
           <td>Mounjaro</td>
-          <td>LillyDirect Self Pay</td>
-          <td>any</td>
-          <td class="num">none</td>
-          <td>Re-checked 2026-10-29: the LillyDirect Mounjaro page was read directly in a browser and shows &quot;Self-pay price: Starting at $499/month&quot; at each of the six strengths (2.5 mg, 5 mg, 7.5 mg, 10 mg, 12.5 mg and 15 mg), footnoted &quot;For self-pay. Prescription required. Terms apply. Additional taxes and fees may apply.&quot; The page publishes no per-strength table and states the figure as a starting price, so no value is adopted: a bound is not a price.</td>
-          <td>The price at a named strength, or a per-strength table. Confirming the figure for a specific strength would promote it.</td>
-        </tr>
-        <tr>
-          <td>Mounjaro</td>
           <td>Manufacturer savings card</td>
           <td>any</td>
           <td class="num">none</td>
           <td>Re-checked 2026-10-29: the Mounjaro price-disclosure page was read directly and states &quot;Patients with Medicaid, Medicare, Medigap, DoD, VA, TRICARE®/CHAMPUS, or any state patient or pharmaceutical assistance program are not eligible for the Mounjaro Savings Program.&quot; The page publishes no copay figure at all, so the value stays null.</td>
           <td>The Mounjaro Savings Card copay figure, from the savings card terms themselves.</td>
-        </tr>
-        <tr>
-          <td>Foundayo</td>
-          <td>LillyDirect Self Pay</td>
-          <td>0.8mg</td>
-          <td class="num">$149</td>
-          <td>Reported at 149 per month post-launch. lilly.com denied at the egress gateway on 2026-07-30. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served &quot;no healthy upstream&quot;; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required. Re-checked 2026-10-29: lillydirect.lilly.com refuses a scripted fetch (HTTP 403, bot-protection interstitial &quot;Just a moment...&quot;) and reads normally in a browser. This page has not been read yet and is listed for a browser read in OWNER_STEPS.md.</td>
-          <td>A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com.</td>
-        </tr>
-        <tr>
-          <td>Foundayo</td>
-          <td>LillyDirect Self Pay</td>
-          <td>2.5mg</td>
-          <td class="num">$199</td>
-          <td>Reported at 199 per month post-launch. Not read. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served &quot;no healthy upstream&quot;; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required. Re-checked 2026-10-29: lillydirect.lilly.com refuses a scripted fetch (HTTP 403, bot-protection interstitial &quot;Just a moment...&quot;) and reads normally in a browser. This page has not been read yet and is listed for a browser read in OWNER_STEPS.md.</td>
-          <td>A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com.</td>
-        </tr>
-        <tr>
-          <td>Foundayo</td>
-          <td>LillyDirect Self Pay</td>
-          <td>mid doses</td>
-          <td class="num">$299</td>
-          <td>Reported at 299 per month for both 5.5 mg and 9 mg. Not read. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served &quot;no healthy upstream&quot;; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required. Re-checked 2026-10-29: lillydirect.lilly.com refuses a scripted fetch (HTTP 403, bot-protection interstitial &quot;Just a moment...&quot;) and reads normally in a browser. This page has not been read yet and is listed for a browser read in OWNER_STEPS.md.</td>
-          <td>A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com.</td>
-        </tr>
-        <tr>
-          <td>Foundayo</td>
-          <td>LillyDirect Self Pay</td>
-          <td>top doses</td>
-          <td class="num">none</td>
-          <td>Post-launch reporting gives 349 as the regular price and 299 when refilled within 45 days. Pre-approval reporting gave a top-of-range figure of 399, which is an agreement price rather than a launched one. The brief warned specifically against shipping pre-approval pricing, so no figure is adopted. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served &quot;no healthy upstream&quot;; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required. Re-checked 2026-10-29: lillydirect.lilly.com refuses a scripted fetch (HTTP 403, bot-protection interstitial &quot;Just a moment...&quot;) and reads normally in a browser. This page has not been read yet and is listed for a browser read in OWNER_STEPS.md.</td>
-          <td>A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com.</td>
         </tr>
         <tr>
           <td>Foundayo</td>
@@ -1157,8 +1117,8 @@
           <td>Patient assistance program</td>
           <td>any</td>
           <td class="num">none</td>
-          <td>Income thresholds are reported to vary by product rather than sitting at one figure, and sources directly contradict each other on whether the weight-management products are covered at all. Publishing a threshold we could not read would be worse than publishing none. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served &quot;no healthy upstream&quot;; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required. Re-checked 2026-10-29: www.lillycares.com refuses a scripted fetch (HTTP 403) and reads normally in a browser. The pages read on 2026-10-29 do not publish the income threshold or a per-medicine eligibility answer, and the remaining question is listed in OWNER_STEPS.md.</td>
-          <td>A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com.</td>
+          <td>Re-checked 2026-10-29: the Lilly Cares pages were read directly. The programme publishes its income limits, at 300%, 400% or 500% of the 2026 federal poverty guidelines depending on the medication group, and it lists the products in each group. The published groups do not include this medication, so this programme does not cover it. Nothing about the programme is published that would confirm a figure for this medicine, so the row stays null.</td>
+          <td>A patient assistance programme that covers this medicine, and its income threshold and coverage conditions, read from that programme.</td>
         </tr>
         <tr>
           <td>Zepbound</td>
@@ -1173,8 +1133,8 @@
           <td>Patient assistance program</td>
           <td>any</td>
           <td class="num">none</td>
-          <td>Income thresholds are reported to vary by product rather than sitting at one figure, and sources directly contradict each other on whether the weight-management products are covered at all. Publishing a threshold we could not read would be worse than publishing none. Not re-checked on 2026-10-28: novonordiskpap.com is outside the egress allowlist in docs/ops-runbook.md, so it was not probed.</td>
-          <td>A direct read of the programme page establishing which products are covered and the income threshold and household-size table that applies.</td>
+          <td>Re-checked 2026-10-29: the Novo Nordisk Patient Assistance Program page was read directly. It states the income limits: an uninsured patient on Ozempic must have household income at or below 200% of the federal poverty level, and an uninsured patient on any other medicine at or below 400%. It states that you must have Medicare or no insurance, that private or commercial insurance makes you ineligible, and that you must not be enrolled in Medicaid, Medicare Extra Help or VA benefits. It gives no price, because the medicine is free to a qualifying applicant, so the row stays null. The host previously cited for this row, novonordiskpap.com, does not resolve; this programme page is where the terms now live.</td>
+          <td>A price for the medicine, or the list of medicines still covered by the programme for 2026, which the page links but does not reproduce.</td>
         </tr>
         <tr>
           <td>Wegovy</td>
@@ -1189,8 +1149,8 @@
           <td>Patient assistance program</td>
           <td>any</td>
           <td class="num">none</td>
-          <td>Income thresholds are reported to vary by product rather than sitting at one figure, and sources directly contradict each other on whether the weight-management products are covered at all. Publishing a threshold we could not read would be worse than publishing none. Not re-checked on 2026-10-28: novonordiskpap.com is outside the egress allowlist in docs/ops-runbook.md, so it was not probed.</td>
-          <td>A direct read of the programme page establishing which products are covered and the income threshold and household-size table that applies.</td>
+          <td>Re-checked 2026-10-29: the Novo Nordisk Patient Assistance Program page was read directly. It states the income limits: an uninsured patient on Ozempic must have household income at or below 200% of the federal poverty level, and an uninsured patient on any other medicine at or below 400%. It states that you must have Medicare or no insurance, that private or commercial insurance makes you ineligible, and that you must not be enrolled in Medicaid, Medicare Extra Help or VA benefits. It gives no price, because the medicine is free to a qualifying applicant, so the row stays null. The host previously cited for this row, novonordiskpap.com, does not resolve; this programme page is where the terms now live.</td>
+          <td>A price for the medicine, or the list of medicines still covered by the programme for 2026, which the page links but does not reproduce.</td>
         </tr>
         <tr>
           <td>Ozempic</td>
@@ -1205,8 +1165,8 @@
           <td>Patient assistance program</td>
           <td>any</td>
           <td class="num">none</td>
-          <td>Income thresholds are reported to vary by product rather than sitting at one figure, and sources directly contradict each other on whether the weight-management products are covered at all. Publishing a threshold we could not read would be worse than publishing none. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served &quot;no healthy upstream&quot;; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required. Re-checked 2026-10-29: www.lillycares.com refuses a scripted fetch (HTTP 403) and reads normally in a browser. The pages read on 2026-10-29 do not publish the income threshold or a per-medicine eligibility answer, and the remaining question is listed in OWNER_STEPS.md.</td>
-          <td>A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com.</td>
+          <td>Re-checked 2026-10-29: the Lilly Cares pages were read directly. The programme publishes its income limits, at 300%, 400% or 500% of the 2026 federal poverty guidelines depending on the medication group, and it lists the products in each group. The published groups do not include this medication, so this programme does not cover it. Nothing about the programme is published that would confirm a figure for this medicine, so the row stays null.</td>
+          <td>A patient assistance programme that covers this medicine, and its income threshold and coverage conditions, read from that programme.</td>
         </tr>
         <tr>
           <td>Mounjaro</td>
@@ -1221,8 +1181,8 @@
           <td>Patient assistance program</td>
           <td>any</td>
           <td class="num">none</td>
-          <td>Income thresholds are reported to vary by product rather than sitting at one figure, and sources directly contradict each other on whether the weight-management products are covered at all. Publishing a threshold we could not read would be worse than publishing none. Not re-checked on 2026-10-28: novonordiskpap.com is outside the egress allowlist in docs/ops-runbook.md, so it was not probed.</td>
-          <td>A direct read of the programme page establishing which products are covered and the income threshold and household-size table that applies.</td>
+          <td>Re-checked 2026-10-29: the Novo Nordisk Patient Assistance Program page was read directly. It states the income limits: an uninsured patient on Ozempic must have household income at or below 200% of the federal poverty level, and an uninsured patient on any other medicine at or below 400%. It states that you must have Medicare or no insurance, that private or commercial insurance makes you ineligible, and that you must not be enrolled in Medicaid, Medicare Extra Help or VA benefits. It gives no price, because the medicine is free to a qualifying applicant, so the row stays null. The host previously cited for this row, novonordiskpap.com, does not resolve; this programme page is where the terms now live.</td>
+          <td>A price for the medicine, or the list of medicines still covered by the programme for 2026, which the page links but does not reproduce.</td>
         </tr>
         <tr>
           <td>Wegovy tablets</td>
@@ -1237,8 +1197,8 @@
           <td>Patient assistance program</td>
           <td>any</td>
           <td class="num">none</td>
-          <td>Income thresholds are reported to vary by product rather than sitting at one figure, and sources directly contradict each other on whether the weight-management products are covered at all. Publishing a threshold we could not read would be worse than publishing none. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served &quot;no healthy upstream&quot;; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required. Re-checked 2026-10-29: www.lillycares.com refuses a scripted fetch (HTTP 403) and reads normally in a browser. The pages read on 2026-10-29 do not publish the income threshold or a per-medicine eligibility answer, and the remaining question is listed in OWNER_STEPS.md.</td>
-          <td>A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com.</td>
+          <td>Re-checked 2026-10-29: the Lilly Cares pages were read directly. The programme publishes its income limits, at 300%, 400% or 500% of the 2026 federal poverty guidelines depending on the medication group, and it lists the products in each group. The published groups do not include this medication, so this programme does not cover it. Nothing about the programme is published that would confirm a figure for this medicine, so the row stays null.</td>
+          <td>A patient assistance programme that covers this medicine, and its income threshold and coverage conditions, read from that programme.</td>
         </tr>
         <tr>
           <td>Foundayo</td>

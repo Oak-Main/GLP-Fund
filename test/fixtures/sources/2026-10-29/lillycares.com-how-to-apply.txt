@@ -1,0 +1,37 @@
+SHA-256: 31f9f21d7c1a0dcad16c75521bbd60bc36fe7fc89ed9fc695f60efbd1675d9cc
+URL: https://www.lillycares.com/how-to-apply
+Final-URL: https://www.lillycares.com/how-to-apply
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29 (read in the in-app browser between 21:20Z and 23:20Z)
+Read-By: mm/glp-verify-1028 verification pass, M2c-4 remaining reads
+Hash-Covers: every byte after the first line of this file
+Capture: the rendered eligibility section, read with the browser text query. The page continues with the insurance requirement lists for each group and the application instructions.
+
+Check Your Eligibility
+
+You may be eligible for the Lilly Cares Program if:
+You are a permanent resident of the United States (inclusive of Puerto Rico and the U.S. Virgin Islands).
+Your healthcare provider has prescribed a medication offered through Lilly Cares.
+The following applies to you with regard to your insurance coverage:
+You are not enrolled in Medicaid, full Low Income Subsidy (LIS, "Extra Help") or Veterans (VA) Benefits;
+For all Medications, you do not have an insurance plan or third party that requires you to apply to the Lilly Cares Program as a condition, requirement, or prerequisite for coverage of specific Eli Lilly and Company medications.
+You meet the insurance requirements for the medication for which you are applying.
+You meet the household income guidelines for the Program.
+
+Medication Groups | 1 Person Household* | 2 Person Household* | 3 Person Household* | 4 Person Household* | 5 Person Household* | 6 Person Household*
+Group 1 Medications | $47,880 | $64,920 | $81,960 | $99,000 | $116,040 | $133,080
+Group 2 Medications | $63,840 | $86,560 | $109,280 | $132,000 | $154,720 | $177,440
+Group 3 & 4 Medications | $79,800 | $108,200 | $136,600 | $165,000 | $193,400 | $221,800
+
+*Total Number of Persons in your Household (including applicant).
+
+Note: These income limits are 300% (Group 1 Medications), 400% (Group 2 Medications), and 500% (Group 3 & 4 Medications) of 2026 Federal Poverty Guidelines. Visit www.aspe.hhs.gov/poverty for information on the Federal Poverty Level.
+
+Group 1 Medications: For patients who have no insurance or have Medicare Part D and have a household annual adjusted gross income <= 300% Federal Poverty Level (FPL).
+Group 2 Medications: For patients who have no insurance or have Medicare Part D and have a household annual adjusted gross income <= 400% FPL.
+Group 3 Medications: For patients who have no insurance or have Medicare Part D (not applicable to infused medications) or have Medicare Part B but have no supplemental or secondary insurance and have a household annual adjusted gross income of <= 500% FPL.
+Group 4 Medications: For patients who have a household annual adjusted gross income of <= 500% FPL and have no insurance or have Medicare Part D (not applicable to infused medications), or have Medicare Part B without supplemental or secondary insurance.
+
+Group 1 Medications list: Cialis (tadalafil) tablets, Emgality (galcanezumab-gnlm) injection, Forteo (teriparatide injection), Reyvow (lasmiditan) tablets, Trulicity (dulaglutide) injection.
+
+The published medication groups do not include Zepbound, Mounjaro or Foundayo.

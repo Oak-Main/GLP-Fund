@@ -1,0 +1,50 @@
+SHA-256: e13afcba7b55c6a27d3ca69cbca58f836221bf708ea86022abb0562d9eb9da58
+URL: https://www.novocare.com/diabetes/help-with-costs/pap.html
+Final-URL: https://www.novocare.com/diabetes/help-with-costs/pap.html
+HTTP-Status: 200
+Fetched-At-UTC: 2026-10-29 (read in the in-app browser between 21:20Z and 23:20Z)
+Read-By: mm/glp-verify-1028 verification pass, M2c-4 remaining reads
+Hash-Covers: every byte after the first line of this file
+Capture: the rendered programme page, read with a script fetch of the same URL. The page continues with the full FAQ, the important safety information and the site navigation.
+
+Patient Assistance Program
+
+The Novo Nordisk Patient Assistance Program (PAP) is based on our commitment to our patients. The Patient Assistance Program provides medicine at no cost to those who qualify. Patients who are approved for the PAP may qualify to receive free medicine from Novo Nordisk. There is no registration charge or monthly fee for participating.
+
+Who can participate in the Patient Assistance Program?
+
+To be eligible for this program in 2026, you must:
+Be a US citizen or legal resident
+Have a total household income that qualifies. Visit the NeedyMeds website, which lists the current Federal Poverty Level (FPL) guidelines
+Have Medicare or no insurance (Note: If you have private or commercial insurance, you are not eligible for the PAP)
+Not be enrolled in or qualify for any other federal, state, or government program such as Medicaid, Medicare Low-Income Subsidy (LIS, or Extra Help Program), or Veterans Affairs (VA) Benefits
+If you are eligible for Medicaid or Medicare LIS, you must submit a copy of your denial letter with your application
+
+For patients on Ozempic (semaglutide) injection 0.5 mg, 1 mg, or 2 mg
+
+Most Medicare prescription plans cover Ozempic. Medicare beneficiaries with prescription drug coverage will no longer be eligible to receive Ozempic through the Patient Assistance Program.
+
+Uninsured patients will still have access to Ozempic through the Patient Assistance Program; however, their total household income must be at or below 200% of the federal poverty level.
+
+For Medicare patients on Novo Nordisk insulins
+
+Total household income must be at or below 400% of the federal poverty level. Medicare beneficiaries with a total household income below 150% of the federal poverty level must provide proof of denial for Part D Extra Help to qualify.
+
+For uninsured patients on all products
+
+Total household income must be at or below 200% of the federal poverty level for Ozempic. For all other medications, total household income must be at or below 400% of the federal poverty level.
+
+Uninsured patients must provide proof of a Medicaid denial prior to enrollment in the PAP if the patient's total household income meets their state's federal poverty limit thresholds.
+
+A special note about your medicine
+
+Some medicines will no longer be a part of the Patient Assistance Program for 2026. Please click here to see a list of Novo Nordisk medicines that are still covered by the program.
+
+STEP 1: Patient application portion
+STEP 2: Additional documents
+STEP 3: Approval and delivery
+
+Frequently asked questions
+
+How long am I enrolled in the program?
+Uninsured patients are enrolled for 12 months. Medicare patients are enrolled through the end of the current calendar year.

@@ -81,11 +81,16 @@ test('the shipped dataset publishes numbers only from the verified allowlist, by
     'ozempic|any|trumprx',
     'wegovy_pill|1.5mg|novocare_self_pay',
     'wegovy_pill|higher_doses|novocare_self_pay',
+    'mounjaro|any|lillydirect_self_pay',
     'mounjaro|any|list_price',
     'wegovy_injection|low_doses|novocare_self_pay',
     'wegovy_injection|standard_doses|novocare_self_pay',
     'wegovy_injection|any|medicare_bridge',
     'wegovy_pill|any|medicare_bridge',
+    'foundayo|0.8mg|lillydirect_self_pay',
+    'foundayo|2.5mg|lillydirect_self_pay',
+    'foundayo|mid_doses|lillydirect_self_pay',
+    'foundayo|top_doses|lillydirect_self_pay',
     'foundayo|any|trumprx',
     'foundayo|any|medicare_bridge',
     'foundayo|any|list_price',
@@ -150,13 +155,11 @@ test('the verification debt on hard eligibility rules is visible and counted', (
   // must be added.
   assert.deepEqual(
     debt.pendingIds,
-    [
-      'patient-assistance-income-tier',
-    ],
-    'The one hard rule still awaiting a verbatim quote from its own cited source.'
+    [],
+    'Every hard rule now carries a verbatim quote from its own source.'
   );
-  assert.equal(debt.pending, 1);
-  assert.equal(debt.total, 5, 'Five hard rules exist; four of them now carry a verbatim quote.');
+  assert.equal(debt.pending, 0);
+  assert.equal(debt.total, 5, 'Five hard rules exist, and all five carry a verbatim quote.');
   // The fixture, standing in for a verified world, has zero pending rules.
   assert.equal(verificationDebt(ENGINE.eligibilityRules).pending, 0);
 });

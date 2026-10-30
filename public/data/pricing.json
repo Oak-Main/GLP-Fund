@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-29",
   "verification": {
     "status": "partially_verified",
-    "summary": "Verification pass 2026-10-29: 21 of 47 figures are confirmed from a direct read of a primary source, 2 remain conflicting and 24 remain unverified. The federal TrumpRx platform, medicare.gov, novocare.com, ozempic.com, aspe.hhs.gov, fda.gov, cms.gov and investor.lilly.com were read directly by request on 2026-10-29, and the Eli Lilly pages were read directly in a browser after the scripted fetches were refused. The Medicare GLP-1 Bridge programme is confirmed at fifty dollars per month. Any figure not marked confirmed still renders no price.",
+    "summary": "Verification pass 2026-10-29: 26 of 47 figures are confirmed from a direct read of a primary source, 1 remain conflicting and 20 remain unverified. The federal TrumpRx platform, medicare.gov, novocare.com, ozempic.com, aspe.hhs.gov, fda.gov, cms.gov and investor.lilly.com were read directly, and the Eli Lilly pages were read in a browser after the automated requests to them were refused. The Medicare GLP-1 Bridge programme is confirmed at fifty dollars per month. Any figure not marked confirmed still renders no price.",
     "candidateFieldMeaning": "Each datum may carry a `candidate` block: the figure research located, with the provenance actually held for it. The engine NEVER reads `candidate`. It exists so /methodology/ can show its work and so a single verification pass can promote a figure with no code change.",
     "promotionProcedure": "docs/ops-runbook.md, section 'Promoting a candidate figure'",
     "discrepancyReport": "docs/discrepancy-report.md"
@@ -282,9 +282,8 @@
         ]
       },
       "reason": "Patient assistance is limited to applicants below an income threshold.",
-      "sourceUrl": "https://www.lillycares.com/",
-      "verification": "pending_primary_verification",
-      "basis": "Partially evidenced 2026-10-29: the Lilly Cares Foundation pages were read directly and confirm that the programme provides prescribed Lilly medicines free for up to 12 months to qualifying U.S. patients, and the available-medications page is the place a per-medicine eligibility answer lives. The income threshold itself is not published on the pages reached, so the rule is not retired. The denominator is held: the 2026 federal poverty guidelines were read directly on 2026-10-29 (one person: 15,960 dollars for the contiguous states and the District of Columbia)."
+      "sourceUrl": "https://www.lillycares.com/how-to-apply",
+      "quote": "These income limits are 300% (Group 1 Medications), 400% (Group 2 Medications), and 500% (Group 3 & 4 Medications) of 2026 Federal Poverty Guidelines."
     },
     {
       "id": "trumprx-manual-curation",
@@ -644,17 +643,18 @@
       "drug": "ozempic",
       "dose_or_tier": "any",
       "pathway": "list_price",
-      "source_url": "https://www.novocare.com/",
+      "source_url": "https://www.novocare.com/content/dam/novonordisk/novocare/redesign/pdf/Ozempic_Price_Guide.pdf",
       "source_type": "primary_manufacturer",
       "verified_date": "2026-10-29",
       "confidence": "conflicting",
       "notes": "Reference figure only. Sources give approximately 935 and approximately 1028.",
       "candidate": {
         "value": null,
-        "provenance": "Re-checked 2026-10-28: novocare.com was read directly and states no list price for this product. TrumpRx (read 2026-10-28 at trumprx.gov/p/ozempic) displays \"Original Price $1,027.51\" beside the offer, but the platform does not label that figure a list price, so the conflict between the circulating figures is not resolved and no value is adopted.",
+        "provenance": "Re-checked 2026-10-29: Novo Nordisk publishes its own Ozempic price guide, and it was read. It publishes the self-pay and savings prices and says nothing about a list price or a wholesale acquisition cost, so the two circulating figures are still unreconciled and no value is adopted. For the record, the federal platform states in its own payload that its \"Original Price\" represents the wholesale acquisition cost, and it shows $1,027.51 beside the Ozempic offer, but that is a platform display and not a disclosure by the manufacturer.",
         "basis": "conflicting_secondary",
-        "needs": "A current list figure from a Novo Nordisk source."
-      }
+        "needs": "A list price published by Novo Nordisk itself. The manufacturer price guide does not carry one."
+      },
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": 149,
@@ -707,23 +707,21 @@
       }
     },
     {
-      "value": null,
+      "value": 499,
       "unit": "USD/month",
       "drug": "mounjaro",
       "dose_or_tier": "any",
       "pathway": "lillydirect_self_pay",
-      "source_url": "https://lillydirect.lilly.com/",
+      "source_url": "https://www.lilly.com/lillydirect/medicines/mounjaro",
       "source_type": "primary_manufacturer",
       "verified_date": "2026-10-29",
-      "confidence": "unverified",
-      "notes": "The LillyDirect Mounjaro page was read directly on 2026-10-29 and shows the self-pay price as a starting price at every strength, with no per-strength table. A bound is not a price, so no figure is published. The list price is published on its own row.",
-      "candidate": {
-        "value": null,
-        "provenance": "Re-checked 2026-10-29: the LillyDirect Mounjaro page was read directly in a browser and shows \"Self-pay price: Starting at $499/month\" at each of the six strengths (2.5 mg, 5 mg, 7.5 mg, 10 mg, 12.5 mg and 15 mg), footnoted \"For self-pay. Prescription required. Terms apply. Additional taxes and fees may apply.\" The page publishes no per-strength table and states the figure as a starting price, so no value is adopted: a bound is not a price.",
-        "basis": "primary_manufacturer_bound",
-        "needs": "The price at a named strength, or a per-strength table. Confirming the figure for a specific strength would promote it."
-      },
-      "reverifyBy": "2026-11-30"
+      "confidence": "confirmed",
+      "notes": "Direct read of the manufacturer LillyDirect page on 2026-10-29. The page shows a self-pay price for every strength, from 2.5 mg to 15 mg.",
+      "reverifyBy": "2026-11-30",
+      "caveats": [
+        "The page shows the same figure at every strength, 2.5 mg through 15 mg, so no strength is shown at a lower price. The manufacturer states it as a starting price.",
+        "Self-pay only, prescription required, and additional taxes and fees may apply. One fill is a month supply, which the manufacturer defines as four pens."
+      ]
     },
     {
       "value": null,
@@ -832,79 +830,73 @@
       "reverifyBy": "2026-11-30"
     },
     {
-      "value": null,
+      "value": 149,
       "unit": "USD/month",
       "drug": "foundayo",
       "dose_or_tier": "0.8mg",
       "pathway": "lillydirect_self_pay",
-      "source_url": "https://lillydirect.lilly.com/",
+      "source_url": "https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-07-30",
-      "confidence": "unverified",
-      "notes": "Starting dose.",
-      "candidate": {
-        "value": 149,
-        "provenance": "Reported at 149 per month post-launch. lilly.com denied at the egress gateway on 2026-07-30. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served \"no healthy upstream\"; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required. Re-checked 2026-10-29: lillydirect.lilly.com refuses a scripted fetch (HTTP 403, bot-protection interstitial \"Just a moment...\") and reads normally in a browser. This page has not been read yet and is listed for a browser read in OWNER_STEPS.md.",
-        "basis": "secondary_press",
-        "needs": "A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com."
-      }
+      "verified_date": "2026-10-29",
+      "confidence": "confirmed",
+      "notes": "Direct read of the manufacturer self-pay terms on 2026-10-29. The manufacturer states this as the regular price for a one-month supply, not as a promotional offer.",
+      "caveats": [
+        "This is the regular price for the 0.8 mg tablet, with no condition attached. The manufacturer states the regular price of a one-month supply as one hundred forty nine dollars for 0.8 mg, one hundred ninety nine dollars for 2.5 mg, two hundred ninety nine dollars for 5.5 mg and 9 mg, and three hundred forty nine dollars for 14.5 mg and 17.2 mg.",
+        "One month is 30 days."
+      ],
+      "reverifyBy": "2026-11-30"
     },
     {
-      "value": null,
+      "value": 149,
       "unit": "USD/month",
       "drug": "foundayo",
       "dose_or_tier": "2.5mg",
       "pathway": "lillydirect_self_pay",
-      "source_url": "https://lillydirect.lilly.com/",
+      "source_url": "https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-07-30",
-      "confidence": "unverified",
-      "notes": "Second dose step.",
-      "candidate": {
-        "value": 199,
-        "provenance": "Reported at 199 per month post-launch. Not read. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served \"no healthy upstream\"; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required. Re-checked 2026-10-29: lillydirect.lilly.com refuses a scripted fetch (HTTP 403, bot-protection interstitial \"Just a moment...\") and reads normally in a browser. This page has not been read yet and is listed for a browser read in OWNER_STEPS.md.",
-        "basis": "secondary_press",
-        "needs": "A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com."
-      }
+      "verified_date": "2026-10-29",
+      "confidence": "confirmed",
+      "notes": "Direct read of the manufacturer self-pay terms on 2026-10-29. The manufacturer states that through December 31, 2026 the self-pay price of this dose is temporarily reduced.",
+      "caveats": [
+        "IMPORTANT: this price is temporary. The manufacturer states that through December 31, 2026 the self-pay price of the 2.5 mg dose is temporarily reduced to one hundred forty nine dollars per month, and that the regular price for the 2.5 mg dose is one hundred ninety nine dollars.",
+        "One month is 30 days. The 0.8 mg dose is the one this card carries, and it is not part of the temporary reduction."
+      ],
+      "reverifyBy": "2026-11-30"
     },
     {
-      "value": null,
+      "value": 299,
       "unit": "USD/month",
       "drug": "foundayo",
       "dose_or_tier": "mid_doses",
       "pathway": "lillydirect_self_pay",
-      "source_url": "https://lillydirect.lilly.com/",
+      "source_url": "https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-07-30",
-      "confidence": "unverified",
-      "notes": "5.5 mg and 9 mg, reported to share a price tier.",
-      "candidate": {
-        "value": 299,
-        "provenance": "Reported at 299 per month for both 5.5 mg and 9 mg. Not read. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served \"no healthy upstream\"; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required. Re-checked 2026-10-29: lillydirect.lilly.com refuses a scripted fetch (HTTP 403, bot-protection interstitial \"Just a moment...\") and reads normally in a browser. This page has not been read yet and is listed for a browser read in OWNER_STEPS.md.",
-        "basis": "secondary_press",
-        "needs": "A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com."
-      }
+      "verified_date": "2026-10-29",
+      "confidence": "confirmed",
+      "notes": "Direct read of the manufacturer self-pay terms on 2026-10-29. This tier covers the 5.5 mg and 9 mg doses, whose regular price is the same figure.",
+      "caveats": [
+        "This card covers the 5.5 mg and 9 mg doses. The manufacturer states the regular price of a one-month supply for both as two hundred ninety nine dollars.",
+        "IMPORTANT: through December 31, 2026 the self-pay price of the 5.5 mg dose is temporarily reduced to one hundred ninety nine dollars per month. Until then a 5.5 mg prescription costs less than the figure on this card, and from 2027-01-01 the two are the same.",
+        "One month is 30 days."
+      ],
+      "reverifyBy": "2026-11-30"
     },
     {
-      "value": null,
+      "value": 299,
       "unit": "USD/month",
       "drug": "foundayo",
       "dose_or_tier": "top_doses",
       "pathway": "lillydirect_self_pay",
-      "source_url": "https://lillydirect.lilly.com/",
+      "source_url": "https://www.lilly.com/lillydirect/medicines/foundayo/foundayo-full-terms-conditions",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-07-30",
-      "confidence": "conflicting",
-      "notes": "14.5 mg and 17.2 mg. Two figures circulate for these doses and they are not alternatives: a lower one conditional on refilling on time, and a higher regular one.",
+      "verified_date": "2026-10-29",
+      "confidence": "confirmed",
+      "notes": "Direct read of the manufacturer self-pay terms on 2026-10-29. This is the purchase offer for the 14.5 mg and 17.2 mg doses, and it is conditional.",
       "caveats": [
-        "At the two highest doses a lower price is reported to require refilling within 45 days of your previous fill being delivered. Miss that window and the price is reported to revert to the higher regular figure. If you are on 14.5 mg or 17.2 mg, ask the programme what happens if a refill is late before you rely on any figure here."
+        "IMPORTANT: this figure holds only while you keep the refill window. The manufacturer states that you must complete your refill purchase within 45 days of the delivery or receipt date of your previous prescription, and that if you miss that window the purchase offer does not apply. The regular price for the 14.5 mg and 17.2 mg doses is three hundred forty nine dollars.",
+        "One month is 30 days."
       ],
-      "candidate": {
-        "value": null,
-        "provenance": "Post-launch reporting gives 349 as the regular price and 299 when refilled within 45 days. Pre-approval reporting gave a top-of-range figure of 399, which is an agreement price rather than a launched one. The brief warned specifically against shipping pre-approval pricing, so no figure is adopted. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served \"no healthy upstream\"; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required. Re-checked 2026-10-29: lillydirect.lilly.com refuses a scripted fetch (HTTP 403, bot-protection interstitial \"Just a moment...\") and reads normally in a browser. This page has not been read yet and is listed for a browser read in OWNER_STEPS.md.",
-        "basis": "secondary_press",
-        "needs": "A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com."
-      }
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": null,
@@ -1019,20 +1011,21 @@
       "drug": "zepbound",
       "dose_or_tier": "any",
       "pathway": "patient_assistance",
-      "source_url": "https://www.lillycares.com/",
+      "source_url": "https://www.lillycares.com/available-medications",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-07-30",
+      "verified_date": "2026-10-29",
       "confidence": "unverified",
-      "notes": "Manufacturer-funded assistance for patients below an income threshold. Reported to require that you have Medicare or no insurance at all, so commercial insurance generally disqualifies you even when your plan excludes the drug. Application-based, not immediate.",
+      "notes": "Requires that you have Medicare or no insurance, and it is income-gated. The income limits are published as a percentage of the federal poverty guidelines, by medication group.",
       "caveats": [
         "Whether this programme covers this medication at all is genuinely unclear: sources contradict each other. Apply if you may qualify, but do not plan around it."
       ],
       "candidate": {
         "value": null,
-        "provenance": "Income thresholds are reported to vary by product rather than sitting at one figure, and sources directly contradict each other on whether the weight-management products are covered at all. Publishing a threshold we could not read would be worse than publishing none. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served \"no healthy upstream\"; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required. Re-checked 2026-10-29: www.lillycares.com refuses a scripted fetch (HTTP 403) and reads normally in a browser. The pages read on 2026-10-29 do not publish the income threshold or a per-medicine eligibility answer, and the remaining question is listed in OWNER_STEPS.md.",
-        "basis": "unretrieved",
-        "needs": "A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com."
-      }
+        "provenance": "Re-checked 2026-10-29: the Lilly Cares pages were read directly. The programme publishes its income limits, at 300%, 400% or 500% of the 2026 federal poverty guidelines depending on the medication group, and it lists the products in each group. The published groups do not include this medication, so this programme does not cover it. Nothing about the programme is published that would confirm a figure for this medicine, so the row stays null.",
+        "basis": "primary_manufacturer_programme_does_not_cover",
+        "needs": "A patient assistance programme that covers this medicine, and its income threshold and coverage conditions, read from that programme."
+      },
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": null,
@@ -1062,20 +1055,21 @@
       "drug": "wegovy_injection",
       "dose_or_tier": "any",
       "pathway": "patient_assistance",
-      "source_url": "https://www.novonordiskpap.com/",
+      "source_url": "https://www.novocare.com/diabetes/help-with-costs/pap.html",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-07-30",
+      "verified_date": "2026-10-29",
       "confidence": "unverified",
-      "notes": "Manufacturer-funded assistance for patients below an income threshold. Reported to require that you have Medicare or no insurance at all, so commercial insurance generally disqualifies you even when your plan excludes the drug. Application-based, not immediate.",
+      "notes": "Requires that you have Medicare or no insurance, and it is income-gated. The income limit is published as a percentage of the federal poverty guidelines.",
       "caveats": [
         "Whether this programme covers this medication at all is genuinely unclear: sources contradict each other. Apply if you may qualify, but do not plan around it."
       ],
       "candidate": {
         "value": null,
-        "provenance": "Income thresholds are reported to vary by product rather than sitting at one figure, and sources directly contradict each other on whether the weight-management products are covered at all. Publishing a threshold we could not read would be worse than publishing none. Not re-checked on 2026-10-28: novonordiskpap.com is outside the egress allowlist in docs/ops-runbook.md, so it was not probed.",
-        "basis": "unretrieved",
-        "needs": "A direct read of the programme page establishing which products are covered and the income threshold and household-size table that applies."
-      }
+        "provenance": "Re-checked 2026-10-29: the Novo Nordisk Patient Assistance Program page was read directly. It states the income limits: an uninsured patient on Ozempic must have household income at or below 200% of the federal poverty level, and an uninsured patient on any other medicine at or below 400%. It states that you must have Medicare or no insurance, that private or commercial insurance makes you ineligible, and that you must not be enrolled in Medicaid, Medicare Extra Help or VA benefits. It gives no price, because the medicine is free to a qualifying applicant, so the row stays null. The host previously cited for this row, novonordiskpap.com, does not resolve; this programme page is where the terms now live.",
+        "basis": "primary_manufacturer_programme_confirmed",
+        "needs": "A price for the medicine, or the list of medicines still covered by the programme for 2026, which the page links but does not reproduce."
+      },
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": null,
@@ -1105,20 +1099,21 @@
       "drug": "ozempic",
       "dose_or_tier": "any",
       "pathway": "patient_assistance",
-      "source_url": "https://www.novonordiskpap.com/",
+      "source_url": "https://www.novocare.com/diabetes/help-with-costs/pap.html",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-07-30",
+      "verified_date": "2026-10-29",
       "confidence": "unverified",
-      "notes": "Manufacturer-funded assistance for patients below an income threshold. Reported to require that you have Medicare or no insurance at all, so commercial insurance generally disqualifies you even when your plan excludes the drug. Application-based, not immediate.",
+      "notes": "Requires that you have Medicare or no insurance, and it is income-gated. The income limit is published as a percentage of the federal poverty guidelines.",
       "caveats": [
         "Whether this programme covers this medication at all is genuinely unclear: sources contradict each other. Apply if you may qualify, but do not plan around it."
       ],
       "candidate": {
         "value": null,
-        "provenance": "Income thresholds are reported to vary by product rather than sitting at one figure, and sources directly contradict each other on whether the weight-management products are covered at all. Publishing a threshold we could not read would be worse than publishing none. Not re-checked on 2026-10-28: novonordiskpap.com is outside the egress allowlist in docs/ops-runbook.md, so it was not probed.",
-        "basis": "unretrieved",
-        "needs": "A direct read of the programme page establishing which products are covered and the income threshold and household-size table that applies."
-      }
+        "provenance": "Re-checked 2026-10-29: the Novo Nordisk Patient Assistance Program page was read directly. It states the income limits: an uninsured patient on Ozempic must have household income at or below 200% of the federal poverty level, and an uninsured patient on any other medicine at or below 400%. It states that you must have Medicare or no insurance, that private or commercial insurance makes you ineligible, and that you must not be enrolled in Medicaid, Medicare Extra Help or VA benefits. It gives no price, because the medicine is free to a qualifying applicant, so the row stays null. The host previously cited for this row, novonordiskpap.com, does not resolve; this programme page is where the terms now live.",
+        "basis": "primary_manufacturer_programme_confirmed",
+        "needs": "A price for the medicine, or the list of medicines still covered by the programme for 2026, which the page links but does not reproduce."
+      },
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": null,
@@ -1148,20 +1143,21 @@
       "drug": "mounjaro",
       "dose_or_tier": "any",
       "pathway": "patient_assistance",
-      "source_url": "https://www.lillycares.com/",
+      "source_url": "https://www.lillycares.com/available-medications",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-07-30",
+      "verified_date": "2026-10-29",
       "confidence": "unverified",
-      "notes": "Manufacturer-funded assistance for patients below an income threshold. Reported to require that you have Medicare or no insurance at all, so commercial insurance generally disqualifies you even when your plan excludes the drug. Application-based, not immediate.",
+      "notes": "Requires that you have Medicare or no insurance, and it is income-gated. The income limits are published as a percentage of the federal poverty guidelines, by medication group.",
       "caveats": [
         "Whether this programme covers this medication at all is genuinely unclear: sources contradict each other. Apply if you may qualify, but do not plan around it."
       ],
       "candidate": {
         "value": null,
-        "provenance": "Income thresholds are reported to vary by product rather than sitting at one figure, and sources directly contradict each other on whether the weight-management products are covered at all. Publishing a threshold we could not read would be worse than publishing none. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served \"no healthy upstream\"; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required. Re-checked 2026-10-29: www.lillycares.com refuses a scripted fetch (HTTP 403) and reads normally in a browser. The pages read on 2026-10-29 do not publish the income threshold or a per-medicine eligibility answer, and the remaining question is listed in OWNER_STEPS.md.",
-        "basis": "unretrieved",
-        "needs": "A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com."
-      }
+        "provenance": "Re-checked 2026-10-29: the Lilly Cares pages were read directly. The programme publishes its income limits, at 300%, 400% or 500% of the 2026 federal poverty guidelines depending on the medication group, and it lists the products in each group. The published groups do not include this medication, so this programme does not cover it. Nothing about the programme is published that would confirm a figure for this medicine, so the row stays null.",
+        "basis": "primary_manufacturer_programme_does_not_cover",
+        "needs": "A patient assistance programme that covers this medicine, and its income threshold and coverage conditions, read from that programme."
+      },
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": null,
@@ -1191,20 +1187,21 @@
       "drug": "wegovy_pill",
       "dose_or_tier": "any",
       "pathway": "patient_assistance",
-      "source_url": "https://www.novonordiskpap.com/",
+      "source_url": "https://www.novocare.com/diabetes/help-with-costs/pap.html",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-07-30",
+      "verified_date": "2026-10-29",
       "confidence": "unverified",
-      "notes": "Manufacturer-funded assistance for patients below an income threshold. Reported to require that you have Medicare or no insurance at all, so commercial insurance generally disqualifies you even when your plan excludes the drug. Application-based, not immediate.",
+      "notes": "Requires that you have Medicare or no insurance, and it is income-gated. The income limit is published as a percentage of the federal poverty guidelines.",
       "caveats": [
         "Whether this programme covers this medication at all is genuinely unclear: sources contradict each other. Apply if you may qualify, but do not plan around it."
       ],
       "candidate": {
         "value": null,
-        "provenance": "Income thresholds are reported to vary by product rather than sitting at one figure, and sources directly contradict each other on whether the weight-management products are covered at all. Publishing a threshold we could not read would be worse than publishing none. Not re-checked on 2026-10-28: novonordiskpap.com is outside the egress allowlist in docs/ops-runbook.md, so it was not probed.",
-        "basis": "unretrieved",
-        "needs": "A direct read of the programme page establishing which products are covered and the income threshold and household-size table that applies."
-      }
+        "provenance": "Re-checked 2026-10-29: the Novo Nordisk Patient Assistance Program page was read directly. It states the income limits: an uninsured patient on Ozempic must have household income at or below 200% of the federal poverty level, and an uninsured patient on any other medicine at or below 400%. It states that you must have Medicare or no insurance, that private or commercial insurance makes you ineligible, and that you must not be enrolled in Medicaid, Medicare Extra Help or VA benefits. It gives no price, because the medicine is free to a qualifying applicant, so the row stays null. The host previously cited for this row, novonordiskpap.com, does not resolve; this programme page is where the terms now live.",
+        "basis": "primary_manufacturer_programme_confirmed",
+        "needs": "A price for the medicine, or the list of medicines still covered by the programme for 2026, which the page links but does not reproduce."
+      },
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": null,
@@ -1234,20 +1231,21 @@
       "drug": "foundayo",
       "dose_or_tier": "any",
       "pathway": "patient_assistance",
-      "source_url": "https://www.lillycares.com/",
+      "source_url": "https://www.lillycares.com/available-medications",
       "source_type": "primary_manufacturer",
-      "verified_date": "2026-07-30",
+      "verified_date": "2026-10-29",
       "confidence": "unverified",
-      "notes": "Manufacturer-funded assistance for patients below an income threshold. Reported to require that you have Medicare or no insurance at all, so commercial insurance generally disqualifies you even when your plan excludes the drug. Application-based, not immediate.",
+      "notes": "Requires that you have Medicare or no insurance, and it is income-gated. The income limits are published as a percentage of the federal poverty guidelines, by medication group.",
       "caveats": [
         "Whether this programme covers this medication at all is genuinely unclear: sources contradict each other. Apply if you may qualify, but do not plan around it."
       ],
       "candidate": {
         "value": null,
-        "provenance": "Income thresholds are reported to vary by product rather than sitting at one figure, and sources directly contradict each other on whether the weight-management products are covered at all. Publishing a threshold we could not read would be worse than publishing none. Verification attempted 2026-09-28: Lilly properties refuse automated readers (lillydirect.lilly.com served \"no healthy upstream\"; zepbound.lilly.com timed out; plain HTTP fetch returns 403). A human browser visit or allowlisted egress is required. Re-checked 2026-10-29: www.lillycares.com refuses a scripted fetch (HTTP 403) and reads normally in a browser. The pages read on 2026-10-29 do not publish the income threshold or a per-medicine eligibility answer, and the remaining question is listed in OWNER_STEPS.md.",
-        "basis": "unretrieved",
-        "needs": "A human visit to the Lilly page from a residential connection, or an egress allowlist entry for lillydirect.lilly.com / zepbound.lilly.com / mounjaro.lilly.com."
-      }
+        "provenance": "Re-checked 2026-10-29: the Lilly Cares pages were read directly. The programme publishes its income limits, at 300%, 400% or 500% of the 2026 federal poverty guidelines depending on the medication group, and it lists the products in each group. The published groups do not include this medication, so this programme does not cover it. Nothing about the programme is published that would confirm a figure for this medicine, so the row stays null.",
+        "basis": "primary_manufacturer_programme_does_not_cover",
+        "needs": "A patient assistance programme that covers this medicine, and its income threshold and coverage conditions, read from that programme."
+      },
+      "reverifyBy": "2026-11-30"
     },
     {
       "value": null,
