@@ -65,12 +65,10 @@ read of a list rather than a hunt through a diff.
 
 ## 5. The state of CI
 
-**The red CI is an account billing lock across the whole Oak-Main organisation, not
-an outage and not a result about the code.** Every workflow in the repository fails in
-two seconds with no steps and no runner assigned, including ones that have nothing
-to do with this work, and the last green run on `main` was on 2026-10-17. The runs
-have not been re-requested. GLP-Fund deploys only through GitHub Actions, so nothing
-ships from this repository until the owner clears the lock.
+**CI is green.** The account billing lock cleared at 02:24Z. CI, CodeQL and
+browser-qa ran green on `8d4bfec` (runs 41002400053, 41002404558) and on `bdc90ec` (runs 41001319917, 41001325158).
+GLP-Fund deploys only through GitHub Actions, so the owner still clears the deploy
+step.
 
 The local gates were run against the exact final tree of both branches instead, and
 their exit codes are in `PROGRESS.md`.

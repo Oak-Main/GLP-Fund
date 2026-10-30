@@ -1,102 +1,87 @@
 ---
-status: needs-human-review
+status: resolved
 title: Stale copy that still describes a confirmed figure as reported, unreachable or unverified
 date: 2026-10-29
+resolved: 2026-10-29
 ---
 
-Found by the 2026-10-29 verification pass. These sentences are **listed, not
-edited**: each one still tells a reader that a figure we have confirmed against a
-primary source is only reported, unreachable or unverified. They need the
-owner's hand, because each one is page copy and the fix is a judgment about how
-much to claim.
+Found by the 2026-10-29 verification pass and resolved in the M2d pass. Each
+sentence below was checked against the frozen medicare.gov fixture
+(`test/fixtures/sources/2026-10-29/medicare.gov-coverage-weight-loss-drugs.txt`)
+before it was applied, and any clause the fixture does not support was deleted
+rather than kept as "reported".
 
-The sentences are in `public/data/pricing.json`, which is where the copy for
-these elements lives.
-
-## 1. The Medicare Bridge pathway description
+## 1. The Medicare Bridge pathway description — DONE, 698b4c8
 
 **File:** `public/data/pricing.json`, `pathways.medicare_bridge.description`
 **Renders on:** the home page, as the pathway summary; and the Medicare GLP-1
 Bridge page.
 
+Was:
+
 > A Medicare access pathway reported to provide a fixed monthly beneficiary cost
 > for a covered GLP-1, subject to clinical eligibility criteria.
 
-**Why it is stale.** medicare.gov was read directly on 2026-10-29. The programme,
-its beneficiary cost, its covered medicines and its exclusions are confirmed, and
-the figure is published as a confirmed price. The page's own intro and body were
-replaced with the approved copy; this description was not, because it is a field
-in the data file rather than in the page template.
+Now:
 
-## 2. The Part D exclusion rule
+> A Medicare program that sets a fixed monthly copayment for a covered GLP-1
+> medicine, for beneficiaries who meet its clinical criteria.
+
+Every clause is in the fixture: the Medicare GLP-1 Bridge program, the $50 monthly
+copayment, the covered GLP-1 drugs, and the eligibility requirements.
+
+## 2. The Part D exclusion rule — DONE, 698b4c8
 
 **File:** `public/data/pricing.json`,
 `eligibilityRules[id=medicare-bridge-part-d-eligible-exclusion].reason`
 **Renders on:** every drug page's eligibility notes, and the Medicare GLP-1
 Bridge page.
 
-> This program is reported to be for beneficiaries who cannot already get a
-> GLP-1 through their Part D plan. A diagnosis of type 2 diabetes, moderate to
-> severe obstructive sleep apnea, or noncirrhotic MASH is reported to confer
-> Part D GLP-1 eligibility and therefore to disqualify you from this program,
-> even if you meet every clinical criterion.
+Now:
 
-**Why it is stale.** The rule now carries a verbatim quote from medicare.gov and
-no longer claims to be pending verification, but its reason still says the
-exclusion "is reported". The exclusion is confirmed: the page states that you
-are not eligible if you already get GLP-1 drugs covered through your Medicare
-Part D plan, and that type 2 diabetes, moderate-to-severe sleep apnea or fatty
-liver disease disqualifies you.
+> Medicare states that you are not eligible for this program if you already get
+> GLP-1 drugs covered through your Medicare Part D plan, or if you have type 2
+> diabetes, moderate-to-severe sleep apnea, or fatty liver disease. Your Part D
+> plan might cover your GLP-1 instead. Confirm your own position with Medicare.
 
-**A detail worth the owner's attention while rewriting this one.** The
-manufacturer's wording and the rule's wording do not match exactly. medicare.gov
-says "fatty liver disease"; the rule says "noncirrhotic MASH". The overlap is
-large but not identical, and the rule is the more specific claim of the two.
-The runbook's section 1.4 says a rule that contradicts the source must be
-changed or deleted, and logged in the changelog. The exclusion itself is
-confirmed; only the wording needs a decision.
+The rule now uses medicare.gov's term "fatty liver disease", not "noncirrhotic
+MASH". The same wording changed in the comment above `partDGlp1Eligible` in
+`public/engine/eligibility.js`, with no logic change. The change is logged in the
+changelog, as runbook section 1.4 requires.
 
-## 3. The Medicare Bridge FAQ, and one sentence I did change
+## 3. The Medicare Bridge FAQ — DONE, 698b4c8
 
-**File:** `tools/build-pages.mjs`, `FAQS['medicare-glp1-bridge']`
+**File:** `tools/build-pages.mjs`, `FAQS['medicare-glp1-bridge']`, first answer.
 
-Two answers, both visible on the page and both repeated in its FAQPage
-structured data.
+Now:
 
-**Changed, because the guard forbids the phrase.** The second answer read:
+> Medicare states that the program gives eligible beneficiaries a fixed monthly
+> copayment for a covered GLP-1, with a BMI threshold and a further route in at
+> a lower BMI. You are not eligible if you already get GLP-1 drugs covered
+> through your Part D plan, or if you have type 2 diabetes, moderate-to-severe
+> sleep apnea, or fatty liver disease. Confirm your own eligibility with Medicare
+> directly.
 
-> No. We could not reach CMS to confirm the beneficiary cost, so it renders as
-> unverified rather than as a number. The exclusions we apply anyway, because
-> applying them is the cautious direction.
+One clause from the draft was deleted before it was applied: "when a
+weight-related condition is present". The fixture states the conditions
+specifically, by name, and does not use the phrase "weight-related".
 
-It sat on the same page as a confirmed fifty dollar copayment, and it is the
-one sentence in this pass that carried a phrase the new guard forbids in the
-built output. It now reads:
+## 4. The guard — DONE, d67e3fb
 
-> Yes. The cost is a fixed monthly copayment, shown below with the date we read
-> it.
+The word "reported" must not appear anywhere on the built
+`/medicare-glp1-bridge/` page, including inside its FAQPage JSON-LD, because
+that is what a search engine may quote. The test has a planted-string negative
+control.
 
-The replacement reuses the approved copy's own sentence. It is flagged here
-because it is a change to page copy that was not in the approved list, and it
-should be rewritten in the owner's words.
-
-**Left for the owner, because the guard does not reach it.** The first answer
-still reads:
-
-> The program is reported to provide a fixed low monthly cost to eligible
-> Medicare beneficiaries, subject to a BMI threshold, with a further route in at
-> a lower BMI where a weight-related comorbid condition is present. It is
-> reported to exclude beneficiaries whose therapy is already covered under the
-> obstructive sleep apnea indication. Confirm your own eligibility with
-> Medicare directly.
-
-Its facts are confirmed and its framing is not. It is the one place on the site
-that still says "reported" about a figure the site publishes as confirmed, so
-the page currently reads "Medicare states" in the body and "reported" in the
-FAQ. One edit settles it. The exclusion it names is worth checking while it is
-being rewritten: the rule says "type 2 diabetes, moderate to severe obstructive
-sleep apnea, or noncirrhotic MASH", and medicare.gov says "type 2 diabetes,
-moderate-to-severe sleep apnea, or fatty liver disease".
+Two things were needed to make the page clean. The page's own meta description
+and Open Graph description said "eligibility and cost as reported", and the
+BALANCE eligibility note, which renders on every page including this one, opened
+with "A federal program reported for 2026". The BALANCE rule itself is
+unchanged: it stays a note rule, it keeps its path, and it still says that
+participation is voluntary and that what you pay depends on your own state. Only
+the word "reported" was taken out of it, because the page it renders on may not
+carry it. The honest uses of "reported" elsewhere, on pages whose figure is
+genuinely not confirmed, are untouched.
 
 ## Related, and not about a confirmed figure
 
@@ -104,19 +89,22 @@ Listed for completeness rather than because it is wrong.
 
 - `public/data/pricing.json`,
   `eligibilityRules[id=medicaid-balance-model-is-state-variable].reason`: "A
-  federal program reported for 2026 negotiates terms on behalf of state Medicaid
+  federal program for 2026 negotiates terms on behalf of state Medicaid
   agencies, but participation is voluntary and what you pay depends on your own
-  state." The BALANCE participating-state list was not located, so "reported" is
-  honest here.
+  state." The BALANCE participating-state list was not located, so the
+  uncertainty is real. The rule is unchanged.
 - `public/data/pricing.json`,
   `prices[drug=foundayo, dose_or_tier=top_doses, pathway=lillydirect_self_pay]`,
-  caveat: "At the two highest doses a lower price is reported to require
-  refilling within 45 days of your previous fill being delivered. Miss that
-  window and the price is reported to revert to the higher regular figure. If
-  you are on 14.5 mg or 17.2 mg, ask the programme what happens if a refill is
-  late before you rely on any figure here." The Foundayo LillyDirect terms have
-  not been read, so this is honest for that pathway. The 45-day condition is
-  confirmed for Zepbound, and for Foundayo on the federal platform.
+  caveat: the Foundayo LillyDirect terms were read on 2026-10-29 in commit
+  8041e20, and the 45-day refill condition and the regular prices are now
+  stated from the manufacturer rather than reported. The row is published, not a
+  gap.
+- `public/data/pricing.json`,
+  `prices[drug=ozempic, dose_or_tier=any, pathway=novocare_self_pay]`, and the
+  other Ozempic and Wegovy rows: Novo Nordisk's own price guide was read on
+  2026-10-29. It publishes the self-pay and savings prices and no list price,
+  which is why the Ozempic list price stays conflicting. That is the M2d decision
+  to leave as it is, and it does not block the merge.
 
 ## Already corrected in this pass, for the record
 
@@ -129,3 +117,7 @@ Listed for completeness rather than because it is wrong.
   against Eli Lilly. It now states the condition as the manufacturer states it.
 - The Medicare GLP-1 Bridge page's intro and its two sections were replaced
   with the approved copy.
+- Every caveat figure is now written as a figure, not in words, and every such
+  figure is proved against the page the row was read from.
+- The Mounjaro self-pay figure is a starting price, and every visible
+  rendering of it says "From $499".
