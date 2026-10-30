@@ -23,6 +23,7 @@ lilly.com                www.lilly.com            investor.lilly.com
 lillydirect.lilly.com    zepbound.lilly.com       mounjaro.lilly.com
 pricinginfo.lilly.com    www.lillycares.com
 novonordisk.com          www.novonordisk.com      www.novocare.com
+novonordiskpap.com       www.novonordiskpap.com
 wegovy.com               www.wegovy.com           ozempic.com
 www.ozempic.com
 ```
@@ -49,6 +50,14 @@ Work source by source, not drug by drug: one page usually carries several figure
 | `fda.gov` | Approval status of anything pending; shortage-list state for semaglutide and tirzepatide; 503B bulks list final determination | status plus date |
 | `aspe.hhs.gov` | Current federal poverty guidelines table and its year | table plus year |
 | `www.lillycares.com` | Income thresholds per medication group; **whether Zepbound is covered** | thresholds, and resolve the contradiction noted in the discrepancy report |
+| `novonordiskpap.com` | Novo Nordisk Patient Assistance Program: income thresholds per product, insurance conditions, covered medicines | thresholds, conditions, and the covered-medicine list |
+
+**Read this row before you read it.** `novonordiskpap.com` was added to the
+allowlist above on 2026-10-29 and it **does not resolve in DNS**. The programme it
+was cited for now lives at
+`https://www.novocare.com/diabetes/help-with-costs/pap.html`, which was read
+directly on 2026-10-29. The three price rows that cited the dead host have been
+moved to the page that actually carries the terms.
 
 ### 1.2 Rules of evidence, non-negotiable
 
